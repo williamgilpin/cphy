@@ -32,7 +32,12 @@ If you'd like to reach out privately, please reach out at [wgilpin@[saxetu spell
 
 # Contents
 
-+ [`hw1`](benchmarks/)
++ [`hw1`](hw/hw1/hw1.ipynb)
++ [`hw2`](hw/hw2/hw2.ipynb)
++ [`hw3`](hw/hw3/hw3.ipynb)
++ [`hw4`](hw/hw3/hw4.ipynb)
+
++ [`lab1`](labs/lab1/lab1.ipynb)
 
 ## Random Forest homework
 
