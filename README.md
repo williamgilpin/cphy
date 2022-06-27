@@ -37,7 +37,7 @@ If you'd like to reach out privately, please reach out at [wgilpin@[saxetu spell
 + [`hw3`](hw/hw3/hw3.ipynb)
 + [`hw4`](hw/hw3/hw4.ipynb)
 
-+ [`lab1`](labs/lab1/lab1.ipynb)
++ [`lab1`](labs/lab1/lab1.ipynb)x
 
 ## Random Forest homework
 
