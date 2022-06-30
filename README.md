@@ -20,6 +20,7 @@ For your projects and other parts of the class, you might also need
 + statsmodels
 + pytorch
 + jax
++ numba
 
 
 # Fixes, typos, and attribution
