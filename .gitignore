@@ -9,6 +9,7 @@ __pycache__/
 # Ignore personal and development files
 private*
 solutions*
+dump*
 
 # PyTorch checkpoints
 *.pth.tar
