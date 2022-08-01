@@ -1,8 +1,8 @@
 # Computational Physics
 
-Materials for UT Austin's computational physics course, taught in Fall 2022 by William Gilpin
+Materials for UT Austin's graduate computational physics course, taught in Fall 2022 by William Gilpin
 
-If you are enrolled in the course, the syllabus is [here](https://docs.google.com/document/d/1URJmdpTVG8E2bLLu5xAHctICb6krbZ0fC0hO2i2xEXY/edit?usp=sharing)
+If you are enrolled in the course at UT, the syllabus and calendar is [here](https://docs.google.com/document/d/1URJmdpTVG8E2bLLu5xAHctICb6krbZ0fC0hO2i2xEXY/edit?usp=sharing)
 
 # Requirements
 
@@ -27,7 +27,7 @@ For your projects and other parts of the class, you might also need
 
 If you find any errors or typos, please open an issue or submit a correction as a pull request.
 
-Whether you are at UT or another institution, if you find these notes useful please let us know! Feel free to adapt or use these materials for your course, please just attribute the course and let us know---letting us know will help us show that the course has an impact, and potentially may help us get resources to support the course in future years.
+If you are using any of these materials for your own class, please submit typos or improvements as Issues or Pull Requests, so that we can improve this version of the course. Please let us know if you find these materials helpful, so that we can keep track of the course's impact, and potentially may help us get resources to support the course in future years.
 
 If you'd like to reach out privately, please reach out at [wgilpin@[saxetu spelled backwards].edu](mailto:wgilpin@[saxetu spelled backwards].edu)
 
