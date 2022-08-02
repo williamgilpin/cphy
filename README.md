@@ -31,7 +31,7 @@ For your projects and other parts of the class, you might also need
 
 If you find any errors or typos, please open an issue or submit a correction as a pull request.
 
-If you are using any of these materials for your own class, please submit typos or improvements as Issues or Pull Requests, so that we can improve this version of the course. Please let us know if you find these materials helpful, so that we can keep track of the course's impact, and potentially may help us get resources to support the course in future years.
+If you are using any of these materials for your own class, please submit typos or improvements as Issues or Pull Requests, so that we can improve this version of the course. Please let us know if you find these materials helpful, so that we can keep track of the course's impact, which could  potentially help us continue to offer this course in future years.
 
 If you'd like to reach out privately, please reach out at [wgilpin@[saxetu spelled backwards].edu](mailto:wgilpin@[saxetu spelled backwards].edu)
 
