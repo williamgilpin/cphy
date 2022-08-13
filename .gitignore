@@ -10,6 +10,7 @@ __pycache__/
 private*
 solutions*
 dump*
+*largefile*
 
 # PyTorch checkpoints
 *.pth.tar
