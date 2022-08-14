@@ -15,7 +15,7 @@ This course aims to provide a very broad survey of computational methods that ar
 + [`HW3: Turing patterns and phase separation.`](https://github.com/williamgilpin/cphy/blob/main/hw/pde_turing.ipynb). *Topics: Numerical integration; finite-difference and spectral methods*
 + [`HW4: Predicting turbulence and classifying collider events`](https://github.com/williamgilpin/cphy/blob/main/hw/forecasting_regression_supervised.ipynb). *Topics: Supervised learning, kernel and logistic regression*
 
-+ [`lab1`](https://github.com/williamgilpin/cphy/blob/main//lab2/lab1.ipynb)x
+<!-- + [`lab1`](https://github.com/williamgilpin/cphy/blob/main//lab2/lab1.ipynb)x -->
 
 # Requirements
 
