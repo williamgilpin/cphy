@@ -33,17 +33,14 @@ If you find any errors or typos, please open an issue or submit a correction as 
 
 If you are using any of these materials for your own class, please submit typos or improvements as Issues or Pull Requests, so that we can improve this version of the course. Please let us know if you find these materials helpful, so that we can keep track of the course's impact, which could  potentially help us continue to offer this course in future years.
 
-If you'd like to reach out privately, please reach out at [wgilpin@[saxetu spelled backwards].edu](mailto:wgilpin@[saxetu spelled backwards].edu)
+Feel free to reach out to me at [wgilpin@[saxetu spelled backwards].edu](mailto:wgilpin@[saxetu spelled backwards].edu)
 
 # Contents
 
-+ [`HW1: The sandpile cellular automaton and directed percolation`](hw/cellular_automata_complexity.ipynb). *Topics: Recursion, runtime scaling, vectorization*
-+ + Topics: Recursion, runtime scaling, vectorization
-+ [`HW2: Linear dynamical systems and decomposing a chaotic flow`](hw/matrices_unsupervised_learning.ipyn). *Topics: Numerical linear algebra, optimization, and unsupervised learning*
-+ + Topics: Numerical linear algebra, optimization, and unsupervised learning
-+ [`HW3: Turing patterns and phase separation.`](hw/pde_turing.ipyn) *Topics: Numerical integration; finite-difference and spectral methods*
-+ + Covers numerical integration; finite-difference and spectral methods
-+ [`HW4: Predicting turbulence and classifying collider events`](hw/forecasting_regression_supervised.ipyn). *Topics: Supervised learning, kernel and logistic regression*
++ [`HW1: The sandpile cellular automaton and directed percolation`](hw/cellular_automata_complexity.ipynb). *Covers recursion, runtime scaling, vectorization*
++ [`HW2: Linear dynamical systems and decomposing a chaotic flow`](hw/matrices_unsupervised_learning.ipynb). *Covers numerical linear algebra, optimization, and unsupervised learning*
++ [`HW3: Turing patterns and phase separation.`](hw/pde_turing.ipynb). *Topics: Numerical integration; finite-difference and spectral methods*
++ [`HW4: Predicting turbulence and classifying collider events`](hw/forecasting_regression_supervised.ipynb). *Topics: Supervised learning, kernel and logistic regression*
 
 + [`lab1`](labs/lab1/lab1.ipynb)x
 
