@@ -37,10 +37,13 @@ If you'd like to reach out privately, please reach out at [wgilpin@[saxetu spell
 
 # Contents
 
-+ [`hw1`](hw/hw1/hw1.ipynb)
-+ [`hw2`](hw/hw2/hw2.ipynb)
-+ [`hw3`](hw/hw3/hw3.ipynb)
-+ [`hw4`](hw/hw3/hw4.ipynb)
++ [`HW1: The sandpile cellular automaton and directed percolation`](hw/cellular_automata_complexity.ipynb). *Topics: Recursion, runtime scaling, vectorization*
++ + Topics: Recursion, runtime scaling, vectorization
++ [`HW2: Linear dynamical systems and decomposing a chaotic flow`](hw/matrices_unsupervised_learning.ipyn). *Topics: Numerical linear algebra, optimization, and unsupervised learning*
++ + Topics: Numerical linear algebra, optimization, and unsupervised learning
++ [`HW3: Turing patterns and phase separation.`](hw/pde_turing.ipyn) *Topics: Numerical integration; finite-difference and spectral methods*
++ + Covers numerical integration; finite-difference and spectral methods
++ [`HW4: Predicting turbulence and classifying collider events`](hw/forecasting_regression_supervised.ipyn). *Topics: Supervised learning, kernel and logistic regression*
 
 + [`lab1`](labs/lab1/lab1.ipynb)x
 
