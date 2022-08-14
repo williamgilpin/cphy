@@ -2,7 +2,8 @@
 
 Materials for UT Austin's graduate computational physics course, taught in Fall 2022 by William Gilpin
 
-If you are enrolled in the course at UT, the syllabus and calendar is [here](https://docs.google.com/document/d/1URJmdpTVG8E2bLLu5xAHctICb6krbZ0fC0hO2i2xEXY/edit?usp=sharing)
+The class website is located [here](https://www.wgilpin.com/cphy/?utm_source=en_us_bh224180tg). If you are enrolled in the course at UT, the syllabus and calendar is [here](https://docs.google.com/document/d/1URJmdpTVG8E2bLLu5xAHctICb6krbZ0fC0hO2i2xEXY/edit?usp=sharing)
+
 
 # Summary
 
@@ -22,7 +23,7 @@ This course aims to provide a very broad survey of computational methods that ar
 
 If you find any errors or typos, please open an issue or submit a correction as a pull request.
 
-If you are using any of these materials for your own class, please submit typos or improvements as Issues or Pull Requests, so that we can improve this version of the course. Please let us know if you find these materials helpful, so that we can keep track of the course's impact, which could  potentially help us continue to offer this course in future years.
+If you use any of these materials for your own class, please submit typos or improvements as Issues or Pull Requests, so that we can improve this version of the course. Please let us know if you find these materials helpful, so that we can keep track of the course's impact, which could  potentially help us continue to offer this course in future years.
 
 I can be reached most easily via Discussions or Issues on this repository; otherwise, I be reached via [email](`mailto:wgilpin@[saxetu spelled backwards].edu`)
 
@@ -35,6 +36,7 @@ We will use Python 3 with the following packages
 + matplotlib
 + scipy
 + scikit-learn
++ jupyter
 
 For your projects and other parts of the class, you might also need
 
