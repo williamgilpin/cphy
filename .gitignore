@@ -11,6 +11,7 @@ private*
 solutions*
 dump*
 *largefile*
+pylbm*
 
 # PyTorch checkpoints
 *.pth.tar
