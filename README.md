@@ -17,6 +17,16 @@ This course aims to provide a very broad survey of computational methods that ar
 
 <!-- + [`lab1`](https://github.com/williamgilpin/cphy/blob/main//lab2/lab1.ipynb)x -->
 
+
+# Fixes, typos, and attribution
+
+If you find any errors or typos, please open an issue or submit a correction as a pull request.
+
+If you are using any of these materials for your own class, please submit typos or improvements as Issues or Pull Requests, so that we can improve this version of the course. Please let us know if you find these materials helpful, so that we can keep track of the course's impact, which could  potentially help us continue to offer this course in future years.
+
+I can be reached most easily via Discussions or Issues on this repository; otherwise, I be reached via [email](`mailto:wgilpin@[saxetu spelled backwards].edu`)
+
+
 # Requirements
 
 We will use Python 3 with the following packages
@@ -36,16 +46,7 @@ For your projects and other parts of the class, you might also need
 + numba
 
 
-# Fixes, typos, and attribution
 
-If you find any errors or typos, please open an issue or submit a correction as a pull request.
-
-If you are using any of these materials for your own class, please submit typos or improvements as Issues or Pull Requests, so that we can improve this version of the course. Please let us know if you find these materials helpful, so that we can keep track of the course's impact, which could  potentially help us continue to offer this course in future years.
-
-I can be reached most easily via Discussions or Issues on this repository; otherwise, I be reached via [email](`mailto:wgilpin@[saxetu spelled backwards].edu`)
-
-
-_
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-37RSFCXBQY"></script>
 <script>
@@ -55,6 +56,6 @@ _
 
   gtag('config', 'G-37RSFCXBQY');
 </script>
-_
+
 
 
