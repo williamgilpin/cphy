@@ -8,6 +8,15 @@ If you are enrolled in the course at UT, the syllabus and calendar is [here](htt
 
 This course aims to provide a very broad survey of computational methods that are particularly relevant to modern physics research. We will aim to cover efficient algorithm design and performance analysis, traditional numerical recipes such as integration and matrix manipulation, and emerging methods in data analysis and machine learning. Our goal by the end of the class will be to feel comfortable approaching diverse, open-ended computational problems that arise during research, and to be ready to design and share new algorithms with the broader research community.
 
+# Contents
+
++ [`HW1: The sandpile cellular automaton and directed percolation`](https://github.com/williamgilpin/cphy/blob/main/hw/cellular_automata_complexity.ipynb). *Covers recursion, runtime scaling, vectorization*
++ [`HW2: Linear dynamical systems and decomposing a chaotic flow`](https://github.com/williamgilpin/cphy/blob/main/hw/matrices_unsupervised_learning.ipynb). *Covers numerical linear algebra, optimization, and unsupervised learning*
++ [`HW3: Turing patterns and phase separation.`](https://github.com/williamgilpin/cphy/blob/main/hw/pde_turing.ipynb). *Topics: Numerical integration; finite-difference and spectral methods*
++ [`HW4: Predicting turbulence and classifying collider events`](https://github.com/williamgilpin/cphy/blob/main/hw/forecasting_regression_supervised.ipynb). *Topics: Supervised learning, kernel and logistic regression*
+
++ [`lab1`](https://github.com/williamgilpin/cphy/blob/main//lab2/lab1.ipynb)x
+
 # Requirements
 
 We will use Python 3 with the following packages
@@ -33,22 +42,5 @@ If you find any errors or typos, please open an issue or submit a correction as 
 
 If you are using any of these materials for your own class, please submit typos or improvements as Issues or Pull Requests, so that we can improve this version of the course. Please let us know if you find these materials helpful, so that we can keep track of the course's impact, which could  potentially help us continue to offer this course in future years.
 
-Feel free to reach out to me at [wgilpin@[saxetu spelled backwards].edu](mailto:wgilpin@[saxetu spelled backwards].edu)
+I can be reached most easily via Discussions or Issues on this repository; otherwise, I be reached via [email](mailto:wgilpin@[saxetu spelled backwards].edu)
 
-# Contents
-
-+ [`HW1: The sandpile cellular automaton and directed percolation`](hw/cellular_automata_complexity.ipynb). *Covers recursion, runtime scaling, vectorization*
-+ [`HW2: Linear dynamical systems and decomposing a chaotic flow`](hw/matrices_unsupervised_learning.ipynb). *Covers numerical linear algebra, optimization, and unsupervised learning*
-+ [`HW3: Turing patterns and phase separation.`](hw/pde_turing.ipynb). *Topics: Numerical integration; finite-difference and spectral methods*
-+ [`HW4: Predicting turbulence and classifying collider events`](hw/forecasting_regression_supervised.ipynb). *Topics: Supervised learning, kernel and logistic regression*
-
-+ [`lab1`](labs/lab1/lab1.ipynb)x
-
-## Random Forest homework
-
-
-## Some fun facts
-
-An isolation forest uses a CART-like algorithm to identify outliers in a sample. A random forest is trained on data with outliers in order to isolate each point (as if it had its own label, different from all other points). Across many trees outliers, will tend to separate out at lower depths than non-outliers, allowing an outlier score calculation for each input datapoint, based on the average depth at which that datapoint splits from the remainder of the data:
-+ https://cs.nju.edu.cn/zhouzh/zhouzh.files/publication/icdm08b.pdf
-+ The normalizing factor in Eq. 2 has an interesting relationship with Big-O scaling of worst case vs average case for binary trees
