@@ -45,6 +45,7 @@ If you are using any of these materials for your own class, please submit typos 
 I can be reached most easily via Discussions or Issues on this repository; otherwise, I be reached via [email](`mailto:wgilpin@[saxetu spelled backwards].edu`)
 
 
+<sup><sub>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-37RSFCXBQY"></script>
 <script>
@@ -54,4 +55,5 @@ I can be reached most easily via Discussions or Issues on this repository; other
 
   gtag('config', 'G-37RSFCXBQY');
 </script>
+</sup></sub>
 
