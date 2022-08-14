@@ -42,5 +42,16 @@ If you find any errors or typos, please open an issue or submit a correction as 
 
 If you are using any of these materials for your own class, please submit typos or improvements as Issues or Pull Requests, so that we can improve this version of the course. Please let us know if you find these materials helpful, so that we can keep track of the course's impact, which could  potentially help us continue to offer this course in future years.
 
-I can be reached most easily via Discussions or Issues on this repository; otherwise, I be reached via [email](mailto:wgilpin@[saxetu spelled backwards].edu)
+I can be reached most easily via Discussions or Issues on this repository; otherwise, I be reached via [email](`mailto:wgilpin@[saxetu spelled backwards].edu`)
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-37RSFCXBQY"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-37RSFCXBQY');
+</script>
 
