@@ -1,4 +1,4 @@
-## Lab 1: Getting Started with Python
+## Lab1: Getting Started with Python
 *William Gilpin*
 
 Additional information about Python and conda environments can be found in [William’s detailed notes](http://www.wgilpin.com/howto/howto_conda.html)
@@ -29,7 +29,7 @@ This virtual environment will be used to isolate your code and the packages on w
 
 6. Check that your Python version is greater than 3.0
   
-```
+```python
   >> import sys
   >> print("User Current Version:-", sys.version)
 ```
@@ -58,7 +58,7 @@ This virtual environment will be used to isolate your code and the packages on w
 
 For VSCode, you will still need to use the Terminal to create/edit your conda environments, as well as install and update packages into your environment.
 
-12. Now that we know that everything is working, head over to the class repository on GitHub and start working on Lab 1, which uses some parts of the Python ecosystem in order to make really cool embeddings of high-dimensional datasets.
+<!-- 12. Now that we know that everything is working, head over to the class repository on GitHub and start working on Lab 1, which uses some parts of the Python ecosystem in order to make really cool embeddings of high-dimensional datasets. -->
 
 
 ## FAQ:
