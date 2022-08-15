@@ -14,7 +14,7 @@ This course aims to provide a very broad survey of computational methods that ar
 + [`HW1: The sandpile cellular automaton and directed percolation`](https://github.com/williamgilpin/cphy/blob/main/hw/cellular_automata_complexity.ipynb). *Covers recursion, runtime scaling, vectorization*
 + [`HW2: Linear dynamical systems and decomposing a chaotic flow`](https://github.com/williamgilpin/cphy/blob/main/hw/matrices_unsupervised_learning.ipynb). *Covers numerical linear algebra, optimization, and unsupervised learning*
 + [`HW3: Turing patterns and phase separation.`](https://github.com/williamgilpin/cphy/blob/main/hw/pde_turing.ipynb). *Topics: Numerical integration; finite-difference and spectral methods*
-+ [`HW4: Predicting turbulence and classifying collider events`](https://github.com/williamgilpin/cphy/blob/main/hw/forecasting_regression_supervised.ipynb). *Topics: Supervised learning, kernel and logistic regression*
++ [`HW4: Predicting turbulence and finite-time Lyapunov exponents`](https://github.com/williamgilpin/cphy/blob/main/hw/forecasting_regression_supervised.ipynb). *Topics: Supervised learning, kernel and logistic regression*
 
 <!-- + [`lab1`](https://github.com/williamgilpin/cphy/blob/main//lab2/lab1.ipynb)x -->
 
