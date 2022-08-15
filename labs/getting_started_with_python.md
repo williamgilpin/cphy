@@ -50,7 +50,7 @@ This virtual environment will be used to isolate your code and the packages on w
   $ conda install numpy matplotlib 
 ```
 
-10. There are two ways that I would recommend using Jupyter notebooks for the class. One option is to manually activate an environment and then launch the notebook server from the Terminal. The other option is to let an IDE handle everything for you, and just launch notebooks from the GUI. There are lots of other options (like PyCharm), but these are the two that I can most easily help you with,
+10. There are two ways that I would recommend using Jupyter notebooks for the class. One option is to manually activate an environment and then launch the notebook server from the Terminal. The other option is to let an IDE like VSCode handle everything for you, and just launch notebooks from the GUI. There are lots of other options (like PyCharm).
 
 11. For a slightly more user-friendly experience, I recommend run our Jupyter Notebooks within a full-featured integrated development environment (IDE). I really like Visual Studio Code and would currently recommend it over JupyterLab for the time being. [Installation instructions](https://code.visualstudio.com/). 
 
