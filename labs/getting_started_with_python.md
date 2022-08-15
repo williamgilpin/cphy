@@ -9,13 +9,13 @@ Additional information about Python and conda environments can be found in [Will
 
 3. In your terminal app, create a new virtual environment using the base Python install.
 
-    $ conda create -n hwenv python=3
+  $ conda create -n hwenv python=3
 
 This virtual environment will be used to isolate your code and the packages on which it depends from your system’s own Python installation, as well as from other Python projects you might make in the future. For example, you will likely want to make a separate environment for your final project, and for separate personal projects. On my personal computer, I have about a half-dozen environments—one for each different project, including one for this class. If I make a mistake while working on this class and break my environment’s Python installation, it won’t affect my other projects.
 
 4.  Before writing any code, always make sure that you have activated your environment.
 
-    $ conda activate hwenv
+  $ conda activate hwenv
 
 5. We can now start Python and check that it is working
 
@@ -24,22 +24,22 @@ This virtual environment will be used to isolate your code and the packages on w
 
 6. Check that your Python version is greater than 3.0
   
-    >> import sys
-    >> print("User Current Version:-", sys.version)
+  >> import sys
+  >> print("User Current Version:-", sys.version)
 
 
 7. Terminate the Python process with Ctrl + D on \*nix, or  Ctrl + Z followed by Enter on Windows.
 
 8. (Optional). If your Python version does not start with a 3, delete your environment and then make a new environment with a newer version
 
-    $ (hwenv) $ conda deactivate
-    $ conda remove -n hwenv --all
-    $ conda create -n hwenv python=3
+  $ (hwenv) $ conda deactivate
+  $ conda remove -n hwenv --all
+  $ conda create -n hwenv python=3
 
 
 9. Back in the Terminal, install some other packages that we will end up using a lot
 
-    $ conda install numpy matplotlib 
+  $ conda install numpy matplotlib 
 
 
 10. There are two ways that I would recommend using Jupyter notebooks for the class. One option is to manually activate an environment and then launch the notebook server from the Terminal. The other option is to let an IDE handle everything for you, and just launch notebooks from the GUI. There are lots of other options (like PyCharm), but these are the two that I can most easily help you with,
