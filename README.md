@@ -9,6 +9,10 @@
  Your browser does not support the video tag.
 </video>
 
+[![Test 3] 
+<!-- (https://i.ytimg.com/vi/Hc79sDi3f0U/maxresdefault.jpg)] // Thumbnail -->
+(https://player.vimeo.com/video/739921904?title=0&byline=0&portrait=0 "test") 
+
 <iframe hidden src="https://player.vimeo.com/video/739921904?title=0&byline=0&portrait=0" width="100%" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 
