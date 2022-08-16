@@ -8,7 +8,8 @@ minima:
 header_pages:
   - none.html
 
-page.title: "" 
+page.title:
+  - ""
   
 defaults:
   -
