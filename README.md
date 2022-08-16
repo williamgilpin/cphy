@@ -29,7 +29,7 @@ This course aims to provide a very broad survey of computational methods that ar
 + [HW2: Linear dynamical systems and decomposing a chaotic flow](https://github.com/williamgilpin/cphy/blob/main/hw/matrices_unsupervised_learning.ipynb). *Covers numerical linear algebra, optimization, and unsupervised learning*
 + [HW3: Turing patterns and phase separation.](https://github.com/williamgilpin/cphy/blob/main/hw/pde_turing.ipynb). *Topics: Numerical integration; finite-difference and spectral methods*
 + [HW4: Predicting turbulence and finite-time Lyapunov exponents](https://github.com/williamgilpin/cphy/blob/main/hw/forecasting_regression_supervised.ipynb). *Topics: Supervised learning, kernel and logistic regression*
-+ [Homework solutions](hw/solutions/)
++ [Homework solutions](https://github.com/williamgilpin/cphy/blob/main/hw/solutions/)
 
 + [Lab 1: Getting started with Python](labs/getting_started_with_python.md)
 
@@ -38,16 +38,16 @@ This course aims to provide a very broad survey of computational methods that ar
 
 ## Fixes, typos, and attribution
 
-If you find any errors or typos, please open an issue or submit a correction as a pull request.
+If you find any errors or typos, please open an issue or submit a correction as a pull request on [GitHub](https://github.com/williamgilpin/cphy/).
 
-If you use any of these materials for your own class, please submit typos or improvements as Issues or Pull Requests, so that we can improve this version of the course. Please let us know if you find these materials helpful, so that we can keep track of the course's impact, which could  potentially help us continue to offer this course in future years.
+If you use any of these materials for your own class, please submit typos or improvements as issues or pull pequests, so that we can improve this version of the course. Please let us know if you find these materials helpful, so that we can keep track of the course's impact, which could  potentially help us continue to offer this course in future years.
 
-I can be reached most easily via Discussions or Issues on this repository; otherwise, I be reached via [email](`mailto:wgilpin@[saxetu spelled backwards].edu`)
+I can be reached most easily via [Discussions](https://github.com/williamgilpin/cphy/discussions) or Issues on [the course repository](https://github.com/williamgilpin/cphy/); otherwise, I be reached via [email](`mailto:wgilpin@[saxetu spelled backwards].edu`)
 
 
 ## Requirements
 
-We will use Python 3 with the following packages
+We will primarily use Python 3 with the following packages
 
 + numpy
 + matplotlib
@@ -55,8 +55,9 @@ We will use Python 3 with the following packages
 + scikit-learn
 + jupyter
 
-For your projects and other parts of the class, you might also need
+For projects and other parts of the class, you might also need
 
++ ipykernel
 + scikit-image
 + umap-learn
 + statsmodels
