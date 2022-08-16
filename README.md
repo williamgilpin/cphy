@@ -2,9 +2,9 @@
 
 Materials for UT Austin's graduate computational physics course, taught in Fall 2022 by William Gilpin
 
-<center>
 ![Overview of Methods in Course](resources/overview.gif)
-</center>
+
+<img src="resources/overview.gif" alt="Overview of Methods in Course" width="100%"/>
 
 <iframe src="https://player.vimeo.com/video/739921904?title=0&byline=0&portrait=0" width="100%" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
