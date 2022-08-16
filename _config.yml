@@ -6,6 +6,7 @@ minima:
   skin: dark
 
 header_pages:
+  - none.html
   
 defaults:
   -
