@@ -1,9 +1,5 @@
 # Computational Physics
 
-Materials for UT Austin's graduate computational physics course, taught in Fall 2022 by William Gilpin
-
-
-
 <!-- <img src="resources/overview.gif" alt="Overview of Methods in Course" width="100%"/> -->
 
 https://user-images.githubusercontent.com/8154246/184846814-5b5c80e1-34f9-4063-9b26-36b2a0369827.mov
@@ -11,14 +7,15 @@ https://user-images.githubusercontent.com/8154246/184846814-5b5c80e1-34f9-4063-9
 <iframe hidden src="https://player.vimeo.com/video/739921904?title=0&byline=0&portrait=0" width="100%" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 
+## Summary
+
+Materials for UT Austin's graduate computational physics course, taught in Fall 2022 by William Gilpin
+
 The class website is located [here](https://www.wgilpin.com/cphy/?utm_source=en_us_bh224180tg). If you are enrolled in the course at UT, the syllabus and calendar is [here](https://docs.google.com/document/d/1URJmdpTVG8E2bLLu5xAHctICb6krbZ0fC0hO2i2xEXY/edit?usp=sharing)
-
-
-# Summary
 
 This course aims to provide a very broad survey of computational methods that are particularly relevant to modern physics research. We will aim to cover efficient algorithm design and performance analysis, traditional numerical recipes such as integration and matrix manipulation, and emerging methods in data analysis and machine learning. Our goal by the end of the class will be to feel comfortable approaching diverse, open-ended computational problems that arise during research, and to be ready to design and share new algorithms with the broader research community.
 
-# Contents
+## Contents
 
 + [`HW1: The sandpile cellular automaton and directed percolation`](https://github.com/williamgilpin/cphy/blob/main/hw/cellular_automata_complexity.ipynb). *Covers recursion, runtime scaling, vectorization*
 + [`HW2: Linear dynamical systems and decomposing a chaotic flow`](https://github.com/williamgilpin/cphy/blob/main/hw/matrices_unsupervised_learning.ipynb). *Covers numerical linear algebra, optimization, and unsupervised learning*
@@ -31,7 +28,7 @@ This course aims to provide a very broad survey of computational methods that ar
 <!-- + [`lab1`](https://github.com/williamgilpin/cphy/blob/main//lab2/lab1.ipynb)x -->
 
 
-# Fixes, typos, and attribution
+## Fixes, typos, and attribution
 
 If you find any errors or typos, please open an issue or submit a correction as a pull request.
 
@@ -40,7 +37,7 @@ If you use any of these materials for your own class, please submit typos or imp
 I can be reached most easily via Discussions or Issues on this repository; otherwise, I be reached via [email](`mailto:wgilpin@[saxetu spelled backwards].edu`)
 
 
-# Requirements
+## Requirements
 
 We will use Python 3 with the following packages
 
