@@ -2,7 +2,7 @@
 
 <img src="resources/overview.gif" alt="Overview of Methods in Course" width="100%"/>
 
-*(Left to Right): Avalanche activity cascades in a sandpile automaton; Vortex street formed by flow past a cylinder; and Turing patterns in a reaction-diffusion model. All simulations from the course homeworks; a higher-resolution video may be viewed [here](https://player.vimeo.com/video/739921904?title=0&byline=0&portrait=0)*
+*(Left to Right): Avalanche activity cascades in a sandpile automaton; a vortex street formed by flow past a cylinder; and Turing patterns in a reaction-diffusion model. All simulations from the course homeworks; a higher-resolution video may be viewed [here](https://player.vimeo.com/video/739921904?title=0&byline=0&portrait=0)*
 
 
 <!-- <iframe src="https://player.vimeo.com/video/739921904?title=0&byline=0&portrait=0" width="100%" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
@@ -27,8 +27,8 @@ This course aims to provide a very broad survey of computational methods that ar
 
 + [HW1: The sandpile cellular automaton and directed percolation](https://github.com/williamgilpin/cphy/blob/main/hw/cellular_automata_complexity.ipynb). *Covers recursion, runtime scaling, vectorization*
 + [HW2: Linear dynamical systems and decomposing a chaotic flow](https://github.com/williamgilpin/cphy/blob/main/hw/matrices_unsupervised_learning.ipynb). *Covers numerical linear algebra, optimization, and unsupervised learning*
-+ [HW3: Turing patterns and phase separation.](https://github.com/williamgilpin/cphy/blob/main/hw/pde_turing.ipynb). *Topics: Numerical integration; finite-difference and spectral methods*
-+ [HW4: Predicting turbulence and finite-time Lyapunov exponents](https://github.com/williamgilpin/cphy/blob/main/hw/forecasting_regression_supervised.ipynb). *Topics: Supervised learning, kernel and logistic regression*
++ [HW3: Turing patterns and phase separation](https://github.com/williamgilpin/cphy/blob/main/hw/pde_turing.ipynb). *Covers numerical integration; finite-difference and spectral methods*
++ [HW4: Predicting turbulence and finite-time Lyapunov exponents](https://github.com/williamgilpin/cphy/blob/main/hw/forecasting_regression_supervised.ipynb). *Covers Supervised learning, kernel and logistic regression*
 + [Homework solutions](https://github.com/williamgilpin/cphy/blob/main/hw/solutions/)
 
 + [Lab 1: Getting started with Python](labs/getting_started_with_python.md)
