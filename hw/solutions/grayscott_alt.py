@@ -71,30 +71,6 @@ class GrayScott:
         yk_out = np.hstack([uk_out.flatten(), vk_out.flatten()])
         return yk_out
 
-    # def _diffusion(self, y):
-    #     """
-    #     Diffusion term: cast into real space, perform diffusion, and then cast
-    #     back into Fourier space.
-    #     """
-    #     ########
-    #     #
-    #     # Your code here. I recommend performing the diffusion in real space, and using
-    #     # the appropriate transformations to cast back and forth within the function.
-    #     #
-    #     ########
-    #     uk, vk = y[:self.nx * self.ny], y[self.nx * self.ny:]
-    #     uk = np.reshape(u, (self.ny, self.nx))
-    #     vk = np.reshape(v, (self.ny, self.nx))
-    #     u = np.fft.ifft2(uk)
-    #     v = np.fft.ifft2(vk)
-
-    #     udiff = np.fft.fft2(np.roll(u, 1, axis=0) - 2*u + np.roll(u, -1, axis=0))
-    #     vdiff = np.fft.fft2(np.roll(v, 1, axis=0) - 2*v + np.roll(v, -1, axis=0))
-
-    #     uk_out = self.du * udiff
-    #     vk_out = self.dv * vdiff
-    #     yk_out = np.hstack([uk_out.flatten(), vk_out.flatten()])
-    #     return yk_out
 
     def _diffusion(self, y):
         """
