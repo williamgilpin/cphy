@@ -1,6 +1,6 @@
 theme: minima
 languageCode: "en-us"
-
+layout: page
 
 minima:
   skin: dark
@@ -8,9 +8,6 @@ minima:
 header_pages:
   - none.html
 
-page.title:
-  - ""
-  
 defaults:
   -
     scope:
