@@ -4,6 +4,11 @@
 
 https://user-images.githubusercontent.com/8154246/184846814-5b5c80e1-34f9-4063-9b26-36b2a0369827.mov
 
+<video width="1280" height="720" controls autoplay muted loop playsinline>
+<source src="https://user-images.githubusercontent.com/8154246/184846814-5b5c80e1-34f9-4063-9b26-36b2a0369827.mov" type="video/mp4">
+ Your browser does not support the video tag.
+</video>
+
 <iframe hidden src="https://player.vimeo.com/video/739921904?title=0&byline=0&portrait=0" width="100%" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 
