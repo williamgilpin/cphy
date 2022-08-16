@@ -4,7 +4,10 @@ Materials for UT Austin's graduate computational physics course, taught in Fall 
 
 <img src="resources/overview.gif" alt="Overview of Methods in Course" width="100%"/>
 
-<img src="resources/overview_video.mov" alt="Overview of Methods in Course" width="100%"/>
+
+https://user-images.githubusercontent.com/8154246/184846814-5b5c80e1-34f9-4063-9b26-36b2a0369827.mov
+
+
 
 <iframe hidden src="https://player.vimeo.com/video/739921904?title=0&byline=0&portrait=0" width="100%" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
