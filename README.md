@@ -4,6 +4,8 @@ Materials for UT Austin's graduate computational physics course, taught in Fall 
 
 <img src="resources/overview.gif" alt="Overview of Methods in Course" width="100%"/>
 
+<img src="resources/overview_video.mov" alt="Overview of Methods in Course" width="100%"/>
+
 <iframe hidden src="https://player.vimeo.com/video/739921904?title=0&byline=0&portrait=0" width="100%" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 The class website is located [here](https://www.wgilpin.com/cphy/?utm_source=en_us_bh224180tg). If you are enrolled in the course at UT, the syllabus and calendar is [here](https://docs.google.com/document/d/1URJmdpTVG8E2bLLu5xAHctICb6krbZ0fC0hO2i2xEXY/edit?usp=sharing)
