@@ -1,6 +1,9 @@
-# Computational Physics
+
 
 <img src="resources/overview.gif" alt="Overview of Methods in Course" width="100%"/>
+
+
+# Computational Physics
 
 Materials for UT Austin's graduate computational physics course, taught in Fall 2022 by [William Gilpin](http://www.wgilpin.com/?utm_source=en_us_bhg226180pc). Video above shows simulations from the course homeworks. A higher-resolution version of this video may be viewed [here](https://player.vimeo.com/video/739921904?title=0&byline=0&portrait=0)
 
