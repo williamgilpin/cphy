@@ -5,7 +5,8 @@ languageCode: "en-us"
 minima:
   skin: dark
 
-
+header_pages:
+  
 defaults:
   -
     scope:
