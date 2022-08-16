@@ -8,7 +8,7 @@ __pycache__/
 
 # Ignore personal and development files
 private*
-solutions*
+# solutions* # Leave these accessible for now
 dump*
 *largefile*
 pylbm*
