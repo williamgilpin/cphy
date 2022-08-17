@@ -1,4 +1,5 @@
-# Lab 2: Git, GitHub, and GitHub pages
+Lab 2: Git, GitHub, and GitHub pages
+==============
 
 ## Setting up git and GitHub
 
