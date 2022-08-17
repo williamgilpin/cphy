@@ -32,7 +32,8 @@ This course aims to provide a very broad survey of computational methods that ar
 + [Homework solutions](https://github.com/williamgilpin/cphy/blob/main/hw/solutions/)
 
 + [Lab 1: Getting started with Python](labs/getting_started_with_python.md)
-+ [Lab 2: git, GitHub, and GitHub pages](labs/git_and_github.md)
++ [Lab 2: git, GitHub, and GitHub Pages](labs/git_and_github.md)
++ [Lab 3: Documentation and Formatting](labs/git_and_github.md)
 
 <!-- + [`lab1`](https://github.com/williamgilpin/cphy/blob/main//lab2/lab1.ipynb)x -->
 
