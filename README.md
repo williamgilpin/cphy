@@ -44,7 +44,7 @@ If you find any errors or typos, please open an issue or submit a correction as 
 
 If you use any of these materials for your own class, please submit typos or improvements as issues or pull requests, so that we can improve this version of the course. Please let us know if you find these materials helpful, so that we can keep track of the course's impact, which could  potentially help us continue to offer this course in future years.
 
-I can be reached most easily via [Discussions](https://github.com/williamgilpin/cphy/discussions) or Issues on [the course repository](https://github.com/williamgilpin/cphy/); otherwise, I be reached via [email](`mailto:wgilpin@[saxetu%20spelled%20backwards].edu`)
+I can be reached most easily via [Discussions](https://github.com/williamgilpin/cphy/discussions) or Issues on [the course repository](https://github.com/williamgilpin/cphy/); otherwise, I be reached via [email](mailto:wgilpin@[saxetu%20spelled%20backwards].edu)
 
 
 ## Requirements
