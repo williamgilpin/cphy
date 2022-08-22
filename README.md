@@ -35,7 +35,9 @@ This course aims to provide a very broad survey of computational methods that ar
 + [Lab 2: git, GitHub, and GitHub Pages](labs/git_and_github.md)
 + [Lab 3: Documentation and Formatting](labs/documentation_and_formatting.md)
 
-+ [Lecture: Basics of Python for Scientific Computing](https://github.com/williamgilpin/cphy/blob/main/talks/python_intro.ipynb).
++ [Lecture: Python for Scientific Computing, Vectorization, and the Mandelbrot set](https://github.com/williamgilpin/cphy/blob/main/talks/python_intro.ipynb).
++ [Lecture: Inheritance, Object-Oriented Program, and the Game of Life](https://github.com/williamgilpin/cphy/blob/main/talks/inheritance_game_of_life.ipynb).
+
 
 <!-- + [`lab1`](https://github.com/williamgilpin/cphy/blob/main//lab2/lab1.ipynb)x -->
 
