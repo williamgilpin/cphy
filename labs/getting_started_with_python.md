@@ -58,6 +58,8 @@ This virtual environment will be used to isolate your code and the packages on w
 
 For VSCode, you will still need to use the Terminal to create/edit your conda environments, as well as install and update packages into your environment.
 
+13. To test that you have everything working, try running the Mandelbrot set example at the end of the [first lecture notebook](https://github.com/williamgilpin/cphy/blob/main/talks/python_intro.ipynb)
+
 <!-- 12. Now that we know that everything is working, head over to the class repository on GitHub and start working on Lab 1, which uses some parts of the Python ecosystem in order to make really cool embeddings of high-dimensional datasets. -->
 
 
