@@ -1,4 +1,4 @@
-## Lab1: Getting Started with Python
+## Lab 1: Getting Started with Python
 *William Gilpin*
 
 Additional information about Python and conda environments can be found in [William’s detailed notes](http://www.wgilpin.com/howto/howto_conda.html)
