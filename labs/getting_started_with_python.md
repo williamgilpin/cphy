@@ -55,7 +55,7 @@ This virtual environment will be used to isolate your code and the packages on w
 10. There are two ways that I would recommend using Jupyter notebooks for the class. One option is to manually activate an environment and then launch the notebook server from the Terminal. The other option is to let an IDE like VSCode handle everything for you, and just launch notebooks from the GUI. There are lots of other options (like PyCharm). To try the browser option, make sure your hwenv (or whatever you called it) is activated in the Terminal. From the same prompt, run
 
 ```
-    (hwenv) $ jupyterlab
+    (hwenv) $ jupyter lab
 ```
 
 This should forcefully open a browser window running the environment.
@@ -66,7 +66,7 @@ This should forcefully open a browser window running the environment.
 
 For VSCode, you will still need to use the Terminal to create/edit your conda environments, as well as install and update packages into your environment.
 
-13. To test that you have everything working, try running the Mandelbrot set example at the end of the [first lecture notebook](https://github.com/williamgilpin/cphy/blob/main/talks/python_intro.ipynb)
+13. To test that you have everything working, try running the Mandelbrot set example at the end of the [first lecture notebook](https://github.com/williamgilpin/cphy/blob/main/talks/python_intro.ipynb). You can also test out some of the code in the first homework.
 
 <!-- 12. Now that we know that everything is working, head over to the class repository on GitHub and start working on Lab 1, which uses some parts of the Python ecosystem in order to make really cool embeddings of high-dimensional datasets. -->
 
