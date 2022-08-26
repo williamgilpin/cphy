@@ -42,15 +42,17 @@ This virtual environment will be used to isolate your code and the packages on w
   $ (hwenv) $ conda deactivate
   $ conda remove -n hwenv --all
   $ conda create -n hwenv python=3
+  $ conda activate hwenv
 ```
 
 9. Back in the Terminal, install some other packages that we will end up using a lot
 
 ```
   $ conda install numpy matplotlib 
+  $ conda install -c conda-forge jupyterlab
 ```
 
-10. There are two ways that I would recommend using Jupyter notebooks for the class. One option is to manually activate an environment and then launch the notebook server from the Terminal. The other option is to let an IDE like VSCode handle everything for you, and just launch notebooks from the GUI. There are lots of other options (like PyCharm).
+10. There are two ways that I would recommend using Jupyter notebooks for the class. One option is to manually activate an environment and then launch the notebook server from the Terminal. The other option is to let an IDE like VSCode handle everything for you, and just launch notebooks from the GUI. There are lots of other options (like PyCharm). To try the browser option, 
 
 11. For a slightly more user-friendly experience, I recommend run our Jupyter Notebooks within a full-featured integrated development environment (IDE). I really like Visual Studio Code and would currently recommend it over JupyterLab for the time being. [Installation instructions](https://code.visualstudio.com/). 
 
