@@ -5,7 +5,7 @@ Additional information about Python and conda environments can be found in [Will
 
 1. Install Miniconda on your development environment. OS-specific instructions can be found [here](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html). macOS or Linux users should install [Homebrew](https://brew.sh/) as well
 
-2. Open your computer’s terminal app. On Windows, you may need to install [Windows Terminal](https://github.com/microsoft/terminal) if it is not already installed. If Windows Terminal has any issues, you might consider [gitbash](https://gitforwindows.org/) instead. If you plan to use Windows for the class, please keep track of any bugs or compatibility issues you encounter, as well as their solutions—that will make it easier to make the materials more accessible in future iterations.
+2. Open your computer’s terminal app. On Windows, Miniconda will install the Anaconda Terminal, which you can use as the default Terminal for this class. Otherwise, you may need to use [Windows Terminal](https://github.com/microsoft/terminal) if it is not already installed. If Windows Terminal has any issues, you might consider [gitbash](https://gitforwindows.org/) instead. If you plan to use Windows for the class, please keep track of any bugs or compatibility issues you encounter, as well as their solutions—that will make it easier to make the materials more accessible in future iterations.
 
 3. In your terminal app, create a new virtual environment using the base Python install.
 
@@ -75,4 +75,5 @@ For VSCode, you will still need to use the Terminal to create/edit your conda en
 
 *Any questions or problems that arise, as well as their solutions, can go here.*
 
-On windows, `conda create` fails. Unset [SSL](https://stackoverflow.com/questions/50125472/issues-with-installing-python-libraries-on-windows-condahttperror-http-000-co)
+On windows, `conda create` fails. Unset [SSL](https://stackoverflow.com/questions/50125472/issues-with-installing-python-libraries-on-windows-condahttperror-http-000-co) or use the Anaconda terminal
+
