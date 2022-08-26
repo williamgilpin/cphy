@@ -74,3 +74,5 @@ For VSCode, you will still need to use the Terminal to create/edit your conda en
 ## FAQ:
 
 *Any questions or problems that arise, as well as their solutions, can go here.*
+
+On windows, `conda create` fails. Unset [SSL](https://stackoverflow.com/questions/50125472/issues-with-installing-python-libraries-on-windows-condahttperror-http-000-co)
