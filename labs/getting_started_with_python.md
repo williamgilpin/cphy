@@ -52,9 +52,15 @@ This virtual environment will be used to isolate your code and the packages on w
   $ conda install -c conda-forge jupyterlab
 ```
 
-10. There are two ways that I would recommend using Jupyter notebooks for the class. One option is to manually activate an environment and then launch the notebook server from the Terminal. The other option is to let an IDE like VSCode handle everything for you, and just launch notebooks from the GUI. There are lots of other options (like PyCharm). To try the browser option, 
+10. There are two ways that I would recommend using Jupyter notebooks for the class. One option is to manually activate an environment and then launch the notebook server from the Terminal. The other option is to let an IDE like VSCode handle everything for you, and just launch notebooks from the GUI. There are lots of other options (like PyCharm). To try the browser option, make sure your hwenv (or whatever you called it) is activated in the Terminal. From the same prompt, run
 
-11. For a slightly more user-friendly experience, I recommend run our Jupyter Notebooks within a full-featured integrated development environment (IDE). I really like Visual Studio Code and would currently recommend it over JupyterLab for the time being. [Installation instructions](https://code.visualstudio.com/). 
+```
+    (hwenv) $ jupyterlab
+```
+
+This should forcefully open a browser window running the environment.
+
+11. For a slightly more user-friendly experience, I recommend run our Jupyter Notebooks within a full-featured integrated development environment (IDE). I really like Visual Studio Code and would currently recommend it over JupyterLab for the time being. [Installation instructions](https://code.visualstudio.com/). You might also use PyCharm, although I am less familiar with that one.
 
 12. (Optional, recommended). If you successfully install VSCode above, you can just open the course notebooks using the VSCode GUI, as you would a document or slide deck. However, if opening a .ipynb file, you should always check in the upper-right-hand corner of the notebook that you are using the correct conda environment (since we skipped using the Terminal, we never specified what environment to use). VSCode should automatically find and list the available environments in a drop-down menu, and it will remember your selection for each notebook.
 
