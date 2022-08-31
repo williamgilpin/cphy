@@ -17,11 +17,11 @@
 
 ## Summary
 
-Materials for UT Austin's graduate computational physics course, taught in Fall 2022 by [William Gilpin](http://www.wgilpin.com/?utm_source=en_us_bhg226180pc). 
-
-The class website is located [here](https://www.wgilpin.com/cphy/?utm_source=en_us_bh224180tg). If you are enrolled in the course at UT, the syllabus and calendar are [here](https://docs.google.com/document/d/1URJmdpTVG8E2bLLu5xAHctICb6krbZ0fC0hO2i2xEXY/edit?usp=sharing)
+Materials for UT Austin's graduate computational physics course, taught in Fall 2022 by [William Gilpin](http://www.wgilpin.com/?utm_source=en_us_bhg226180pc).
 
 This course aims to provide a very broad survey of computational methods that are particularly relevant to modern physics research. We will aim to cover efficient algorithm design and performance analysis, traditional numerical recipes such as integration and matrix manipulation, and emerging methods in data analysis and machine learning. Our goal by the end of the class will be to feel comfortable approaching diverse, open-ended computational problems that arise during research, and to be ready to design and share new algorithms with the broader research community.
+
+The class website is located [here](https://www.wgilpin.com/cphy/?utm_source=en_us_bh224180tg). If you are enrolled in the course at UT, the syllabus and calendar are [here](https://docs.google.com/document/d/1URJmdpTVG8E2bLLu5xAHctICb6krbZ0fC0hO2i2xEXY/edit?usp=sharing)
 
 ## Contents
 
@@ -44,8 +44,6 @@ This course aims to provide a very broad survey of computational methods that ar
 
 
 
-
-
 <!-- + [`lab1`](https://github.com/williamgilpin/cphy/blob/main//lab2/lab1.ipynb)x -->
 
 
@@ -53,9 +51,9 @@ This course aims to provide a very broad survey of computational methods that ar
 
 If you find any errors or typos, please open an issue or submit a correction as a pull request on [GitHub](https://github.com/williamgilpin/cphy/).
 
-If you use any of these materials for your own class, please submit typos or improvements as issues or pull requests, so that we can improve this version of the course. Please let us know if you find these materials helpful, so that we can keep track of the course's impact, which could  potentially help us continue to offer this course in future years.
+If you want use any of these materials for your own class or self-study, please submit typos or improvements as issues or pull requests, so that we can improve this version of the course. Please let us know if you find these materials helpful, so that we can keep track of the course's impact, which could potentially help us extend this course in future years.
 
-I can be reached most easily via [Discussions](https://github.com/williamgilpin/cphy/discussions) or Issues on [the course repository](https://github.com/williamgilpin/cphy/); otherwise, I be reached via [email](mailto:wgilpin@[saxetu%20spelled%20backwards].edu)
+Course-related questions are best posted on GitHub as [Discussions](https://github.com/williamgilpin/cphy/discussions) or Issues on [the course repository](https://github.com/williamgilpin/cphy/); for other issues, I be reached via [email](mailto:wgilpin@[saxetu%20spelled%20backwards].edu)
 
 
 ## Requirements
