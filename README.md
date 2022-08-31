@@ -47,7 +47,7 @@ The class website is located [here](https://www.wgilpin.com/cphy/?utm_source=en_
 <!-- + [`lab1`](https://github.com/williamgilpin/cphy/blob/main//lab2/lab1.ipynb)x -->
 
 
-## Fixes, typos, and attribution
+## Fixes, typos, and improvement
 
 If you find any errors or typos, please open an issue or submit a correction as a pull request on [GitHub](https://github.com/williamgilpin/cphy/).
 
