@@ -25,6 +25,18 @@ Lab 2: Git, GitHub, and GitHub pages
 	https://github.com/yourusername/my_repository
 
 
+The first time you connect git and GitHub on your system, you will be prompted to set up a `.gitconfig` file on your system. Mine is located at the top level `~` and contains the following lines
+
+```
+[user]
+        name = williamgilpin
+        email = williamgilpin@gmail.com
+[core]
+        editor = emacs
+[credential]
+        helper = store
+```
+
 6. The basic solo git workflow is pretty straightforward; it's like a manual Dropbox folder you manage from the Terminal. Make some changes to your local repository; for example, by editing into your README.md file. Whenever you want to apply those changes to the remote (the GitHub version of your code), first add these files in the Terminal (make sure you are in your repository). Since we already made a README.md file, you will need to start by staging the changes in your local repository. 
 
 ```
