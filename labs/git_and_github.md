@@ -77,8 +77,6 @@ Important: if you have a fork of the class repository that you are using to comp
 ## FAQ and common errors 
 Any questions or problems that arise, as well as their solutions, can go here
 
-
-
 ### Modifying commit history
 
 To alter or combine the last four commits, run
@@ -143,9 +141,7 @@ yourname and yourgroup can be figured out by seeing what the majority of of the 
 
 Depending on when you created your GitHub account, you may need to follow the instructions [here](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token) to create a PAT. 
 
-To store the PAT after creating it, I follwed the instructions 
-+ [here](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token)
-+ and then [here](https://docs.github.com/en/get-started/getting-started-with-git/updating-credentials-from-the-macos-keychain)
-+ I also removed the file `~/..git-credentials`
+To store the PAT after creating it, I followed the instructions [here](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token), and then [here](https://docs.github.com/en/get-started/getting-started-with-git/updating-credentials-from-the-macos-keychain). I also removed the file `~/..git-credentials`
+
 + Other useful information about storing PAT [here](https://askubuntu.com/questions/773455/what-is-the-correct-way-to-use-git-with-gnome-keyring-and-https-repos/959662#959662) and [here](https://stackoverflow.com/questions/46645843/where-to-store-the-personal-access-token-from-github)
 
