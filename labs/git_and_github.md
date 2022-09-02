@@ -9,35 +9,33 @@ Lab 2: Git, GitHub, and GitHub pages
 
 3. Create a local project folder on your computer containing code that you want to track. For example, you might want to create a folder for your course homeworks, or for these labs, or for your final project when the time comes. For now, let’s just make a test repository, to make sure that everything is working.
 
-	$ mkdir my_repository
+```
+    $ mkdir my_repository
 	$ cd my_repository
+```
 
-4. You should now be inside your new repository. Add a README.md file to your local repository. You can use a text editor like VSCode, Jupyter Lab, or Sublime Text, or you can do this in the Terminal with your preferred editor
+4. You should now be inside your new repository. Add a README.md file to your local repository. You can use a text editor like VSCode, Jupyter Lab, or Sublime Text, or you can do this in the Terminal with your preferred editor (I use emacs):
 
-	$ emacs README.md
+```
+    $ emacs README.md
+```
 
 5. Connect your local project to a public GitHub repo by following the instructions here. Briefly, you will start by logging into your GitHub account, and then making a repository with the exact same name as your local project folder. When prompted, do *not* initialize your online remote repo with a README or license. When the empty repository has been created, it should be located online.
 
 	https://github.com/yourusername/my_repository
 
 
-6. On that webpage, GitHub should show you the exact steps you need to perform locally to connect. Since we already made a README, you will need to start by staging the changes in your local repository. 
+6. The basic solo git workflow is pretty straightforward; it's like a manual Dropbox folder you manage from the Terminal. Make some changes to your local repository; for example, by editing into your README.md file. Whenever you want to apply those changes to the remote (the GitHub version of your code), first add these files in the Terminal (make sure you are in your repository). Since we already made a README.md file, you will need to start by staging the changes in your local repository. 
 
+```
 	git add .
+```
 
-You can then follow the rest of GitHub’s instructions to push your local repository onto your remote repository. When you navigate to your project directory online, you should see your README file
-
-	https://github.com/yourusername/my_repository
-
-The basic solo git workflow is pretty straightforward; it's like a manual Dropbox folder you manage from the Terminal. Make some changes to your local repository; for example, by editing into your README.md file. Whenever you want to apply those changes to the remote (the GitHub version of your code), first add these files in the Terminal (make sure you are in your repository)
-
-	git add .
-
-Then commit the changes with a short but descriptive message
+7. Then commit the changes with a short but descriptive message
 
 	git commit -m "added example changes to the README file"
 
-Then finally send the update to GitHub
+8. Then finally send the update to GitHub
 
 	git push
 
