@@ -135,7 +135,7 @@ This can be fixed by stashing and then immediately un-stashing:
     git stash
     git stash apply
 
-## Permission issues
+### Permission issues
 
 `error: insufficient permission for adding an object to repository database .git/objects`
 
@@ -148,7 +148,7 @@ Somehow the ownership got messed up for some files. From project base directory,
 yourname and yourgroup can be figured out by seeing what the majority of of the ls -al usernames and groups are. My "group" appeared to be staff for some reason. This answer is taken from [StackExchange](http://stackoverflow.com/questions/6448242/git-push-error-insufficient-permission-for-adding-an-object-to-repository-datab)
 
 
-## Receive warnings about passwords being deprecated 
+### Receive warnings about passwords being deprecated 
 
 Depending on when you created your GitHub account, you may need to follow the instructions [here](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token) to create a PAT. 
 
