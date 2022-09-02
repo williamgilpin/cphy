@@ -74,8 +74,19 @@ Important: if you have a fork of the class repository that you are using to comp
 
 
 
-## FAQ and common errors 
+## Other useful git and GitHub facts
 Any questions or problems that arise, as well as their solutions, can go here
+
+### Downloading a remote repository without forking it
+
+Sometimes you just want to download a copy of someone's code without collaborating, forking, etc. For situations like these, you can use [git clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository). I recommend cloning from the HTTP address rather than the git// address of the repo
+
+### Installing a Python Package from GitHub
+
+If there's a setup.py file in the repo, you can install using pip
+
+    pip install git+git://github.com/someusername/somerepo
+
 
 ### Modifying commit history
 
