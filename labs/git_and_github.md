@@ -10,8 +10,8 @@ Lab 2: Git, GitHub, and GitHub pages
 3. Create a local project folder on your computer containing code that you want to track. For example, you might want to create a folder for your course homeworks, or for these labs, or for your final project when the time comes. For now, let’s just make a test repository, to make sure that everything is working.
 
 ```
-    $ mkdir my_repository
-	$ cd my_repository
+    $ mkdir test_repo
+	$ cd test_repo
 ```
 
 4. You should now be inside your new repository. Add a README.md file to your local repository. You can use a text editor like VSCode, Jupyter Lab, or Sublime Text, or you can do this in the Terminal with your preferred editor (I use emacs):
@@ -22,7 +22,7 @@ Lab 2: Git, GitHub, and GitHub pages
 
 5. Connect your local project to a public GitHub repo by following the instructions here. Briefly, you will start by logging into your GitHub account, and then making a repository with the exact same name as your local project folder. When prompted, do *not* initialize your online remote repo with a README or license. When the empty repository has been created, it should be located online.
 
-	https://github.com/yourusername/my_repository
+	https://github.com/yourusername/test_repo
 
 
 The first time you connect git and GitHub on your system, you will be prompted to set up a `.gitconfig` file on your system. Mine is located at the top level `~` and contains the following lines
@@ -36,6 +36,19 @@ The first time you connect git and GitHub on your system, you will be prompted t
 [credential]
         helper = store
 ```
+
+5.5. Once you have your `.gitconfig` set up, run the following commands. If this is your first time setting up git, then the last line will fail
+
+```
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/williamgilpin/test_repo.git
+git push -u origin main
+```
+
+Follow the instructions [here](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token) to create a PAT. I set mine up with maximal priveleges and no expiry. Re-attempt to push your changes, but enter your PAT instead of your password.
 
 6. The basic solo git workflow is pretty straightforward; it's like a manual Dropbox folder you manage from the Terminal. Make some changes to your local repository; for example, by editing into your README.md file. Whenever you want to apply those changes to the remote (the GitHub version of your code), first add these files in the Terminal (make sure you are in your repository). Since we already made a README.md file, you will need to start by staging the changes in your local repository. 
 
