@@ -33,11 +33,15 @@ Lab 2: Git, GitHub, and GitHub pages
 
 7. Then commit the changes with a short but descriptive message
 
+```
 	git commit -m "added example changes to the README file"
+```
 
 8. Then finally send the update to GitHub
 
+```
 	git push
+```
 
 Both your local and the GitHub versions of your repo will keep track of the sequence of commits you've applied, making it easier to roll back your changes at any time. You'll notice that GitHub treats README.md as a special file---it renders it into a nice page, similar to a website's index page, that represents the first thing a user sees when they look at your repo. Usually we want to put a description of the repo, dependencies, and a minimal working example into the README.md---although sometimes the README contains full documentation, graphics, etc. The Google [Jax repository](https://github.com/google/jax) is a great example. Rather than HTML, the markup language used for README files is Markdown, which is like a blend of HTML and LaTeX with lighter syntax than either one. You can learn more from the [Markdown guide](https://www.markdownguide.org/basic-syntax/) or by looking at [the unrendered version](https://raw.githubusercontent.com/williamgilpin/cphy/main/README.md) of this course's own README file
 
@@ -95,9 +99,9 @@ To alter or combine the last four commits, run
 A text editor will pop up. Replace "pick" with "squash" for the commits that you want to merge together. It will then prompt you to come up with a new commit message for all of the commits that you just squashed.
 
 If you've already commited, you have to force the update:
-  
+```
   $  git push origin main --force
-
+```
 ### Forking a repository summarized
 
 clone forked repo locally
