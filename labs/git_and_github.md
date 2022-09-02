@@ -24,8 +24,18 @@ Lab 2: Git, GitHub, and GitHub pages
 
 	https://github.com/yourusername/test_repo
 
+6. On your empty repo's GitHub page, there will be instructions listing what to do in order to get everything working on your local repo. I've summarized them here. Briefly, in your local repo, you should initialize git, add/stage, commit them, switch branches, connect to the remote, and then push
 
-The first time you connect git and GitHub on your system, you will be prompted to set up a `.gitconfig` file on your system. Mine is located at the top level `~` and contains the following lines
+```
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/yourusername/test_repo.git
+git push -u origin main
+```
+
+If this is your first time setting up GitHub and git, the commands will fail at some point and you will be asked to set up your git and GitHub credentials. You can follow the prompts in your Terminal, but if that fails then you need to create a settings file manually. Create a top-level file on your system called `.gitconfig`. Mine is located at the top level `~/.gitconfig` and contains the following lines
 
 ```
 [user]
@@ -37,32 +47,21 @@ The first time you connect git and GitHub on your system, you will be prompted t
         helper = store
 ```
 
-5.5. Once you have your `.gitconfig` set up, run the following commands. If this is your first time setting up git, then the last line will fail
+7. Once you have your `.gitconfig` set up, attempt again to run the commands from step 6. You will probably be prompted for your password or access token. To set up your local Terminal to automatically remember your GitHub login info, you need to create a Personal Access Token (PAT) using the instructions [here](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token). I set mine up with maximal priveleges and no expiry. After obtaining the PAT, attempt yet again to run the commands from step 6, but this time enter your PAT instead of your password.
 
-```
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/williamgilpin/test_repo.git
-git push -u origin main
-```
-
-Follow the instructions [here](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token) to create a PAT. I set mine up with maximal priveleges and no expiry. Re-attempt to push your changes, but enter your PAT instead of your password.
-
-6. The basic solo git workflow is pretty straightforward; it's like a manual Dropbox folder you manage from the Terminal. Make some changes to your local repository; for example, by editing into your README.md file. Whenever you want to apply those changes to the remote (the GitHub version of your code), first add these files in the Terminal (make sure you are in your repository). Since we already made a README.md file, you will need to start by staging the changes in your local repository. 
+8. The basic solo git workflow is pretty straightforward; it's like a manual Dropbox folder you manage from the Terminal. Make some changes to your local repository; for example, by editing into your README.md file. Whenever you want to apply those changes to the remote (the GitHub version of your code), first add these files in the Terminal (make sure you are in your repository). Since we already made a README.md file, you will need to start by staging the changes in your local repository. 
 
 ```
 	git add .
 ```
 
-7. Then commit the changes with a short but descriptive message
+9. Then commit the changes with a short but descriptive message
 
 ```
 	git commit -m "added example changes to the README file"
 ```
 
-8. Then finally send the update to GitHub
+10. Then finally send the update to GitHub
 
 ```
 	git push
