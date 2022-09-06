@@ -98,6 +98,3 @@ bring up the VSCode command palette by pressing `Ctrl/Command + Shift + p` Then 
 }
 ```
 After that head to the command palette again and search for `Python: Select Interpreter` then from the list that shows up you can select your environment. If you create a new Terminal you can find that all your changes have been applied.
-
-
-
