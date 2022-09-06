@@ -10,14 +10,14 @@ Lab 2: Git, GitHub, and GitHub pages
 3. Create a local project folder on your computer containing code that you want to track. For example, you might want to create a folder for your course homeworks, or for these labs, or for your final project when the time comes. For now, let’s just make a test repository, to make sure that everything is working.
 
 ```
-    $ mkdir test_repo
-	$ cd test_repo
+$ mkdir test_repo
+$ cd test_repo
 ```
 
 4. You should now be inside your new repository. Add a README.md file to your local repository. You can use a text editor like VSCode, Jupyter Lab, or Sublime Text, or you can do this in the Terminal with your preferred editor (I use emacs):
 
 ```
-    $ emacs README.md
+$ emacs README.md
 ```
 
 5. Connect your local project to a public GitHub repo by following the instructions here. Briefly, you will start by logging into your GitHub account, and then making a repository with the exact same name as your local project folder. When prompted, do *not* initialize your online remote repo with a README or license. When the empty repository has been created, it should be located online.
@@ -27,12 +27,12 @@ Lab 2: Git, GitHub, and GitHub pages
 6. On your empty repo's GitHub page, there will be instructions listing what to do in order to get everything working on your local repo. I've summarized them here. Briefly, in your local repo, you should initialize git, add/stage, commit them, switch branches, connect to the remote, and then push
 
 ```
-git init
-git add .
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/yourusername/test_repo.git
-git push -u origin main
+$ git init
+$ git add .
+$ git commit -m "first commit"
+$ git branch -M main
+$ git remote add origin https://github.com/yourusername/test_repo.git
+$ git push -u origin main
 ```
 
 If this is your first time setting up GitHub and git, the commands will fail at some point and you will be asked to set up your git and GitHub credentials. You can follow the prompts in your Terminal, but if that fails then you need to create a settings file manually. Create a top-level file on your system called `.gitconfig`. Mine is located at the top level `~/.gitconfig` and contains the following lines
@@ -52,19 +52,19 @@ If this is your first time setting up GitHub and git, the commands will fail at 
 8. The basic solo git workflow is pretty straightforward; it's like a manual Dropbox folder you manage from the Terminal. Make some changes to your local repository; for example, by editing into your README.md file. Whenever you want to apply those changes to the remote (the GitHub version of your code), first add these files in the Terminal (make sure you are in your repository). Since we already made a README.md file, you will need to start by staging the changes in your local repository. 
 
 ```
-	git add .
+$ git add .
 ```
 
 9. Then commit the changes with a short but descriptive message
 
 ```
-	git commit -m "added example changes to the README file"
+$ git commit -m "added example changes to the README file"
 ```
 
 10. Then finally send the update to GitHub
 
 ```
-	git push
+$ git push
 ```
 
 Both your local and the GitHub versions of your repo will keep track of the sequence of commits you've applied, making it easier to roll back your changes at any time. You'll notice that GitHub treats README.md as a special file---it renders it into a nice page, similar to a website's index page, that represents the first thing a user sees when they look at your repo. Usually we want to put a description of the repo, dependencies, and a minimal working example into the README.md---although sometimes the README contains full documentation, graphics, etc. The Google [Jax repository](https://github.com/google/jax) is a great example. Rather than HTML, the markup language used for README files is Markdown, which is like a blend of HTML and LaTeX with lighter syntax than either one. You can learn more from the [Markdown guide](https://www.markdownguide.org/basic-syntax/) or by looking at [the unrendered version](https://raw.githubusercontent.com/williamgilpin/cphy/main/README.md) of this course's own README file
@@ -111,45 +111,45 @@ Sometimes you just want to download a copy of someone's code without collaborati
 
 If there's a setup.py file in the repo, you can install using pip
 
-    pip install git+git://github.com/someusername/somerepo
+pip install git+git://github.com/someusername/somerepo
 
 
 ### Modifying commit history
 
 To alter or combine the last four commits, run
 ```
-   $ git rebase -i HEAD~4
+$ git rebase -i HEAD~4
 ```
 A text editor will pop up. Replace "pick" with "squash" for the commits that you want to merge together. It will then prompt you to come up with a new commit message for all of the commits that you just squashed.
 
 If you've already commited, you have to force the update:
 ```
-  $  git push origin main --force
+$ git push origin main --force
 ```
 ### Forking a repository summarized
 
 clone forked repo locally
-
-      >> git clone "https://...MY_USERNAME...
-
+```
+$ git clone "https://...MY_USERNAME...
+```
 add upstream branch
-
-    >> git remote add upstream "https://...THEIR_USERNAME...git
-
+```
+$ git remote add upstream "https://...THEIR_USERNAME...git
+```
 make a new branch
-
-     >> git add branch BRANCH_NAME
-
+```
+$ git add branch BRANCH_NAME
+```
 switch to new branch and make edits
-
-       >> git checkout BRANCH_NAME
-
+```
+$ git checkout BRANCH_NAME
+```
 push new commits
-
-     >> git add.
-     >> git commit -m "test commit plz ignore"
-     >> git push
-
+```
+$ git add .
+$ git commit -m "test commit plz ignore"
+$ git push
+```
 go to github and make a pull request
 
 
@@ -157,20 +157,20 @@ go to github and make a pull request
 
 Sometimes instead of `git add .` you need to use `git add --all`
 This can be fixed by stashing and then immediately un-stashing:
-
-    git stash
-    git stash apply
-
+```
+$ git stash
+$ git stash apply
+```
 ### Permission issues
 
 `error: insufficient permission for adding an object to repository database .git/objects`
 
 Somehow the ownership got messed up for some files. From project base directory, try running
-
-    cd .git/objects
-    ls -al
-    sudo chown -R yourname:yourgroup *
-
+```
+cd .git/objects
+ls -al
+sudo chown -R yourname:yourgroup *
+```
 yourname and yourgroup can be figured out by seeing what the majority of of the ls -al usernames and groups are. My "group" appeared to be staff for some reason. This answer is taken from [StackExchange](http://stackoverflow.com/questions/6448242/git-push-error-insufficient-permission-for-adding-an-object-to-repository-datab)
 
 
