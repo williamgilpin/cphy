@@ -10,14 +10,14 @@ Lab 2: Git, GitHub, and GitHub pages
 3. Create a local project folder on your computer containing code that you want to track. For example, you might want to create a folder for your course homeworks, or for these labs, or for your final project when the time comes. For now, let’s just make a test repository, to make sure that everything is working.
 
 ```
-    $ mkdir test_repo
-	$ cd test_repo
+$ mkdir test_repo
+$ cd test_repo
 ```
 
 4. You should now be inside your new repository. Add a README.md file to your local repository. You can use a text editor like VSCode, Jupyter Lab, or Sublime Text, or you can do this in the Terminal with your preferred editor (I use emacs):
 
 ```
-    $ emacs README.md
+$ emacs README.md
 ```
 
 5. Connect your local project to a public GitHub repo by following the instructions here. Briefly, you will start by logging into your GitHub account, and then making a repository with the exact same name as your local project folder. When prompted, do *not* initialize your online remote repo with a README or license. When the empty repository has been created, it should be located online.
@@ -27,12 +27,12 @@ Lab 2: Git, GitHub, and GitHub pages
 6. On your empty repo's GitHub page, there will be instructions listing what to do in order to get everything working on your local repo. I've summarized them here. Briefly, in your local repo, you should initialize git, add/stage, commit them, switch branches, connect to the remote, and then push
 
 ```
-git init
-git add .
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/yourusername/test_repo.git
-git push -u origin main
+$ git init
+$ git add .
+$ git commit -m "first commit"
+$ git branch -M main
+$ git remote add origin https://github.com/yourusername/test_repo.git
+$ git push -u origin main
 ```
 
 If this is your first time setting up GitHub and git, the commands will fail at some point and you will be asked to set up your git and GitHub credentials. You can follow the prompts in your Terminal, but if that fails then you need to create a settings file manually. Create a top-level file on your system called `.gitconfig`. Mine is located at the top level `~/.gitconfig` and contains the following lines
@@ -111,14 +111,14 @@ Sometimes you just want to download a copy of someone's code without collaborati
 
 If there's a setup.py file in the repo, you can install using pip
 
-    pip install git+git://github.com/someusername/somerepo
+pip install git+git://github.com/someusername/somerepo
 
 
 ### Modifying commit history
 
 To alter or combine the last four commits, run
 ```
-   $ git rebase -i HEAD~4
+$ git rebase -i HEAD~4
 ```
 A text editor will pop up. Replace "pick" with "squash" for the commits that you want to merge together. It will then prompt you to come up with a new commit message for all of the commits that you just squashed.
 
