@@ -43,6 +43,7 @@ The class website is located [here](https://www.wgilpin.com/cphy/?utm_source=en_
 + [Lecture: The QR algorithm for eigenvalues](https://github.com/williamgilpin/cphy/blob/main/talks/qr_eigenvalues.ipynb)
 
 
++ [Notes on using TACC](https://github.com/williamgilpin/howto/blob/master/using_tacc.md)
 
 <!-- + [`lab1`](https://github.com/williamgilpin/cphy/blob/main//lab2/lab1.ipynb)x -->
 
