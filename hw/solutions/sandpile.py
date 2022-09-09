@@ -15,8 +15,8 @@ class AbelianSandpile:
     n (int): The size of the grid
     grid (np.ndarray): The grid of the sandpile
     history (list): A list of the sandpile grids at each timestep
-    all_durations (list): A list of the durations of each avalanche
     """
+
 
     def __init__(self, n=100, random_state=None):
         self.n = n
@@ -25,6 +25,34 @@ class AbelianSandpile:
         self.history =[self.grid.copy()] # Why did we need to copy the grid?
         self.all_durations = list() # useful to keep track of the duration of toppling events
 
+    def _add_and_topple(self, i, j):
+        """
+        A recursive function that adds a grain and then topples the sandpile at 
+        location (i, j). Notice that we use the self.grid attribute to store global 
+        information across all the   recursive calls. This is a common pattern in 
+        recursive functions actingon lattices
+        """
+        self.grid[i, j] += 1
+
+        # Base case
+        if self.grid[i, j] < 4:
+            return None
+            
+        else:
+            # Decrease the height of the site
+            self.grid[i, j] -= 4
+
+            # Implement the absorbing boundary conditions: sandgrains
+            # that fall off the edge of the grid are lost.
+            if i > 0:
+                self._add_and_topple(i - 1, j)
+            if i < self.n - 1:
+                self._add_and_topple(i + 1, j)
+            if j > 0:
+                self._add_and_topple(i, j - 1)
+            if j < self.n - 1:
+                self._add_and_topple(i, j + 1)
+            return None
 
     def step(self):
         """
@@ -42,39 +70,42 @@ class AbelianSandpile:
         #
         #
         # My solution starts by dropping a grain, and then solving for all topple events 
-        #  until the sandpile is stable. Watch your boundary conditions carefully.
-        #
-        # I'd recommend using a while loop for the toppling events
+        # until the sandpile is stable. Watch your boundary conditions carefully.
         # We will use absorbing boundary conditions: excess sand grains fall off the edges
         # of the grid.
-        # In addition to updating self.grid, keep track of the topple durations in the 
-        # instance variable self.all_durations
         #
         #
         ########## YOUR CODE HERE ##########
 
-        # Drop a grain at a random location
+        # Pick a random location
         xi, yi = np.random.choice(self.n, 2)
-        self.grid[xi, yi] += 1
 
-        # Topple the sand grains
-        duration = 0
-        while np.any(self.grid >= 4):
-            topple_inds = np.where(self.grid >= 4)
-            sel_ind = np.random.choice(np.arange(len(topple_inds[0])))
-            ii, jj = (topple_inds[0][sel_ind], topple_inds[1][sel_ind])
-            self.grid[ii, jj] -= 4
-            if ii > 0:
-                self.grid[ii - 1, jj] += 1
-            if ii < self.n - 1:
-                self.grid[ii + 1, jj] += 1
-            if jj > 0:
-                self.grid[ii, jj - 1] += 1
-            if jj < self.n - 1:
-                self.grid[ii, jj + 1] += 1
-            duration += 1
-        if duration > 0:
-            self.all_durations.append(duration)
+        # Call the recursive topple function
+        self._add_and_topple(xi, yi)
+
+        ## Drop the grain and then topple the sand grains using an iterative solution:
+        ## topple a site, then check the entire lattice for sites that need to be 
+        # toppled. Repeat until the sandpile is stable.
+        # self.grid[xi, yi] += 1
+        # duration = 0
+        # while np.any(self.grid >= 4):
+        #     topple_inds = np.where(self.grid >= 4) # find a high site
+        #     sel_ind = np.random.choice(np.arange(len(topple_inds[0])))
+        #     ii, jj = (topple_inds[0][sel_ind], topple_inds[1][sel_ind])
+        #     self.grid[ii, jj] -= 4
+        #     if ii > 0:
+        #         self.grid[ii - 1, jj] += 1
+        #     if ii < self.n - 1:
+        #         self.grid[ii + 1, jj] += 1
+        #     if jj > 0:
+        #         self.grid[ii, jj - 1] += 1
+        #     if jj < self.n - 1:
+        #         self.grid[ii, jj + 1] += 1
+        #     duration += 1
+        # if duration > 0:
+        #     self.all_durations.append(duration)
+
+        
 
     # we use this decorator for class methods that don't require any of the attributes 
     # stored in self. Notice how we don't pass self to the method
@@ -94,18 +125,4 @@ class AbelianSandpile:
             if self.check_difference(self.grid, self.history[-1]) > 0:
                 self.history.append(self.grid.copy())
         return self.grid
-
-
-
-# vals, bins = np.histogram(all_avalanche_sizes, bins=np.logspace(np.log10(4), np.log10(1000), 50))
-# plt.figure()
-# plt.semilogy(bins[:-1], vals, '.', markersize=10)
-# plt.title('Avalanche size distribution')
-# plt.xlabel('Avalanche size')
-# plt.ylabel('Count')
-
-# vals, bins = np.histogram(all_avalanche_durations)
-# plt.figure()
-# plt.loglog(bins[:-1], vals, '.',  markersize=10)
-# # plt.loglog(bins[:-1], (vals[0] / bins[0]) * bins[:-1]**(-1), '-k') # plot 1/T scaling
 
