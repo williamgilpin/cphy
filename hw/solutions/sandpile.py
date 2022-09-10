@@ -2,7 +2,7 @@
 import numpy as np
 
 
-
+# DFS: O(N_v + N_E)
 
 class AbelianSandpile:
     """
@@ -83,8 +83,8 @@ class AbelianSandpile:
         # Call the recursive topple function
         self._add_and_topple(xi, yi)
 
-        ## Drop the grain and then topple the sand grains using an iterative solution:
-        ## topple a site, then check the entire lattice for sites that need to be 
+        # Drop the grain and then topple the sand grains using an iterative solution:
+        # topple a site, then check the entire lattice for sites that need to be 
         # toppled. Repeat until the sandpile is stable.
         # self.grid[xi, yi] += 1
         # duration = 0
