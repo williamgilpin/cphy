@@ -1,9 +1,6 @@
 #!/usr/bin/python
 import numpy as np
 
-
-
-
 class PercolationSimulation:
     """
     A simulation of a 2D directed percolation problem. Given a 2D lattice, blocked sites
@@ -136,31 +133,7 @@ class PercolationSimulation:
         self._flow_recursive(i, j - 1)
         self._flow_recursive(i - 1, j)
 
-
-    def _poll_neighbors(self, i, j):
-        """
-        Check whether there is a filled site adjacent to a site at coordinates i, j in 
-        self.grid_filled. Respects boundary conditions.
-        """
-        
-        ####### YOUR CODE HERE  #######################################################
-        # Hint: my solution is 4 lines of code in numpy, but you may get different 
-        # results depending on how you enforce the boundary conditions in your solution.
-        # Not needed for the recursive solution
-        ###############################################################################
-       
-        # I enforce boundary conditions using max/min, but you can also manually check
-        # Cases with if/else, or pad a series of zeros around the lattice to enforce
-        # occupied sites at the edges.
-        top = self.grid_filled[max(i - 1, 0), j] == 2
-        right = self.grid_filled[max(i, 0), min(j + 1, self.n - 1)] == 2
-        left = self.grid_filled[max(i, 0), max(j - 1, 0)] == 2
-        bottom = self.grid_filled[min(i + 1, self.n - 1), j] == 2
-
-        return any([top, left, right, bottom])
-
-
-    ## RECURSUVE
+    ## RECURSIVE
     def _flow(self):
         """
         Run a percolation simulation using recursion
@@ -184,56 +157,83 @@ class PercolationSimulation:
         for i in range(self.n):
             self._flow_recursive(0, i)
 
-    # ## NON-RECURSIVE
-    # def _flow(self):
-    #     """
-    #     Run a directed percolation simulation without recursion
 
-    #     This method writes to the grid and grid_filled attributes, but it does not
-    #     return anything. In other languages like Java or C, this method would return
-    #     void
-    #     """
+    def _poll_neighbors(self, i, j):
+        """
+        Check whether there is a filled site adjacent to a site at coordinates i, j in 
+        self.grid_filled. Respects boundary conditions.
+        """
+        
+        ####### YOUR CODE HERE  #######################################################
+        # Hint: my solution is 4 lines of code in numpy, but you may get different 
+        # results depending on how you enforce the boundary conditions in your solution.
+        # Not needed for the recursive solution
+        ###############################################################################
+       
+        # I enforce boundary conditions using max/min, but you can also manually check
+        # Cases with if/else, or pad a series of zeros around the lattice to enforce
+        # occupied sites at the edges.
+        top = self.grid_filled[max(i - 1, 0), j] == 2
+        right = self.grid_filled[max(i, 0), min(j + 1, self.n - 1)] == 2
+        left = self.grid_filled[max(i, 0), max(j - 1, 0)] == 2
+        bottom = self.grid_filled[min(i + 1, self.n - 1), j] == 2
 
-    #     ####### YOUR CODE HERE  ####### 
-    #     # Hints my non-recursive solution contains one row-wise for loop, which contains 
-    #     # several loops over individual lattice sites. You might need to visit each lattice 
-    #     # site more than once per row. In my implementation, split the logic of checking
-    #     # the von neumann neighborhood into a separate method _poll_neighbors, which
-    #     # returns a boolean indicating whether a neighbor is filled
-    #     #
-    #     # My recursive solution calls a second function, _flow_recursive, which takes 
-    #     # two lattice indices as arguments
-    #     ###############################################################################
+        return any([top, left, right, bottom])
 
-    #     # Fill first row
-    #     self.grid_filled[0, self.grid[0] == 1] = 2
+    ## NON-RECURSIVE
+    def _flow(self):
+        """
+        Run a directed percolation simulation without recursion
 
-    #     # Iterate over remaining rows
-    #     for i in range(1, self.n):
+        This method writes to the grid and grid_filled attributes, but it does not
+        return anything. In other languages like Java or C, this method would return
+        void
+        """
 
-    #         # We do two passes over the row: forwards and backwards. Why do we need the 
-    #         # second pass? Think about pathological site configurations that we might
-    #         # miss in the first pass alone
-    #         for j in np.hstack([np.arange(self.n), np.arange(self.n)[::-1]]):
-    #             if self.grid[i, j] == 1:
-    #                 if self._poll_neighbors(i, j):
-    #                     self.grid_filled[i, j] = 2
+        ####### YOUR CODE HERE  ####### 
+        # Hints my non-recursive solution contains one row-wise for loop, which contains 
+        # several loops over individual lattice sites. You might need to visit each lattice 
+        # site more than once per row. In my implementation, split the logic of checking
+        # the von neumann neighborhood into a separate method _poll_neighbors, which
+        # returns a boolean indicating whether a neighbor is filled
+        #
+        # My recursive solution calls a second function, _flow_recursive, which takes 
+        # two lattice indices as arguments
+        ###############################################################################
+
+        # Fill first row
+        self.grid_filled[0, self.grid[0] == 1] = 2
+
+        # Iterate over remaining rows
+        for i in range(1, self.n):
+
+            # We do two passes over the row: forwards and backwards. Why do we need the 
+            # second pass? Think about pathological site configurations that we might
+            # miss in the first pass alone
+            for j in np.hstack([np.arange(self.n), np.arange(self.n)[::-1]]):
+                if self.grid[i, j] == 1:
+                    if self._poll_neighbors(i, j):
+                        self.grid_filled[i, j] = 2
             
-    #         # Check to see if any sites in the current row are filled, and end the 
-    #         # simulation early if none. This isn't necessary, but saves runtime
-    #         # although the difference is a prefactor not a factor of N
-    #         if np.all(self.grid_filled[i] != 2):
-    #             break
+            # Check to see if any sites in the current row are filled, and end the 
+            # simulation early if none. This isn't necessary, but saves runtime
+            # although the difference is a prefactor not a factor of N
+            if np.all(self.grid_filled[i] != 2):
+                break
 
-    #     # Do a backwards pass over the grid to fill in any remaining sites. This step is
-    #     # not necessary to determine whether the lattice percolates, but it is necessary
-    #     # to make sure that our fill function finds all of the accessible sites
+        # Do a backwards pass over the grid to fill in any remaining sites. This step is
+        # not necessary to determine whether the lattice percolates, but it is necessary
+        # to make sure that our fill function finds all of the accessible sites
 
-    #     for i in range(2, self.n):
-    #         for j in np.hstack([np.arange(self.n), np.arange(self.n)[::-1]]):
-    #             if self.grid[self.n - i, j] == 1:
-    #                 if self._poll_neighbors(self.n - i, j):
-    #                     self.grid_filled[self.n - i, j] = 2
+        for i in range(2, self.n):
+            for j in np.hstack([np.arange(self.n), np.arange(self.n)[::-1]]):
+                if self.grid[self.n - i, j] == 1:
+                    if self._poll_neighbors(self.n - i, j):
+                        self.grid_filled[self.n - i, j] = 2
+
+
+
+
 
 
 
