@@ -42,7 +42,7 @@ The class website is located [here](https://www.wgilpin.com/cphy/?utm_source=en_
 + [Lecture 5: Numerical Linear Algebra, Condition Number, Preconditioning](https://github.com/williamgilpin/cphy/blob/main/talks/numerical_linear_algebra_preconditioning.ipynb)
 + [Lecture 6 : Matrix inversion and LU factorization](https://github.com/williamgilpin/cphy/blob/main/talks/lu_decomposition.ipynb)
 + [Lecture 7: The QR algorithm for eigenvalues](https://github.com/williamgilpin/cphy/blob/main/talks/qr_eigenvalues.ipynb)
-+ [Lecture 8: Krylov subspace methods](https://github.com/williamgilpin/cphy/blob/main/talks/krylov_methods.ipynb)
++ [Lecture 8: Krylov subspace methods & Conjugate gradient methods](https://github.com/williamgilpin/cphy/blob/main/talks/krylov_methods.ipynb)
 + [Lecture: Supervised Learning & The Ising Model](https://github.com/williamgilpin/cphy/blob/main/talks/supervised_learning_ising.ipynb)
 
 #### Additional Notes
