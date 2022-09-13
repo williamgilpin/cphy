@@ -2,7 +2,7 @@
 
 *This lab is under construction*
 
-The basic idea behind unit testing is to write short commands that check that every single method in your code is behaving as expected.
+The basic idea behind unit testing is to write short commands that check that every single method in your code is behaving as expected. The degree to which different methods are individually tested is the *coverage* of the tests. 
 
 For bigger projects, unit tests are incredibly useful for making iterative updates, or for accepting external pull requests.
 
