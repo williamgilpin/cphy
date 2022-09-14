@@ -34,7 +34,7 @@ The class website is located [here](https://www.wgilpin.com/cphy/?utm_source=en_
 + [Lab 2: git, GitHub, and GitHub Pages](labs/git_and_github.md)
 + [Lab 3: Documentation and Formatting](labs/documentation_and_formatting.md)
 + [Lab 4: Unit Testing](http://www.wgilpin.com/howto/python_unit_testing.html)
-+ [Lab 4: Structuring an Open-Source Repository](http://www.wgilpin.com/howto/python_project.html)
++ [Lab 5: Structuring an Open-Source Repository](http://www.wgilpin.com/howto/python_project.html)
 
 #### Lecture Slides and Notes
 + [Lecture 1: Python for Scientific Computing, Vectorization, and the Mandelbrot set](https://github.com/williamgilpin/cphy/blob/main/talks/python_intro.ipynb)
