@@ -3,15 +3,11 @@
 <img src="resources/overview.gif" alt="Overview of Methods in Course" width="100%"/>
 
 *(Left to Right): Avalanche activity cascades in a sandpile automaton; a vortex street formed by flow past a cylinder; and Turing patterns in a reaction-diffusion model. All simulations from the course homeworks; a higher-resolution video may be viewed [here](https://player.vimeo.com/video/739921904?title=0&byline=0&portrait=0)*
-
-
 <!-- <iframe src="https://player.vimeo.com/video/739921904?title=0&byline=0&portrait=0" width="100%" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
  -->
-
 <!-- https://user-images.githubusercontent.com/8154246/184846814-5b5c80e1-34f9-4063-9b26-36b2a0369827.mov -->
-
-
 <!-- <img src="https://user-images.githubusercontent.com/8154246/184846814-5b5c80e1-34f9-4063-9b26-36b2a0369827.mov" alt="Overview of Methods in Course" width="100%"/> -->
+
 
 # Computational Physics
 
@@ -25,25 +21,34 @@ The class website is located [here](https://www.wgilpin.com/cphy/?utm_source=en_
 
 ## Contents
 
+
+#### Homework Assignments
 + [HW1: The sandpile cellular automaton and directed percolation](https://github.com/williamgilpin/cphy/blob/main/hw/cellular_automata_complexity.ipynb). *Covers recursion, runtime scaling, vectorization*
 + [HW2: Linear dynamical systems and decomposing a chaotic flow](https://github.com/williamgilpin/cphy/blob/main/hw/matrices_unsupervised_learning.ipynb). *Covers numerical linear algebra, optimization, and unsupervised learning*
 + [HW3: Turing patterns and phase separation](https://github.com/williamgilpin/cphy/blob/main/hw/pde_turing.ipynb). *Covers numerical integration; finite-difference and spectral methods*
 + [HW4: Predicting turbulence with operator methods](https://github.com/williamgilpin/cphy/blob/main/hw/forecasting_regression_supervised.ipynb). *Covers Supervised learning, time series forecasting, ridge, kernel, and logistic regression*
 + [Homework solutions](https://github.com/williamgilpin/cphy/blob/main/hw/solutions/)
 
+#### Laboratory Exercises
 + [Lab 1: Getting started with Python](labs/getting_started_with_python.md)
 + [Lab 2: git, GitHub, and GitHub Pages](labs/git_and_github.md)
 + [Lab 3: Documentation and Formatting](labs/documentation_and_formatting.md)
++ [Lab 4: Unit Testing](http://www.wgilpin.com/howto/python_unit_testing.html)
++ [Lab 5: Structuring an Open-Source Repository](http://www.wgilpin.com/howto/python_project.html)
 
-+ [Lecture: Python for Scientific Computing, Vectorization, and the Mandelbrot set](https://github.com/williamgilpin/cphy/blob/main/talks/python_intro.ipynb)
-+ [Lecture: Inheritance, Object-Oriented Program, and the Game of Life](https://github.com/williamgilpin/cphy/blob/main/talks/inheritance_game_of_life.ipynb)
-+ [Lecture: Time & Space complexity, recursion, and solving a labyrinth](https://github.com/williamgilpin/cphy/blob/main/talks/time_and_space_complexity_recursion.ipynb)
-+ [Lecture: Recursion and the Fast Fourier Transform](https://github.com/williamgilpin/cphy/blob/main/talks/fast_fourier.ipynb)
-+ [Lecture: Numerical Linear Algebra, Condition Number, Preconditioning](https://github.com/williamgilpin/cphy/blob/main/talks/numerical_linear_algebra_preconditioning.ipynb)
-+ [Lecture: Matrix inversion and LU factorization](https://github.com/williamgilpin/cphy/blob/main/talks/lu_decomposition.ipynb)
-+ [Lecture: The QR algorithm for eigenvalues](https://github.com/williamgilpin/cphy/blob/main/talks/qr_eigenvalues.ipynb)
+#### Lecture Slides and Notes
++ [Lecture 1: Python for Scientific Computing, Vectorization, and the Mandelbrot set](https://github.com/williamgilpin/cphy/blob/main/talks/python_intro.ipynb)
++ [Lecture 2: Inheritance, Object-Oriented Program, and the Game of Life](https://github.com/williamgilpin/cphy/blob/main/talks/inheritance_game_of_life.ipynb)
++ [Lecture 3: Time & Space complexity, recursion, and solving a labyrinth](https://github.com/williamgilpin/cphy/blob/main/talks/time_and_space_complexity_recursion.ipynb)
++ [Lecture 4: Recursion and the Fast Fourier Transform](https://github.com/williamgilpin/cphy/blob/main/talks/fast_fourier.ipynb)
++ [Lecture 5: Numerical Linear Algebra, Condition Number, Preconditioning](https://github.com/williamgilpin/cphy/blob/main/talks/numerical_linear_algebra_preconditioning.ipynb)
++ [Lecture 6 : Matrix inversion and LU factorization](https://github.com/williamgilpin/cphy/blob/main/talks/lu_decomposition.ipynb)
++ [Lecture 7: The QR algorithm for eigenvalues](https://github.com/williamgilpin/cphy/blob/main/talks/qr_eigenvalues.ipynb)
++ [Lecture 8: Krylov subspace methods & Conjugate gradient methods](https://github.com/williamgilpin/cphy/blob/main/talks/krylov_methods.ipynb)
++ [Lecture 9: Optimization in low dimensions](https://github.com/williamgilpin/cphy/blob/main/talks/convex_optimization_univariate.ipynb)
++ [Lecture: Supervised Learning & The Ising Model](https://github.com/williamgilpin/cphy/blob/main/talks/supervised_learning_ising.ipynb)
 
-
+#### Additional Notes
 + [Notes on using TACC](https://github.com/williamgilpin/howto/blob/master/using_tacc.md)
 
 <!-- + [`lab1`](https://github.com/williamgilpin/cphy/blob/main//lab2/lab1.ipynb)x -->
@@ -53,9 +58,14 @@ The class website is located [here](https://www.wgilpin.com/cphy/?utm_source=en_
 
 If you find any errors or typos, please open an issue or submit a correction as a pull request on [GitHub](https://github.com/williamgilpin/cphy/).
 
-Please let us know if you find these materials helpful, so that we can keep track of the course's impact, which could potentially help us extend this course in future years.
+Please let us know if you find these materials helpful, so that we can keep track of the course's impact, which could potentially help us expand this course's offering in future years.
 
 Course-related questions are best posted on GitHub as [Discussions](https://github.com/williamgilpin/cphy/discussions) or Issues on [the course repository](https://github.com/williamgilpin/cphy/); for other issues, I be reached via [email](mailto:wgilpin@[saxetu%20spelled%20backwards].edu)
+
+
+## Attributions
+
+Portions of the material in this course are adapted or inspired by other open-source classes, including: [Pankaj Mehta's Machine Learning for Physics Course](https://github.com/drckf/mlreview_notebooks), [Chris Rycroft's Numerical Recipe's Course](https://people.math.wisc.edu/~chr/am205/fall19/), [Volodymyr Kuleshov's Applied Machine Learning course](https://github.com/kuleshov/cornell-cs5785-2022-applied-ml), [Fei-Fei Li's Deep Learning for Computer Vision course](http://cs231n.stanford.edu/), [Lorena Barba's CFD course](https://lorenabarba.com/blog/cfd-python-12-steps-to-navier-stokes/) and [Jim Crutchfield's Nonlinear Dynamics course](http://csc.ucdavis.edu/~chaos/courses/nlp/)
 
 
 ## Requirements
