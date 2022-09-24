@@ -33,8 +33,10 @@ The class website is located [here](https://www.wgilpin.com/cphy/?utm_source=en_
 + [Lab 1: Getting started with Python](labs/getting_started_with_python.md)
 + [Lab 2: git, GitHub, and GitHub Pages](labs/git_and_github.md)
 + [Lab 3: Documentation and Formatting](labs/documentation_and_formatting.md)
-+ [Lab 4: Unit Testing](http://www.wgilpin.com/howto/python_unit_testing.html)
-+ [Lab 5: Structuring an Open-Source Repository](http://www.wgilpin.com/howto/python_project.html)
++ [Lab 4: Automatically creating online documentation with Sphinx](http://www.wgilpin.com/howto/howto_sphinx.html)
++ [Lab 5: Unit Testing](http://www.wgilpin.com/howto/python_unit_testing.html)
++ [Lab 6: Structuring an Open-Source Repository](http://www.wgilpin.com/howto/python_project.html)
+
 
 #### Lecture Slides and Notes
 + [Lecture 1: Python for Scientific Computing, Vectorization, and the Mandelbrot set](https://github.com/williamgilpin/cphy/blob/main/talks/python_intro.ipynb)
