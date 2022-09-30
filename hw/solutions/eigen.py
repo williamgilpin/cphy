@@ -2,6 +2,8 @@
 import numpy as np
 
 
+# Answers to questions: Power method fails to converge when leading eigenvalue is complex
+
 import warnings
 class SpectralDecompositionPowerMethod:
     """
