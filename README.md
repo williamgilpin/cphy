@@ -52,7 +52,11 @@ The class website is located [here](https://www.wgilpin.com/cphy/?utm_source=en_
 + [Lecture 10: Multivariate Optimization and Potential Flows](https://github.com/williamgilpin/cphy/blob/main/talks/optimization_multivariate.ipynb)
 + [Lecture: Supervised Learning & The Ising Model](https://github.com/williamgilpin/cphy/blob/main/talks/supervised_learning_ising.ipynb)
 + [Lecture: Classification, Logistic Regression, and phases of matter](https://github.com/williamgilpin/cphy/blob/main/talks/logistic_regression_phases.ipynb)
++ [Lecture: Unsupervised learning, embedding, clustering](https://github.com/williamgilpin/cphy/blob/main/talks/unsupervised_clustering_embedding.ipynb)
 + [Lecture: Gaussian mixtures, expectation-maximization, and superresolution microscopy](https://github.com/williamgilpin/cphy/blob/main/talks/gmm_mle_em.ipynb)
+
+
+
 
 #### Additional Notes
 + [Notes on using TACC](https://github.com/williamgilpin/howto/blob/master/using_tacc.md)
