@@ -82,7 +82,7 @@ class SpectralDecompositionPowerMethod:
 
             prev = np.copy(vec)
             vec = A.dot(vec)
-            eig_val = np.linalg.norm(vec)
+            eig_val = np.linalg.norm(vec) # \sqrt(\sum_i x_i^2)
             vec = vec / eig_val
 
             vec = self.gamma * prev + (1 - self.gamma) * vec
