@@ -40,7 +40,7 @@ The class website is located [here](https://www.wgilpin.com/cphy/?utm_source=en_
 
 #### Lecture Slides and Notes
 + [Lecture 1: Python for Scientific Computing, Vectorization, and the Mandelbrot set](https://github.com/williamgilpin/cphy/blob/main/talks/python_intro.ipynb)
-+ [Lecture 2: Inheritance, Object-Oriented Program, and the Game of Life](https://github.com/williamgilpin/cphy/blob/main/talks/inheritance_game_of_life.ipynb)
++ [Lecture 2: Inheritance, Object-Oriented Programming, and the Game of Life](https://github.com/williamgilpin/cphy/blob/main/talks/inheritance_game_of_life.ipynb)
 + [Lecture 3: Time & Space complexity, recursion, and solving a labyrinth](https://github.com/williamgilpin/cphy/blob/main/talks/time_and_space_complexity_recursion.ipynb)
 + [Lecture 4: Recursion and the Fast Fourier Transform](https://github.com/williamgilpin/cphy/blob/main/talks/fast_fourier.ipynb)
 + [Lecture 5: Numerical Linear Algebra, Condition Number, Preconditioning](https://github.com/williamgilpin/cphy/blob/main/talks/numerical_linear_algebra_preconditioning.ipynb)
@@ -53,7 +53,7 @@ The class website is located [here](https://www.wgilpin.com/cphy/?utm_source=en_
 + [Lecture: Supervised Learning & The Ising Model](https://github.com/williamgilpin/cphy/blob/main/talks/supervised_learning_ising.ipynb)
 + [Lecture: Classification, Logistic Regression, and phases of matter](https://github.com/williamgilpin/cphy/blob/main/talks/logistic_regression_phases.ipynb)
 + [Lecture: Unsupervised learning, embedding, clustering](https://github.com/williamgilpin/cphy/blob/main/talks/unsupervised_clustering_embedding.ipynb)
-+ [Lecture: Time series representation, featurizing chaos](https://github.com/williamgilpin/cphy/blob/main/talks/time_series_chaos_clustering.ipynb)
++ [Lecture: Time series representation, featurizing chaos, kernel methods](https://github.com/williamgilpin/cphy/blob/main/talks/time_series_chaos_clustering.ipynb)
 + [Lecture: Gaussian mixtures, expectation-maximization, and superresolution microscopy](https://github.com/williamgilpin/cphy/blob/main/talks/gmm_mle_em.ipynb)
 
 
