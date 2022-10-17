@@ -58,7 +58,7 @@ Additionally, you might find it useful to include the following entries:
 
 ## Docstrings for classes
 
-For classes, we usually place the appropriate docstring at the top level, rather than within the `__init__` method. This ensures that the `help` command will print out the docstring for the class when it is called on the class itself, and not just on an instance of the class. 
+For classes, we usually place the appropriate docstring at the top level, rather than within the `__init__` method. However, placing documentation in the top-level class versus the `__init__` method is a [matter of convention,](https://peps.python.org/pep-0257/) and both are valid. However, in most environments, the `help` command will print out the docstring for both the class and the `__init__` method when it is called on the class itself, and not just on an instance of the class. 
 
 ```python
 class OrnsteinUhlenbeck:
@@ -67,12 +67,26 @@ class OrnsteinUhlenbeck:
     with Brownian forcing
 
     Args:
-        x0 (float): The location of the potential minimum
+        x0 (float): The location of the potential minimum. Defaults to 0.
 
     Attributes:
         x0 (float): The location of the potential minimum
         traj (list): The trajectory of the particle
 
+    Methods:
+        step: Simulate a single step of the process
+        run: Simulate the process for a given number of steps
+
+    Examples:
+        >>> ou = OrnsteinUhlenbeck()
+        >>> ou.run(10)
+        >>> ou.traj
+        [0.0, 0.1, 0.2, 0.30000000000000004, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
+
+    Notes:
+        This implementation uses a Gaussian random number generator to simulate the
+        discrete-time effects of Brownian forcing.
+        
     """
     def __init__(self, x0=0):
         self.x0 = x0
@@ -92,14 +106,31 @@ class OrnsteinUhlenbeck:
             curr = self.traj[-1]
         self.traj.append((curr - self.x0) + 0.1 * random.random())
         return self.traj[-1]
+
+    def run(self, n):
+        """
+        Simulate the process for a given number of steps
+
+        Args:
+            n (int): The number of steps to simulate
+
+        Returns:
+            list: The n steps of the dynamical process
+
+        """
+        for _ in range(n):
+            self.step()
+        return self.traj
 ```
 
 The docstring for the class itself should include a description of the class, and a description of each attribute. The docstring for the `__init__` method should include a description of the class, and a description of each argument. The docstring for class-specific methods like the `step` method should include a description of the method, and a description of the return value, just as for functions.
 
-+ Attributes: A description of each attribute of the class
-+ Methods: A description of each method of the class
-+ Raises: A description of any errors that may be raised by the class
-+ Warnings: A description of any warnings that may be raised by the class
-+ Notes: Any additional information that may be useful to the user
-+ See Also: A list of related classes
-+ Examples: A list of examples of how to use the class
+Some common fields in a class-level docstring are:
+
++ Attributes: A description of each attribute of the class. This would include instance variables that are bound to the class, such as `self.x0` in the example above.
++ Methods: A description of each method of the class. This would include custom instance methods, such as `step` in the example above. This usually would not include any methods inherited from a parent class.
++ Raises: A description of any errors that may be raised by the class, especially if the class is a subclass of a built-in class.
++ Warnings: A description of any warnings that may be raised by the class.
++ Notes: Any additional information that may be useful to the user, such as citations or a description of the algorithm used to implement the class.
++ See Also: A list of related classes or functions.
++ Examples: A list of examples of how to use the class.
