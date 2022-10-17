@@ -58,7 +58,7 @@ Additionally, you might find it useful to include the following entries:
 
 ## Docstrings for classes
 
-For classes, we usually place the appropriate docstring in the `__init__` method. This is because the `help` command will print out the docstring for the class when it is called on the class itself, and not on an instance of the class. 
+For classes, we usually place the appropriate docstring at the top level, rather than within the `__init__` method. This ensures that the `help` command will print out the docstring for the class when it is called on the class itself, and not just on an instance of the class. 
 
 ```python
 class OrnsteinUhlenbeck:
@@ -94,7 +94,7 @@ class OrnsteinUhlenbeck:
         return self.traj[-1]
 ```
 
-The docstring for the class itself should include a description of the class, and a description of each attribute. The docstring for the `__init__` method should include a description of the class, and a description of each argument. The docstring for the `step` method should include a description of the method, and a description of the return value.
+The docstring for the class itself should include a description of the class, and a description of each attribute. The docstring for the `__init__` method should include a description of the class, and a description of each argument. The docstring for class-specific methods like the `step` method should include a description of the method, and a description of the return value, just as for functions.
 
 + Attributes: A description of each attribute of the class
 + Methods: A description of each method of the class
