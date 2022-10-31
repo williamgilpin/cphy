@@ -2,9 +2,7 @@
 import numpy as np
 
 
-
-
-from scipy.integrate import odeint, solve_ivp
+from scipy.integrate import solve_ivp
 
 class AllenCahn:
     """
@@ -42,14 +40,20 @@ class AllenCahn:
         #
         ################################################################################
         
-        lap = np.zeros((self.ny, self.nx))
+        # lap = np.zeros((self.ny, self.nx))
 
         # enforce reflection boundary conditions by padding rows and columns
         grid = np.vstack([grid[0, :][None, :], grid, grid[-1, :][None, :]])
         grid  = np.hstack([grid[:, 0][:, None], grid, grid[:, -1][:, None]])
 
-        lap = grid[:-2, 1:-1] + grid[1:-1, :-2] + grid[2:, 1:-1] + grid[1:-1, 2:]
+        lap = np.zeros((self.ny, self.nx))
+        lap[1:-1, 1:-1] = grid[:-2, 1:-1] + grid[1:-1, :-2] + grid[2:, 1:-1] + grid[1:-1, 2:]
         lap  -= 4 * grid[1:-1, 1:-1]
+
+        # lap[0] = 
+        # lap[-1] =
+        # lap[: ,0] = 
+        # lap[:, :-1] = 
         
         lap /= self.dx * self.dy
         return lap
