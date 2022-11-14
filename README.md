@@ -53,6 +53,11 @@ The class website is located [here](https://www.wgilpin.com/cphy/?utm_source=en_
 + [Lecture 21: Unsupervised learning, embedding, clustering](https://github.com/williamgilpin/cphy/blob/main/talks/unsupervised_clustering_embedding.ipynb)
 + [Lecture 22: Time series representation, featurizing chaos, kernel methods](https://github.com/williamgilpin/cphy/blob/main/talks/time_series_chaos_clustering.ipynb)
 + [Lecture 23: Gaussian mixtures, expectation-maximization, and superresolution microscopy](https://github.com/williamgilpin/cphy/blob/main/talks/gmm_mle_em.ipynb)
++ [Lecture 24: Introduction to deep learning, predicting the Reynolds number of turbulence](https://github.com/williamgilpin/cphy/blob/main/talks/neural_networks_overview.ipynb)
++ [Lecture 25: Types of neural networks; symmetries in physical systems:](https://github.com/williamgilpin/cphy/blob/main/talks/neural_network_types.ipynb)
++ [Lecture 26: Training neural networks with backpropagation:](https://github.com/williamgilpin/cphy/blob/main/talks/neural_networks_training.ipynb)
++ [Lecture 27: Using convolutional neural networks to predict the phases of the Ising Model](https://github.com/williamgilpin/cphy/blob/main/talks/convolutional_neural_networks_pytorch.ipynb)
+
 
 #### Laboratory Exercises
 + [Lab 1: Getting started with Python](labs/getting_started_with_python.md)
