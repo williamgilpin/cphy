@@ -88,6 +88,14 @@ Course-related questions are best posted on GitHub as [Discussions](https://gith
 Portions of the material in this course are adapted or inspired by other open-source classes, including: [Pankaj Mehta's Machine Learning for Physics Course](https://github.com/drckf/mlreview_notebooks), [Chris Rycroft's Numerical Recipe's Course](https://people.math.wisc.edu/~chr/am205/fall19/), [Volodymyr Kuleshov's Applied Machine Learning course](https://github.com/kuleshov/cornell-cs5785-2022-applied-ml), [Fei-Fei Li's Deep Learning for Computer Vision course](http://cs231n.stanford.edu/), [Lorena Barba's CFD course](https://lorenabarba.com/blog/cfd-python-12-steps-to-navier-stokes/) and [Jim Crutchfield's Nonlinear Dynamics course](http://csc.ucdavis.edu/~chaos/courses/nlp/)
 
 
+## Example final Projects from 2022
+
++ [Quantum Reinforcement Learning with the Grover method](https://github.com/jiangzz-lab/GroverQLearning)
++ [Modelling the contractile dynamics of muscle](https://github.com/jakemcgrath1999/muscle_model)
++ [Neural System Identification by Training Recurrent Neural Networks](https://github.com/liuyuezhang/nsi)
++ [Testing particle phenomenology beyond the Standard Model with Bayesian classification](https://github.com/ramreddy-physics/Madgraph_Search)
+
+
 ## Requirements
 
 We will primarily use Python 3 with the following packages
