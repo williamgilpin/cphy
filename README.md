@@ -66,13 +66,18 @@ The class website is located [here](https://www.wgilpin.com/cphy/?utm_source=en_
 + [Lab 4: Automatically creating online documentation with Sphinx](http://www.wgilpin.com/howto/howto_sphinx.html)
 + [Lab 5: Unit Testing](http://www.wgilpin.com/howto/python_unit_testing.html)
 + [Lab 6: Structuring an Open-Source Repository](http://www.wgilpin.com/howto/python_project.html)
-
-
-#### Additional Notes
 + [Notes on using TACC](https://github.com/williamgilpin/howto/blob/master/using_tacc.md)
 
+<!-- #### Additional Notes
++ [Notes on using TACC](https://github.com/williamgilpin/howto/blob/master/using_tacc.md) -->
 <!-- + [`lab1`](https://github.com/williamgilpin/cphy/blob/main//lab2/lab1.ipynb)x -->
 
+## Example Final Projects
+
++ [Quantum Reinforcement Learning with the Grover method](https://github.com/jiangzz-lab/GroverQLearning)
++ [Modelling the contractile dynamics of muscle](https://github.com/jakemcgrath1999/muscle_model)
++ [Neural System Identification by Training Recurrent Neural Networks](https://github.com/liuyuezhang/nsi)
++ [Testing particle phenomenology beyond the Standard Model with Bayesian classification](https://github.com/ramreddy-physics/Madgraph_Search)
 
 ## Fixes, typos, and improvements
 
@@ -82,12 +87,7 @@ Please let us know if you find these materials helpful, so that we can keep trac
 
 Course-related questions are best posted on GitHub as [Discussions](https://github.com/williamgilpin/cphy/discussions) or Issues on [the course repository](https://github.com/williamgilpin/cphy/); for other issues, I be reached via [email](mailto:wgilpin@[saxetu%20spelled%20backwards].edu)
 
-## Example final Projects from 2022
 
-+ [Quantum Reinforcement Learning with the Grover method](https://github.com/jiangzz-lab/GroverQLearning)
-+ [Modelling the contractile dynamics of muscle](https://github.com/jakemcgrath1999/muscle_model)
-+ [Neural System Identification by Training Recurrent Neural Networks](https://github.com/liuyuezhang/nsi)
-+ [Testing particle phenomenology beyond the Standard Model with Bayesian classification](https://github.com/ramreddy-physics/Madgraph_Search)
 
 
 ## Requirements
