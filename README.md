@@ -79,13 +79,13 @@ The class website is located [here](https://www.wgilpin.com/cphy/?utm_source=en_
 + [Neural System Identification by Training Recurrent Neural Networks](https://github.com/liuyuezhang/nsi)
 + [Testing particle phenomenology beyond the Standard Model with Bayesian classification](https://github.com/ramreddy-physics/Madgraph_Search)
 
-## Fixes, typos, and improvements
+## Usage and improvements
+
+If you are teaching a similar course, please feel free to use any or all of these materials. If you have any suggestions for improvements or find any errors, I would very much appreciate any feedback. 
 
 If you find any errors or typos, please open an issue or submit a correction as a pull request on [GitHub](https://github.com/williamgilpin/cphy/).
 
-Please let us know if you find these materials helpful, so that we can keep track of the course's impact, which could potentially help us expand this course's offering in future years.
-
-Course-related questions are best posted on GitHub as [Discussions](https://github.com/williamgilpin/cphy/discussions) or Issues on [the course repository](https://github.com/williamgilpin/cphy/); for other issues, I be reached via [email](mailto:wgilpin@[saxetu%20spelled%20backwards].edu)
+For students, course-related questions are best posted on GitHub as [Discussions](https://github.com/williamgilpin/cphy/discussions) or Issues on [the course repository](https://github.com/williamgilpin/cphy/); for other issues, I be reached via [email](mailto:wgilpin@[saxetu%20spelled%20backwards].edu)
 
 
 
