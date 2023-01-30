@@ -71,10 +71,6 @@ The class website is located [here](https://www.wgilpin.com/cphy/?utm_source=en_
 + [Lab 5: Unit Testing](http://www.wgilpin.com/howto/python_unit_testing.html)
 + [Lab 6: Structuring an Open-Source Repository](http://www.wgilpin.com/howto/python_project.html)
 
-<!-- #### Additional Notes
-+ [Notes on using TACC](https://github.com/williamgilpin/howto/blob/master/using_tacc.md) -->
-<!-- + [`lab1`](https://github.com/williamgilpin/cphy/blob/main//lab2/lab1.ipynb)x -->
-
 ## Example Final Projects
 
 + [Quantum Reinforcement Learning with the Grover method](https://github.com/jiangzz-lab/GroverQLearning)
