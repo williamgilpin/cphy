@@ -29,7 +29,7 @@ The class website is located [here](https://www.wgilpin.com/cphy/?utm_source=en_
 + [HW4: Predicting turbulence with operator methods](https://github.com/williamgilpin/cphy/blob/main/hw/forecasting_regression_supervised.ipynb). *Covers Supervised learning, time series forecasting, ridge, kernel, and logistic regression*
 + [Homework solutions](https://github.com/williamgilpin/cphy/blob/main/hw/solutions/)
 
-#### Lecture Slides and Notes
+#### Lecture Slides
 + [Lecture 1: Python for Scientific Computing, Vectorization, and the Mandelbrot set](https://github.com/williamgilpin/cphy/blob/main/talks/python_intro.ipynb)
 + [Lecture 2: Inheritance, Object-Oriented Programming, and the Game of Life](https://github.com/williamgilpin/cphy/blob/main/talks/inheritance_game_of_life.ipynb)
 + [Lecture 3: Time & Space complexity, recursion, and solving a labyrinth](https://github.com/williamgilpin/cphy/blob/main/talks/time_and_space_complexity_recursion.ipynb)
@@ -43,11 +43,11 @@ The class website is located [here](https://www.wgilpin.com/cphy/?utm_source=en_
 + [Lecture 11: Multivariate Optimization and Potential Flows](https://github.com/williamgilpin/cphy/blob/main/talks/optimization_multivariate.ipynb)
 + [Lecture 12: Numerical Integration and predicting chaos](https://github.com/williamgilpin/cphy/blob/main/talks/lorenz_odeint.ipynb)
 + [Lecture 13: Variable step integration, symplectic and stochastic systems](https://github.com/williamgilpin/cphy/blob/main/talks/integrator_chaos_variable_step.ipynb)
-+ [Lecture 14: A pragmatist's guide to numerical integration](https://github.com/williamgilpin/cphy/blob/main/talks/pragmatic_integration.ipynb)
++ [Lecture 14: A pragmatist's guide to numerical integration](https://github.com/williamgilpin/cphy/blob/main/talks/pragmatic_integration.ipynb) [video](https://www.youtube.com/watch?v=hUgcgO1ZJMQ)
 + [Lecture 15: Boundary value problems and electrodynamics](https://github.com/williamgilpin/cphy/blob/main/talks/laplace_equation.ipynb)
 + [Lecture 16: Shocks, solitons, and hyperbolic partial differential equations](https://github.com/williamgilpin/cphy/blob/main/talks/hyperbolic_pde.ipynb)
-+ [Lecture 17: Spectral methods using the Dedalus Python Package](https://github.com/williamgilpin/cphy/blob/main/talks/dedalus.ipynb)
-+ [Lecture 18: Supervised Learning & The Ising Model](https://github.com/williamgilpin/cphy/blob/main/talks/supervised_learning_ising.ipynb)
++ [Lecture 17: Spectral methods using the Dedalus Python Package](https://github.com/williamgilpin/cphy/blob/main/talks/dedalus.ipynb) [video](https://www.youtube.com/watch?v=9Biw4oVs-sA)
++ [Lecture 18: Supervised Learning & The Ising Model](https://github.com/williamgilpin/cphy/blob/main/talks/supervised_learning_ising.ipynb) [video](https://www.youtube.com/watch?v=DEAaoJpl6-Y)
 + [Lecture 19: Classification, Logistic Regression, and phases of matter](https://github.com/williamgilpin/cphy/blob/main/talks/logistic_regression_phases.ipynb)
 + [Lecture 20: Overfitting, bias-variance tradeoff, and double-descent](https://github.com/williamgilpin/cphy/blob/main/talks/overfitting_bias_variance_free_lunch.ipynb)
 + [Lecture 21: Unsupervised learning, embedding, clustering](https://github.com/williamgilpin/cphy/blob/main/talks/unsupervised_clustering_embedding.ipynb)
@@ -58,6 +58,10 @@ The class website is located [here](https://www.wgilpin.com/cphy/?utm_source=en_
 + [Lecture 26: Training neural networks with backpropagation:](https://github.com/williamgilpin/cphy/blob/main/talks/neural_networks_training.ipynb)
 + [Lecture 27: Using convolutional neural networks to predict the phases of the Ising Model](https://github.com/williamgilpin/cphy/blob/main/talks/convolutional_neural_networks_pytorch.ipynb)
 
+#### Notes
+
++ [Howe to use the high-performance computing cluster](https://github.com/williamgilpin/howto/blob/master/using_tacc.md)
++ [Matrix Derivatives notes by Yuezhang Liu](https://github.com/williamgilpin/cphy/blob/main/talks/matrix_derivative.ipynb)
 
 #### Laboratory Exercises
 + [Lab 1: Getting started with Python](labs/getting_started_with_python.md)
@@ -66,7 +70,6 @@ The class website is located [here](https://www.wgilpin.com/cphy/?utm_source=en_
 + [Lab 4: Automatically creating online documentation with Sphinx](http://www.wgilpin.com/howto/howto_sphinx.html)
 + [Lab 5: Unit Testing](http://www.wgilpin.com/howto/python_unit_testing.html)
 + [Lab 6: Structuring an Open-Source Repository](http://www.wgilpin.com/howto/python_project.html)
-+ [Notes on using TACC](https://github.com/williamgilpin/howto/blob/master/using_tacc.md)
 
 <!-- #### Additional Notes
 + [Notes on using TACC](https://github.com/williamgilpin/howto/blob/master/using_tacc.md) -->
