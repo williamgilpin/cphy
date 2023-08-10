@@ -65,7 +65,7 @@ The class website is located [here](https://www.wgilpin.com/cphy/?utm_source=en_
 
 #### Laboratory Exercises
 + [Lab 1: Getting started with Python](labs/getting_started_with_python.md)
-+ [Lab 2: git, GitHub, and GitHub Pages](labs/git_and_github.md)
++ [Lab 2: git, GitHub, and GitHub Pages](http://www.wgilpin.com/howto/python_unit_testing.html)
 + [Lab 3: Documentation and Formatting](labs/documentation_and_formatting.md)
 + [Lab 4: Automatically creating online documentation with Sphinx](http://www.wgilpin.com/howto/howto_sphinx.html)
 + [Lab 5: Unit Testing](http://www.wgilpin.com/howto/python_unit_testing.html)
@@ -84,7 +84,7 @@ If you are teaching a similar course, please feel free to use any or all of thes
 
 If you find any errors or typos, please open an issue or submit a correction as a pull request on [GitHub](https://github.com/williamgilpin/cphy/).
 
-For students, course-related questions are best posted on GitHub as [Discussions](https://github.com/williamgilpin/cphy/discussions) or Issues on [the course repository](https://github.com/williamgilpin/cphy/); for other issues, I be reached via [email](mailto:wgilpin@[saxetu%20spelled%20backwards].edu)
+For students, course-related questions are best posted on GitHub as [Discussions](https://github.com/williamgilpin/cphy/discussions) or Issues on [the course repository](https://github.com/williamgilpin/cphy/); for other issues, I can be reached via [email](mailto:wgilpin@[saxetu%20spelled%20backwards].edu)
 
 
 
