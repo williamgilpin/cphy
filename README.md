@@ -65,7 +65,7 @@ The class website is located [here](https://www.wgilpin.com/cphy/?utm_source=en_
 
 #### Laboratory Exercises
 + [Lab 1: Getting started with Python](labs/getting_started_with_python.md)
-+ [Lab 2: git, GitHub, and GitHub Pages](http://www.wgilpin.com/howto/python_unit_testing.html)
++ [Lab 2: git, GitHub, and GitHub Pages](http://www.wgilpin.com/howto/howto_github.html)
 + [Lab 3: Documentation and Formatting](labs/documentation_and_formatting.md)
 + [Lab 4: Automatically creating online documentation with Sphinx](http://www.wgilpin.com/howto/howto_sphinx.html)
 + [Lab 5: Unit Testing](http://www.wgilpin.com/howto/python_unit_testing.html)
