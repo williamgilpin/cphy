@@ -13,6 +13,7 @@ private*
 dump*
 *largefile*
 pylbm*
+*long.npz
 
 # PyTorch checkpoints
 *.pth.tar
