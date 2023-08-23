@@ -31,7 +31,9 @@ The class website is located [here](https://www.wgilpin.com/cphy/?utm_source=en_
 
 #### Lecture Slides
 + [Lecture 1: Python for Scientific Computing, Vectorization, and the Mandelbrot set](https://github.com/williamgilpin/cphy/blob/main/talks/python_intro.ipynb)
-+ [Lecture 2: Inheritance, Object-Oriented Programming, and the Game of Life](https://github.com/williamgilpin/cphy/blob/main/talks/inheritance_game_of_life.ipynb)
++ [Lecture 1b: Object-oriented programming to find first-passage times of Brownian motion](https://github.com/williamgilpin/cphy/blob/main/talks/first_passage_and_inheritance.ipynb)
++ [Lecture 1c: Vectorization, and the Mandelbrot set](https://github.com/williamgilpin/cphy/blob/main/talks/python_intro.ipynb)
++ [Lecture 2: Object-Oriented Programming and the Game of Life](https://github.com/williamgilpin/cphy/blob/main/talks/inheritance_game_of_life.ipynb)
 + [Lecture 3: Time & Space complexity, recursion, and solving a labyrinth](https://github.com/williamgilpin/cphy/blob/main/talks/time_and_space_complexity_recursion.ipynb)
 + [Lecture 4: Recursion and the Fast Fourier Transform](https://github.com/williamgilpin/cphy/blob/main/talks/fast_fourier.ipynb)
 + [Lecture 5: Numerical Linear Algebra, Condition Number, Preconditioning](https://github.com/williamgilpin/cphy/blob/main/talks/numerical_linear_algebra_preconditioning.ipynb)
