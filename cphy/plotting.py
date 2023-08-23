@@ -29,3 +29,27 @@ def plt_sphere(pts, radius, ax=None):
         ax.plot_surface(x, y, z, color='b', alpha=0.8)
     
     return ax
+
+from ipywidgets import interact, IntSlider, Layout
+def sliderplot(arr, figsize=(6, 6), width='100%', **kwargs):
+    """
+    Given a 3-dimensional array, plot the last two dimensions and make a slider along
+    the first dimension.
+
+    Args:
+        arr (ndarray): a 3-dimensional array
+        figsize (tuple): the size of the figure
+        width (str): the width of the slider
+        **kwargs: keyword arguments to pass to plt.imshow
+    """
+    n = arr.shape[0]
+    def plotter(i):
+        fig = plt.figure(figsize=figsize)
+        plt.imshow(arr[i], **kwargs)
+        plt.show()
+    interact(
+        plotter, 
+        i=IntSlider(
+            min=0, max=n-1, step=1, value=0, layout=Layout(width=width)
+        )
+    )
