@@ -31,7 +31,7 @@ The class website is located [here](https://www.wgilpin.com/cphy/?utm_source=en_
 
 #### Lecture Slides
 + [Lecture 1: Python syntax for Scientific Computing](https://github.com/williamgilpin/cphy/blob/main/talks/python_intro.ipynb)
-+ [Lecture 1b: Object-oriented programming to find first-passage times of Brownian motion](https://github.com/williamgilpin/cphy/blob/main/talks/first_passage_and_inheritance.ipynb)[[video]](https://youtu.be/N8PJH9WxvUk)
++ [Lecture 1b: Object-oriented programming to find first-passage times of Brownian motion](https://github.com/williamgilpin/cphy/blob/main/talks/first_passage_and_inheritance.ipynb) [[video]](https://youtu.be/N8PJH9WxvUk)
 + [Lecture 1c: Vectorization, arrays, and the Mandelbrot set](https://github.com/williamgilpin/cphy/blob/main/talks/vectorization_mandelbrot.ipynb)
 + [Lecture 2: Object-Oriented Programming and the Game of Life](https://github.com/williamgilpin/cphy/blob/main/talks/inheritance_game_of_life.ipynb)
 + [Lecture 3: Time & Space complexity, recursion, and solving a labyrinth](https://github.com/williamgilpin/cphy/blob/main/talks/time_and_space_complexity_recursion.ipynb)
