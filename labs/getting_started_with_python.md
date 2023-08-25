@@ -17,13 +17,13 @@ This virtual environment will be used to isolate your code and the packages on w
 
 4.  Before writing any code, always make sure that you have activated your environment.
 
-```
+```bash
   $ conda activate hwenv
 ```
 
 5. We can now start Python and check that it is working
 
-```
+```bash
     (hwenv) $ python
 ```
 
@@ -36,9 +36,9 @@ This virtual environment will be used to isolate your code and the packages on w
 
 7. Terminate the Python process with Ctrl + D on \*nix, or  Ctrl + Z followed by Enter on Windows.
 
-8. (Optional). If your Python version does not start with a 3, delete your environment and then make a new environment with a newer version
+8. *(Optional).* If your Python version does not start with a 3, delete your environment and then make a new environment with a newer version
 
-```
+```bash
   $ (hwenv) $ conda deactivate
   $ conda remove -n hwenv --all
   $ conda create -n hwenv python=3
@@ -47,26 +47,27 @@ This virtual environment will be used to isolate your code and the packages on w
 
 9. Back in the Terminal, install some other packages that we will end up using a lot
 
+```bash
+  $ conda activate hwenv
+  (hwenv) $ conda install numpy matplotlib 
+  (hwenv) $ conda install -c conda-forge jupyterlab
 ```
-  $ conda install numpy matplotlib 
-  $ conda install -c conda-forge jupyterlab
+Notice how your current environment appears to the left of the `$` symbol.
+
+10. There are two ways that I would recommend using Jupyter notebooks for the class. One option is to manually activate an environment and then launch the notebook server from the Terminal.
+
+```bash
+  (hwenv) $ jupyter lab
 ```
+This should forcefully open a browser window running the environment. You can run this step to make sure that everything is working.
 
-10. There are two ways that I would recommend using Jupyter notebooks for the class. One option is to manually activate an environment and then launch the notebook server from the Terminal. The other option is to let an IDE like VSCode handle everything for you, and just launch notebooks from the GUI. There are lots of other options (like PyCharm). To try the browser option, make sure your hwenv (or whatever you called it) is activated in the Terminal. From the same prompt, run
+11. For a slightly more user-friendly experience, I recommend instead running your Jupyter Notebooks within a full-featured integrated development environment (IDE). I really like Visual Studio Code and would currently recommend it over JupyterLab for the time being. [Installation instructions](https://code.visualstudio.com/). PyCharm is another option, though I will not be using it in this class.
 
-```
-    (hwenv) $ jupyter lab
-```
+If you successfully install VSCode, you can simply open the course notebooks by double-clicking them to open them in the VSCode GUI, as you would a document or slide deck. However, if opening a `.ipynb` file, you should always check in the upper-right-hand corner of the notebook that you are using the correct conda environment (since we skipped using the Terminal, we never specified what environment to use). VSCode should automatically find and list the available environments in a drop-down menu, and it will remember your selection for each notebook. 
 
-This should forcefully open a browser window running the environment.
+For VSCode, you will still need to use a Terminal session to create/edit your conda environments, as well as install and update packages into your environment.
 
-11. For a slightly more user-friendly experience, I recommend run our Jupyter Notebooks within a full-featured integrated development environment (IDE). I really like Visual Studio Code and would currently recommend it over JupyterLab for the time being. [Installation instructions](https://code.visualstudio.com/). You might also use PyCharm, although I am less familiar with that one.
-
-12. (Optional, recommended). If you successfully install VSCode above, you can just open the course notebooks using the VSCode GUI, as you would a document or slide deck. However, if opening a .ipynb file, you should always check in the upper-right-hand corner of the notebook that you are using the correct conda environment (since we skipped using the Terminal, we never specified what environment to use). VSCode should automatically find and list the available environments in a drop-down menu, and it will remember your selection for each notebook. 
-
-For VSCode, you will still need to use the Terminal to create/edit your conda environments, as well as install and update packages into your environment.
-
-13. To test that you have everything working, try running the Mandelbrot set example at the end of the [first lecture notebook](https://github.com/williamgilpin/cphy/blob/main/talks/python_intro.ipynb). You can also test out some of the code in the first homework.
+13. To test that you have everything working, try running the Python code in [first lecture notebook](https://github.com/williamgilpin/cphy/blob/main/talks/python_intro.ipynb). You can also test out some of the code in the first homework.
 
 <!-- 12. Now that we know that everything is working, head over to the class repository on GitHub and start working on Lab 1, which uses some parts of the Python ecosystem in order to make really cool embeddings of high-dimensional datasets. -->
 
@@ -77,19 +78,14 @@ For VSCode, you will still need to use the Terminal to create/edit your conda en
 
 On windows, `conda create` fails. Unset [SSL](https://stackoverflow.com/questions/50125472/issues-with-installing-python-libraries-on-windows-condahttperror-http-000-co) or use the Anaconda terminal
 
-
-Name of environment doesn't appear in Terminal on macOS
-+ ???
-
-Downloading and accessing files on GitHub
-+ Through GUI, and git clone
-
-Downloading ipynb file -- watch out for conversion to .txt
+How do I downloading and access files on GitHub?
++ You can download an entire repository as a zip file through the GitHub GUI, or use `git clone` from the Terminal
++ When downloading `ipynb` files from the browser, watch out for conversion to `.txt`
 
 
 Anaconda Navigator
 
-VSCode fails to automatically detect the environment.
+My VSCode fails to automatically detect the environment?
 + If VSCode failed to detect the environment automatically, you can point it toward the virtualenv like this:
 bring up the VSCode command palette by pressing `Ctrl/Command + Shift + p` Then type in the search bar  `Open Workspace Settings (JSON)` This creates a `settings.json` file in a `.vscode` directory where you have opened the VSCode. Then add these lines to it:
 ```json
