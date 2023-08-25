@@ -66,6 +66,8 @@ class RandomGaussianLandscape:
             plt.figure(figsize=(8, 8))
             ax = plt.gca()
         plt.scatter(X[:, 0], X[:, 1], c=Z, **kwargs)
+        plt.xlim(*plot_bounds[0])
+        plt.ylim(*plot_bounds[1])
         return ax
 
     def __call__(self, X):

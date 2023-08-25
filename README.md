@@ -25,14 +25,14 @@ The class website is located [here](https://www.wgilpin.com/cphy/?utm_source=en_
 #### Homework Assignments
 + [HW1: The sandpile cellular automaton and directed percolation](https://github.com/williamgilpin/cphy/blob/main/hw/cellular_automata_complexity.ipynb). *Covers recursion, runtime scaling, vectorization*
 + [HW2: Linear dynamical systems and decomposing a chaotic flow](https://github.com/williamgilpin/cphy/blob/main/hw/matrices_unsupervised_learning.ipynb). *Covers numerical linear algebra, optimization, and unsupervised learning*
-+ [HW3: Turing patterns and phase separation](https://github.com/williamgilpin/cphy/blob/main/hw/pde_turing.ipynb). *Covers numerical integration; finite-difference and spectral methods*
++ [HW3: Turing patterns and phase separation](https://github.com/williamgilpin/cphy/blob/main/hw/pde_turing.ipynb). *Covers numerical integration; finite-differences and spectral methods*
 + [HW4: Predicting turbulence with operator methods](https://github.com/williamgilpin/cphy/blob/main/hw/forecasting_regression_supervised.ipynb). *Covers Supervised learning, time series forecasting, ridge, kernel, and logistic regression*
 + [Homework solutions](https://github.com/williamgilpin/cphy/blob/main/hw/solutions/)
 
 #### Lecture Slides
 + [Lecture 1: Python syntax for Scientific Computing](https://github.com/williamgilpin/cphy/blob/main/talks/python_intro.ipynb)
 + [Lecture 1b: Object-oriented programming to find first-passage times of Brownian motion](https://github.com/williamgilpin/cphy/blob/main/talks/first_passage_and_inheritance.ipynb)[[video]](https://youtu.be/N8PJH9WxvUk)
-+ [Lecture 1c: Vectorization, and the Mandelbrot set](https://github.com/williamgilpin/cphy/blob/main/talks/vectorization_mandelbrot.ipynb)
++ [Lecture 1c: Vectorization, arrays, and the Mandelbrot set](https://github.com/williamgilpin/cphy/blob/main/talks/vectorization_mandelbrot.ipynb)
 + [Lecture 2: Object-Oriented Programming and the Game of Life](https://github.com/williamgilpin/cphy/blob/main/talks/inheritance_game_of_life.ipynb)
 + [Lecture 3: Time & Space complexity, recursion, and solving a labyrinth](https://github.com/williamgilpin/cphy/blob/main/talks/time_and_space_complexity_recursion.ipynb)
 + [Lecture 4: Recursion and the Fast Fourier Transform](https://github.com/williamgilpin/cphy/blob/main/talks/fast_fourier.ipynb)
@@ -42,8 +42,8 @@ The class website is located [here](https://www.wgilpin.com/cphy/?utm_source=en_
 + [Lecture 8: Singular Value Decomposition](https://github.com/williamgilpin/cphy/blob/main/talks/svd_decomp.ipynb)
 + [Lecture 9: Krylov subspace methods & Conjugate gradient methods](https://github.com/williamgilpin/cphy/blob/main/talks/krylov_methods.ipynb)
 + [Lecture 10: Optimization in low dimensions](https://github.com/williamgilpin/cphy/blob/main/talks/convex_optimization_univariate.ipynb)
-+ [Lecture 11: Multivariate Optimization and Potential Flows](https://github.com/williamgilpin/cphy/blob/main/talks/optimization_multivariate.ipynb)
-+ [Lecture 11.5: Monte Carlo Sampling and Hard Sphere Packing](https://github.com/williamgilpin/cphy/blob/main/talks/monte_carlo_metropolis.ipynb)
++ [Lecture 11a: Multivariate Optimization and Potential Flows](https://github.com/williamgilpin/cphy/blob/main/talks/optimization_multivariate.ipynb)
++ [Lecture 11b: Monte Carlo methods and Hard Sphere Packing](https://github.com/williamgilpin/cphy/blob/main/talks/monte_carlo_metropolis.ipynb)
 + [Lecture 12: Numerical Integration and predicting chaos](https://github.com/williamgilpin/cphy/blob/main/talks/lorenz_odeint.ipynb)
 + [Lecture 13: Variable step integration, symplectic and stochastic systems](https://github.com/williamgilpin/cphy/blob/main/talks/integrator_chaos_variable_step.ipynb)
 + [Lecture 14: A pragmatist's guide to numerical integration](https://github.com/williamgilpin/cphy/blob/main/talks/pragmatic_integration.ipynb) [[video]](https://www.youtube.com/watch?v=hUgcgO1ZJMQ)

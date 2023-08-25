@@ -2,6 +2,40 @@ import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 
+high_contrast = [
+    [0.372549, 0.596078, 1], 
+    [1.0, .3882, .2784], 
+    [0.20784314, 0.67843137, 0.6], 
+    [0.59607843, 0.25882353, 0.89019608],
+    [0.803922, 0.0627451, 0.462745], 
+    [0.917647, 0.682353, 0.105882],
+    [0.7, 0.7, 0.7]
+]
+blue, red, turquoise, purple, magenta, orange, gray  = high_contrast
+
+pastel_rainbow = np.array([
+    [221, 59,  53],
+    #[211, 132, 71],
+    [237, 157, 63],
+    [165, 180, 133],
+    [63,  148, 109], 
+    [50,  122, 137], 
+    [44,  115, 178], 
+    [43,  52,  124],
+    [164, 36, 124],
+    [186, 173, 214],
+    # [191, 163, 215],
+    # [139,  211, 126],
+    [163, 218, 133],
+    [136, 159, 122],
+    [168, 192, 221]
+])/255.
+
+pastel_rainbow_alt = pastel_rainbow[[0, 5, 3, 1, 7, 4, 2, 8, 6, 9, 10, 11]]
+
+# degas line plot colors
+royal_purple = np.array((120, 81, 169))/255.
+
 def plt_sphere(pts, radius, ax=None):
     """
     Plot a set of spheres with given centers and radii.
@@ -53,3 +87,12 @@ def sliderplot(arr, figsize=(6, 6), width='100%', **kwargs):
             min=0, max=n-1, step=1, value=0, layout=Layout(width=width)
         )
     )
+
+def vanish_axes(gca=None):
+    """Make all axes disappear from a plot"""
+    if not gca:
+        gca = plt.gca()
+    gca.set_axis_off()
+    gca.xaxis.set_major_locator(plt.NullLocator())
+    gca.yaxis.set_major_locator(plt.NullLocator())
+
