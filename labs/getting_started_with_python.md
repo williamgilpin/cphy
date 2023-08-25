@@ -3,7 +3,9 @@
 
 Additional information about Python and conda environments can be found in [William’s detailed notes](http://www.wgilpin.com/howto/howto_conda.html)
 
-1. Install Miniconda on your development environment. OS-specific instructions can be found [here](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html). macOS or Linux users should install [Homebrew](https://brew.sh/) as well. Depending on your research needs, you may find the [full Anaconda distribution](https://www.anaconda.com/) preferable. Advanced users may also want to consider [Mamba](https://mamba.readthedocs.io/en/latest/user_guide/mamba.html), which is a faster drop-in replacement for conda, but which has less existing support threads.
+1. Install Miniconda on your development environment. OS-specific instructions can be found [here](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html). macOS or Linux users should install [Homebrew](https://brew.sh/) as well. The instructions on the conda webpage include a step where you download an installer shell script with a `.sh` extension. The script you download depends very specifically on your OS and hardware (Intel, Apple Silicon, etc), double check that you download the correct [installation script version](https://docs.conda.io/en/latest/miniconda.html).
+
+Depending on your research needs, you may find the [full Anaconda distribution](https://www.anaconda.com/) preferable. Advanced users may also want to consider [Mamba](https://mamba.readthedocs.io/en/latest/user_guide/mamba.html), which is a faster drop-in replacement for conda, but which has less existing support threads.
 
 2. Open your computer’s terminal app. On Windows, Miniconda will install the Anaconda Terminal, which you can use as the default Terminal for this class. Otherwise, you may need to use [Windows Terminal](https://github.com/microsoft/terminal) or [gitbash](https://gitforwindows.org/) instead. If you plan to use Windows for the class, please keep track of any bugs or compatibility issues you encounter, as well as their solutions---that will make it easier for us to make the materials more accessible in future iterations.
 
@@ -45,6 +47,12 @@ This virtual environment will be used to isolate your code and the packages on w
   $ conda activate hwenv
 ```
 
+If you need to exit the environment for any reason in order to get back to your base Python installation, you can do so by running
+
+```bash
+  $ conda deactivate
+```
+
 9. Back in the Terminal, install some other packages that we will end up using a lot
 
 ```bash
@@ -65,9 +73,15 @@ This should forcefully open a browser window running the environment. You can ru
 
 If you successfully install VSCode, you can simply open the course notebooks by double-clicking them to open them in the VSCode GUI, as you would a document or slide deck. However, if opening a `.ipynb` file, you should always check in the upper-right-hand corner of the notebook that you are using the correct conda environment (since we skipped using the Terminal, we never specified what environment to use). VSCode should automatically find and list the available environments in a drop-down menu, and it will remember your selection for each notebook. 
 
+The first time you open a notebook, VSCode will prompt you to install extensions for Jupyter, Python, and a few other utilities. Go ahead and accept the installation.
+
 For VSCode, you will still need to use a Terminal session to create/edit your conda environments, as well as install and update packages into your environment.
 
-13. To test that you have everything working, try running the Python code in [first lecture notebook](https://github.com/williamgilpin/cphy/blob/main/talks/python_intro.ipynb). You can also test out some of the code in the first homework.
+13. To test that you have everything working, try downloading the [first lecture notebook](https://github.com/williamgilpin/cphy/blob/main/talks/python_intro.ipynb). Now would be a good time to make a dedicated folder on your local computer for this course. If you are a git user, you can clone the repository. Otherwise, you can download the notebook directly from the browser into the folder you've created.
+
+Open the notebook in VSCode or JupyterLab. If you are using VSCode, make sure that you have selected the correct conda environment in the upper-right-hand corner of the notebook.
+
+Run the cells in the notebook in order (top to bottom) by pressing Shift + Enter. If you get an error, make sure that you have activated the correct environment, and that you have installed the necessary packages.
 
 <!-- 12. Now that we know that everything is working, head over to the class repository on GitHub and start working on Lab 1, which uses some parts of the Python ecosystem in order to make really cool embeddings of high-dimensional datasets. -->
 
@@ -82,6 +96,8 @@ How do I downloading and access files on GitHub?
 + You can download an entire repository as a zip file through the GitHub GUI, or use `git clone` from the Terminal
 + When downloading `ipynb` files from the browser, watch out for conversion to `.txt`
 
+My conda installation throws strange errors that refer to an executable file
++ Double check that you downloaded the correct [installation script version](https://docs.conda.io/en/latest/miniconda.html) for your particular OS and hardware (Intel, Apple Silicon, etc)
 
 Anaconda Navigator
 
