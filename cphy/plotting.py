@@ -65,6 +65,7 @@ def plt_sphere(pts, radius, ax=None):
     return ax
 
 from ipywidgets import interact, IntSlider, Layout
+from IPython.display import display, clear_output
 def sliderplot(arr, figsize=(6, 6), width='100%', **kwargs):
     """
     Given a 3-dimensional array, plot the last two dimensions and make a slider along
@@ -76,17 +77,20 @@ def sliderplot(arr, figsize=(6, 6), width='100%', **kwargs):
         width (str): the width of the slider
         **kwargs: keyword arguments to pass to plt.imshow
     """
+
     n = arr.shape[0]
     def plotter(i):
+        plt.close()
         fig = plt.figure(figsize=figsize)
-        plt.imshow(arr[i], **kwargs)
+        plt.imshow(arr[i], **kwargs);
         plt.show()
     interact(
         plotter, 
         i=IntSlider(
             min=0, max=n-1, step=1, value=0, layout=Layout(width=width)
         )
-    )
+    );
+    
 
 def vanish_axes(gca=None):
     """Make all axes disappear from a plot"""
@@ -95,4 +99,3 @@ def vanish_axes(gca=None):
     gca.set_axis_off()
     gca.xaxis.set_major_locator(plt.NullLocator())
     gca.yaxis.set_major_locator(plt.NullLocator())
-
