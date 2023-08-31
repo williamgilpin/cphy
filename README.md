@@ -50,7 +50,7 @@ The class website is located [here](https://www.wgilpin.com/cphy/?utm_source=en_
 + [Lecture 12: Numerical Integration and predicting chaos](https://github.com/williamgilpin/cphy/blob/main/talks/lorenz_odeint.ipynb)
 + [Lecture 13: Variable step integration, symplectic and stochastic systems](https://github.com/williamgilpin/cphy/blob/main/talks/integrator_chaos_variable_step.ipynb)
 + [Lecture 14: A pragmatist's guide to numerical integration](https://github.com/williamgilpin/cphy/blob/main/talks/pragmatic_integration.ipynb) [[video]](https://www.youtube.com/watch?v=hUgcgO1ZJMQ)
-+ [Lecture 15a: Finite-difference schemes and instability](https://github.com/williamgilpin/cphy/blob/main/talks/diffusion.ipynb)
++ [Lecture 15a: Finite-difference schemes and instability](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/diffusion.ipynb)
 + [Lecture 15b: Boundary value problems and electrodynamics](https://github.com/williamgilpin/cphy/blob/main/talks/laplace_equation.ipynb)
 + [Lecture 16: Shocks, solitons, and hyperbolic partial differential equations](https://github.com/williamgilpin/cphy/blob/main/talks/hyperbolic_pde.ipynb)
 + [Lecture 17: Spectral methods using the Dedalus Python Package](https://github.com/williamgilpin/cphy/blob/main/talks/dedalus.ipynb) [[video]](https://www.youtube.com/watch?v=9Biw4oVs-sA)
