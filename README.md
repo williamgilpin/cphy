@@ -39,7 +39,7 @@ Many links below direct to Google Colaboratory, and can be run-in-browser withou
 <!-- [[video]](https://youtu.be/PqntSbG4IuM) -->
 + [Lecture 2: Runtime complexity, convolutions, and the continuous Game of Life](https://github.com/williamgilpin/cphy/blob/main/talks/inheritance_game_of_life.ipynb)
 + [Lecture 3: Finding the Feigenbaum constant with recursion and dynamic programming](https://github.com/williamgilpin/cphy/blob/main/talks/time_and_space_complexity_recursion.ipynb)
-+ [Lecture 4: Recursion and the Fast Fourier Transform](https://github.com/williamgilpin/cphy/blob/main/talks/fast_fourier.ipynb)
++ [Lecture 4: Detecting the onset of turbulence with the Fast Fourier Transform](https://github.com/williamgilpin/cphy/blob/main/talks/fast_fourier.ipynb)
 + [Lecture 5: Condition Number and the irreversibility of chaos](https://github.com/williamgilpin/cphy/blob/main/talks/numerical_linear_algebra_preconditioning.ipynb)
 + [Lecture 6 : Matrix inversion and LU factorization](https://github.com/williamgilpin/cphy/blob/main/talks/lu_decomposition.ipynb)
 + [Lecture 7: The QR algorithm for eigenvalues](https://github.com/williamgilpin/cphy/blob/main/talks/qr_eigenvalues.ipynb)
