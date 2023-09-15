@@ -82,29 +82,6 @@ class AbelianSandpile:
 
         # Call the recursive topple function
         self._add_and_topple(xi, yi)
-
-        # Drop the grain and then topple the sand grains using an iterative solution:
-        # topple a site, then check the entire lattice for sites that need to be 
-        # toppled. Repeat until the sandpile is stable.
-        # self.grid[xi, yi] += 1
-        # duration = 0
-        # while np.any(self.grid >= 4):
-        #     topple_inds = np.where(self.grid >= 4) # find a high site
-        #     sel_ind = np.random.choice(np.arange(len(topple_inds[0])))
-        #     ii, jj = (topple_inds[0][sel_ind], topple_inds[1][sel_ind])
-        #     self.grid[ii, jj] -= 4
-        #     if ii > 0:
-        #         self.grid[ii - 1, jj] += 1
-        #     if ii < self.n - 1:
-        #         self.grid[ii + 1, jj] += 1
-        #     if jj > 0:
-        #         self.grid[ii, jj - 1] += 1
-        #     if jj < self.n - 1:
-        #         self.grid[ii, jj + 1] += 1
-        #     duration += 1
-        # if duration > 0:
-        #     self.all_durations.append(duration)
-
         
 
     # we use this decorator for class methods that don't require any of the attributes 
