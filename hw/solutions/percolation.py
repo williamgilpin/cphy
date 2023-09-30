@@ -180,63 +180,6 @@ class PercolationSimulation:
 
         return any([top, left, right, bottom])
 
-    ## NON-RECURSIVE
-    def _flow(self):
-        """
-        Run a directed percolation simulation without recursion
-
-        This method writes to the grid and grid_filled attributes, but it does not
-        return anything. In other languages like Java or C, this method would return
-        void
-        """
-
-        ####### YOUR CODE HERE  ####### 
-        # Hints my non-recursive solution contains one row-wise for loop, which contains 
-        # several loops over individual lattice sites. You might need to visit each lattice 
-        # site more than once per row. In my implementation, split the logic of checking
-        # the von neumann neighborhood into a separate method _poll_neighbors, which
-        # returns a boolean indicating whether a neighbor is filled
-        #
-        # My recursive solution calls a second function, _flow_recursive, which takes 
-        # two lattice indices as arguments
-        ###############################################################################
-
-        # Fill first row
-        self.grid_filled[0, self.grid[0] == 1] = 2
-
-        # Iterate over remaining rows
-        for i in range(1, self.n):
-
-            # We do two passes over the row: forwards and backwards. Why do we need the 
-            # second pass? Think about pathological site configurations that we might
-            # miss in the first pass alone
-            for j in np.hstack([np.arange(self.n), np.arange(self.n)[::-1]]):
-                if self.grid[i, j] == 1:
-                    if self._poll_neighbors(i, j):
-                        self.grid_filled[i, j] = 2
-            
-            # Check to see if any sites in the current row are filled, and end the 
-            # simulation early if none. This isn't necessary, but saves runtime
-            # although the difference is a prefactor not a factor of N
-            if np.all(self.grid_filled[i] != 2):
-                break
-
-        # Do a backwards pass over the grid to fill in any remaining sites. This step is
-        # not necessary to determine whether the lattice percolates, but it is necessary
-        # to make sure that our fill function finds all of the accessible sites
-
-        for i in range(2, self.n):
-            for j in np.hstack([np.arange(self.n), np.arange(self.n)[::-1]]):
-                if self.grid[self.n - i, j] == 1:
-                    if self._poll_neighbors(self.n - i, j):
-                        self.grid_filled[self.n - i, j] = 2
-
-
-
-
-
-
-
 
     def percolate(self):
         """
