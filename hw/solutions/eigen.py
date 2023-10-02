@@ -85,6 +85,7 @@ class SpectralDecompositionPowerMethod:
             eig_val = np.linalg.norm(vec) # \sqrt(\sum_i x_i^2)
             vec = vec / eig_val
 
+            ## A heuristic: momentum based on the previous iteration
             vec = self.gamma * prev + (1 - self.gamma) * vec
 
             ## An even better heuristic: we update gamma based on the error signal
