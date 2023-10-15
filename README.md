@@ -45,7 +45,8 @@ Many links below direct to Google Colaboratory, and can be run-in-browser withou
 + [Lecture 6a: Random walks on complex graphs](https://github.com/williamgilpin/cphy/blob/main/talks/intro_graph_adjacency.ipynb)
 + [Lecture 6b: Probing collaborator graphs with LU matrix inversion](https://github.com/williamgilpin/cphy/blob/main/talks/lu_decomposition.ipynb)
 + [Lecture 7: Spectral graph theory and the QR eigenvalue algorithm](https://github.com/williamgilpin/cphy/blob/main/talks/qr_eigenvalues.ipynb)
-+ [Lecture 8: Singular Value Decomposition](https://github.com/williamgilpin/cphy/blob/main/talks/svd_decomp.ipynb)
++ [Lecture 8: Singular Value Decomposition](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/svd_decomp.ipynb)
+<!-- (https://github.com/williamgilpin/cphy/blob/main/talks/svd_decomp.ipynb) -->
 + [Lecture 9: Krylov subspace methods & Conjugate gradient methods](https://github.com/williamgilpin/cphy/blob/main/talks/krylov_methods.ipynb)
 + [Lecture 10: Optimization in low dimensions](https://github.com/williamgilpin/cphy/blob/main/talks/convex_optimization_univariate.ipynb)
 + [Lecture 11a: Multivariate Optimization and Potential Flows](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/optimization_multivariate.ipynb)
@@ -67,13 +68,13 @@ Many links below direct to Google Colaboratory, and can be run-in-browser withou
 + [Lecture 22: Time series representation, featurizing chaos, kernel methods](https://github.com/williamgilpin/cphy/blob/main/talks/time_series_chaos_clustering.ipynb)
 + [Lecture 23: Gaussian mixtures, expectation-maximization, and superresolution microscopy](https://github.com/williamgilpin/cphy/blob/main/talks/gmm_mle_em.ipynb)
 + [Lecture 24: Introduction to deep learning, predicting the Reynolds number of turbulence](https://github.com/williamgilpin/cphy/blob/main/talks/neural_networks_overview.ipynb)
-+ [Lecture 25: Types of neural networks; symmetries in physical systems:](https://github.com/williamgilpin/cphy/blob/main/talks/neural_network_types.ipynb)
-+ [Lecture 26: Training neural networks with backpropagation:](https://github.com/williamgilpin/cphy/blob/main/talks/neural_networks_training.ipynb)
++ [Lecture 25: Types of neural networks; symmetries in physical systems](https://github.com/williamgilpin/cphy/blob/main/talks/neural_networks_types.ipynb)
++ [Lecture 26: Training neural networks with backpropagation](https://github.com/williamgilpin/cphy/blob/main/talks/neural_networks_training.ipynb)
 + [Lecture 27: Using convolutional neural networks to predict the phases of the Ising Model](https://github.com/williamgilpin/cphy/blob/main/talks/convolutional_neural_networks_pytorch.ipynb)
 
 #### Notes
 
-+ [Howe to use the high-performance computing cluster](https://github.com/williamgilpin/howto/blob/master/using_tacc.md)
++ [How to use the high-performance computing cluster](https://github.com/williamgilpin/howto/blob/master/using_tacc.md)
 + [Matrix Derivatives notes by Yuezhang Liu](https://github.com/williamgilpin/cphy/blob/main/talks/matrix_derivative.ipynb)
 
 #### Laboratory Exercises
