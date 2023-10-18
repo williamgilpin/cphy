@@ -31,8 +31,10 @@ Many links below direct to Google Colaboratory, and can be run-in-browser withou
 + [Homework solutions](https://github.com/williamgilpin/cphy/blob/main/hw/solutions/)
 
 #### Lecture Slides
-+ [Lecture 1: Python syntax for Scientific Computing](https://www.wgilpin.com/cphy/talks/html_static/python_intro.html)[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/python_intro.ipynb)
-+ [Lecture 1b: Object-oriented programming to find first-passage times of Brownian motion](https://www.wgilpin.com/cphy/talks/html_static/first_passage_and_inheritance.html)[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/first_passage_and_inheritance.ipynb) 
++ [Lecture 1: Python syntax for Scientific Computing](https://www.wgilpin.com/cphy/talks/html_static/python_intro.html) 
+ [[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/python_intro.ipynb)
++ [Lecture 1b: Object-oriented programming to find first-passage times of Brownian motion](https://www.wgilpin.com/cphy/talks/html_static/first_passage_and_inheritance.html)
+ [[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/first_passage_and_inheritance.ipynb) 
 [[video]](https://youtu.be/N8PJH9WxvUk)
 [[video]](https://youtu.be/R1fDglciddo)
 + [Lecture 1c: Vectorization, arrays, and the Mandelbrot set](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/vectorization_mandelbrot.ipynb)
