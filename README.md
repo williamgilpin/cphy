@@ -50,7 +50,7 @@ Many links below direct to Google Colaboratory, and can be run-in-browser withou
  [[Raw Notebook]](https://github.com/williamgilpin/cphy/blob/main/talks/numerical_linear_algebra_preconditioning.ipynb)
 <!-- [[video]](https://youtu.be/9ZqXsIzBlCg) -->
 + [Lecture 6a: Random walks on complex graphs](https://www.wgilpin.com/cphy/talks/html_static/intro_graph_adjacency.html)
-  [[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/intro_graph_adjacency.ipynb
+  [[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/intro_graph_adjacency.ipynb)
 + [Lecture 6b: Probing collaborator graphs with LU matrix inversion](https://www.wgilpin.com/cphy/talks/html_static/lu_decomposition.html)
   [[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/lu_decomposition.ipynb)
 + [Lecture 7: Spectral graph theory and the QR eigenvalue algorithm](https://www.wgilpin.com/cphy/talks/html_static/qr_eigenvalues.html)
