@@ -40,29 +40,16 @@ class AllenCahn:
         #
         ################################################################################
         
-        # lap = np.zeros((self.ny, self.nx))
+        lap = np.zeros_like(grid)
+        lap[1:-1] = (grid[:-2, 1:-1] + grid[2:, 1:-1] - 2 * grid[1:-1, 1:-1]) / self.dx**2
+        lap[1:-1] += (grid[1:-1, :-2] + grid[1:-1, 2:] - 2 * grid[1:-1, 1:-1]) / self.dy**2
+        
+        # Reflection boundary conditions
+        lap[:, 0] = lap[:, 1]
+        lap[:, -1] = lap[:, -2]
+        lap[0, :] = lap[1, :]
+        lap[-1, :] = lap[-2, :]
 
-        # enforce reflection boundary conditions by padding rows and columns
-        grid = np.vstack([grid[0, :][None, :], grid, grid[-1, :][None, :]])
-        grid  = np.hstack([grid[:, 0][:, None], grid, grid[:, -1][:, None]])
-
-        lap = np.zeros((self.ny, self.nx))
-        lap[1:-1, 1:-1] = grid[:-2, 1:-1] + grid[1:-1, :-2] + grid[2:, 1:-1] + grid[1:-1, 2:]
-        lap  -= 4 * grid[1:-1, 1:-1]
-
-        # lap[0, :] = 2 * grid[1, :] - 2 * grid[0, :]
-        # lap[-1, :] = 2 * grid[-2, :]  - 2 * grid[-1, :]
-        # two more lines
-
-
-        # lap[0] = 
-        # lap[-1] =
-        # lap[: ,0] = 
-        # lap[:, :-1] = 
-        # lap = lap / (self.dx * self.dy)
-        ## doesne't work if dx != dy
-        ## reflct boundary conditions implement different
-        lap /= self.dx * self.dy
         return lap
 
     def _reaction(self, y):
@@ -116,7 +103,3 @@ class AllenCahn:
         sol = out.y.T
         tpts =  out.t
         return tpts, sol.reshape((len(tpts), self.ny, self.nx))
-
-
-
-
