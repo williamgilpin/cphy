@@ -50,11 +50,18 @@ class AllenCahn:
         lap[1:-1, 1:-1] = grid[:-2, 1:-1] + grid[1:-1, :-2] + grid[2:, 1:-1] + grid[1:-1, 2:]
         lap  -= 4 * grid[1:-1, 1:-1]
 
+        # lap[0, :] = 2 * grid[1, :] - 2 * grid[0, :]
+        # lap[-1, :] = 2 * grid[-2, :]  - 2 * grid[-1, :]
+        # two more lines
+
+
         # lap[0] = 
         # lap[-1] =
         # lap[: ,0] = 
         # lap[:, :-1] = 
-        
+        # lap = lap / (self.dx * self.dy)
+        ## doesne't work if dx != dy
+        ## reflct boundary conditions implement different
         lap /= self.dx * self.dy
         return lap
 
