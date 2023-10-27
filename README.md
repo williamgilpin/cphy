@@ -68,12 +68,13 @@ Many links below direct to Google Colaboratory, and can be run-in-browser withou
  [[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/optimization_multivariate.ipynb)
 <!-- (https://github.com/williamgilpin/cphy/blob/main/talks/optimization_multivariate.ipynb) -->
 + [Lecture 11b: Monte Carlo methods and Hard Sphere Packing](https://www.wgilpin.com/cphy/talks/html_static/monte_carlo_metropolis.html)
-  [[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/monte_carlo_metropolis.ipynb)
+[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/monte_carlo_metropolis.ipynb)
 <!-- (https://github.com/williamgilpin/cphy/blob/main/talks/monte_carlo_metropolis.ipynb) -->
 + [Lecture 12: Numerical Integration and predicting chaos](https://www.wgilpin.com/cphy/talks/html_static/lorenz_odeint.html)
 [[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/lorenz_odeint.ipynb)
 <!-- (https://github.com/williamgilpin/cphy/blob/main/talks/lorenz_odeint.ipynb) -->
-+ [Lecture 13: Variable step integration, symplectic and stochastic systems](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/integrator_chaos_variable_step.ipynb)
++ [Lecture 13: Variable step integration, symplectic and stochastic systems](https://www.wgilpin.com/cphy/talks/html_static/integrator_chaos_variable_step.html)
+  [[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/integrator_chaos_variable_step.ipynb)
 <!-- (https://github.com/williamgilpin/cphy/blob/main/talks/integrator_chaos_variable_step.ipynb) -->
 + [Lecture 14: A pragmatist's guide to numerical integration](https://github.com/williamgilpin/cphy/blob/main/talks/pragmatic_integration.ipynb) 
 <!-- [[video]](https://www.youtube.com/watch?v=hUgcgO1ZJMQ) -->
