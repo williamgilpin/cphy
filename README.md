@@ -81,19 +81,22 @@ Many links below direct to Google Colaboratory, and can be run-in-browser withou
 + [Lecture 15: Diffusion, relaxation, and instability](https://www.wgilpin.com/cphy/talks/html_static/laplace_equation.html)
   [[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/laplace_equation.ipynb)
 + [Lecture 16: Shocks, solitons, and hyperbolic partial differential equations](https://www.wgilpin.com/cphy/talks/html_static/hyperbolic_pde.html)
-[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/)
+[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/hyperbolic_pde.ipynb)
 <!-- (https://github.com/williamgilpin/cphy/blob/main/talks/hyperbolic_pde.ipynb) -->
 + [Lecture 17: Spectral solving using the Dedalus Python Package](https://github.com/williamgilpin/cphy/blob/main/talks/dedalus.ipynb) [[video]](https://www.youtube.com/watch?v=9Biw4oVs-sA)
 + [Lecture 18: Supervised Learning & The Ising Model](https://github.com/williamgilpin/cphy/blob/main/talks/supervised_learning_ising.ipynb) 
 <!-- [[video]](https://www.youtube.com/watch?v=DEAaoJpl6-Y) -->
 + [Lecture 19: Classification, Logistic Regression, and phases of matter](https://github.com/williamgilpin/cphy/blob/main/talks/logistic_regression_phases.ipynb)
-+ [Lecture 20: Overfitting, bias-variance tradeoff, and double-descent](https://github.com/williamgilpin/cphy/blob/main/talks/overfitting_bias_variance_free_lunch.ipynb)
++ [Lecture 20: Overfitting, bias-variance tradeoff, and double-descent](https://www.wgilpin.com/cphy/talks/html_static/overfitting_bias_variance_free_lunch.html)
+  [[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/overfitting_bias_variance_free_lunch.ipynb)
 + [Lecture 21: Unsupervised learning, embedding, clustering](https://github.com/williamgilpin/cphy/blob/main/talks/unsupervised_clustering_embedding.ipynb)
-+ [Lecture 22: Time series representation, featurizing chaos, kernel methods](https://github.com/williamgilpin/cphy/blob/main/talks/time_series_chaos_clustering.ipynb)
++ [Lecture 22: Time series representation, featurizing chaos, kernel methods](https://www.wgilpin.com/cphy/talks/html_static/time_series_chaos_clustering.html)
+  [[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/time_series_chaos_clustering.ipynb)
 + [Lecture 23: Gaussian mixtures, expectation-maximization, and superresolution microscopy](https://github.com/williamgilpin/cphy/blob/main/talks/gmm_mle_em.ipynb)
-+ [Lecture 24: Introduction to deep learning, predicting the Reynolds number of turbulence](https://github.com/williamgilpin/cphy/blob/main/talks/neural_networks_overview.ipynb)
++ [Lecture 24: Predicting the Reynolds number of turbulence with deep learning](https://github.com/williamgilpin/cphy/blob/main/talks/neural_networks_overview.ipynb)
 + [Lecture 25: Types of neural networks; symmetries in physical systems](https://github.com/williamgilpin/cphy/blob/main/talks/neural_networks_types.ipynb)
-+ [Lecture 26: Training neural networks with backpropagation](https://github.com/williamgilpin/cphy/blob/main/talks/neural_networks_training.ipynb)
++ [Lecture 26: Training neural networks with backpropagation](https://www.wgilpin.com/cphy/talks/html_static/neural_networks_training.html)
+  [[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/neural_networks_training.ipynb)
 + [Lecture 27: Using convolutional neural networks to predict the phases of the Ising Model](https://github.com/williamgilpin/cphy/blob/main/talks/convolutional_neural_networks_pytorch.ipynb)
 
 #### Notes
