@@ -99,7 +99,7 @@ Many links below direct to Google Colaboratory, and can be run-in-browser withou
 + [Lecture 25: Types of neural networks; symmetries in physical systems](https://github.com/williamgilpin/cphy/blob/main/talks/neural_networks_types.ipynb)
 + [Lecture 26: Training neural networks with backpropagation](https://www.wgilpin.com/cphy/talks/html_static/neural_networks_training.html)
   [[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/neural_networks_training.ipynb)
-+ [Lecture 27: Using convolutional neural networks to predict the phases of the Ising Model](https://github.com/williamgilpin/cphy/blob/main/talks/convolutional_neural_networks_pytorch.ipynb)
+<!-- + [Lecture 27: Using convolutional neural networks to predict the phases of the Ising Model](https://github.com/williamgilpin/cphy/blob/main/talks/convolutional_neural_networks_pytorch.ipynb) -->
 
 #### Notes
 
