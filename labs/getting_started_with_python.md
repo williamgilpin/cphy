@@ -10,7 +10,7 @@ Depending on your research needs, you may find the [full Anaconda distribution](
 2. Open your computer’s terminal app. On Windows, Miniconda will install the Anaconda Terminal, which you can use as the default Terminal for this class. Otherwise, you may need to use [Windows Terminal](https://github.com/microsoft/terminal) or [gitbash](https://gitforwindows.org/) instead. If you plan to use Windows for the class, please keep track of any bugs or compatibility issues you encounter, as well as their solutions---that will make it easier for us to make the materials more accessible in future iterations.
 
 3. In your terminal app, create a new virtual environment using the base Python install. I named mine hwenv, but you can call it whatever you want.
-
+## alternative for creating virtual enviroment in python3: python3 -m venv envName
 ```bash
   $ conda create -n hwenv python=3
 ```
@@ -18,7 +18,7 @@ Depending on your research needs, you may find the [full Anaconda distribution](
 This virtual environment will be used to isolate your code and the packages on which it depends from your system’s own Python installation, as well as from other Python projects you might make in the future. For example, you will likely want to make a separate environment for your final project, and for separate personal projects. On my personal computer, I have about a half-dozen environments—one for each different project, including one for this class. If I make a mistake while working on this class and break my environment’s Python installation, it won’t affect my other projects.
 
 4.  Before writing any code, always make sure that you have activated your environment.
-
+## activation for alternative method: envName/Scripts/Activate.ps1
 ```bash
   $ conda activate hwenv
 ```
