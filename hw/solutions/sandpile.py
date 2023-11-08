@@ -203,7 +203,7 @@ class AbelianSandpileBFS(AbelianSandpile):
         # Pick a random location
         xi, yi = np.random.choice(self.n, 2)
 
-        # A queue data structure stores a list of sites that need to be toppled
+        # A queue data structure stores a list of sites that need to be toppled.
         queue = deque([(xi, yi)])
         
         # Perform a breadth-first search to find all sites that need to be toppled
