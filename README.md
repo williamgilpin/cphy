@@ -61,8 +61,8 @@ Many links below direct to Google Colaboratory, and can be run-in-browser withou
 + [Lecture 9: Krylov subspace methods & Conjugate gradient methods](https://www.wgilpin.com/cphy/talks/html_static/krylov_methods.html)
  [[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/krylov_methods.ipynb)
 <!-- (https://github.com/williamgilpin/cphy/blob/main/talks/krylov_methods.ipynb) -->
-+ [Lecture 10: Optimization in low dimensions](https://www.wgilpin.com/cphy/talks/html_static/optimization_univariate.html)
- [[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/optimization_univariate.ipynb)
++ [Lecture 10: Optimization in low dimensions](https://www.wgilpin.com/cphy/talks/html_static/convex_optimization_univariate.html)
+ [[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/convex_optimization_univariate.ipynb)
 <!-- (https://github.com/williamgilpin/cphy/blob/main/talks/convex_optimization_univariate.ipynb) -->
 + [Lecture 11a: Multivariate Optimization and Potential Flows](https://www.wgilpin.com/cphy/talks/html_static/optimization_multivariate.html)
  [[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/optimization_multivariate.ipynb)
