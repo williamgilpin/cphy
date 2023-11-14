@@ -32,45 +32,45 @@ Many links below direct to Google Colaboratory, and can be run-in-browser withou
 
 #### Lecture Slides
 + [Lecture 1: Python syntax for Scientific Computing](https://www.wgilpin.com/cphy/talks/html_static/python_intro.html) 
- [[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/python_intro.ipynb)
+<br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/python_intro.ipynb)
 
 + [Lecture 1b: Object-oriented programming to find first-passage times of Brownian motion](https://www.wgilpin.com/cphy/talks/html_static/first_passage_and_inheritance.html)
- [[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/first_passage_and_inheritance.ipynb) 
+<br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/first_passage_and_inheritance.ipynb) 
  [[vid1]](https://youtu.be/N8PJH9WxvUk)
  [[vid2]](https://youtu.be/R1fDglciddo)
 
 + [Lecture 1c: Vectorization, arrays, and the Mandelbrot set](https://www.wgilpin.com/cphy/talks/html_static/vectorization_mandelbrot.html) 
- [[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/vectorization_mandelbrot.ipynb)
+<br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/vectorization_mandelbrot.ipynb)
 <!-- [[video]](https://youtu.be/PqntSbG4IuM) -->
 
 + [Lecture 2: Runtime complexity, convolutions, and the continuous Game of Life](https://www.wgilpin.com/cphy/talks/html_static/inheritance_game_of_life.html) 
- [[Raw Notebook]](https://github.com/williamgilpin/cphy/blob/main/talks/inheritance_game_of_life.ipynb)
+<br>[[Raw Notebook]](https://github.com/williamgilpin/cphy/blob/main/talks/inheritance_game_of_life.ipynb)
 
 + [Lecture 3: Finding the Feigenbaum constant with recursion and dynamic programming](https://www.wgilpin.com/cphy/talks/html_static/time_and_space_complexity_recursion.html) 
- [[Raw Notebook]](https://github.com/williamgilpin/cphy/blob/main/talks/time_and_space_complexity_recursion.ipynb)
+<br>[[Raw Notebook]](https://github.com/williamgilpin/cphy/blob/main/talks/time_and_space_complexity_recursion.ipynb)
 
 + [Lecture 4: Detecting the onset of turbulence with the Fast Fourier Transform](https://www.wgilpin.com/cphy/talks/html_static/fast_fourier.html) 
- [[Raw Notebook]](https://github.com/williamgilpin/cphy/blob/main/talks/fast_fourier.ipynb)
+<br>[[Raw Notebook]](https://github.com/williamgilpin/cphy/blob/main/talks/fast_fourier.ipynb)
 
 + [Lecture 5: Condition Number and the irreversibility of chaos](https://www.wgilpin.com/cphy/talks/html_static/numerical_linear_algebra_preconditioning.html) 
- [[Raw Notebook]](https://github.com/williamgilpin/cphy/blob/main/talks/numerical_linear_algebra_preconditioning.ipynb)
+<br>[[Raw Notebook]](https://github.com/williamgilpin/cphy/blob/main/talks/numerical_linear_algebra_preconditioning.ipynb)
 <!-- [[video]](https://youtu.be/9ZqXsIzBlCg) -->
 
 + [Lecture 6a: Random walks on complex graphs](https://www.wgilpin.com/cphy/talks/html_static/intro_graph_adjacency.html)
-  [[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/intro_graph_adjacency.ipynb)
+<br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/intro_graph_adjacency.ipynb)
 
 + [Lecture 6b: Probing collaborator graphs with LU matrix inversion](https://www.wgilpin.com/cphy/talks/html_static/lu_decomposition.html)
-  [[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/lu_decomposition.ipynb)
+<br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/lu_decomposition.ipynb)
 
 + [Lecture 7: Spectral graph theory and the QR eigenvalue algorithm](https://www.wgilpin.com/cphy/talks/html_static/qr_eigenvalues.html)
- [[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/qr_eigenvalues.ipynb)
+<br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/qr_eigenvalues.ipynb)
 
 + [Lecture 8: Singular Value Decomposition](https://www.wgilpin.com/cphy/talks/html_static/svd_decomp.html)
-[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/svd_decomp.ipynb)
+<br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/svd_decomp.ipynb)
 <!-- (https://github.com/williamgilpin/cphy/blob/main/talks/svd_decomp.ipynb) -->
 
 + [Lecture 9: Krylov subspace methods & Conjugate gradient methods](https://www.wgilpin.com/cphy/talks/html_static/krylov_methods.html)
- [[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/krylov_methods.ipynb)
+<br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/krylov_methods.ipynb)
 <!-- (https://github.com/williamgilpin/cphy/blob/main/talks/krylov_methods.ipynb) -->
 
 + [Lecture 10: Optimization in low dimensions](https://www.wgilpin.com/cphy/talks/html_static/convex_optimization_univariate.html)
@@ -86,11 +86,11 @@ Many links below direct to Google Colaboratory, and can be run-in-browser withou
 <!-- (https://github.com/williamgilpin/cphy/blob/main/talks/monte_carlo_metropolis.ipynb) -->
 
 + [Lecture 12: Numerical Integration and predicting chaos](https://www.wgilpin.com/cphy/talks/html_static/lorenz_odeint.html)
-[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/lorenz_odeint.ipynb)
+<br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/lorenz_odeint.ipynb)
 <!-- (https://github.com/williamgilpin/cphy/blob/main/talks/lorenz_odeint.ipynb) -->
 
 + [Lecture 13: Variable step integration, symplectic and stochastic systems](https://www.wgilpin.com/cphy/talks/html_static/integrator_chaos_variable_step.html)
-  [[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/integrator_chaos_variable_step.ipynb)
+<br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/integrator_chaos_variable_step.ipynb)
 <!-- (https://github.com/williamgilpin/cphy/blob/main/talks/integrator_chaos_variable_step.ipynb) -->
 
 + [Lecture 14: A pragmatist's guide to numerical integration](https://github.com/williamgilpin/cphy/blob/main/talks/pragmatic_integration.ipynb) 
@@ -100,7 +100,7 @@ Many links below direct to Google Colaboratory, and can be run-in-browser withou
   [[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/laplace_equation.ipynb)
 
 + [Lecture 16: Shocks, solitons, and hyperbolic partial differential equations](https://www.wgilpin.com/cphy/talks/html_static/hyperbolic_pde.html)
-[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/hyperbolic_pde.ipynb)
+<br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/hyperbolic_pde.ipynb)
 <!-- (https://github.com/williamgilpin/cphy/blob/main/talks/hyperbolic_pde.ipynb) -->
 
 + [Lecture 17: Spectral solving using the Dedalus Python Package](https://github.com/williamgilpin/cphy/blob/main/talks/dedalus.ipynb) 
@@ -112,23 +112,23 @@ Many links below direct to Google Colaboratory, and can be run-in-browser withou
 + [Lecture 19: Classification, Logistic Regression, and phases of matter](https://github.com/williamgilpin/cphy/blob/main/talks/logistic_regression_phases.ipynb)
 
 + [Lecture 20: Overfitting, bias-variance tradeoff, and double-descent](https://www.wgilpin.com/cphy/talks/html_static/overfitting_bias_variance_free_lunch.html)
-  [[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/overfitting_bias_variance_free_lunch.ipynb)
+<br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/overfitting_bias_variance_free_lunch.ipynb)
 
 + [Lecture 21: Unsupervised learning, embedding, clustering](https://github.com/williamgilpin/cphy/blob/main/talks/unsupervised_clustering_embedding.ipynb)
 
 + [Lecture 22: Time series representation, featurizing chaos, kernel methods](https://www.wgilpin.com/cphy/talks/html_static/time_series_chaos_clustering.html)
-  [[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/time_series_chaos_clustering.ipynb)
+<br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/time_series_chaos_clustering.ipynb)
 
 + [Lecture 23: Gaussian mixtures, expectation-maximization, and superresolution microscopy](https://www.wgilpin.com/cphy/talks/html_static/gmm_mle_em.html)
-  [[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/gmm_mle_em.ipynb)
+<br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/gmm_mle_em.ipynb)
 
 + [Lecture 24: Predicting the Reynolds number of turbulence with deep learning](https://www.wgilpin.com/cphy/talks/html_static/neural_networks_overview.html)
-  [[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/neural_networks_overview.ipynb)
+<br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/neural_networks_overview.ipynb)
 
 + [Lecture 25: Types of neural networks; symmetries in physical systems](https://github.com/williamgilpin/cphy/blob/main/talks/neural_networks_types.ipynb)
 
 + [Lecture 26: Training neural networks with backpropagation](https://www.wgilpin.com/cphy/talks/html_static/neural_networks_training.html)
-  [[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/neural_networks_training.ipynb)
+<br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/neural_networks_training.ipynb)
 <!-- + [Lecture 27: Using convolutional neural networks to predict the phases of the Ising Model](https://github.com/williamgilpin/cphy/blob/main/talks/convolutional_neural_networks_pytorch.ipynb) -->
 
 #### Notes
