@@ -120,10 +120,7 @@ Many links below direct to Google Colaboratory, and can be run-in-browser withou
 <br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/time_series_chaos_clustering.ipynb)
 
 + [Lecture 23: Gaussian mixtures, expectation-maximization, and superresolution microscopy](https://www.wgilpin.com/cphy/talks/html_static/gmm_mle_em.html)
-<br>
-<sub>
-[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/gmm_mle_em.ipynb)
-</sub>
+<br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/gmm_mle_em.ipynb)
 
 + [Lecture 24: Predicting the Reynolds number of turbulence with deep learning](https://www.wgilpin.com/cphy/talks/html_static/neural_networks_overview.html)
 <br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/neural_networks_overview.ipynb)
