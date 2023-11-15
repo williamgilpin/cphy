@@ -40,6 +40,7 @@ class AllenCahn:
         #
         ################################################################################
         
+<<<<<<< HEAD
         # lap = np.zeros((self.ny, self.nx))
 
         # enforce reflection boundary conditions by padding rows and columns
@@ -56,6 +57,18 @@ class AllenCahn:
         # lap[:, :-1] = 
         
         lap /= self.dx * self.dy
+=======
+        lap = np.zeros_like(grid)
+        lap[1:-1] = (grid[:-2, 1:-1] + grid[2:, 1:-1] - 2 * grid[1:-1, 1:-1]) / self.dx**2
+        lap[1:-1] += (grid[1:-1, :-2] + grid[1:-1, 2:] - 2 * grid[1:-1, 1:-1]) / self.dy**2
+        
+        # Reflection boundary conditions
+        lap[:, 0] = lap[:, 1]
+        lap[:, -1] = lap[:, -2]
+        lap[0, :] = lap[1, :]
+        lap[-1, :] = lap[-2, :]
+
+>>>>>>> f25bff465bfd5752ac5cc552fd6ff55bc6ef8133
         return lap
 
     def _reaction(self, y):
@@ -108,8 +121,12 @@ class AllenCahn:
         out = solve_ivp(self.rhs, (t_min, t_max), y0.flatten(), t_eval=tpts, **kwargs)
         sol = out.y.T
         tpts =  out.t
+<<<<<<< HEAD
         return tpts, sol.reshape((len(tpts), self.ny, self.nx))
 
 
 
 
+=======
+        return tpts, sol.reshape((len(tpts), self.ny, self.nx))
+>>>>>>> f25bff465bfd5752ac5cc552fd6ff55bc6ef8133

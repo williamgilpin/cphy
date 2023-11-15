@@ -180,6 +180,7 @@ class PercolationSimulation:
 
         return any([top, left, right, bottom])
 
+<<<<<<< HEAD
     ## NON-RECURSIVE
     def _flow(self):
         """
@@ -237,6 +238,8 @@ class PercolationSimulation:
 
 
 
+=======
+>>>>>>> f25bff465bfd5752ac5cc552fd6ff55bc6ef8133
 
     def percolate(self):
         """

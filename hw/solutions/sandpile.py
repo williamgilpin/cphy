@@ -12,6 +12,7 @@ class AbelianSandpile:
     is repeated n_step times.
     
     Parameters:
+<<<<<<< HEAD
     n (int): The size of the grid
     grid (np.ndarray): The grid of the sandpile
     history (list): A list of the sandpile grids at each timestep
@@ -19,11 +20,26 @@ class AbelianSandpile:
 
 
     def __init__(self, n=100, random_state=None):
+=======
+        n (int): The size of the grid
+        grid (np.ndarray): The grid of the sandpile
+        history (list): A list of the sandpile grids at each timestep
+        store_history (bool): Whether or not to store the history of the sandpile. Snapshots
+            of the sandpile are stored between avalanche events
+    """
+
+
+    def __init__(self, n=100, random_state=None, store_history=True):
+>>>>>>> f25bff465bfd5752ac5cc552fd6ff55bc6ef8133
         self.n = n
         np.random.seed(random_state) # Set the random seed
         self.grid = np.random.choice([0, 1, 2, 3], size=(n, n))
         self.history =[self.grid.copy()] # Why did we need to copy the grid?
         self.all_durations = list() # useful to keep track of the duration of toppling events
+<<<<<<< HEAD
+=======
+        self.store_history = store_history
+>>>>>>> f25bff465bfd5752ac5cc552fd6ff55bc6ef8133
 
     def _add_and_topple(self, i, j):
         """
@@ -32,7 +48,11 @@ class AbelianSandpile:
         information across all the   recursive calls. This is a common pattern in 
         recursive functions actingon lattices
         """
+<<<<<<< HEAD
         self.grid[i, j] += 1
+=======
+        self.grid[i, j] += 1 # global state update
+>>>>>>> f25bff465bfd5752ac5cc552fd6ff55bc6ef8133
 
         # Base case
         if self.grid[i, j] < 4:
@@ -82,6 +102,7 @@ class AbelianSandpile:
 
         # Call the recursive topple function
         self._add_and_topple(xi, yi)
+<<<<<<< HEAD
 
         # Drop the grain and then topple the sand grains using an iterative solution:
         # topple a site, then check the entire lattice for sites that need to be 
@@ -105,6 +126,8 @@ class AbelianSandpile:
         # if duration > 0:
         #     self.all_durations.append(duration)
 
+=======
+>>>>>>> f25bff465bfd5752ac5cc552fd6ff55bc6ef8133
         
 
     # we use this decorator for class methods that don't require any of the attributes 
@@ -126,3 +149,134 @@ class AbelianSandpile:
                 self.history.append(self.grid.copy())
         return self.grid
 
+<<<<<<< HEAD
+=======
+
+
+
+
+
+class AbelianSandpileDFS(AbelianSandpile):
+    """
+    An alternative implementation of the Abelian Sandpile model using a depth-first
+    search algorithm to find all sites that need to be toppled.
+    """
+
+
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+
+    def _add_and_topple(self, i, j):
+        """
+        A recursive function that adds a grain and then topples the sandpile at 
+        location (i, j). Notice that we use the self.grid attribute to store global 
+        information across all the   recursive calls. This is a common pattern in 
+        recursive functions actingon lattices
+        """
+        self.grid[i, j] += 1 # global state update
+
+        # Base case
+        if self.grid[i, j] < 4:
+            return None
+            
+        else:
+            # Decrease the height of the site
+            self.grid[i, j] -= 4
+
+            # Implement the absorbing boundary conditions: sandgrains
+            # that fall off the edge of the grid are lost.
+            if i > 0:
+                self._add_and_topple(i - 1, j)
+            if i < self.n - 1:
+                self._add_and_topple(i + 1, j)
+            if j > 0:
+                self._add_and_topple(i, j - 1)
+            if j < self.n - 1:
+                self._add_and_topple(i, j + 1)
+            return None
+
+    def step(self):
+        """
+        Perform a single step of the sandpile model. Recall that there are two 
+        timescales in this problem; step corresponds to the longer timescale of a 
+        single sandgrain addition.
+
+        A single step of the simulation consists of two stages: a random sand grain is 
+        dropped onto the lattice at a random location. Then, a set of avalanches occurs
+        causing sandgrains to get redistributed to their neighboring locations.
+
+        Returns: None
+        """
+        # Pick a random location
+        xi, yi = np.random.choice(self.n, 2)
+        # Call the recursive topple function
+        self._add_and_topple(xi, yi)
+
+
+from collections import deque
+class AbelianSandpileBFS(AbelianSandpile):
+    """
+    An alternative implementation of the Abelian Sandpile model using a breadth-first
+    search algorithm to find all sites that need to be toppled.
+
+    An advantage of this implementation is that it it matches the physics of the 
+    sandpile model more closely. In particular, grains get passed to sites 
+    simultaneously, rather than sequentially as in the DFS implementation.
+
+    We therefore define a separate history attribute in order to record the fast-timescale 
+    topple events that occur between grain additions.
+    """
+
+    def __init__(self, store_topple_history=False, **kwargs):
+        super().__init__(**kwargs)
+        self.store_topple_history = store_topple_history
+        if store_topple_history:
+            self.history_topples = [self.grid.copy()]
+
+    def step(self):
+        """
+        Perform a single step of the sandpile model. Recall that there are two 
+        timescales in this problem; step corresponds to the longer timescale of a 
+        single sandgrain addition.
+
+        A single step of the simulation consists of two stages: a random sand grain is 
+        dropped onto the lattice at a random location. Then, a set of avalanches occurs
+        causing sandgrains to get redistributed to their neighboring locations.
+
+        Returns: None
+        """
+        # Pick a random location
+        xi, yi = np.random.choice(self.n, 2)
+
+        # A queue data structure stores a list of sites that need to be toppled.
+        queue = deque([(xi, yi)])
+        
+        # Perform a breadth-first search to find all sites that need to be toppled
+        # the while loop will continue until the queue is empty
+        while queue:
+            # the popleft() method removes the first element from the queue
+            i, j = queue.popleft()
+            self.grid[i, j] += 1 # global state update
+
+            # Base case
+            if self.grid[i, j] < 4:
+                continue
+        
+            # Store a snapshot if a topple event occurs
+            if self.store_topple_history:
+                self.history_topples.append(self.grid.copy())
+
+            # Decrease the height of the site
+            self.grid[i, j] -= 4
+
+            # Implement the absorbing boundary conditions: sand grains
+            # that fall off the edge of the grid are lost.
+            if i > 0:
+                queue.append((i - 1, j))
+            if i < self.n - 1:
+                queue.append((i + 1, j))
+            if j > 0:
+                queue.append((i, j - 1))
+            if j < self.n - 1:
+                queue.append((i, j + 1))
+>>>>>>> f25bff465bfd5752ac5cc552fd6ff55bc6ef8133
