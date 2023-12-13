@@ -28,7 +28,7 @@ Many links below direct to Google Colaboratory, and can be run-in-browser withou
 + [HW2: Linear dynamical systems and decomposing a chaotic flow](https://github.com/williamgilpin/cphy/blob/main/hw/matrices_unsupervised_learning.ipynb). *Covers numerical linear algebra, optimization, and unsupervised learning*
 + [HW3: Turing patterns and phase separation](https://github.com/williamgilpin/cphy/blob/main/hw/pde_turing.ipynb). *Covers numerical integration; finite-differences and spectral methods*
 + [HW4: Predicting turbulence with operator methods](https://github.com/williamgilpin/cphy/blob/main/hw/forecasting_regression_supervised.ipynb). *Covers Supervised learning, time series forecasting, ridge, kernel, and logistic regression*
-+ [Homework solutions](https://github.com/williamgilpin/cphy/blob/main/hw/solutions/)
+<!-- + [Homework solutions](https://github.com/williamgilpin/cphy/blob/main/hw/solutions/) -->
 
 #### Lecture Slides
 + [Lecture 1: Python syntax for Scientific Computing](https://www.wgilpin.com/cphy/talks/html_static/python_intro.html) 
@@ -148,8 +148,12 @@ Many links below direct to Google Colaboratory, and can be run-in-browser withou
 
 + [Quantum Reinforcement Learning with the Grover method](https://github.com/jiangzz-lab/GroverQLearning)
 + [Modelling the contractile dynamics of muscle](https://github.com/jakemcgrath1999/muscle_model)
++ [Tight binding and Anderson localization on complex graphs](https://github.com/ravikoka/qgraph)
 + [Neural System Identification by Training Recurrent Neural Networks](https://github.com/liuyuezhang/nsi)
++ [Assimilating a realistic neuron model onto a reduced-order model](https://github.com/sepstein22/computational_brain)
 + [Testing particle phenomenology beyond the Standard Model with Bayesian classification](https://github.com/ramreddy-physics/Madgraph_Search)
++ [Monte Carlo sampling for many-body systems](https://github.com/Potatoasad/Computational-Physics-Final-Project)
+
 
 ## Usage and improvements
 
