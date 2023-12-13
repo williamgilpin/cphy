@@ -8,8 +8,8 @@ __pycache__/
 
 # Ignore personal and development files
 private*
-#solutions* # Whitelist individual files as we go
-#solutions/
+solutions* # Whitelist individual files as we go
+solutions/
 dump*
 *largefile*
 pylbm*
