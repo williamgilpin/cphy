@@ -7980,14 +7980,14 @@ Time elapsed: 0.1146402359008789 seconds
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h1 id="Determining-Big-O-for-an-algorithm">Determining Big-O for an algorithm<a class="anchor-link" href="#Determining-Big-O-for-an-algorithm">¶</a></h1><ul>
-<li>It's almost always some combination of a polynomial $N^{\alpha}$ and $Log(N)$. Remember that overwriting values, peeking the front of a queue, etc take constant time or $\mathcal{O}(1)$</li>
+<li>It's almost always some combination of a polynomial $N^{\alpha}$ and $\log(N)$. Remember that overwriting values, peeking the front of a queue, etc take constant time or $\mathcal{O}(1)$</li>
 </ul>
 <h3 id="Some-useful-times-to-know">Some useful times to know<a class="anchor-link" href="#Some-useful-times-to-know">¶</a></h3><ul>
-<li>$Log(N)$ usually means you can do something clever (recursion, bisection search, etc)</li>
-<li>Exp(N) is rare and usually not optimal (describes a process that branches)</li>
-<li>Stirling's approximation: $N! \sim \sqrt{N} e^{-N} N^N$ or $Log(N!) \sim N Log N$</li>
-<li>Sorting a list via mergesort is $\mathcal{O}(N Log(N))$</li>
-<li>Binary search, two-sum are pointers with LogN time</li>
+<li>$\log{(N)}$ usually means you can do something clever (recursion, bisection search, etc)</li>
+<li>$\text{exp}\left(N\right)$ is rare and usually not optimal (describes a process that branches)</li>
+<li>Stirling's approximation: $N! \sim \sqrt{N} e^{-N} N^N$ or $\log{(N!)} \sim N \log{(N)}$</li>
+<li>Sorting a list via mergesort is $\mathcal{O}(N \log(N))$</li>
+<li>Binary search, two-sum are pointers with $\log{(N)}$ time</li>
 <li>Dot product of two length-$N$ vectors is $\mathcal{O}(N)$. $N \times N$ matrix-vector product is $\mathcal{O}(N^2)$. Product of two $N \times N$ matrices is $\mathcal{O}(N^3)$</li>
 </ul>
 </div>
@@ -8001,9 +8001,9 @@ Time elapsed: 0.1146402359008789 seconds
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="Binary-search">Binary search<a class="anchor-link" href="#Binary-search">¶</a></h2><ul>
-<li>A binary search is a search algorithm that works on a sorted list. It is $\mathcal{O}(Log(N))$ because it cuts the list in half each time.</li>
+<li>A binary search is a search algorithm that works on a sorted list. It is $\mathcal{O}\left(\log{(N)}\right)$ because it cuts the list in half each time.</li>
 </ul>
-<img alt="No description has been provided for this image" src="../resources/binary_search.png" width="750"/>
+<img alt="No description has been provided for this image" src="../resources/binary_search.png" width="500"/>
 </div>
 </div>
 </div>
@@ -8110,11 +8110,23 @@ Time elapsed: 0.1146402359008789 seconds
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Improving-our-calculation-of-doubling-values">Improving our calculation of doubling values<a class="anchor-link" href="#Improving-our-calculation-of-doubling-values">¶</a></h3><p>Now let's return to our logistic map. We will use a binary search to find the values of $r$ at which the period doubles. By using a binary search, we can avoid scanning the large set of "intermediate" values of $r$ for which the period does not double.</p>
+<h3 id="Improving-our-calculation-of-doubling-values">Improving our calculation of doubling values<a class="anchor-link" href="#Improving-our-calculation-of-doubling-values">¶</a></h3><p>Now let's return to our logistic map. We will use a binary search to find the values of $r$ at which the period doubles. By using a binary search, we can avoid scanning the large set of intermediate values of $r$ for which the period does not double.</p>
 <p>There a are a few nuances to our approach compared to traditional binary search.</p>
 <ol>
-<li>We need to perform a three-way comparison between the period of the logistic map at $r_{max}, $r_{middle}$, and $r_{max}_$. This is because the period doubling may not occur exactly at $r$. We encapsulate this comparison within a three-way comparison function.</li>
-<li>We need to find several values of $r$ corresponding to critical doubling values, rather than just one value. This will require multiple binary searches over different intervals, as well as a heuristic for modifying the intervals to ensure that we don't repeatedly find the same root. Here, we initially search the full $r$ interval. Upon finding a doubling value, we shrink the interval so that its rightmost value is just below the root we just found by some tolerance $\epsilon$. We then search the new interval for the next doubling value. We repeat this process until we have found all the doubling values. This heuristic will fail if the period doubling values are closer than $\epsilon$ apart. In this case, we would need to reduce $\epsilon$ and try again. This same difficulty manifests in methods used to find multiple roots (zero crossings) of continuous functions.</li>
+<li><p>We need to perform a <strong>three-pointer comparison</strong> among the periods of the logistic map at $r_{min}$, $r_{middle}$, and $r_{max}$. This is because the period doubling may not occur exactly at $r$. We thus implement a three-way comparison function.</p>
+</li>
+<li><p>We need to find several values of $r$ corresponding to critical doubling values, rather than just one value. This requires multiple binary searches over different intervals, as well as a heuristic for modifying the intervals to ensure that we don't repeatedly find the same root. We break down this process as follows:</p>
+<ul>
+<li><p>We search the full $r$ interval.</p>
+</li>
+<li><p>Upon finding a doubling value, we shrink the interval so that its rightmost value is just below the root we just found by some tolerance $\epsilon$.</p>
+</li>
+<li><p>We then search the new interval for the next doubling value.</p>
+</li>
+<li><p>We repeat this process until we have found all the doubling values. This heuristic will fail if the period doubling values are closer than $\epsilon$ apart. In this case, we would need to reduce $\epsilon$ and try again. This same difficulty manifests in methods used to find multiple roots (zero crossings) of continuous functions.</p>
+</li>
+</ul>
+</li>
 </ol>
 </div>
 </div>
@@ -8124,10 +8136,11 @@ Time elapsed: 0.1146402359008789 seconds
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [586]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">check_period_doubling2</span><span class="p">(</span><span class="n">left_traj</span><span class="p">,</span> <span class="n">middle_traj</span><span class="p">,</span> <span class="n">right_traj</span><span class="p">):</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1">## Three-way comparison function</span>
+<span class="k">def</span> <span class="nf">check_period_doubling2</span><span class="p">(</span><span class="n">left_traj</span><span class="p">,</span> <span class="n">middle_traj</span><span class="p">,</span> <span class="n">right_traj</span><span class="p">):</span>
 <span class="w">    </span><span class="sd">"""</span>
 <span class="sd">    Check if the period has doubled from the previous trajectory to the current </span>
 <span class="sd">    trajectory. Uses a basic test of whether the number of unique values in the</span>
@@ -8729,20 +8742,6 @@ Time elapsed: 0.1146402359008789 seconds
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=0d314734">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-</div>
-</div>
-</div>
-</div>
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=50514a21">
 <div class="jp-Cell-inputWrapper" tabindex="0">
@@ -8750,8 +8749,9 @@ Time elapsed: 0.1146402359008789 seconds
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Depth-first-search-versus-breadth-first-search-(solving-a-maze)">Depth-first search versus breadth-first search (solving a maze)<a class="anchor-link" href="#Depth-first-search-versus-breadth-first-search-(solving-a-maze)">¶</a></h2><p>DFS</p>
-<ul>
+<h2 id="Depth-first-search-versus-breadth-first-search-(solving-a-maze)">Depth-first search versus breadth-first search (solving a maze)<a class="anchor-link" href="#Depth-first-search-versus-breadth-first-search-(solving-a-maze)">¶</a></h2><h3 id="Breadth-first-search-(BFS)">Breadth-first search (BFS)<a class="anchor-link" href="#Breadth-first-search-(BFS)">¶</a></h3><img alt="No description has been provided for this image" src="../resources/bfs.gif" width="200"/>
+<p><code>Source: https://www.geeksforgeeks.org/program-for-nth-fibonacci-number/</code></p>
+<h3 id="Depth-first-search-(DFS)">Depth-first search (DFS)<a class="anchor-link" href="#Depth-first-search-(DFS)">¶</a></h3><ul>
 <li>Worst case: $\mathcal{O}(N_v + N_e)$, where $N_v$, $N_e$ are the number of vertices and edges, respectively</li>
 <li>The number of edges of a hypercube: $N_e = d N_v / 2$, where $d$ is the dimension</li>
 <li><ul>
@@ -8759,62 +8759,8 @@ Time elapsed: 0.1146402359008789 seconds
 </ul>
 </li>
 </ul>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=5c206acf">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [587]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># BFS</span>
-<span class="n">Image</span><span class="p">(</span><span class="s2">"../resources/bfs.gif"</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="mi">200</span><span class="p">)</span>
-<span class="c1"># Source: https://www.geeksforgeeks.org/program-for-nth-fibonacci-number/</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[587]:</div>
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>&lt;IPython.core.display.Image object&gt;</pre>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=00d9d3d9">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [588]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># DFS</span>
-<span class="n">Image</span><span class="p">(</span><span class="s2">"../resources/dfs.gif"</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="mi">200</span><span class="p">)</span>
-<span class="c1"># Source: https://www.geeksforgeeks.org/program-for-nth-fibonacci-number/</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[588]:</div>
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>&lt;IPython.core.display.Image object&gt;</pre>
-</div>
+<img alt="No description has been provided for this image" src="../resources/dfs.gif" width="200"/>
+<p><code>Source: https://www.geeksforgeeks.org/program-for-nth-fibonacci-number/</code></p>
 </div>
 </div>
 </div>
@@ -8825,9 +8771,11 @@ Time elapsed: 0.1146402359008789 seconds
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="The-Abelian-sandpile">The Abelian sandpile<a class="anchor-link" href="#The-Abelian-sandpile">¶</a></h2><ul>
-<li>You can implement toppling as either BFS or DFS</li>
-<li>Physically, what do these two scenarios represent?</li>
+<h4 id="Looking-ahead-to-Homework-1:-The-Abelian-sandpile">Looking ahead to Homework 1: The Abelian sandpile<a class="anchor-link" href="#Looking-ahead-to-Homework-1:-The-Abelian-sandpile">¶</a></h4><ul>
+<li><p>You can implement toppling as either BFS or DFS, or using a purely iterative approach</p>
+</li>
+<li><p>Physically, what do these different scenarios represent?</p>
+</li>
 </ul>
 </div>
 </div>

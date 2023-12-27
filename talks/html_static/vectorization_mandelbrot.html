@@ -7482,9 +7482,8 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Imports-and-preamble">Imports and preamble<a class="anchor-link" href="#Imports-and-preamble">¶</a></h2><p>These are external libraries, including your own code stored in separate .py files, that you want to import in order to run the notebook. Since our notebook environment is running in Python, we don't need to import the language itself.</p>
-<p>However, it's worth checking that you are using the right version of Python (usually Python 3)</p>
-<p>For larger projects, you will want to use separate virtual environments for different projects. It's a good idea to double check your environment</p>
+<h1 id="Vectorization-and-arrays:-Period-doubling-bifurcations,-and-the-Mandelbrot-Set">Vectorization and arrays: Period-doubling bifurcations, and the Mandelbrot Set<a class="anchor-link" href="#Vectorization-and-arrays:-Period-doubling-bifurcations,-and-the-Mandelbrot-Set">¶</a></h1><p>Preamble: Run the cells below to import the necessary Python packages</p>
+<p><em>This notebook created by William Gilpin. Consult the <a href="https://www.wgilpin.com/cphy">course website</a> for all content and <a href="https://github.com/williamgilpin/cphy">GitHub repository</a> for raw files and runnable online code.</em></p>
 </div>
 </div>
 </div>
@@ -7537,9 +7536,11 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="External-libraries">External libraries<a class="anchor-link" href="#External-libraries">¶</a></h1><p>A major benefit of the Python ecosystem</p>
+<h1 id="External-libraries">External libraries<a class="anchor-link" href="#External-libraries">¶</a></h1><p>A major benefit of the Python ecosystem is the ability to easily import external libraries. This is done with the <code>import</code> command. For example, the following imports the <code>numpy</code> library, which contains many useful functions for scientific computing.</p>
+<div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+</pre></div>
+<p>Common libraries you might use in the natural sciences include</p>
 <ul>
-<li>Common libraries you might use in the sciences include</li>
 <li><ul>
 <li>matplotlib (plotting)</li>
 </ul>
@@ -7556,8 +7557,12 @@ a.anchor-link {
 <li>scikit-learn (machine learning)</li>
 </ul>
 </li>
+<li><ul>
+<li>networkx (making graphs)</li>
 </ul>
-<p>Major libraries we will see:</p>
+</li>
+</ul>
+<p>Major libraries you might use in data science include</p>
 <ul>
 <li><ul>
 <li>numba (just-in-time compilation of numpy-based code)</li>
@@ -7585,10 +7590,12 @@ a.anchor-link {
 </li>
 </ul>
 <p>Typical usage (in terminal): install</p>
-<pre><code>conda activate myenvironment
-conda install pandas</code></pre>
+<div class="highlight"><pre><span></span>conda<span class="w"> </span>activate<span class="w"> </span>myenvironment
+<span class="w">    </span>conda<span class="w"> </span>install<span class="w"> </span>pandas
+</pre></div>
 <p>When conda fails, or the package is not available, use pip</p>
-<pre><code>pip install pandas</code></pre>
+<div class="highlight"><pre><span></span>pip<span class="w"> </span>install<span class="w"> </span>pandas
+</pre></div>
 <p>Then either launch launch JupyterLab from terminal, or open VSCode app and select the appropriate environment in the upper-right hand corner</p>
 </div>
 </div>
@@ -7604,8 +7611,6 @@ conda install pandas</code></pre>
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span> <span class="c1"># Plotting library</span>
 <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span> <span class="c1"># Linear algebra library</span>
 <span class="kn">import</span> <span class="nn">scipy</span> <span class="c1"># General scientific computing library</span>
-
-<span class="c1"># from numpy import *</span>
 </pre></div>
 </div>
 </div>
@@ -7621,7 +7626,7 @@ conda install pandas</code></pre>
 <h2 id="Arrays,-indexing,-broadcasting,-vectorization">Arrays, indexing, broadcasting, vectorization<a class="anchor-link" href="#Arrays,-indexing,-broadcasting,-vectorization">¶</a></h2><ul>
 <li><p>Numpy is technically an external library, but we will use it so often in scientific computing that it's basically a built-in data type for our purposes.</p>
 </li>
-<li><p>Suite of support for the `np.ndarray`` datatype, which represents tensors. Most MATLAB functions are within numpy</p>
+<li><p>Suite of support for the <code>np.ndarray</code> datatype, which represents tensors. Most MATLAB functions are within numpy</p>
 </li>
 </ul>
 </div>
@@ -9112,20 +9117,6 @@ $$</p>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=5319b855">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-</div>
-</div>
-</div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=767d43aa">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -9231,35 +9222,7 @@ $$</p>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=6e51b840">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=82247503">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=c73d152e">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=fbefbbcd">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
