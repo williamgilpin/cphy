@@ -7476,24 +7476,13 @@ a.anchor-link {
 <!-- End of mermaid configuration --></head>
 <body class="jp-Notebook" data-jp-theme-light="true" data-jp-theme-name="JupyterLab Light">
 <main>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=58fa16e2">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="A-pragmatist's-guide-to-numerical-integration">A pragmatist's guide to numerical integration<a class="anchor-link" href="#A-pragmatist's-guide-to-numerical-integration">¶</a></h1>
-</div>
-</div>
-</div>
-</div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=04831448">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="Preamble">Preamble<a class="anchor-link" href="#Preamble">¶</a></h4><p>Run the cells below to import the necessary Python packages</p>
+<h1 id="A-pragmatist's-guide-to-numerical-integration">A pragmatist's guide to numerical integration<a class="anchor-link" href="#A-pragmatist's-guide-to-numerical-integration">¶</a></h1><p>Preamble: Run the cells below to import the necessary Python packages</p>
 <p><em>This notebook created by William Gilpin. Consult the <a href="https://www.wgilpin.com/cphy">course website</a> for all content and <a href="https://github.com/williamgilpin/cphy">GitHub repository</a> for raw files and runnable online code.</em></p>
 </div>
 </div>
@@ -7518,20 +7507,6 @@ a.anchor-link {
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=eda1b78f">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-</div>
-</div>
-</div>
-</div>
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=173ad01d">
 <div class="jp-Cell-inputWrapper" tabindex="0">
@@ -7539,25 +7514,13 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<ul>
-<li>I've spent a lot of time integrating weird ODEs. Here are a few tricks I've picked up</li>
-<li>Image below is from Gilpin. NeurIPS 2021. A collection of 132 strange attractors, collected from various historical papers and then integrated using scipy</li>
+<h3 id="I-have-a-weird-ODE.-How-do-I-integrate-it?">I have a weird ODE. How do I integrate it?<a class="anchor-link" href="#I-have-a-weird-ODE.-How-do-I-integrate-it?">¶</a></h3><ul>
+<li><p>I've spent a lot of time integrating weird ODEs. Today we'll discuss a few tricks I've learned</p>
+</li>
+<li><p>Image below is from Gilpin. NeurIPS 2021. A collection of 132 strange attractors, collected from various historical papers and then integrated using <code>scipy.solve_ivp</code></p>
+</li>
 </ul>
 <img alt="No description has been provided for this image" src="../resources/all_attractors.jpg" width="750"/>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=e60909aa">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-</div>
 </div>
 </div>
 </div>
@@ -7587,13 +7550,18 @@ a.anchor-link {
 <span class="n">sol</span> <span class="o">=</span> <span class="n">solve_ivp</span><span class="p">(</span><span class="n">rhs</span><span class="p">,</span> <span class="p">[</span><span class="n">t_start</span><span class="p">,</span> <span class="n">t_stop</span><span class="p">],</span> <span class="n">initial_condition</span><span class="p">,</span> <span class="n">method</span><span class="o">=</span><span class="s1">'RK45'</span><span class="p">,</span> <span class="n">dense_output</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 </pre></div>
 <ul>
-<li>RK45: fast, explicit, fixed-step (easy to debug)</li>
-<li>DOP853: fast, explicit, variable-step embedded method (easy to debug)</li>
-<li>LSODA: switches between Adams-Bashforth and BDF (implicit) depending on the problem stiffness</li>
-<li>Radau: implicit, variable-step, high-order</li>
-<li>BDF: implicit, variable-step, high-order</li>
+<li><p>RK45: fast, explicit, embedded (easy to debug)</p>
+</li>
+<li><p>DOP853: fast, explicit, variable-step embedded method (easy to debug)</p>
+</li>
+<li><p>LSODA: switches between Adams-Bashforth and BDF (implicit) depending on the problem stiffness. Defaults to low-level FORTRAN code, and tends to throw weird errors. I avoid it.</p>
+</li>
+<li><p>Radau: implicit, variable-step, high-order</p>
+</li>
+<li><p>BDF: implicit, variable-step, high-order</p>
+</li>
 </ul>
-<h4 id="I-have-personally-had-best-results-with-Radau-for-integrating-low-order-stiff-systems">I have personally had best results with Radau for integrating low-order stiff systems<a class="anchor-link" href="#I-have-personally-had-best-results-with-Radau-for-integrating-low-order-stiff-systems">¶</a></h4>
+<h4 id="I-have-personally-had-best-results-with-Radau-for-integrating-low-dimensional-stiff-or-chaotic-systems">I have personally had best results with Radau for integrating low-dimensional stiff or chaotic systems<a class="anchor-link" href="#I-have-personally-had-best-results-with-Radau-for-integrating-low-dimensional-stiff-or-chaotic-systems">¶</a></h4>
 </div>
 </div>
 </div>
@@ -7619,28 +7587,21 @@ a.anchor-link {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="What-to-do-with-a-real-world-ODE">What to do with a real-world ODE<a class="anchor-link" href="#What-to-do-with-a-real-world-ODE">¶</a></h2><ul>
-<li>Try the built-in solvers in your preferred language</li>
-<li>RK4 or Dormand-Prince 8(3) with ultrafine timescale: sanity check / fiducial trajectory</li>
-<li>Multiple timescales? Variable step</li>
-<li>Vectorize the right hand side</li>
-<li>Compute the Jacobian analytically and pass it to the solver</li>
-<li>Use drop-in accelerators for numpy (numba or JAX)</li>
-<li>If working with integro-differential equation (especially non-local), delay equations, stochastic, etc, then you might need to write your own solver</li>
+<li><p>Try the built-in solvers in your preferred language</p>
+</li>
+<li><p>Start with RK4(5) or Dormand-Prince 8(3). Crank up the relative and absolute tolerances to $10^{-10}$ or so, until your results look consistent</p>
+</li>
+<li><p>Multiple timescales? Variable step</p>
+</li>
+<li><p>Vectorize the right hand side</p>
+</li>
+<li><p>If using <code>Radau</code> or <code>BDF</code>, analytically derive the Jacobian, and then pass it to the solver</p>
+</li>
+<li><p>Use drop-in accelerators for numpy (numba or JAX)</p>
+</li>
+<li><p>If working with integro-differential equation (especially non-local), delay equations, stochastic with unusual noise, etc., then you will likely need to write your own solver</p>
+</li>
 </ul>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=25adff40">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-</div>
 </div>
 </div>
 </div>
@@ -7690,7 +7651,7 @@ $$</p>
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="k">class</span> <span class="nc">KuramotoModel</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">"""</span>
-<span class="sd">    A set of coupled oscillators</span>
+<span class="sd">    Simulate a set of coupled oscillators</span>
 <span class="sd">    </span>
 <span class="sd">    Args:</span>
 <span class="sd">        N (int): Number of oscillators</span>
@@ -7719,10 +7680,9 @@ $$</p>
 
 
 <span class="n">eq</span> <span class="o">=</span> <span class="n">KuramotoModel</span><span class="p">(</span><span class="n">N</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">K</span><span class="o">=</span><span class="mf">0.01</span><span class="p">,</span> <span class="n">sigma</span><span class="o">=</span><span class="mf">0.03</span><span class="p">)</span>
-
-<span class="kn">from</span> <span class="nn">scipy.integrate</span> <span class="kn">import</span> <span class="n">solve_ivp</span>
 <span class="n">ic</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">uniform</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">pi</span><span class="p">,</span> <span class="n">eq</span><span class="o">.</span><span class="n">N</span><span class="p">)</span> <span class="c1"># initial oscillator phases on half circle</span>
 
+<span class="kn">from</span> <span class="nn">scipy.integrate</span> <span class="kn">import</span> <span class="n">solve_ivp</span>
 <span class="n">sol</span> <span class="o">=</span> <span class="n">solve_ivp</span><span class="p">(</span><span class="n">eq</span><span class="p">,</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">100</span><span class="p">),</span> <span class="n">ic</span><span class="p">,</span> <span class="n">method</span><span class="o">=</span><span class="s1">'RK45'</span><span class="p">,</span> <span class="n">t_eval</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="mi">1000</span><span class="p">))</span>
 
 <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">sol</span><span class="o">.</span><span class="n">t</span><span class="p">,</span> <span class="n">sol</span><span class="o">.</span><span class="n">y</span><span class="o">.</span><span class="n">T</span><span class="p">)</span>
@@ -8495,7 +8455,7 @@ $$</p>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Benefits">Benefits<a class="anchor-link" href="#Benefits">¶</a></h3><ul>
+<h3 id="Upsides">Upsides<a class="anchor-link" href="#Upsides">¶</a></h3><ul>
 <li>Compiles Python code to C</li>
 <li>A "super-set" of Python that allows you to write C-like code, call C functions, and use C data types</li>
 <li>Will fall back to Python if you use unsupported features or have mixed types</li>
@@ -8507,7 +8467,7 @@ $$</p>
 <li>Many external libraries are not compatible with Cython</li>
 <li>Appears to be declining in popularity among the scientific Python community</li>
 </ul>
-<h3 id="My-biased-opinion:-Try-Numba-or-JAX-first,-otherwise-just-use-C-or-Julia">My biased opinion: Try Numba or JAX first, otherwise just use C or Julia<a class="anchor-link" href="#My-biased-opinion:-Try-Numba-or-JAX-first,-otherwise-just-use-C-or-Julia">¶</a></h3>
+<h3 id="My-biased-opinion:-Try-Numba-or-JAX-first,-otherwise-just-directly-use-C-or-Julia">My biased opinion: Try Numba or JAX first, otherwise just directly use C or Julia<a class="anchor-link" href="#My-biased-opinion:-Try-Numba-or-JAX-first,-otherwise-just-directly-use-C-or-Julia">¶</a></h3>
 </div>
 </div>
 </div>
@@ -8553,7 +8513,7 @@ $$</p>
 <li>Backed by Google</li>
 <li>First-class support for automatic differentiation</li>
 </ul>
-<h3 id="My-biased-opinion:-This-seems-likely-to-grow-exponentially-in-popularity">My biased opinion: This seems likely to grow exponentially in popularity<a class="anchor-link" href="#My-biased-opinion:-This-seems-likely-to-grow-exponentially-in-popularity">¶</a></h3>
+<h3 id="My-biased-opinion:-This-is-the-future-of-scientific-computing-in-Python">My biased opinion: This is the future of scientific computing in Python<a class="anchor-link" href="#My-biased-opinion:-This-is-the-future-of-scientific-computing-in-Python">¶</a></h3>
 </div>
 </div>
 </div>
@@ -8806,7 +8766,7 @@ $$</p>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="Julia">Julia<a class="anchor-link" href="#Julia">¶</a></h1><ul>
+<h1 id="Julia">Julia<a class="anchor-link" href="#Julia">¶</a></h1><h3 id="Upsides">Upsides<a class="anchor-link" href="#Upsides">¶</a></h3><ul>
 <li>A new language that is designed to be fast</li>
 <li>Compiles to LLVM</li>
 <li>Has a lot of the same features as Python, fixes some of the weird syntax of Python</li>
@@ -8818,7 +8778,7 @@ $$</p>
 <li>Not yet as many libraries or developers as Python.</li>
 <li>Documentation improving, but still not equal to core Python libaries</li>
 </ul>
-<h3 id="My-biased-opinion:-Likely-a-major-part-of-the-future-of-scientific-computing">My biased opinion: Likely a major part of the future of scientific computing<a class="anchor-link" href="#My-biased-opinion:-Likely-a-major-part-of-the-future-of-scientific-computing">¶</a></h3>
+<h3 id="My-biased-opinion:-Probably-worth-learning-(likely-has-a-bright-future-in-scientific-computing).-But-you-still-need-to-know-Python-for-now">My biased opinion: Probably worth learning (likely has a bright future in scientific computing). But you still need to know Python for now<a class="anchor-link" href="#My-biased-opinion:-Probably-worth-learning-(likely-has-a-bright-future-in-scientific-computing).-But-you-still-need-to-know-Python-for-now">¶</a></h3>
 </div>
 </div>
 </div>
