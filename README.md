@@ -67,35 +67,35 @@ Many links below direct to Google Colaboratory, and can be run-in-browser withou
 
 + [Lecture 8: Singular Value Decomposition](https://www.wgilpin.com/cphy/talks/html_static/svd_decomp.html)
 <br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/svd_decomp.ipynb)
-<!-- (https://github.com/williamgilpin/cphy/blob/main/talks/svd_decomp.ipynb) -->
+<!-- [[Raw Notebook]](https://github.com/williamgilpin/cphy/blob/main/talks/svd_decomp.ipynb) -->
 
 + [Lecture 9: Krylov subspace methods & Conjugate gradient methods](https://www.wgilpin.com/cphy/talks/html_static/krylov_methods.html)
 <br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/krylov_methods.ipynb)
-<!-- (https://github.com/williamgilpin/cphy/blob/main/talks/krylov_methods.ipynb) -->
+<!-- [[Raw Notebook]](https://github.com/williamgilpin/cphy/blob/main/talks/krylov_methods.ipynb) -->
 
 + [Lecture 10: Optimization in low dimensions](https://www.wgilpin.com/cphy/talks/html_static/convex_optimization_univariate.html)
 <br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/convex_optimization_univariate.ipynb)
-<!-- (https://github.com/williamgilpin/cphy/blob/main/talks/convex_optimization_univariate.ipynb) -->
+<!-- [[Raw Notebook]](https://github.com/williamgilpin/cphy/blob/main/talks/convex_optimization_univariate.ipynb) -->
 
 + [Lecture 11a: Multivariate Optimization and Potential Flows](https://www.wgilpin.com/cphy/talks/html_static/optimization_multivariate.html)
  [[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/optimization_multivariate.ipynb)
-<!-- (https://github.com/williamgilpin/cphy/blob/main/talks/optimization_multivariate.ipynb) -->
+<!-- [[Raw Notebook]](https://github.com/williamgilpin/cphy/blob/main/talks/optimization_multivariate.ipynb) -->
 
-+ [Lecture 11a: Evolving Cellular Automata with Genetic Algorithms](https://www.wgilpin.com/cphy/talks/html_static/optimization_multivariate.html)
- [[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/optimization_multivariate.ipynb)
-<!-- (https://github.com/williamgilpin/cphy/blob/main/talks/optimization_multivariate.ipynb) -->
++ [Lecture 11a: Evolving Cellular Automata with Genetic Algorithms](https://www.wgilpin.com/cphy/talks/html_static/evolving_cellular_automata.html)
+ [[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/evolving_cellular_automata.ipynb)
+<!-- [[Raw Notebook]](https://github.com/williamgilpin/cphy/blob/main/talks/evolving_cellular_automata.ipynb) -->
 
 + [Lecture 11b: Monte Carlo methods and Hard Sphere Packing](https://www.wgilpin.com/cphy/talks/html_static/monte_carlo_metropolis.html)
 [[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/monte_carlo_metropolis.ipynb)
-<!-- (https://github.com/williamgilpin/cphy/blob/main/talks/monte_carlo_metropolis.ipynb) -->
+<!-- [[Raw Notebook]](https://github.com/williamgilpin/cphy/blob/main/talks/monte_carlo_metropolis.ipynb) -->
 
 + [Lecture 12: Numerical Integration and predicting chaos](https://www.wgilpin.com/cphy/talks/html_static/lorenz_odeint.html)
 <br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/lorenz_odeint.ipynb)
-<!-- (https://github.com/williamgilpin/cphy/blob/main/talks/lorenz_odeint.ipynb) -->
+<!-- [[Raw Notebook]](https://github.com/williamgilpin/cphy/blob/main/talks/lorenz_odeint.ipynb) -->
 
 + [Lecture 13: Variable step integration, symplectic and stochastic systems](https://www.wgilpin.com/cphy/talks/html_static/integrator_chaos_variable_step.html)
 <br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/integrator_chaos_variable_step.ipynb)
-<!-- (https://github.com/williamgilpin/cphy/blob/main/talks/integrator_chaos_variable_step.ipynb) -->
+<!-- [[Raw Notebook]](https://github.com/williamgilpin/cphy/blob/main/talks/integrator_chaos_variable_step.ipynb) -->
 
 + [Lecture 14: A pragmatist's guide to numerical integration](https://github.com/williamgilpin/cphy/blob/main/talks/pragmatic_integration.ipynb) 
 <!-- [[video]](https://www.youtube.com/watch?v=hUgcgO1ZJMQ) -->
