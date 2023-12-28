@@ -78,15 +78,15 @@ Many links below direct to Google Colaboratory, and can be run-in-browser withou
 <!-- [[Raw Notebook]](https://github.com/williamgilpin/cphy/blob/main/talks/convex_optimization_univariate.ipynb) -->
 
 + [Lecture 11a: Multivariate Optimization and Potential Flows](https://www.wgilpin.com/cphy/talks/html_static/optimization_multivariate.html)
- [[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/optimization_multivariate.ipynb)
+<br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/optimization_multivariate.ipynb)
 <!-- [[Raw Notebook]](https://github.com/williamgilpin/cphy/blob/main/talks/optimization_multivariate.ipynb) -->
 
 + [Lecture 11a: Evolving Cellular Automata with Genetic Algorithms](https://www.wgilpin.com/cphy/talks/html_static/evolving_cellular_automata.html)
- [[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/evolving_cellular_automata.ipynb)
+<br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/evolving_cellular_automata.ipynb)
 <!-- [[Raw Notebook]](https://github.com/williamgilpin/cphy/blob/main/talks/evolving_cellular_automata.ipynb) -->
 
 + [Lecture 11b: Monte Carlo methods and Hard Sphere Packing](https://www.wgilpin.com/cphy/talks/html_static/monte_carlo_metropolis.html)
-[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/monte_carlo_metropolis.ipynb)
+<br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/monte_carlo_metropolis.ipynb)
 <!-- [[Raw Notebook]](https://github.com/williamgilpin/cphy/blob/main/talks/monte_carlo_metropolis.ipynb) -->
 
 + [Lecture 12: Numerical Integration and predicting chaos](https://www.wgilpin.com/cphy/talks/html_static/lorenz_odeint.html)
@@ -101,7 +101,7 @@ Many links below direct to Google Colaboratory, and can be run-in-browser withou
 <!-- [[video]](https://www.youtube.com/watch?v=hUgcgO1ZJMQ) -->
 
 + [Lecture 15: Diffusion, relaxation, and instability](https://www.wgilpin.com/cphy/talks/html_static/laplace_equation.html)
-  [[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/laplace_equation.ipynb)
+<br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/laplace_equation.ipynb)
 
 + [Lecture 16: Shocks, solitons, and hyperbolic partial differential equations](https://www.wgilpin.com/cphy/talks/html_static/hyperbolic_pde.html)
 <br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/hyperbolic_pde.ipynb)
