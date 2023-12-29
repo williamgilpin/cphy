@@ -7517,27 +7517,15 @@ a.anchor-link {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="Gradient-free-optimization">Gradient-free optimization<a class="anchor-link" href="#Gradient-free-optimization">¶</a></h2><ul>
-<li><p>We saw before that many optimization methods implicitly require the locally-computed gradient of the potential, either explicitly or a finite-difference approximation</p>
+<li><p>We saw before that many optimization methods implicitly require the locally-computed gradient of the potential, either explicitly or a finite-difference approximation.</p>
+</li>
+<li><p>For problems for which the gradient is impossible to compute (i.e. discrete systems like cellular automata), we used genetic algorithms to optimize systems. But what about problems that are nearly continuous and differentiable (in the sense of having a meaningful sense of distance among configurations), but which are very high-dimensional?</p>
 </li>
 <li><p>We saw that approximating the gradient by finite differences costs $O(D)$ evaluations of the potential, where $D$ is the dimensionality of the system. If the potential is expensive to evaluate, this can be prohibitive.</p>
 </li>
-<li><p>Monte Carlo methods can be used to optimize a potential without computing its gradient</p>
+<li><p>Monte Carlo methods can be used to optimize a potential without computing its gradient. They exploit local information about the potential to guide the search, yet do not require the gradient.</p>
 </li>
 </ul>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=3d72525d">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-</div>
 </div>
 </div>
 </div>
