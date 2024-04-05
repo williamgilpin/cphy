@@ -51,7 +51,7 @@ Many links below direct to Google Colaboratory, and can be run-in-browser withou
 
 + [Lecture 4: Detecting the onset of turbulence with the Fast Fourier Transform](https://www.wgilpin.com/cphy/talks/html_static/fast_fourier.html) 
 <br>[[Raw Notebook]](https://github.com/williamgilpin/cphy/blob/main/talks/fast_fourier.ipynb)
-https://www.youtube.com/watch?v=AUMu5xL2rjY
+ [[video]](https://www.youtube.com/watch?v=AUMu5xL2rjY)
 
 + [Lecture 5: Condition Number and the irreversibility of chaos](https://www.wgilpin.com/cphy/talks/html_static/numerical_linear_algebra_preconditioning.html) 
 <br>[[Raw Notebook]](https://github.com/williamgilpin/cphy/blob/main/talks/numerical_linear_algebra_preconditioning.ipynb)
