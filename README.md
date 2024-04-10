@@ -97,6 +97,7 @@ Many links below direct to Google Colaboratory, and can be run-in-browser withou
 + [Lecture 13: Variable step integration, symplectic and stochastic systems](https://www.wgilpin.com/cphy/talks/html_static/integrator_chaos_variable_step.html)
 <br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/integrator_chaos_variable_step.ipynb)
 <!-- [[Raw Notebook]](https://github.com/williamgilpin/cphy/blob/main/talks/integrator_chaos_variable_step.ipynb) -->
+ [[video]](https://youtu.be/q754u2a7uCA)
 
 + [Lecture 14: A pragmatist's guide to numerical integration](https://github.com/williamgilpin/cphy/blob/main/talks/pragmatic_integration.ipynb) 
 <!-- [[video]](https://www.youtube.com/watch?v=hUgcgO1ZJMQ) -->
@@ -129,6 +130,7 @@ Many links below direct to Google Colaboratory, and can be run-in-browser withou
 
 + [Lecture 24: Predicting the Reynolds number of turbulence with deep learning](https://www.wgilpin.com/cphy/talks/html_static/neural_networks_overview.html)
 <br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/neural_networks_overview.ipynb)
+ [[video]](https://youtu.be/wvxnVAuVB0E)
 
 + [Lecture 25: Types of neural networks; symmetries in physical systems](https://github.com/williamgilpin/cphy/blob/main/talks/neural_networks_types.ipynb)
 
