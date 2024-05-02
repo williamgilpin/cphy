@@ -65,6 +65,7 @@ Many links below direct to Google Colaboratory, and can be run-in-browser withou
 
 + [Lecture 7: Spectral graph theory and the QR eigenvalue algorithm](https://www.wgilpin.com/cphy/talks/html_static/qr_eigenvalues.html)
 <br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/qr_eigenvalues.ipynb)
+ [[video]](https://youtu.be/jiS4D5pvwy0)
 
 + [Lecture 8: Singular Value Decomposition](https://www.wgilpin.com/cphy/talks/html_static/svd_decomp.html)
 <br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/svd_decomp.ipynb)
