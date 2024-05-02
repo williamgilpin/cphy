@@ -109,6 +109,7 @@ Many links below direct to Google Colaboratory, and can be run-in-browser withou
 + [Lecture 16: Shocks, solitons, and hyperbolic partial differential equations](https://www.wgilpin.com/cphy/talks/html_static/hyperbolic_pde.html)
 <br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/hyperbolic_pde.ipynb)
 <!-- (https://github.com/williamgilpin/cphy/blob/main/talks/hyperbolic_pde.ipynb) -->
+ [[video]](https://youtu.be/lqyKeuCsHDU)
 
 + [Lecture 17: Spectral solving using the Dedalus Python Package](https://github.com/williamgilpin/cphy/blob/main/talks/dedalus.ipynb) 
 <!-- [[vid]](https://www.youtube.com/watch?v=9Biw4oVs-sA) -->
