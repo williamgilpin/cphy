@@ -70,6 +70,7 @@ Many links below direct to Google Colaboratory, and can be run-in-browser withou
 + [Lecture 8: Singular Value Decomposition](https://www.wgilpin.com/cphy/talks/html_static/svd_decomp.html)
 <br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/svd_decomp.ipynb)
 <!-- [[Raw Notebook]](https://github.com/williamgilpin/cphy/blob/main/talks/svd_decomp.ipynb) -->
+ [[video]](https://youtu.be/6w-_26aogH4?t=366)
 
 + [Lecture 9: Krylov subspace methods & Conjugate gradient methods](https://www.wgilpin.com/cphy/talks/html_static/krylov_methods.html)
 <br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/krylov_methods.ipynb)
