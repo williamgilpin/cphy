@@ -45,6 +45,7 @@ Many links below direct to Google Colaboratory, and can be run-in-browser withou
 
 + [Lecture 2: Runtime complexity, convolutions, and the continuous Game of Life](https://www.wgilpin.com/cphy/talks/html_static/inheritance_game_of_life.html) 
 <br>[[Raw Notebook]](https://github.com/williamgilpin/cphy/blob/main/talks/inheritance_game_of_life.ipynb)
+ [[video]](https://youtu.be/Pgycaa_D8h4?t=434)
 
 + [Lecture 3: Finding the Feigenbaum constant with recursion and dynamic programming](https://www.wgilpin.com/cphy/talks/html_static/time_and_space_complexity_recursion.html) 
 <br>[[Raw Notebook]](https://github.com/williamgilpin/cphy/blob/main/talks/time_and_space_complexity_recursion.ipynb)
