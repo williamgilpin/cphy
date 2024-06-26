@@ -84,6 +84,7 @@ Many links below direct to Google Colaboratory, and can be run-in-browser withou
 + [Lecture 11a: Multivariate Optimization and Potential Flows](https://www.wgilpin.com/cphy/talks/html_static/optimization_multivariate.html)
 <br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/optimization_multivariate.ipynb)
 <!-- [[Raw Notebook]](https://github.com/williamgilpin/cphy/blob/main/talks/optimization_multivariate.ipynb) -->
+ [[video]](https://youtu.be/ADkCO1sED0w)
 
 + [Lecture 11b: Evolving Cellular Automata with Genetic Algorithms](https://www.wgilpin.com/cphy/talks/html_static/evolving_cellular_automata.html)
 <br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/evolving_cellular_automata.ipynb)
