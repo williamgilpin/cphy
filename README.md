@@ -176,8 +176,6 @@ For errors or typos, please consider opening an issue or submitting corrections 
 For students, course-related questions are best posted on GitHub as [Discussions](https://github.com/williamgilpin/cphy/discussions) or Issues on [the course repository](https://github.com/williamgilpin/cphy/); for other issues, I can be reached via [email](mailto:wgilpin@[saxetu%20spelled%20backwards].edu)
 
 
-
-
 ## Requirements
 
 We will primarily use Python 3 with the following packages
