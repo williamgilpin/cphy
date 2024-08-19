@@ -17,7 +17,7 @@ Materials for UT Austin's graduate computational physics course, taught by [Will
 
 This course aims to provide a very broad survey of computational methods that are particularly relevant to modern physics research. We will aim to cover efficient algorithm design and performance analysis, traditional numerical recipes such as integration and matrix manipulation, and emerging methods in data analysis and machine learning. Our goal by the end of the class will be to feel comfortable approaching diverse, open-ended computational problems that arise during research, and to be ready to design and share new algorithms with the broader research community.
 
-The class website is located [here](https://www.wgilpin.com/cphy/?utm_source=en_us_bh224180tg). **If you are enrolled in the course at UT, the syllabus and calendar are [here](https://docs.google.com/document/d/1URJmdpTVG8E2bLLu5xAHctICb6krbZ0fC0hO2i2xEXY/edit?usp=sharing)**
+The class website is located [here](https://www.wgilpin.com/cphy/?utm_source=en_us_bh224180tg). If you are enrolled in 329 at UT, the syllabus and calendar are [here](https://docs.google.com/document/d/1c3_XWOZAYTVmQGKoqcifzEXX7VwzWmhIRT4zVcy9lFU/edit?usp=sharing). If you are enrolled in 381C at UT, the syllabus and calendar are [here](https://docs.google.com/document/d/1URJmdpTVG8E2bLLu5xAHctICb6krbZ0fC0hO2i2xEXY/edit?usp=sharing). For both courses, the Discussions page may be found [here](https://edstem.org/us/courses/59769).
 
 ## Contents
 
