@@ -3,11 +3,15 @@
 
 Additional information about Python and conda environments can be found in [William’s detailed notes](http://www.wgilpin.com/howto/howto_conda.html)
 
+0. Before following the instructions below, go ahead and set up a Google Colaboratory account. You should be able to do by clicking one of the "Live Notebook" links on [the course webpage](https://github.com/williamgilpin/cphy). [Here is a link to the first lecture.](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/python_intro.ipynb) Google Colab is a purely cloud-based development environment. If you ever run into issues with Python on your own computer, feel free to use Google Colab as a backup. However, I would recommend setting up Python on your own computer for the course, since there many features that are not available in Google Colab.
+
 1. Install Miniconda on your development environment. OS-specific instructions can be found [here](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html). macOS or Linux users should install [Homebrew](https://brew.sh/) as well. The instructions on the conda webpage include a step where you download an installer shell script with a `.sh` extension. The script you download depends very specifically on your OS and hardware (Intel, Apple Silicon, etc), double check that you download the correct [installation script version](https://docs.conda.io/en/latest/miniconda.html).
+
+    > Note: if you are already a Python user, you may already have a preferred package and environment manager. William, for example, uses [mamba](https://mamba.readthedocs.io/en/latest/user_guide/mamba.html) instead of conda.
 
 Depending on your research needs, you may find the [full Anaconda distribution](https://www.anaconda.com/) preferable. Advanced users may also want to consider [Mamba](https://mamba.readthedocs.io/en/latest/user_guide/mamba.html), which is a faster drop-in replacement for conda, but which has less existing support threads.
 
-2. Open your computer’s terminal app. On Windows, Miniconda will install the Anaconda Terminal, which you can use as the default Terminal for this class. Otherwise, you may need to use [Windows Terminal](https://github.com/microsoft/terminal) or [gitbash](https://gitforwindows.org/) instead. If you plan to use Windows for the class, please keep track of any bugs or compatibility issues you encounter, as well as their solutions---that will make it easier for us to make the materials more accessible in future iterations.
+2. Open your computer’s terminal app. On Windows, Miniconda will install the Anaconda Terminal, which you can use as the default Terminal for this class. Otherwise, you may need to use [Windows Terminal](https://github.com/microsoft/terminal) or [gitbash](https://gitforwindows.org/) instead. If you plan to use Windows for the class, please post in the class forum about any bugs or compatibility issues you encounter, as well as their solutions---that will make it easier for us to make the materials more accessible in future iterations.
 
 3. In your terminal app, create a new virtual environment using the base Python install. I named mine hwenv, but you can call it whatever you want.
 
