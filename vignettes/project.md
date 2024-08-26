@@ -11,7 +11,7 @@ There are a few heuristics that you might use to identify a good problem:
 For cohesiveness, we aren’t covering machine learning until the end of the course. However, I imagine that these methods will be of strong interest for final projects, and so I would recommend reading ahead on the schedule (as well as my suggested resources for learning the practical usage of ML frameworks) if you are new to the area. I can also suggest ideas when I hear the project proposal. For ML projects, I would personally prefer methods that focus on new algorithms, training approaches, representation of data, etc, rather than just applying an existing model (like an existing image classifier architecture) to a domain-specific dataset (like microscopy data).
 
 
-### Project Learning Goals
+#### Project Learning Goals
 
 Beyond providing a setting to try out some of the ideas we are learning in this class, I am hoping that this project will have residual value to you after the course is over. Having prior experience with open-source development and visible existing code examples may prove useful to you in your graduate research, and potentially on the academic and industry job market. An even bigger goal would be to make a piece of software that others in the open-source scientific community will discover, use, and help improve. Check out the “Nesterov Adam” project from Stanford’s intro ML course (linked below) for a seemingly-simple class project that ended up producing an influential algorithm and publication.
 
@@ -44,9 +44,9 @@ Talk: 20%
 + + Please be ready to present the class session before you are scheduled, just in case someone can’t come on their scheduled presentation day.
 + + You can organize these however you want, but if you would prefer a template: 5-8 minutes background, 3 minutes on problem formulation, 5 minutes on your solution and any pitfalls or dead ends, and remaining time on future directions, applications, connections to interesting other ideas.
 
-## Project Ideas
+#### Project Ideas
 You can pick anything of interest, here are just some ideas
-+ Implement the orthogonality-constrained optimizer of Edelman et al.
++ Implement the [orthogonality-constrained optimizer of Edelman et al.](https://arxiv.org/abs/physics/9806030)
 
 ## Project resources
 + [Pineau Lab machine learning reproducibility checklist](https://github.com/paperswithcode/releasing-research-code)
