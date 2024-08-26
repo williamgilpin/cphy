@@ -24,7 +24,7 @@ The class website is located [here](https://www.wgilpin.com/cphy/?utm_source=en_
 
 ## Contents
 
-Many links below direct to Google Colaboratory, and can be run-in-browser without any installation as long as you are signed into a Google account. To download the raw source files, please refer to [the GitHub repository](https://github.com/williamgilpin/cphy/tree/main)
+Many links below direct to Google Colab, and can be run-in-browser without installation as long as you are signed into a Google account. To download the raw source files, please refer to [the GitHub repository](https://github.com/williamgilpin/cphy/tree/main)
 
 #### Homework Assignments
 + [HW1: The sandpile cellular automaton and directed percolation](https://github.com/williamgilpin/cphy/blob/main/hw/cellular_automata_complexity.ipynb). *Covers recursion, runtime scaling, vectorization*
@@ -172,11 +172,9 @@ Many links below direct to Google Colaboratory, and can be run-in-browser withou
 
 ## Usage and improvements
 
-If you are teaching a similar course, please feel free to use any or all of these materials. If you have any suggestions for improvements or find any errors, I would very much appreciate any feedback. 
+If you are teaching a similar course, please feel free to use any or all of these materials. If you have any suggestions for improvements or find any errors, I would very much appreciate any feedback. Consider submitting corrections as issues or pull requests on [GitHub](https://github.com/williamgilpin/cphy/).
 
-For errors or typos, please consider opening an issue or submitting corrections as pull requests on [GitHub](https://github.com/williamgilpin/cphy/).
-
-For students, course-related questions are best posted on GitHub as [Discussions](https://github.com/williamgilpin/cphy/discussions) or Issues on [the course repository](https://github.com/williamgilpin/cphy/); for other issues, I can be reached via [email](mailto:wgilpin@[saxetu%20spelled%20backwards].edu)
+For students, logistics and project questions are best posted on the classroom forum (Ed Discussions); errors in the materials should be issues on [the course repository](https://github.com/williamgilpin/cphy/); for other issues, I can be reached via [email](mailto:wgilpin@[saxetu%20spelled%20backwards].edu)
 
 
 ## Requirements
