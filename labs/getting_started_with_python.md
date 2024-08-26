@@ -92,7 +92,7 @@ Run the cells in the notebook in order (top to bottom) by pressing Shift + Enter
 
 ## FAQ:
 
-*Any questions or problems that arise, as well as their solutions, can go here.*
+*Any questions or problems that arise, as well as their solutions, go here.*
 
 On windows, `conda create` fails. Unset [SSL](https://stackoverflow.com/questions/50125472/issues-with-installing-python-libraries-on-windows-condahttperror-http-000-co) or use the Anaconda terminal
 
