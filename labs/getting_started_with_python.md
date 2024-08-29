@@ -14,7 +14,7 @@ Additional information about Python and conda environments can be found in [Will
 2. Open your computer’s terminal app. On Windows, Miniconda will install the Anaconda Terminal, which you can use as the default Terminal for this class. Otherwise, you may need to use [Windows Terminal](https://github.com/microsoft/terminal) or [gitbash](https://gitforwindows.org/) instead. If you plan to use Windows for the class, please post in the class forum about any bugs or compatibility issues you encounter, as well as their solutions---that will make it easier for us to make the materials more accessible in future iterations.
 
 3. In your terminal app, create a new virtual environment using the base Python install. I named mine hwenv, but you can call it whatever you want.
-
+  
   ```bash
     $ conda create -n hwenv python=3
   ```
@@ -67,7 +67,7 @@ Additional information about Python and conda environments can be found in [Will
   This should forcefully open a browser window running the environment. You can run this step to make sure that everything is working.
 
 11. To test that you have everything working, try downloading the [first lecture notebook](https://github.com/williamgilpin/cphy/blob/main/talks/python_intro.ipynb). Now would be a good time to make a dedicated folder on your local computer for this course. If you are a git user, you can clone the repository. Otherwise, you can download the notebook directly from the browser into the folder you've created.
-  
+
   Run the cells in the notebook in order (top to bottom) by pressing Shift + Enter. If you get an error, make sure that you have activated the correct environment, and that you have installed the necessary packages.
 
 12. **Setting up VSCode.** You can Jupyter Notebooks directly in Jupyter Lab, however I recommend using a full-featured integrated development environment (IDE). I really like Visual Studio Code. [Installation instructions](https://code.visualstudio.com/). PyCharm is another common IDE for Python, though I will not be using it in this class.
