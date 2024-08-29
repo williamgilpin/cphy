@@ -70,7 +70,6 @@ Additional information about Python and conda environments can be found in [Will
   The first time you open a notebook, VSCode will prompt you to install extensions for Jupyter, Python, and a few other utilities. Go ahead and accept the installation. 
   For VSCode, you will still need to use a Terminal session to create/edit your conda environments, as well as install and update packages into your environment. You will likely need to install `ipykernel` in your Python environment.
 
-
 <!-- 12. Now that we know that everything is working, head over to the class repository on GitHub and start working on Lab 1, which uses some parts of the Python ecosystem in order to make really cool embeddings of high-dimensional datasets. -->
 
 
