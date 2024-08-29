@@ -14,7 +14,6 @@ Additional information about Python and conda environments can be found in [Will
 2. Open your computer’s terminal app. On Windows, Miniconda will install the Anaconda Terminal, which you can use as the default Terminal for this class. Otherwise, you may need to use [Windows Terminal](https://github.com/microsoft/terminal) or [gitbash](https://gitforwindows.org/) instead. If you plan to use Windows for the class, please post in the class forum about any bugs or compatibility issues you encounter, as well as their solutions---that will make it easier for us to make the materials more accessible in future iterations.
 
 3. In your terminal app, create a new virtual environment using the base Python install. I named mine hwenv, but you can call it whatever you want.
-  
   ```bash
     $ conda create -n hwenv python=3
   ```
@@ -51,7 +50,6 @@ Additional information about Python and conda environments can be found in [Will
   ```
 
 9. Back in the Terminal, install some other packages that we will end up using a lot 
-
   ```bash
     $ conda activate hwenv
     (hwenv) $ conda install numpy matplotlib 
@@ -60,22 +58,21 @@ Additional information about Python and conda environments can be found in [Will
   A list of other common packages you will need to install appears on [the course homepage.](https://www.wgilpin.com/cphy) Notice how your current environment appears to the left of the `$` symbol in the Terminal. If you close and re-open your Terminal, you'll need to re-activate your conda environment before installing new files.
 
 10. There are two ways that I would recommend using Jupyter notebooks for the class. One option is to manually activate an environment and then launch the notebook server from the Terminal.
-
   ```bash
     (hwenv) $ jupyter lab
   ```
   This should forcefully open a browser window running the environment. You can run this step to make sure that everything is working.
 
 11. To test that you have everything working, try downloading the [first lecture notebook](https://github.com/williamgilpin/cphy/blob/main/talks/python_intro.ipynb). Now would be a good time to make a dedicated folder on your local computer for this course. If you are a git user, you can clone the repository. Otherwise, you can download the notebook directly from the browser into the folder you've created.
-
+  
   Run the cells in the notebook in order (top to bottom) by pressing Shift + Enter. If you get an error, make sure that you have activated the correct environment, and that you have installed the necessary packages.
 
 12. **Setting up VSCode.** You can Jupyter Notebooks directly in Jupyter Lab, however I recommend using a full-featured integrated development environment (IDE). I really like Visual Studio Code. [Installation instructions](https://code.visualstudio.com/). PyCharm is another common IDE for Python, though I will not be using it in this class.
-
+  
   If you successfully install VSCode, you can simply open the course notebooks by double-clicking them to open them in the VSCode GUI, as you would a document or slide deck.  However, if opening a `.ipynb` file, you should always check in the upper-right-hand corner of the notebook that you are using the correct conda environment (since we skipped using the Terminal, we never specified what environment to use). VSCode should automatically find and list the available environments in a drop-down menu, and it will remember your selection for each notebook. 
-
+  
   The first time you open a notebook, VSCode will prompt you to install extensions for Jupyter, Python, and a few other utilities. Go ahead and accept the installation. 
-
+  
   For VSCode, you will still need to use a Terminal session to create/edit your conda environments, as well as install and update packages into your environment. You will likely need to install `ipykernel` in your Python environment.
 
 
