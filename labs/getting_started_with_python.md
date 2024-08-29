@@ -11,13 +11,13 @@ Additional information about Python and conda environments can be found in [Will
 
   Depending on your research needs, you may find the [full Anaconda distribution](https://www.anaconda.com/) preferable. Advanced users may also want to consider [Mamba](https://mamba.readthedocs.io/en/latest/user_guide/mamba.html), which is a faster drop-in replacement for conda, but which has less existing support threads.
 
-2. Open your computer’s terminal app. On Windows, Miniconda will install the Anaconda Terminal, which you can use as the default Terminal for this class. Otherwise, you may need to use [Windows Terminal](https://github.com/microsoft/terminal) or [gitbash](https://gitforwindows.org/) instead. If you plan to use Windows for the class, please post in the class forum about any bugs or compatibility issues you encounter, as well as their solutions---that will make it easier for us to make the materials more accessible in future iterations.
+  2. Open your computer’s terminal app. On Windows, Miniconda will install the Anaconda Terminal, which you can use as the default Terminal for this class. Otherwise, you may need to use [Windows Terminal](https://github.com/microsoft/terminal) or [gitbash](https://gitforwindows.org/) instead. If you plan to use Windows for the class, please post in the class forum about any bugs or compatibility issues you encounter, as well as their solutions---that will make it easier for us to make the materials more accessible in future iterations.
 
 3. In your terminal app, create a new virtual environment using the base Python install. I named mine hwenv, but you can call it whatever you want.
 
-```bash
-  $ conda create -n hwenv python=3
-```
+  ```bash
+    $ conda create -n hwenv python=3
+  ```
 
   This virtual environment will be used to isolate your code and the packages on which it depends from your system’s own Python installation, as well as from other Python projects you might make in the future. For example, you will likely want to make a separate environment for your final project, and for separate personal projects. On my personal computer, I have about a half-dozen environments—one for each different project, including one for this class. If I make a mistake while working on this class and break my environment’s Python installation, it won’t affect my other projects.
 
@@ -51,7 +51,7 @@ Additional information about Python and conda environments can be found in [Will
     $ conda activate hwenv
   ```
 
-If you need to exit the environment for any reason in order to get back to your base Python installation, you can do so by running
+  If you need to exit the environment for any reason in order to get back to your base Python installation, you can do so by running
 
   ```bash
     $ conda deactivate
@@ -64,7 +64,7 @@ If you need to exit the environment for any reason in order to get back to your 
     (hwenv) $ conda install numpy matplotlib 
     (hwenv) $ conda install -c conda-forge jupyterlab
   ```
-Notice how your current environment appears to the left of the `$` symbol.
+A list of other common packages you will need to install appears on [the course homepage.](https://www.wgilpin.com/cphy) Notice how your current environment appears to the left of the `$` symbol in the Terminal. If you close and re-open your Terminal, you'll need to re-activate your conda environment before installing new files.
 
 10. There are two ways that I would recommend using Jupyter notebooks for the class. One option is to manually activate an environment and then launch the notebook server from the Terminal.
 
