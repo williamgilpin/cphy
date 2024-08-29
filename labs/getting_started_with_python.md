@@ -63,16 +63,11 @@ Additional information about Python and conda environments can be found in [Will
   ```
   This should forcefully open a browser window running the environment. You can run this step to make sure that everything is working.
 
-11. To test that you have everything working, try downloading the [first lecture notebook](https://github.com/williamgilpin/cphy/blob/main/talks/python_intro.ipynb). Now would be a good time to make a dedicated folder on your local computer for this course. If you are a git user, you can clone the repository. Otherwise, you can download the notebook directly from the browser into the folder you've created.
-  
-  Run the cells in the notebook in order (top to bottom) by pressing Shift + Enter. If you get an error, make sure that you have activated the correct environment, and that you have installed the necessary packages.
+11. To test that you have everything working, try downloading the [first lecture notebook](https://github.com/williamgilpin/cphy/blob/main/talks/python_intro.ipynb). Now would be a good time to make a dedicated folder on your local computer for this course. If you are a git user, you can clone the repository. Otherwise, you can download the notebook directly from the browser into the folder you've created. Run the cells in the notebook in order (top to bottom) by pressing Shift + Enter. If you get an error, make sure that you have activated the correct environment, and that you have installed the necessary packages.
 
 12. **Setting up VSCode.** You can Jupyter Notebooks directly in Jupyter Lab, however I recommend using a full-featured integrated development environment (IDE). I really like Visual Studio Code. [Installation instructions](https://code.visualstudio.com/). PyCharm is another common IDE for Python, though I will not be using it in this class.
-  
   If you successfully install VSCode, you can simply open the course notebooks by double-clicking them to open them in the VSCode GUI, as you would a document or slide deck.  However, if opening a `.ipynb` file, you should always check in the upper-right-hand corner of the notebook that you are using the correct conda environment (since we skipped using the Terminal, we never specified what environment to use). VSCode should automatically find and list the available environments in a drop-down menu, and it will remember your selection for each notebook. 
-  
   The first time you open a notebook, VSCode will prompt you to install extensions for Jupyter, Python, and a few other utilities. Go ahead and accept the installation. 
-  
   For VSCode, you will still need to use a Terminal session to create/edit your conda environments, as well as install and update packages into your environment. You will likely need to install `ipykernel` in your Python environment.
 
 
