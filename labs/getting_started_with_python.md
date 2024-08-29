@@ -18,23 +18,19 @@ Additional information about Python and conda environments can be found in [Will
   ```bash
     $ conda create -n hwenv python=3
   ```
-
   This virtual environment will be used to isolate your code and the packages on which it depends from your system’s own Python installation, as well as from other Python projects you might make in the future. For example, you will likely want to make a separate environment for your final project, and for separate personal projects. On my personal computer, I have about a half-dozen environments—one for each different project, including one for this class. If I make a mistake while working on this class and break my environment’s Python installation, it won’t affect my other projects.
 
 4.  Before writing any code, always make sure that you have activated your environment.
-
   ```bash
     $ conda activate hwenv
   ```
 
 5. We can now start Python and check that it is working
-
   ```bash
       (hwenv) $ python
   ```
 
 6. Check that your Python version is greater than 3.0
-  
   ```python
     >> import sys
     >> print("User Current Version:-", sys.version)
@@ -43,41 +39,36 @@ Additional information about Python and conda environments can be found in [Will
 7. Terminate the Python process with Ctrl + D on \*nix, or  Ctrl + Z followed by Enter on Windows.
 
 8. *(Optional).* If your Python version does not start with a 3, delete your environment and then make a new environment with a newer version
-
   ```bash
     $ (hwenv) $ conda deactivate
     $ conda remove -n hwenv --all
     $ conda create -n hwenv python=3
     $ conda activate hwenv
   ```
-
   If you need to exit the environment for any reason in order to get back to your base Python installation, you can do so by running
-
   ```bash
     $ conda deactivate
   ```
 
-9. Back in the Terminal, install some other packages that we will end up using a lot
-
+9. Back in the Terminal, install some other packages that we will end up using a lot 
   ```bash
     $ conda activate hwenv
     (hwenv) $ conda install numpy matplotlib 
     (hwenv) $ conda install -c conda-forge jupyterlab
   ```
-A list of other common packages you will need to install appears on [the course homepage.](https://www.wgilpin.com/cphy) Notice how your current environment appears to the left of the `$` symbol in the Terminal. If you close and re-open your Terminal, you'll need to re-activate your conda environment before installing new files.
+  A list of other common packages you will need to install appears on [the course homepage.](https://www.wgilpin.com/cphy) Notice how your current environment appears to the left of the `$` symbol in the Terminal. If you close and re-open your Terminal, you'll need to re-activate your conda environment before installing new files.
 
 10. There are two ways that I would recommend using Jupyter notebooks for the class. One option is to manually activate an environment and then launch the notebook server from the Terminal.
-
   ```bash
     (hwenv) $ jupyter lab
   ```
   This should forcefully open a browser window running the environment. You can run this step to make sure that everything is working.
 
-12. To test that you have everything working, try downloading the [first lecture notebook](https://github.com/williamgilpin/cphy/blob/main/talks/python_intro.ipynb). Now would be a good time to make a dedicated folder on your local computer for this course. If you are a git user, you can clone the repository. Otherwise, you can download the notebook directly from the browser into the folder you've created.
+11. To test that you have everything working, try downloading the [first lecture notebook](https://github.com/williamgilpin/cphy/blob/main/talks/python_intro.ipynb). Now would be a good time to make a dedicated folder on your local computer for this course. If you are a git user, you can clone the repository. Otherwise, you can download the notebook directly from the browser into the folder you've created.
 
   Run the cells in the notebook in order (top to bottom) by pressing Shift + Enter. If you get an error, make sure that you have activated the correct environment, and that you have installed the necessary packages.
 
-11. **Setting up VSCode.** You can Jupyter Notebooks directly in Jupyter Lab, however I recommend using a full-featured integrated development environment (IDE). I really like Visual Studio Code. [Installation instructions](https://code.visualstudio.com/). PyCharm is another common IDE for Python, though I will not be using it in this class.
+12. **Setting up VSCode.** You can Jupyter Notebooks directly in Jupyter Lab, however I recommend using a full-featured integrated development environment (IDE). I really like Visual Studio Code. [Installation instructions](https://code.visualstudio.com/). PyCharm is another common IDE for Python, though I will not be using it in this class.
 
   If you successfully install VSCode, you can simply open the course notebooks by double-clicking them to open them in the VSCode GUI, as you would a document or slide deck.  However, if opening a `.ipynb` file, you should always check in the upper-right-hand corner of the notebook that you are using the correct conda environment (since we skipped using the Terminal, we never specified what environment to use). VSCode should automatically find and list the available environments in a drop-down menu, and it will remember your selection for each notebook. 
 
