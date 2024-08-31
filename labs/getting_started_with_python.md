@@ -75,6 +75,11 @@ Additional information about Python and conda environments can be found in [Will
 
 ## FAQ:
 
+
+*After installing Miniconda/Anaconda on Windows and accepting defaults, running `conda list` in the Anaconda Terminal doesn't work*
+
+
+
 *Any questions or problems that arise, as well as their solutions, go here.*
 
 On windows, `conda create` fails. Unset [SSL](https://stackoverflow.com/questions/50125472/issues-with-installing-python-libraries-on-windows-condahttperror-http-000-co) or use the Anaconda terminal
