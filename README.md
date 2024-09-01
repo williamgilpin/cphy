@@ -79,37 +79,23 @@ To copilot: all links are copilot first, then html, then ipynb
 
 + [Lecture 6a: Random walks on complex graphs](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/random_walks_complex_graphs.ipynb)
 <br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/random_walks_complex_graphs.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/random_walks_complex_graphs.ipynb)
-<!-- (https://www.wgilpin.com/cphy/talks/html_static/intro_graph_adjacency.html)
-<br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/intro_graph_adjacency.ipynb) -->
 
 + [Lecture 6b: Probing collaborator graphs with LU matrix inversion](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/lu_decomposition.ipynb)
 <br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/lu_decomposition.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/lu_decomposition.ipynb)
-<!-- (https://www.wgilpin.com/cphy/talks/html_static/lu_decomposition.html)
-<br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/lu_decomposition.ipynb) -->
 
 + [Lecture 7: Spectral graph theory and the QR eigenvalue algorithm](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/qr_eigenvalues.ipynb)
 <br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/qr_eigenvalues.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/qr_eigenvalues.ipynb)
-<!-- (https://www.wgilpin.com/cphy/talks/html_static/qr_eigenvalues.html) -->
  <!-- [[vid]](https://youtu.be/jiS4D5pvwy0) -->
 
 + [Lecture 8: Singular Value Decomposition](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/svd_decomp.ipynb)
 <br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/svd_decomp.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/svd_decomp.ipynb)
-<!-- (https://www.wgilpin.com/cphy/talks/html_static/svd_decomp.html) -->
-<!-- <br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/svd_decomp.ipynb) -->
-<!-- [[Raw Notebook]](https://github.com/williamgilpin/cphy/blob/main/talks/svd_decomp.ipynb) -->
- <!-- [[video]](https://youtu.be/6w-_26aogH4?t=366) -->
+<!-- [[video]](https://youtu.be/6w-_26aogH4?t=366) -->
 
 + [Lecture 9: Krylov subspace methods & Conjugate gradient methods](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/krylov_methods.ipynb)
 <br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/krylov_methods.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/krylov_methods.ipynb)
-<!-- (https://www.wgilpin.com/cphy/talks/html_static/krylov_methods.html)
-<br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/krylov_methods.ipynb) -->
-<!-- [[Raw Notebook]](https://github.com/williamgilpin/cphy/blob/main/talks/krylov_methods.ipynb) -->
 
 + [Lecture 10: Optimization in low dimensions](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/convex_optimization_univariate.ipynb)
 <br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/convex_optimization_univariate.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/convex_optimization_univariate.ipynb)
-<!-- (https://www.wgilpin.com/cphy/talks/html_static/convex_optimization_univariate.html)
-<br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/convex_optimization_univariate.ipynb) -->
-<!-- [[Raw Notebook]](https://github.com/williamgilpin/cphy/blob/main/talks/convex_optimization_univariate.ipynb) -->
 
 + [Lecture 11a: Multivariate Optimization and Potential Flows](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/optimization_multivariate.ipynb)
 <br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/optimization_multivariate.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/optimization_multivariate.ipynb)
@@ -135,8 +121,6 @@ To copilot: all links are copilot first, then html, then ipynb
 
 + [Lecture 15: Diffusion, relaxation, and instability](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/diffusion_relaxation_instability.ipynb)
 <br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/diffusion_relaxation_instability.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/diffusion_relaxation_instability.ipynb)
-  <!-- https://www.wgilpin.com/cphy/talks/html_static/laplace_equation.html)
-<br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/laplace_equation.ipynb) -->
 
 + [Lecture 16: Shocks, solitons, and hyperbolic partial differential equations](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/hyperbolic_pde.ipynb)
 <br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/hyperbolic_pde.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/hyperbolic_pde.ipynb)
