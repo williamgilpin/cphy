@@ -33,8 +33,6 @@ Many links below direct to Google Colab, and can be run-in-browser without insta
 + [HW4: Predicting turbulence with operator methods](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/hw/forecasting_regression_supervised.ipynb). [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/hw/forecasting_regression_supervised.ipynb) *Covers Supervised learning, time series forecasting, ridge, kernel, and logistic regression*
 <!-- + [Homework solutions](https://github.com/williamgilpin/cphy/blob/main/hw/solutions/) -->
 
-To copilot: all links are copilot first, then html, then ipynb
-
 #### Lecture Slides {#lectures}
 + [Lecture 1: Python syntax for Scientific Computing](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/python_intro.ipynb)
 <br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/python_intro.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/python_intro.ipynb)
