@@ -34,13 +34,17 @@ Many links below direct to Google Colab, and can be run-in-browser without insta
 <!-- + [Homework solutions](https://github.com/williamgilpin/cphy/blob/main/hw/solutions/) -->
 
 #### Lecture Slides {#lectures}
-+ [Lecture 1: Python syntax for Scientific Computing](https://www.wgilpin.com/cphy/talks/html_static/python_intro.html) 
-<br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/python_intro.ipynb)
++ [Lecture 1: Python syntax for Scientific Computing](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/python_intro.ipynb)
+<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/python_intro.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/python_intro.ipynb)
+<!-- <br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/python_intro.ipynb) -->
 
-+ [Lecture 1b: Object-oriented programming to find first-passage times of Brownian motion](https://www.wgilpin.com/cphy/talks/html_static/first_passage_and_inheritance.html)
++ [Lecture 1b: Object-oriented programming to find first-passage times of Brownian motion](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/first_passage_and_inheritance.ipynb)
+<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/first_passage_and_inheritance.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/first_passage_and_inheritance.ipynb)
+<!-- 
+(https://www.wgilpin.com/cphy/talks/html_static/first_passage_and_inheritance.html)
 <br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/first_passage_and_inheritance.ipynb) 
  [[vid1]](https://youtu.be/N8PJH9WxvUk)
- [[vid2]](https://youtu.be/R1fDglciddo)
+ [[vid2]](https://youtu.be/R1fDglciddo) -->
 
 + [Lecture 1c: Vectorization, arrays, and the Mandelbrot set](https://www.wgilpin.com/cphy/talks/html_static/vectorization_mandelbrot.html) 
 <br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/vectorization_mandelbrot.ipynb)
