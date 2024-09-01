@@ -38,44 +38,30 @@ To copilot: all links are copilot first, then html, then ipynb
 #### Lecture Slides {#lectures}
 + [Lecture 1: Python syntax for Scientific Computing](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/python_intro.ipynb)
 <br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/python_intro.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/python_intro.ipynb)
-<!-- <br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/python_intro.ipynb) -->
 
 + [Lecture 1b: Object-oriented programming to find first-passage times of Brownian motion](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/first_passage_and_inheritance.ipynb)
 <br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/first_passage_and_inheritance.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/first_passage_and_inheritance.ipynb)
-<!-- 
-(https://www.wgilpin.com/cphy/talks/html_static/first_passage_and_inheritance.html)
-<br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/first_passage_and_inheritance.ipynb) 
- [[vid1]](https://youtu.be/N8PJH9WxvUk)
- [[vid2]](https://youtu.be/R1fDglciddo) -->
+<!-- [[vid1]](https://youtu.be/N8PJH9WxvUk)
+[[vid2]](https://youtu.be/R1fDglciddo) -->
 
 + [Lecture 1c: Vectorization, arrays, and the Mandelbrot set](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/vectorization_mandelbrot.ipynb)
 <br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/vectorization_mandelbrot.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/vectorization_mandelbrot.ipynb)
-<!-- (https://www.wgilpin.com/cphy/talks/html_static/vectorization_mandelbrot.html) 
-<br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/vectorization_mandelbrot.ipynb) -->
 <!-- [[video]](https://youtu.be/PqntSbG4IuM) -->
 
 + [Lecture 2: Runtime complexity, convolutions, and the continuous Game of Life](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/convolutions_game_of_life.ipynb)
 <br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/convolutions_game_of_life.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/convolutions_game_of_life.ipynb)
-<!-- (https://www.wgilpin.com/cphy/talks/html_static/inheritance_game_of_life.html) 
-<br>[[Raw Notebook]](https://github.com/williamgilpin/cphy/blob/main/talks/inheritance_game_of_life.ipynb)
- [[video]](https://youtu.be/Pgycaa_D8h4?t=434) -->
+<!-- [[video]](https://youtu.be/Pgycaa_D8h4?t=434) -->
 
 + [Lecture 3: Finding the Feigenbaum constant with recursion and dynamic programming](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/feigenbaum_constant.ipynb)
 <br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/feigenbaum_constant.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/feigenbaum_constant.ipynb)
-<!-- (https://www.wgilpin.com/cphy/talks/html_static/time_and_space_complexity_recursion.html) 
-<br>[[Raw Notebook]](https://github.com/williamgilpin/cphy/blob/main/talks/time_and_space_complexity_recursion.ipynb) -->
 
 + [Lecture 4: Detecting the onset of turbulence with the Fast Fourier Transform](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/fast_fourier.ipynb)
 <br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/fast_fourier.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/fast_fourier.ipynb)
-<!-- (https://www.wgilpin.com/cphy/talks/html_static/fast_fourier.html) 
-<br>[[Raw Notebook]](https://github.com/williamgilpin/cphy/blob/main/talks/fast_fourier.ipynb)
- [[video]](https://www.youtube.com/watch?v=AUMu5xL2rjY) -->
+<!-- [[video]](https://www.youtube.com/watch?v=AUMu5xL2rjY) -->
 
 + [Lecture 5: Condition Number and the irreversibility of chaos](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/condition_number.ipynb)
 <br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/condition_number.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/condition_number.ipynb)
-<!-- (https://www.wgilpin.com/cphy/talks/html_static/numerical_linear_algebra_preconditioning.html) 
-<br>[[Raw Notebook]](https://github.com/williamgilpin/cphy/blob/main/talks/numerical_linear_algebra_preconditioning.ipynb)
- [[video]](https://youtu.be/9ZqXsIzBlCg) -->
+<!-- [[video]](https://youtu.be/9ZqXsIzBlCg) -->
 
 + [Lecture 6a: Random walks on complex graphs](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/random_walks_complex_graphs.ipynb)
 <br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/random_walks_complex_graphs.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/random_walks_complex_graphs.ipynb)
