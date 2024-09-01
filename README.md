@@ -144,7 +144,10 @@ Many links below direct to Google Colab, and can be run-in-browser without insta
 #### Notes
 
 + [How to use the high-performance computing cluster](https://github.com/williamgilpin/howto/blob/master/using_tacc.md)
-+ [Matrix Derivatives notes by Yuezhang Liu](https://github.com/williamgilpin/cphy/blob/main/talks/matrix_derivative.ipynb)
++ [Matrix Derivatives notes](https://github.com/williamgilpin/cphy/blob/main/talks/matrix_derivative.ipynb)
++ [Hopfield Networks and Spin Glasses](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/vignettes/hopfield_model.ipynb)
+[[ipynb]](https://github.com/williamgilpin/cphy/blob/main/vignettes/hopfield_model.ipynb)
+
 
 #### Laboratory Exercises
 + [Lab 1: Getting started with Python](labs/getting_started_with_python.md)
