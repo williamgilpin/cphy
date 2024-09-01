@@ -45,8 +45,11 @@ Talk: 20%
 + + You can organize these however you want, but if you would prefer a template: 5-8 minutes background, 3 minutes on problem formulation, 5 minutes on your solution and any pitfalls or dead ends, and remaining time on future directions, applications, connections to interesting other ideas.
 
 #### Project Ideas
-You can pick anything of interest, here are just some ideas
+You can pick anything that interests you and which involves writing new code, here are just some ideas
 + Implement the [orthogonality-constrained optimizer of Edelman et al.](https://arxiv.org/abs/physics/9806030)
++ Implement a finite-element solver for PDEs in 2D, and compare and contrast with the finite-difference method
++ Recreate the key results of Kauffman’s [random Boolean circuits paper](https://www.sciencedirect.com/science/article/abs/pii/0022519369900150)
++ Recreate the key results of [Lenski et al.'s digital organisms paper](https://www.nature.com/articles/23245)
 
 ## Project resources
 + [Pineau Lab machine learning reproducibility checklist](https://github.com/paperswithcode/releasing-research-code)
