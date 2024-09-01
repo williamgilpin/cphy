@@ -46,50 +46,73 @@ Many links below direct to Google Colab, and can be run-in-browser without insta
  [[vid1]](https://youtu.be/N8PJH9WxvUk)
  [[vid2]](https://youtu.be/R1fDglciddo) -->
 
-+ [Lecture 1c: Vectorization, arrays, and the Mandelbrot set](https://www.wgilpin.com/cphy/talks/html_static/vectorization_mandelbrot.html) 
-<br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/vectorization_mandelbrot.ipynb)
++ [Lecture 1c: Vectorization, arrays, and the Mandelbrot set](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/vectorization_mandelbrot.ipynb)
+<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/vectorization_mandelbrot.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/vectorization_mandelbrot.ipynb)
+<!-- (https://www.wgilpin.com/cphy/talks/html_static/vectorization_mandelbrot.html) 
+<br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/vectorization_mandelbrot.ipynb) -->
 <!-- [[video]](https://youtu.be/PqntSbG4IuM) -->
 
-+ [Lecture 2: Runtime complexity, convolutions, and the continuous Game of Life](https://www.wgilpin.com/cphy/talks/html_static/inheritance_game_of_life.html) 
++ [Lecture 2: Runtime complexity, convolutions, and the continuous Game of Life](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/convolutions_game_of_life.ipynb)
+<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/convolutions_game_of_life.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/convolutions_game_of_life.ipynb)
+<!-- (https://www.wgilpin.com/cphy/talks/html_static/inheritance_game_of_life.html) 
 <br>[[Raw Notebook]](https://github.com/williamgilpin/cphy/blob/main/talks/inheritance_game_of_life.ipynb)
- [[video]](https://youtu.be/Pgycaa_D8h4?t=434)
+ [[video]](https://youtu.be/Pgycaa_D8h4?t=434) -->
 
-+ [Lecture 3: Finding the Feigenbaum constant with recursion and dynamic programming](https://www.wgilpin.com/cphy/talks/html_static/time_and_space_complexity_recursion.html) 
-<br>[[Raw Notebook]](https://github.com/williamgilpin/cphy/blob/main/talks/time_and_space_complexity_recursion.ipynb)
++ [Lecture 3: Finding the Feigenbaum constant with recursion and dynamic programming](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/feigenbaum_constant.ipynb)
+<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/feigenbaum_constant.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/feigenbaum_constant.ipynb)
+<!-- (https://www.wgilpin.com/cphy/talks/html_static/time_and_space_complexity_recursion.html) 
+<br>[[Raw Notebook]](https://github.com/williamgilpin/cphy/blob/main/talks/time_and_space_complexity_recursion.ipynb) -->
 
-+ [Lecture 4: Detecting the onset of turbulence with the Fast Fourier Transform](https://www.wgilpin.com/cphy/talks/html_static/fast_fourier.html) 
++ [Lecture 4: Detecting the onset of turbulence with the Fast Fourier Transform](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/fast_fourier.ipynb)
+<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/fast_fourier.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/fast_fourier.ipynb)
+<!-- (https://www.wgilpin.com/cphy/talks/html_static/fast_fourier.html) 
 <br>[[Raw Notebook]](https://github.com/williamgilpin/cphy/blob/main/talks/fast_fourier.ipynb)
- [[video]](https://www.youtube.com/watch?v=AUMu5xL2rjY)
+ [[video]](https://www.youtube.com/watch?v=AUMu5xL2rjY) -->
 
-+ [Lecture 5: Condition Number and the irreversibility of chaos](https://www.wgilpin.com/cphy/talks/html_static/numerical_linear_algebra_preconditioning.html) 
++ [Lecture 5: Condition Number and the irreversibility of chaos](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/condition_number.ipynb)
+<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/condition_number.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/condition_number.ipynb)
+<!-- (https://www.wgilpin.com/cphy/talks/html_static/numerical_linear_algebra_preconditioning.html) 
 <br>[[Raw Notebook]](https://github.com/williamgilpin/cphy/blob/main/talks/numerical_linear_algebra_preconditioning.ipynb)
- [[video]](https://youtu.be/9ZqXsIzBlCg)
+ [[video]](https://youtu.be/9ZqXsIzBlCg) -->
 
-+ [Lecture 6a: Random walks on complex graphs](https://www.wgilpin.com/cphy/talks/html_static/intro_graph_adjacency.html)
-<br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/intro_graph_adjacency.ipynb)
++ [Lecture 6a: Random walks on complex graphs](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/random_walks_complex_graphs.ipynb)
+<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/random_walks_complex_graphs.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/random_walks_complex_graphs.ipynb)
+<!-- (https://www.wgilpin.com/cphy/talks/html_static/intro_graph_adjacency.html)
+<br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/intro_graph_adjacency.ipynb) -->
 
-+ [Lecture 6b: Probing collaborator graphs with LU matrix inversion](https://www.wgilpin.com/cphy/talks/html_static/lu_decomposition.html)
-<br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/lu_decomposition.ipynb)
++ [Lecture 6b: Probing collaborator graphs with LU matrix inversion](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/lu_decomposition.ipynb)
+<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/lu_decomposition.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/lu_decomposition.ipynb)
+<!-- (https://www.wgilpin.com/cphy/talks/html_static/lu_decomposition.html)
+<br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/lu_decomposition.ipynb) -->
 
-+ [Lecture 7: Spectral graph theory and the QR eigenvalue algorithm](https://www.wgilpin.com/cphy/talks/html_static/qr_eigenvalues.html)
-<br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/qr_eigenvalues.ipynb)
- [[video]](https://youtu.be/jiS4D5pvwy0)
++ [Lecture 7: Spectral graph theory and the QR eigenvalue algorithm](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/qr_eigenvalues.ipynb)
+<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/qr_eigenvalues.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/qr_eigenvalues.ipynb)
+<!-- (https://www.wgilpin.com/cphy/talks/html_static/qr_eigenvalues.html) -->
+ <!-- [[vid]](https://youtu.be/jiS4D5pvwy0) -->
 
-+ [Lecture 8: Singular Value Decomposition](https://www.wgilpin.com/cphy/talks/html_static/svd_decomp.html)
-<br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/svd_decomp.ipynb)
++ [Lecture 8: Singular Value Decomposition](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/svd_decomp.ipynb)
+<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/svd_decomp.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/svd_decomp.ipynb)
+<!-- (https://www.wgilpin.com/cphy/talks/html_static/svd_decomp.html) -->
+<!-- <br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/svd_decomp.ipynb) -->
 <!-- [[Raw Notebook]](https://github.com/williamgilpin/cphy/blob/main/talks/svd_decomp.ipynb) -->
- [[video]](https://youtu.be/6w-_26aogH4?t=366)
+ <!-- [[video]](https://youtu.be/6w-_26aogH4?t=366) -->
 
-+ [Lecture 9: Krylov subspace methods & Conjugate gradient methods](https://www.wgilpin.com/cphy/talks/html_static/krylov_methods.html)
-<br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/krylov_methods.ipynb)
++ [Lecture 9: Krylov subspace methods & Conjugate gradient methods](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/krylov_methods.ipynb)
+<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/krylov_methods.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/krylov_methods.ipynb)
+<!-- (https://www.wgilpin.com/cphy/talks/html_static/krylov_methods.html)
+<br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/krylov_methods.ipynb) -->
 <!-- [[Raw Notebook]](https://github.com/williamgilpin/cphy/blob/main/talks/krylov_methods.ipynb) -->
 
-+ [Lecture 10: Optimization in low dimensions](https://www.wgilpin.com/cphy/talks/html_static/convex_optimization_univariate.html)
-<br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/convex_optimization_univariate.ipynb)
++ [Lecture 10: Optimization in low dimensions](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/convex_optimization_univariate.ipynb)
+<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/convex_optimization_univariate.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/convex_optimization_univariate.ipynb)
+<!-- (https://www.wgilpin.com/cphy/talks/html_static/convex_optimization_univariate.html)
+<br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/convex_optimization_univariate.ipynb) -->
 <!-- [[Raw Notebook]](https://github.com/williamgilpin/cphy/blob/main/talks/convex_optimization_univariate.ipynb) -->
 
-+ [Lecture 11a: Multivariate Optimization and Potential Flows](https://www.wgilpin.com/cphy/talks/html_static/optimization_multivariate.html)
-<br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/optimization_multivariate.ipynb)
++ [Lecture 11a: Multivariate Optimization and Potential Flows](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/optimization_multivariate.ipynb)
+<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/optimization_multivariate.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/optimization_multivariate.ipynb)
+<!-- (https://www.wgilpin.com/cphy/talks/html_static/optimization_multivariate.html)
+<br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/optimization_multivariate.ipynb) -->
 <!-- [[Raw Notebook]](https://github.com/williamgilpin/cphy/blob/main/talks/optimization_multivariate.ipynb) -->
  [[video]](https://youtu.be/ADkCO1sED0w)
 
