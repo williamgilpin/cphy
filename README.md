@@ -120,26 +120,17 @@ To copilot: all links are copilot first, then html, then ipynb
 
 + [Lecture 11c: Monte Carlo methods and Hard Sphere Packing](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/monte_carlo_hard_sphere.ipynb)
 <br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/monte_carlo_hard_sphere.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/monte_carlo_hard_sphere.ipynb)
-<!-- (https://www.wgilpin.com/cphy/talks/html_static/monte_carlo_metropolis.html)
-<br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/monte_carlo_metropolis.ipynb) -->
-<!-- [[Raw Notebook]](https://github.com/williamgilpin/cphy/blob/main/talks/monte_carlo_metropolis.ipynb) -->
 
 + [Lecture 12: Numerical Integration and predicting chaos](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/lorenz_odeint.ipynb)
 <br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/lorenz_odeint.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/lorenz_odeint.ipynb)
-<!-- (https://www.wgilpin.com/cphy/talks/html_static/lorenz_odeint.html)
-<br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/lorenz_odeint.ipynb) -->
 <!-- [[Raw Notebook]](https://github.com/williamgilpin/cphy/blob/main/talks/lorenz_odeint.ipynb) -->
 
 + [Lecture 13: Variable step integration, symplectic and stochastic systems](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/integrator_chaos_variable_step.ipynb)
 <br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/integrator_chaos_variable_step.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/integrator_chaos_variable_step.ipynb)
-<!-- (https://www.wgilpin.com/cphy/talks/html_static/integrator_chaos_variable_step.html)
-<br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/integrator_chaos_variable_step.ipynb) -->
-<!-- [[Raw Notebook]](https://github.com/williamgilpin/cphy/blob/main/talks/integrator_chaos_variable_step.ipynb) -->
  <!-- [[video]](https://youtu.be/q754u2a7uCA) -->
 
 + [Lecture 14: A pragmatist's guide to numerical integration](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/pragmatic_integration.ipynb)
 <br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/pragmatic_integration.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/pragmatic_integration.ipynb)
-<!-- (https://github.com/williamgilpin/cphy/blob/main/talks/pragmatic_integration.ipynb)  -->
 <!-- [[video]](https://www.youtube.com/watch?v=hUgcgO1ZJMQ) -->
 
 + [Lecture 15: Diffusion, relaxation, and instability](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/diffusion_relaxation_instability.ipynb)
@@ -149,55 +140,38 @@ To copilot: all links are copilot first, then html, then ipynb
 
 + [Lecture 16: Shocks, solitons, and hyperbolic partial differential equations](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/hyperbolic_pde.ipynb)
 <br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/hyperbolic_pde.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/hyperbolic_pde.ipynb)
-<!-- https://www.wgilpin.com/cphy/talks/html_static/hyperbolic_pde.html)
-<br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/hyperbolic_pde.ipynb) -->
-<!-- (https://github.com/williamgilpin/cphy/blob/main/talks/hyperbolic_pde.ipynb) -->
- [[video]](https://youtu.be/lqyKeuCsHDU)
+<!-- [[video]](https://youtu.be/lqyKeuCsHDU) -->
 
 + [Lecture 17: Spectral solving using the Dedalus Python Package](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/dedalus.ipynb)
 <br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/dedalus.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/dedalus.ipynb)
-<!-- https://github.com/williamgilpin/cphy/blob/main/talks/dedalus.ipynb)  -->
 <!-- [[vid]](https://www.youtube.com/watch?v=9Biw4oVs-sA) -->
 
 + [Lecture 18: Supervised Learning & The Ising Model](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/supervised_learning_ising.ipynb)
 <br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/supervised_learning_ising.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/supervised_learning_ising.ipynb)
-<!-- https://github.com/williamgilpin/cphy/blob/main/talks/supervised_learning_ising.ipynb)  -->
 <!-- [[vid]](https://www.youtube.com/watch?v=DEAaoJpl6-Y) -->
 
 + [Lecture 19: Classification, Logistic Regression, and phases of matter](https://github.com/williamgilpin/cphy/blob/main/talks/logistic_regression_phases.ipynb)
 
 + [Lecture 20: Overfitting, bias-variance tradeoff, and double-descent](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/overfitting_bias_variance_free_lunch.ipynb)
 <br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/overfitting_bias_variance_free_lunch.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/overfitting_bias_variance_free_lunch.ipynb)
-  <!-- https://www.wgilpin.com/cphy/talks/html_static/overfitting_bias_variance_free_lunch.html)
-<br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/overfitting_bias_variance_free_lunch.ipynb) -->
 
 + [Lecture 21: Unsupervised learning, embedding, clustering](https://github.com/williamgilpin/cphy/blob/main/talks/unsupervised_clustering_embedding.ipynb)
 
 + [Lecture 22: Time series representation, featurizing chaos, kernel methods](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/time_series_chaos_clustering.ipynb)
 <br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/time_series_chaos_clustering.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/time_series_chaos_clustering.ipynb)
-  <!-- https://www.wgilpin.com/cphy/talks/html_static/time_series_chaos_clustering.html)
-<br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/time_series_chaos_clustering.ipynb) -->
 
 + [Lecture 23: Gaussian mixtures, expectation-maximization, and superresolution microscopy](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/gmm_mle_em.ipynb)
 <br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/gmm_mle_em.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/gmm_mle_em.ipynb)
-  <!-- https://www.wgilpin.com/cphy/talks/html_static/gmm_mle_em.html)
-<br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/gmm_mle_em.ipynb) -->
 
 + [Lecture 24: Predicting the Reynolds number of turbulence with deep learning](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/deep_learning_reynolds.ipynb)
 <br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/deep_learning_reynolds.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/deep_learning_reynolds.ipynb)
-  <!-- https://www.wgilpin.com/cphy/talks/html_static/neural_networks_overview.html)
-<br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/neural_networks_overview.ipynb)
- [[video]](https://youtu.be/wvxnVAuVB0E) -->
+ <!-- [[video]](https://youtu.be/wvxnVAuVB0E) -->
 
 + [Lecture 25: Types of neural networks; symmetries in physical systems](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/neural_networks_types.ipynb)
 <br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/neural_networks_types.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/neural_networks_types.ipynb)
-<!-- (https://github.com/williamgilpin/cphy/blob/main/talks/neural_networks_types.ipynb) -->
 
 + [Lecture 26: Training neural networks with backpropagation](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/neural_networks_training.ipynb)
 <br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/neural_networks_training.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/neural_networks_training.ipynb)
-  <!-- https://www.wgilpin.com/cphy/talks/html_static/neural_networks_training.html)
-<br>[[Live Notebook]](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/neural_networks_training.ipynb) -->
-<!-- + [Lecture 27: Using convolutional neural networks to predict the phases of the Ising Model](https://github.com/williamgilpin/cphy/blob/main/talks/convolutional_neural_networks_pytorch.ipynb) -->
 
 #### Notes
 
