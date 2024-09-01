@@ -7488,12 +7488,12 @@ a.anchor-link {
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=1dbc7a28">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=1dbc7a28">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [9]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [3]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># pre-installed library containing a grab bag of system functions</span>
@@ -7515,19 +7515,6 @@ a.anchor-link {
 </div>
 </div>
 </div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>3.10.12 | packaged by conda-forge | (main, Jun 23 2023, 22:41:52) [Clang 15.0.7 ]
-</pre>
-</div>
-</div>
-</div>
-</div>
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=0bb2eb1a">
 <div class="jp-Cell-inputWrapper" tabindex="0">
@@ -7537,7 +7524,7 @@ a.anchor-link {
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h1 id="Why-Python?">Why Python?<a class="anchor-link" href="#Why-Python?">¶</a></h1><ul>
 <li>Interpreted language</li>
-<li>Extensible, plenty of external models available in other domains</li>
+<li>Extensible, plenty of external modules that can be imported</li>
 </ul>
 <p>Other good options for computational physics</p>
 <ul>
@@ -7593,16 +7580,19 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="Python-basic-syntax">Python basic syntax<a class="anchor-link" href="#Python-basic-syntax">¶</a></h1><p>(Skip in class)</p>
+<h1 id="Python-basic-syntax">Python basic syntax<a class="anchor-link" href="#Python-basic-syntax">¶</a></h1><ul>
+<li>See resources on syllabus for more info on Python</li>
+<li>We'll focus on "sharp edges" and unique features of the language here</li>
+</ul>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=bbb61266">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=bbb61266">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [3]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1">## Assigning variables, pass by value for immutable types</span>
@@ -7623,6 +7613,21 @@ a.anchor-link {
 </div>
 </div>
 </div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>1 2
+2 1
+1 2
+</pre>
+</div>
+</div>
+</div>
+</div>
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=08101430">
 <div class="jp-Cell-inputWrapper" tabindex="0">
@@ -7631,8 +7636,8 @@ a.anchor-link {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h1 id="Python-data-types">Python data types<a class="anchor-link" href="#Python-data-types">¶</a></h1><ul>
-<li>See resources on syllabus for more info on Python</li>
-<li>We'll focus on "sharp edges" and unique features of the language here</li>
+<li>Everything in Python is an object. Given a variable, how do we know what it is and what it can do?</li>
+<li>There are three functions that you can call to get information about an object: <code>type()</code>, <code>dir()</code>, and <code>help()</code></li>
 </ul>
 </div>
 </div>
@@ -7642,7 +7647,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [10]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [4]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Getting help with an unknown python object</span>
@@ -7881,18 +7886,19 @@ class int(object)
  |  conjugate(...)
  |      Returns self, the complex conjugate of any int.
  |  
- |  to_bytes(self, /, length, byteorder, *, signed=False)
+ |  to_bytes(self, /, length=1, byteorder='big', *, signed=False)
  |      Return an array of bytes representing an integer.
  |      
  |      length
  |        Length of bytes object to use.  An OverflowError is raised if the
- |        integer is not representable with the given number of bytes.
+ |        integer is not representable with the given number of bytes.  Default
+ |        is length 1.
  |      byteorder
  |        The byte order used to represent the integer.  If byteorder is 'big',
  |        the most significant byte is at the beginning of the byte array.  If
  |        byteorder is 'little', the most significant byte is at the end of the
  |        byte array.  To request the native byte order of the host system, use
- |        `sys.byteorder' as the byte order value.
+ |        `sys.byteorder' as the byte order value.  Default is to use 'big'.
  |      signed
  |        Determines whether two's complement is used to represent the integer.
  |        If signed is False and a negative integer is given, an OverflowError
@@ -7901,7 +7907,7 @@ class int(object)
  |  ----------------------------------------------------------------------
  |  Class methods defined here:
  |  
- |  from_bytes(bytes, byteorder, *, signed=False) from builtins.type
+ |  from_bytes(bytes, byteorder='big', *, signed=False) from builtins.type
  |      Return the integer represented by the given array of bytes.
  |      
  |      bytes
@@ -7914,7 +7920,7 @@ class int(object)
  |        the most significant byte is at the beginning of the byte array.  If
  |        byteorder is 'little', the most significant byte is at the end of the
  |        byte array.  To request the native byte order of the host system, use
- |        `sys.byteorder' as the byte order value.
+ |        `sys.byteorder' as the byte order value.  Default is to use 'big'.
  |      signed
  |        Indicates whether two's complement is used to represent the integer.
  |  
@@ -7943,7 +7949,7 @@ class int(object)
 </div>
 </div>
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[10]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[4]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>['__abs__',
  '__add__',
@@ -7963,6 +7969,7 @@ class int(object)
  '__ge__',
  '__getattribute__',
  '__getnewargs__',
+ '__getstate__',
  '__gt__',
  '__hash__',
  '__index__',
@@ -8041,7 +8048,7 @@ class int(object)
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [186]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [20]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="mf">1.0</span>
@@ -8056,15 +8063,21 @@ class int(object)
 
 <span class="n">a</span> <span class="o">=</span> <span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">a</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"Tuples are immutable and unordered</span><span class="se">\n</span><span class="s2">"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Tuples are immutable and ordered</span><span class="se">\n</span><span class="s2">"</span><span class="p">)</span>
 
-<span class="n">a</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">]</span>
+<span class="n">a</span> <span class="o">=</span> <span class="p">{</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">}</span>
+<span class="nb">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">a</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Sets are mutable and unordered</span><span class="se">\n</span><span class="s2">"</span><span class="p">)</span>
+
+<span class="n">a</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">9</span><span class="p">]</span>
 <span class="nb">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">a</span><span class="p">))</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">"Lists are mutable and ordered</span><span class="se">\n</span><span class="s2">"</span><span class="p">)</span>
 
 <span class="n">a</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">()</span>
 <span class="n">a</span><span class="p">[</span><span class="s2">"property"</span><span class="p">]</span> <span class="o">=</span> <span class="mi">27</span>
 <span class="n">a</span><span class="p">[</span><span class="s2">"dog"</span><span class="p">]</span> <span class="o">=</span> <span class="s2">"cat"</span>
+
+
 <span class="nb">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">a</span><span class="p">))</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">"Dictionaries are mutable and unordered"</span><span class="p">)</span>
@@ -8088,7 +8101,10 @@ class int(object)
 Strings are immutable and ordered
 
 &lt;class 'tuple'&gt;
-Tuples are immutable and unordered
+Tuples are immutable and ordered
+
+&lt;class 'set'&gt;
+Sets are mutable and unordered
 
 &lt;class 'list'&gt;
 Lists are mutable and ordered
@@ -8110,10 +8126,10 @@ Keys must be immutable
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Lists">Lists<a class="anchor-link" href="#Lists">¶</a></h3><ul>
-<li>Ordered sets of objects</li>
+<h2 id="Lists-are-ordered-sets-of-objects">Lists are ordered sets of objects<a class="anchor-link" href="#Lists-are-ordered-sets-of-objects">¶</a></h2><ul>
 <li>Can mix different types</li>
-<li>Can contain duplicates</li>
+<li>Every object is stored, along with an index</li>
+<li>Lists can contain duplicate entries</li>
 <li>Similar to stacks in other languages</li>
 </ul>
 </div>
@@ -8124,10 +8140,10 @@ Keys must be immutable
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [12]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [10]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">xs</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">9</span><span class="p">]</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">xs</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">9</span><span class="p">]</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">xs</span><span class="p">)</span>
 
 <span class="c1">## Find length</span>
@@ -8170,15 +8186,12 @@ Keys must be immutable
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
-10
-[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11]
-[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11]
-[0, 1, 2, 3, 4, 5, 6, 8.5, 7, 8, 9, 11]
-[0, 1, 2, 3, 4, 5, 6, 7, 8, 8.5, 9, 11]
-[0, 1, 2, 3, 4, 5, 6, 7, 8.5, 9, 11]
+<pre>[0, 1, 2, 3, 4, 5, 12, 6, 7, 8, 9]
 11
-[0, 1, 2, 3, 4, 5, 6, 7, 8.5, 9]
+[0, 1, 2, 3, 4, 5, 12, 6, 7, 8, 9, 11]
+[0, 1, 2, 3, 4, 5, 12, 6, 7, 8, 9, 11]
+[0, 1, 2, 3, 4, 5, 12, 8.5, 6, 7, 8, 9, 11]
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 8.5, 9, 11, 12]
 </pre>
 </div>
 </div>
@@ -8189,22 +8202,22 @@ Keys must be immutable
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [187]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [11]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1">## Slice notation</span>
 
-<span class="n">a</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">9</span><span class="p">]</span>
+<span class="n">a</span> <span class="o">=</span> <span class="p">[</span><span class="mi">10</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">9</span><span class="p">]</span>
 
 <span class="c1"># slicing up lists:</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">"</span><span class="p">,</span> <span class="s2">"Slicing syntax."</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span> <span class="c1"># zero-indexed</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">[</span><span class="mi">2</span><span class="p">:</span><span class="mi">4</span><span class="p">])</span> <span class="c1"># returns neq list [a[2], a[3]] (it doesn't include a[4])</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">[</span><span class="mi">2</span><span class="p">:</span><span class="mi">5</span><span class="p">])</span> <span class="c1"># returns neq list [a[2], a[3]] (it doesn't include a[4])</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">[</span><span class="mi">2</span><span class="p">:])</span>  <span class="c1"># this notation starts with a[2] and goes to the end</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">[:</span><span class="mi">4</span><span class="p">])</span>  <span class="c1"># this starts at the beginning and goes up until a[3]</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">[:])</span>   <span class="c1"># this just returns a copy of the whole list</span>
 
-<span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">"</span><span class="p">,</span> <span class="s2">"Negative indices count from the end."</span><span class="p">)</span>
+<span class="c1"># # print("\n", "Negative indices count from the end.")</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>    <span class="c1"># last element</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">[:</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>   <span class="c1"># this goes up until the last element</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">[</span><span class="o">-</span><span class="mi">3</span><span class="p">:])</span>   <span class="c1"># this goes from the third-to-last element to the end</span>
@@ -8222,15 +8235,13 @@ Keys must be immutable
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
 <pre>
  Slicing syntax.
-0
-[2, 3]
-[2, 3, 4, 5, 6, 7, 8, 9]
-[0, 1, 2, 3]
-[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
-
- Negative indices count from the end.
+10
+[20, 3, 4]
+[20, 3, 4, 5, 6, 7, 8, 9]
+[10, 1, 20, 3]
+[10, 1, 20, 3, 4, 5, 6, 7, 8, 9]
 9
-[0, 1, 2, 3, 4, 5, 6, 7, 8]
+[10, 1, 20, 3, 4, 5, 6, 7, 8]
 [7, 8, 9]
 </pre>
 </div>
@@ -8253,7 +8264,7 @@ Keys must be immutable
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [33]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [23]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Standard loop</span>
@@ -8284,7 +8295,7 @@ Keys must be immutable
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [34]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [24]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># List comprehension; Notice how python does exponentiation</span>
@@ -8314,7 +8325,7 @@ Keys must be immutable
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [35]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [25]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># List comprehension with conditionals</span>
@@ -8344,7 +8355,7 @@ Keys must be immutable
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [36]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [26]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Map</span>
@@ -8374,7 +8385,7 @@ Keys must be immutable
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [41]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [27]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Map with filter</span>
@@ -8402,12 +8413,23 @@ Keys must be immutable
 </div>
 </div>
 </div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=e71e082f">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h1 id="Pass-by-reference-vs.-pass-by-value">Pass by reference vs. pass by value<a class="anchor-link" href="#Pass-by-reference-vs.-pass-by-value">¶</a></h1>
+</div>
+</div>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=079ea150">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [18]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [14]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Pass by value</span>
@@ -8445,7 +8467,7 @@ Keys must be immutable
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [46]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [17]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Pass by reference. Python lists are mutable</span>
@@ -8485,7 +8507,7 @@ Keys must be immutable
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [45]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [40]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Pass by reference matters with weird objects we don't know about, which are usually</span>
@@ -8641,6 +8663,7 @@ Hello World o7
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1">## During a long computation, you can force Python to print out the progress of the computation</span>
 
 <span class="kn">import</span> <span class="nn">time</span>
+
 <span class="nb">print</span><span class="p">(</span><span class="s2">"Begin long computation without flushing"</span><span class="p">)</span>
 <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">100</span><span class="p">):</span>
     <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mf">0.05</span><span class="p">)</span>
@@ -8648,7 +8671,6 @@ Hello World o7
         <span class="nb">print</span><span class="p">(</span><span class="s2">"40 iterations complete"</span><span class="p">)</span>
 
 <span class="nb">print</span><span class="p">(</span><span class="s2">"Begin long computation with flushing"</span><span class="p">)</span>
-<span class="kn">import</span> <span class="nn">time</span>
 <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">100</span><span class="p">):</span>
     <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mf">0.05</span><span class="p">)</span>
     <span class="k">if</span> <span class="n">i</span> <span class="o">==</span> <span class="mi">4</span><span class="p">:</span>
