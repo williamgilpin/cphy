@@ -46,23 +46,23 @@ Many links below direct to Google Colab, and can be run-in-browser without insta
 <br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/vectorization_mandelbrot.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/vectorization_mandelbrot.ipynb)
 <!-- [[video]](https://youtu.be/PqntSbG4IuM) -->
 
-+ [Lecture 2: Runtime complexity, convolutions, and the continuous Game of Life](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/convolutions_game_of_life.ipynb)
-<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/convolutions_game_of_life.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/convolutions_game_of_life.ipynb)
++ [Lecture 2: Runtime complexity, convolutions, and the continuous Game of Life](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/inheritance_game_of_life.ipynb)
+<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/inheritance_game_of_life.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/inheritance_game_of_life.ipynb)
 <!-- [[video]](https://youtu.be/Pgycaa_D8h4?t=434) -->
 
-+ [Lecture 3: Finding the Feigenbaum constant with recursion and dynamic programming](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/feigenbaum_constant.ipynb)
-<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/feigenbaum_constant.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/feigenbaum_constant.ipynb)
++ [Lecture 3: Finding the Feigenbaum constant with recursion and dynamic programming](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/time_and_space_complexity_recursion.ipynb)
+<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/time_and_space_complexity_recursion.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/time_and_space_complexity_recursion.ipynb)
 
 + [Lecture 4: Detecting the onset of turbulence with the Fast Fourier Transform](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/fast_fourier.ipynb)
 <br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/fast_fourier.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/fast_fourier.ipynb)
 <!-- [[video]](https://www.youtube.com/watch?v=AUMu5xL2rjY) -->
 
-+ [Lecture 5: Condition Number and the irreversibility of chaos](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/condition_number.ipynb)
-<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/condition_number.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/condition_number.ipynb)
++ [Lecture 5: Condition Number and the irreversibility of chaos](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/numerical_linear_algebra_preconditioning.ipynb)
+<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/numerical_linear_algebra_preconditioning.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/numerical_linear_algebra_preconditioning.ipynb)
 <!-- [[video]](https://youtu.be/9ZqXsIzBlCg) -->
 
-+ [Lecture 6a: Random walks on complex graphs](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/random_walks_complex_graphs.ipynb)
-<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/random_walks_complex_graphs.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/random_walks_complex_graphs.ipynb)
++ [Lecture 6a: Random walks on complex graphs](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/intro_graph_adjacency.ipynb)
+<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/intro_graph_adjacency.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/intro_graph_adjacency.ipynb)
 
 + [Lecture 6b: Probing collaborator graphs with LU matrix inversion](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/lu_decomposition.ipynb)
 <br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/lu_decomposition.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/lu_decomposition.ipynb)
@@ -88,8 +88,8 @@ Many links below direct to Google Colab, and can be run-in-browser without insta
 + [Lecture 11b: Evolving Cellular Automata with Genetic Algorithms](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/evolving_cellular_automata.ipynb)
 <br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/evolving_cellular_automata.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/evolving_cellular_automata.ipynb)
 
-+ [Lecture 11c: Monte Carlo methods and Hard Sphere Packing](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/monte_carlo_hard_sphere.ipynb)
-<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/monte_carlo_hard_sphere.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/monte_carlo_hard_sphere.ipynb)
++ [Lecture 11c: Monte Carlo methods and Hard Sphere Packing](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/monte_carlo_metropolis.ipynb)
+<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/monte_carlo_metropolis.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/monte_carlo_metropolis.ipynb)
 
 + [Lecture 12: Numerical Integration and predicting chaos](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/lorenz_odeint.ipynb)
 <br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/lorenz_odeint.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/lorenz_odeint.ipynb)
@@ -131,8 +131,8 @@ Many links below direct to Google Colab, and can be run-in-browser without insta
 + [Lecture 23: Gaussian mixtures, expectation-maximization, and superresolution microscopy](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/gmm_mle_em.ipynb)
 <br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/gmm_mle_em.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/gmm_mle_em.ipynb)
 
-+ [Lecture 24: Predicting the Reynolds number of turbulence with deep learning](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/deep_learning_reynolds.ipynb)
-<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/deep_learning_reynolds.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/deep_learning_reynolds.ipynb)
++ [Lecture 24: Predicting the Reynolds number of turbulence with deep learning](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/neural_networks_overview.ipynb)
+<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/neural_networks_overview.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/neural_networks_overview.ipynb)
  <!-- [[video]](https://youtu.be/wvxnVAuVB0E) -->
 
 + [Lecture 25: Types of neural networks; symmetries in physical systems](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/neural_networks_types.ipynb)
