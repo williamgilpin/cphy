@@ -103,8 +103,8 @@ Many links below direct to Google Colab, and can be run-in-browser without insta
 <br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/pragmatic_integration.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/pragmatic_integration.ipynb)
 <!-- [[video]](https://www.youtube.com/watch?v=hUgcgO1ZJMQ) -->
 
-+ [Lecture 15: Diffusion, relaxation, and instability](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/diffusion_relaxation_instability.ipynb)
-<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/diffusion_relaxation_instability.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/diffusion_relaxation_instability.ipynb)
++ [Lecture 15: Diffusion, relaxation, and instability](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/laplace_equation.ipynb)
+<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/laplace_equation.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/laplace_equation.ipynb)
 
 + [Lecture 16: Shocks, solitons, and hyperbolic partial differential equations](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/hyperbolic_pde.ipynb)
 <br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/hyperbolic_pde.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/hyperbolic_pde.ipynb)
