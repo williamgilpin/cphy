@@ -4,22 +4,26 @@ Find a problem that you are excited to spend time implementing and releasing, an
 
 There are a few heuristics that you might use to identify a good problem:
 + Start with a problem we saw in the course (e.g. an implementation of a single algorithm like a spectral PDE solver) and then branch out into related extensions (e.g. generalize the solver to different coordinate systems or geometries).
-+ Look for creative but underappreciated older methods papers in your field, especially where the author’s code is unavailable, where the implementation is in a very different language like FORTRAN or Perl, or where the provided code is poorly documented. A clean, easy-to-use implementation of an uncommon method often proves very valuable. 
-+ Find a very common task or method in your field (e.g., stacking microscopy images, or synchronizing experimental recordings), and use tricks from complexity analysis or linear algebra to speed up the task.
-+ Take one of the common methods discussed in class or the textbooks, try modifying a version of the algorithm. I think there’s a lot of space to experiment with variants of so-called “classical” methods like SVM or Random Forests, especially if you want to make a modification that is specific to a particular domain (like time series data, or data with certain symmetries from a detector, etc).
++ Look for creative but underappreciated older methods papers in your field, especially where the author’s code is unavailable, where the implementation is in a very different language like FORTRAN or Perl, or where the provided code is poorly documented. A clean, easy-to-use implementation of an uncommon method often proves very valuable.
++ Find a very common task or method in your field (e.g., stacking microscopy images, or synchronizing experimental recordings), and use tricks from vectorization, dynamic programming or linear algebra to speed up the task.
 
-For cohesiveness, we aren’t covering machine learning until the end of the course. However, I imagine that these methods will be of strong interest for final projects, and so I would recommend reading ahead on the schedule (as well as my suggested resources for learning the practical usage of ML frameworks) if you are new to the area. I can also suggest ideas when I hear the project proposal. For ML projects, I would personally prefer methods that focus on new algorithms, training approaches, representation of data, etc, rather than just applying an existing model (like an existing image classifier architecture) to a domain-specific dataset (like microscopy data).
+
+#### A few common pitfalls to avoid
+
++ Don't pick a problem that is so hard or open-ended that it delays getting started writing code. Your goal should be to get started writing code as soon as possible, since it's the emphasis of the project.
++ Please don't copy or very lightly modify code that is primarily taken from a blog post, a GitHub repo you found, or an LLM. Remember that the project will be public on GitHub and thus searchable on Google.
++ Don't use ML unless you are either experienced with it, or are willing to read ahead and make sure you are on top of the best statistical practices. If you want to use a deep learning model, is it really appropriate for your dataset scale? Can you fairly separate test and training data? 
 
 
 #### Project Learning Goals
 
-Beyond providing a setting to try out some of the ideas we are learning in this class, I am hoping that this project will have residual value to you after the course is over. Having prior experience with open-source development and visible existing code examples may prove useful to you in your graduate research, and potentially on the academic and industry job market. An even bigger goal would be to make a piece of software that others in the open-source scientific community will discover, use, and help improve. Check out the “Nesterov Adam” project from Stanford’s intro ML course (linked below) for a seemingly-simple class project that ended up producing an influential algorithm and publication.
+Beyond providing a setting to try out some of the ideas we are learning in this class, I am hoping that this project will have residual value to you after the course is over. Having prior experience with open-source development and visible existing code examples may prove useful to you in your graduate research, and potentially on the academic and industry job market. By posting the code publicly on GitHub, your code will help others in the future who are trying to solve similar problems.
 
 #### Parameters
-+ I would prefer groups of 2-4 people, for a total of 10 projects per course
-+ You’re encouraged to work on something related to your dissertation research, I just ask that you present the results in such a way that the GitHub repo is self-contained. I would prefer substantial new code to be written for this project (although re-factoring a “rough” implementation is okay), so please use your best judgment to ensure that you get the most value out of this project.
++ I would prefer groups of 4 people, for a total of 8 projects per course
++ You’re allowed (and encouraged) to work on something relevant to your research group's work, but please make the GitHub repo self-contained. You should plan to write substantial new code to be written for this project (although re-factoring a “rough” implementation is okay), so please use your best judgment to ensure that you get the most value out of this project.
 + If there is a method you’d like to add to a large, existing package that is widely used in your field (e.g. Biopython, Astropy, scikit-learn, sktime) check with me about submitting a well-structured PR to the main repo instead of implementing a standalone package. Please check with the repo maintainers that your feature would be welcome, and about the format and testing in order to get accepted. Generally, the larger the repo’s userbase, the smaller the addition should be, and the more testing it will need to pass—however, the potential impact could be huge. 
-+ Don’t adapt or re-skin a blog post or someone else’s code without substantial attribution. This is an academic integrity issue, and it’s against the spirit of the assignment.
+
 
 #### Grading Rubric
 + Problem scope: 20% 
