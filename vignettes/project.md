@@ -62,7 +62,7 @@ You can pick anything that interests you and which involves writing code, here a
 + Implement the Vicsek model of flocking, including the extension to N-D, and probe the phase transition. Consider how you migh extend the model to larger swarms, such as by using the kernelized approach described in [this paper](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.105.014213)
 + Implement a minimal version of [Havok](https://www.nature.com/articles/s41467-017-00030-8) or [Dynamic Mode Decomposition](https://en.wikipedia.org/wiki/Dynamic_mode_decomposition), two data-driven methods for discovering the underlying dynamics of a system based on time series data.
 + Using the logistic map or another minimal system, implement the [Ott, Grebogi, and Yorke method](https://link.aps.org/doi/10.1103/PhysRevLett.64.1196) for controlling chaos.
-+ 
++ Our LA, Anish Pandya, has put together [a list of additional project ideas here](https://docs.google.com/document/d/1o2brUmCJSoGZj9hPAE8sXEiutk-aqT9bq13qos-3Ahw/edit?usp=sharing)
 
 ## Project resources
 + [Pineau Lab machine learning reproducibility checklist](https://github.com/paperswithcode/releasing-research-code)
