@@ -3,6 +3,7 @@ import numpy as np
 
 class PercolationSimulation:
     """
+    This is for the pull request lab.
     A simulation of a 2D directed percolation problem. Given a 2D lattice, blocked sites
     are denoted by 0s, and open sites are denoted by 1s. During a simulation, water is
     poured into the top of the grid, and allowed to percolate to the bottom. If water
