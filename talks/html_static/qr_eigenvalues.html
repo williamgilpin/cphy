@@ -7556,12 +7556,16 @@ a.anchor-link {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="Eigensystems">Eigensystems<a class="anchor-link" href="#Eigensystems">¶</a></h2><ul>
-<li>The "natural" coordinate system for a matrix</li>
-<li>Hermitian matrices: can always rotate a collection of vectors, but the eigenspectrum gives us the dominant directions and scales associated with a bundle</li>
-<li>Dynamical systems view: A "blob" of initial conditions gets anisotropically stretched along the eigendirections at different rates</li>
-<li>Eigenvalues are invariant to rotations (ie, multiplication by an orthonormal matrix)</li>
+<li><p>The "natural" coordinate system for a matrix</p>
+</li>
+<li><p>Hermitian matrices: can always rotate a collection of vectors, but the eigenspectrum gives us the dominant directions and scales associated with a bundle</p>
+</li>
+<li><p>Dynamical systems view: A "blob" of initial conditions gets anisotropically stretched along the eigendirections at different rates</p>
+</li>
+<li><p>Eigenvalues are invariant to rotations (ie, multiplication by an orthonormal matrix)</p>
+</li>
 </ul>
-<img alt="No description has been provided for this image" src="../resources/strain_axes.png" width="750"/>
+<img alt="No description has been provided for this image" src="https://raw.githubusercontent.com/williamgilpin/cphy/main/resources/strain_axes.png" width="750"/>
 </div>
 </div>
 </div>
@@ -7638,7 +7642,7 @@ Calculation of the determinant has runtime complexity $\sim N^3$, making computa
 <h2 id="Cons">Cons<a class="anchor-link" href="#Cons">¶</a></h2><ul>
 <li>Not guaranteed to converge</li>
 <li>Indirect and approximate</li>
-<li>Bad starting conditions or ill-conditioning</li>
+<li>Bad starting conditions or ill-conditioning can lead to a large prefactor in the runtime</li>
 </ul>
 </div>
 </div>
@@ -7679,14 +7683,19 @@ Calculation of the determinant has runtime complexity $\sim N^3$, making computa
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="QR-Factorization-and-Gram-Schmidt-orthogonalization">QR Factorization and Gram Schmidt orthogonalization<a class="anchor-link" href="#QR-Factorization-and-Gram-Schmidt-orthogonalization">¶</a></h2><ul>
-<li>We saw before that classical schoolyard methods for matrix inversion via Gauss-Jordan elimination could be summarized as a single matrix, the $L^{-1}$ of LU factorization.</li>
-<li>The same can be said for classical methods for creating an orthonormal basis from a bundle of vectors.</li>
-<li>The columnspace of a matrix is a bundle of vectors, and the Gram-Schmidt method iteratively builds the equivalent orthonormal basis ($Q$) from the columns of $A$.</li>
-<li>The series of steps of Gram-Schmidt can be summarized as a single matrix, the $R$ of QR factorization.</li>
-<li>The Press textbook describes other orthogonalization methods (Givens rotations, Householder triangularization)</li>
-<li>Image below from <a href="https://dsc-spidal.github.io/harp/docs/harpdaal/qr/">Source</a></li>
+<li><p>We saw before that classical schoolyard methods for matrix inversion via Gauss-Jordan elimination could be summarized as a single matrix, the $L^{-1}$ of LU factorization.</p>
+</li>
+<li><p>The same can be said for classical methods for creating an orthonormal basis from a bundle of vectors.</p>
+</li>
+<li><p>The columnspace of a matrix is a bundle of vectors, and the Gram-Schmidt method iteratively builds the equivalent orthonormal basis ($Q$) from the columns of $A$.</p>
+</li>
+<li><p>The series of steps of Gram-Schmidt can be summarized as a single matrix, the $R$ of QR factorization.</p>
+</li>
+<li><p>The Press textbook describes other orthogonalization methods (Givens rotations, Householder triangularization)</p>
+</li>
 </ul>
-<img alt="No description has been provided for this image" src="../resources/qr.png" width="750"/>
+<img alt="No description has been provided for this image" src="https://raw.githubusercontent.com/williamgilpin/cphy/main/resources/qr.png" width="750"/>
+<p><em>Image from <a href="https://dsc-spidal.github.io/harp/docs/harpdaal/qr/">Source</a></em></p>
 </div>
 </div>
 </div>
@@ -7708,7 +7717,6 @@ Calculation of the determinant has runtime complexity $\sim N^3$, making computa
 <span class="n">plt</span><span class="o">.</span><span class="n">quiver</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">vec2</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">vec2</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">angles</span><span class="o">=</span><span class="s1">'xy'</span><span class="p">,</span> <span class="n">scale_units</span><span class="o">=</span><span class="s1">'xy'</span><span class="p">,</span> <span class="n">scale</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">'b'</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">xlim</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">ylim</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
-
 
 <span class="c1"># Project vec2 onto vec1, and then scale vec1 by the ratio of the projection to the length of vec1</span>
 <span class="n">vec2_proj_onto_vec1</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">vec2</span><span class="p">,</span> <span class="n">vec1</span><span class="p">)</span> <span class="o">/</span> <span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">vec1</span><span class="p">,</span> <span class="n">vec1</span><span class="p">)</span> <span class="o">*</span> <span class="n">vec1</span>
@@ -7814,7 +7822,7 @@ A =
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>For non-square matrices, we might append extra orthogonal columns to $Q$ and zeros to $R$, so that $Q$ now represents a full-rank matrix with rowsspace spanning its full columnspace</p>
-<img alt="No description has been provided for this image" src="../resources/qr_reduced.png" width="750"/>
+<img alt="No description has been provided for this image" src="https://raw.githubusercontent.com/williamgilpin/cphy/main/resources/qr_reduced.png" width="750"/>
 </div>
 </div>
 </div>
@@ -8616,7 +8624,7 @@ Error:  4.4958909229899505e-08
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="We-can-visualize-the-different-between-Gram-Schmidt-and-Modified-Gram-Schmidt-by-inspecting-how-the-columnspace-changes-at-each-iteration-of-the-algorithm">We can visualize the different between Gram-Schmidt and Modified Gram-Schmidt by inspecting how the columnspace changes at each iteration of the algorithm<a class="anchor-link" href="#We-can-visualize-the-different-between-Gram-Schmidt-and-Modified-Gram-Schmidt-by-inspecting-how-the-columnspace-changes-at-each-iteration-of-the-algorithm">¶</a></h4>
+<h4 id="We-can-visualize-the-differencd-between-Gram-Schmidt-and-Modified-Gram-Schmidt-by-inspecting-how-the-columnspace-changes-at-each-iteration-of-the-algorithm">We can visualize the differencd between Gram-Schmidt and Modified Gram-Schmidt by inspecting how the columnspace changes at each iteration of the algorithm<a class="anchor-link" href="#We-can-visualize-the-differencd-between-Gram-Schmidt-and-Modified-Gram-Schmidt-by-inspecting-how-the-columnspace-changes-at-each-iteration-of-the-algorithm">¶</a></h4>
 </div>
 </div>
 </div>
@@ -8630,7 +8638,6 @@ Error:  4.4958909229899505e-08
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">seed</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
 <span class="n">A</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">random</span><span class="p">((</span><span class="mi">100</span><span class="p">,</span> <span class="mi">100</span><span class="p">))</span>
-
 
 <span class="n">model</span> <span class="o">=</span> <span class="n">QRFactorizationSolver</span><span class="p">(</span><span class="n">store_history</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 <span class="n">model</span><span class="o">.</span><span class="n">qr0</span><span class="p">(</span><span class="n">A</span><span class="o">.</span><span class="n">copy</span><span class="p">())</span>
