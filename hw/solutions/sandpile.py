@@ -2,292 +2,116 @@
 import numpy as np
 
 
-# DFS: O(N_v + N_E)
+# Answers to questions: Power method fails to converge when leading eigenvalue is complex
 
-class AbelianSandpile:
+import warnings
+class SpectralDecompositionPowerMethod:
     """
-    An Abelian sandpile model simulation. The sandpile is initialized with a random
-    number of grains at each lattice site. Then, a single grain is dropped at a random
-    location. The sandpile is then allowed to evolve until it is stable. This process
-    is repeated n_step times.
+    Store the output vector in the object attribute self.components_ and the 
+    associated eigenvalue in the object attribute self.singular_values_ 
     
-    Parameters:
-        n (int): The size of the grid
-        grid (np.ndarray): The grid of the sandpile
-        history (list): A list of the sandpile grids at each timestep
-        store_history (bool): Whether or not to store the history of the sandpile. Snapshots
-            of the sandpile are stored between avalanche events
+    Why this code structure and attribute names? We are using the convention used by 
+    the popular scikit-learn machine learning library:
+    https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html
+
+    Parameters
+        max_iter (int): maximum number of iterations to for the calculation
+        tolerance (float): fractional change in solution to stop iteration early
+        gamma (float): momentum parameter for the power method
+        random_state (int): random seed for reproducibility
+        store_intermediate_results (bool): whether to store the intermediate results as
+            the power method iterates
+        stored_eigenvalues (list): If store_intermediate_results is active, a list of 
+            eigenvalues at each iteration
+        stored_eigenvectors (list): If store_intermediate_results is active, a list of
+            eigenvectors at each iteration
+    
     """
+    def __init__(self, 
+        max_iter=1000, 
+        tolerance=1e-5, 
+        gamma=0.0,
+        random_state=None, 
+        store_intermediate_results=False
+    ):
+        ########## YOUR CODE HERE ##########
+        #
+        # YOUR CODE HERE
+        #
+        ########## YOUR CODE HERE ##########
+        # raise NotImplementedError()
 
+        self.max_iter = max_iter
+        self.tolerance = tolerance
+        self.gamma = gamma
+        self.random_state = random_state
 
-    def __init__(self, n=100, random_state=None, store_history=True):
-        self.n = n
-        np.random.seed(random_state) # Set the random seed
-        self.grid = np.random.choice([0, 1, 2, 3], size=(n, n))
-        self.history =[self.grid.copy()] # Why did we need to copy the grid?
-        self.all_durations = list() # useful to keep track of the duration of toppling events
-        self.store_history = store_history
+        # Placeholders for the results of the calculation
+        self.singular_values_ = None
+        self.components_ = None
+        
+        self.store_intermediate_results = store_intermediate_results
+        if self.store_intermediate_results:
+            self.stored_eigenvalues = list()
+            self.stored_eigenvectors = list()
         print(
             "Running with Instructor Solutions. If you meant to run your own code, do not import from solutions", 
             flush=True
         )
-
-    def step(self):
-        """
-        Perform a single step of the sandpile model. Recall that there are two 
-        timescales in this problem; step corresponds to the longer timescale of a 
-        single sandgrain addition.
-
-        A single step of the simulation consists of two stages: a random sand grain is 
-        dropped onto the lattice at a random location. Then, a set of avalanches occurs
-        causing sandgrains to get redistributed to their neighboring locations.
-
-        Returns: None
-        """
-        # Pick a random location
-        xi, yi = np.random.choice(self.n, 2)
-
-        # Drop the grain and then topple the sand grains using an iterative solution:
-        # topple a site, then check the entire lattice for sites that need to be 
-        # toppled. Repeat until the sandpile is stable.
-        self.grid[xi, yi] += 1
-        duration = 0
-        while np.any(self.grid >= 4):
-            topple_inds = np.where(self.grid >= 4) # find a high site
-            sel_ind = np.random.choice(np.arange(len(topple_inds[0])))
-            ii, jj = (topple_inds[0][sel_ind], topple_inds[1][sel_ind])
-            self.grid[ii, jj] -= 4
-            if ii > 0:
-                self.grid[ii - 1, jj] += 1
-            if ii < self.n - 1:
-                self.grid[ii + 1, jj] += 1
-            if jj > 0:
-                self.grid[ii, jj - 1] += 1
-            if jj < self.n - 1:
-                self.grid[ii, jj + 1] += 1
-            duration += 1
-        if duration > 0:
-            self.all_durations.append(duration)
-
-    # we use this decorator for class methods that don't require any of the attributes 
-    # stored in self. Notice how we don't pass self to the method
-    @staticmethod
-    def check_difference(grid1, grid2):
-        """Check the total number of different sites between two grids"""
-        return np.sum(grid1 != grid2)
-
     
-    def simulate(self, n_step):
+    def fit(self, A):
         """
-        Simulate the sandpile model for n_step steps.
+        Perform the power method with random initialization, and optionally store
+        intermediate estimates of the eigenvalue and eigenvectors at each iteration.
+        You can add an early stopping criterion based on the tolerance parameter.
         """
-        # YOUR CODE HERE. You should use the step method you wrote above.
-        for i in range(n_step):
-            self.step()
-            if self.check_difference(self.grid, self.history[-1]) > 0:
-                self.history.append(self.grid.copy())
-        return self.grid
+        ########## YOUR CODE HERE ##########
+        #
+        # YOUR CODE HERE
+        # Hint: keep track of your normalization factors, and watch out for passing
+        # arrays by value vs. by reference. This method should return self
+        #
+        ########## YOUR CODE HERE ##########
+        # raise NotImplementedError()
 
+        n = A.shape[0]
+        np.random.seed(self.random_state)
+        vec = np.random.random(n)
+        vec = vec / np.linalg.norm(vec)
 
+        if self.store_intermediate_results:
+            self.stored_eigenvalues.append(1)
+            self.stored_eigenvectors.append(vec)
+        for i in range(self.max_iter):
 
-class AbelianSandpileIterative(AbelianSandpile):
-    """
-    An Abelian sandpile model simulation. The sandpile is initialized with a random
-    number of grains at each lattice site. Then, a single grain is dropped at a random
-    location. The sandpile is then allowed to evolve until it is stable. This process
-    is repeated n_step times.
-    
-    Parameters:
-        n (int): The size of the grid
-        grid (np.ndarray): The grid of the sandpile
-        history (list): A list of the sandpile grids at each timestep
-        store_history (bool): Whether or not to store the history of the sandpile. Snapshots
-            of the sandpile are stored between avalanche events
-    """
+            prev = np.copy(vec)
+            vec = A.dot(vec)
+            eig_val = np.linalg.norm(vec) # \sqrt(\sum_i x_i^2)
+            vec = vec / eig_val
 
+            ## A heuristic: momentum based on the previous iteration
+            vec = self.gamma * prev + (1 - self.gamma) * vec
 
-    def __init__(self, n=100, random_state=None):
-        super().__init__(n, random_state)
-        self.n = n
-        np.random.seed(random_state) # Set the random seed
-        self.grid = np.random.choice([0, 1, 2, 3], size=(n, n))
-        self.history =[self.grid.copy()] # Why did we need to copy the grid?
-        self.all_durations = list() # useful to keep track of the duration of toppling events
+            ## An even better heuristic: we update gamma based on the error signal
+            # vec = (1 - err) * prev + err * vec
+            # err = np.sqrt((vec - prev)**2 / prev**2)
 
-    def step(self):
-        """
-        Perform a single step of the sandpile model. Recall that there are two 
-        timescales in this problem; step corresponds to the longer timescale of a 
-        single sandgrain addition.
+            if self.store_intermediate_results:
+                self.stored_eigenvalues.append(eig_val)
+                self.stored_eigenvectors.append(vec)
 
-        A single step of the simulation consists of two stages: a random sand grain is 
-        dropped onto the lattice at a random location. Then, a set of avalanches occurs
-        causing sandgrains to get redistributed to their neighboring locations.
-
-        Returns: None
-        """
-        # Pick a random location
-        xi, yi = np.random.choice(self.n, 2)
-
-        # Drop the grain and then topple the sand grains using an iterative solution:
-        # topple a site, then check the entire lattice for sites that need to be 
-        # toppled. Repeat until the sandpile is stable.
-        self.grid[xi, yi] += 1
-        duration = 0
-        while np.any(self.grid >= 4):
-            topple_inds = np.where(self.grid >= 4) # find a high site
-            sel_ind = np.random.choice(np.arange(len(topple_inds[0])))
-            ii, jj = (topple_inds[0][sel_ind], topple_inds[1][sel_ind])
-            self.grid[ii, jj] -= 4
-            if ii > 0:
-                self.grid[ii - 1, jj] += 1
-            if ii < self.n - 1:
-                self.grid[ii + 1, jj] += 1
-            if jj > 0:
-                self.grid[ii, jj - 1] += 1
-            if jj < self.n - 1:
-                self.grid[ii, jj + 1] += 1
-            duration += 1
-        if duration > 0:
-            self.all_durations.append(duration)
-
-
-
-
-class AbelianSandpileDFS(AbelianSandpile):
-    """
-    An alternative implementation of the Abelian Sandpile model using a depth-first
-    search algorithm to find all sites that need to be toppled.
-
-    Parameters:
-        n (int): The size of the grid
-        grid (np.ndarray): The grid of the sandpile
-        history (list): A list of the sandpile grids at each timestep
-        store_history (bool): Whether or not to store the history of the sandpile. Snapshots
-            of the sandpile are stored between avalanche events
-    """
-
-
-    def __init__(self, **kwargs):
-        super().__init__(**kwargs)
-
-    def _add_and_topple(self, i, j):
-        """
-        A recursive function that adds a grain and then topples the sandpile at 
-        location (i, j). Notice that we use the self.grid attribute to store global 
-        information across all the   recursive calls. This is a common pattern in 
-        recursive functions actingon lattices
-        """
-        self.grid[i, j] += 1 # global state update
-
-        # Base case
-        if self.grid[i, j] < 4:
-            return None
-            
-        else:
-            # Decrease the height of the site
-            self.grid[i, j] -= 4
-
-            # Implement the absorbing boundary conditions: sandgrains
-            # that fall off the edge of the grid are lost.
-            if i > 0:
-                self._add_and_topple(i - 1, j)
-            if i < self.n - 1:
-                self._add_and_topple(i + 1, j)
-            if j > 0:
-                self._add_and_topple(i, j - 1)
-            if j < self.n - 1:
-                self._add_and_topple(i, j + 1)
-            return None
-
-    def step(self):
-        """
-        Perform a single step of the sandpile model. Recall that there are two 
-        timescales in this problem; step corresponds to the longer timescale of a 
-        single sandgrain addition.
-
-        A single step of the simulation consists of two stages: a random sand grain is 
-        dropped onto the lattice at a random location. Then, a set of avalanches occurs
-        causing sandgrains to get redistributed to their neighboring locations.
-
-        Returns: None
-        """
-        # Pick a random location
-        xi, yi = np.random.choice(self.n, 2)
-        # Call the recursive topple function
-        self._add_and_topple(xi, yi)
-
-
-from collections import deque
-class AbelianSandpileBFS(AbelianSandpile):
-    """
-    An alternative implementation of the Abelian Sandpile model using a breadth-first
-    search algorithm to find all sites that need to be toppled.
-
-    An advantage of this implementation is that it it matches the physics of the 
-    sandpile model more closely. In particular, grains get passed to sites 
-    simultaneously, rather than sequentially as in the DFS implementation.
-
-    We therefore define a separate history attribute in order to record the fast-timescale 
-    topple events that occur between grain additions.
-
-    Parameters:
-        n (int): The size of the grid
-        grid (np.ndarray): The grid of the sandpile
-        history (list): A list of the sandpile grids at each timestep
-        store_history (bool): Whether or not to store the history of the sandpile. Snapshots
-            of the sandpile are stored between avalanche events
-    """
-
-    def __init__(self, store_topple_history=False, **kwargs):
-        super().__init__(**kwargs)
-        self.store_topple_history = store_topple_history
-        if store_topple_history:
-            self.history_topples = [self.grid.copy()]
-
-    def step(self):
-        """
-        Perform a single step of the sandpile model. Recall that there are two 
-        timescales in this problem; step corresponds to the longer timescale of a 
-        single sandgrain addition.
-
-        A single step of the simulation consists of two stages: a random sand grain is 
-        dropped onto the lattice at a random location. Then, a set of avalanches occurs
-        causing sandgrains to get redistributed to their neighboring locations.
-
-        Returns: None
-        """
-        # Pick a random location
-        xi, yi = np.random.choice(self.n, 2)
-
-        # A queue data structure stores a list of sites that need to be toppled.
-        queue = deque([(xi, yi)])
+            if np.mean(np.sqrt((vec - prev)**2 / prev**2)) < self.tolerance:
+                warnings.warn(f"Power method converged before {self.max_iter} iterations")
+                break
         
-        # Perform a breadth-first search to find all sites that need to be toppled
-        # the while loop will continue until the queue is empty
-        while queue:
-            # the popleft() method removes the first element from the queue
-            i, j = queue.popleft()
-            self.grid[i, j] += 1 # global state update
-
-            # Base case
-            if self.grid[i, j] < 4:
-                continue
+        if self.store_intermediate_results:
+            self.stored_eigenvalues = np.array(self.stored_eigenvalues)
+            self.stored_eigenvectors = np.array(self.stored_eigenvectors)
         
-            # Store a snapshot if a topple event occurs
-            if self.store_topple_history:
-                self.history_topples.append(self.grid.copy())
+        self.singular_values_ = eig_val
+        self.components_ = vec
 
-            # Decrease the height of the site
-            self.grid[i, j] -= 4
 
-            # Implement the absorbing boundary conditions: sand grains
-            # that fall off the edge of the grid are lost.
-            if i > 0:
-                queue.append((i - 1, j))
-            if i < self.n - 1:
-                queue.append((i + 1, j))
-            if j > 0:
-                queue.append((i, j - 1))
-            if j < self.n - 1:
-                queue.append((i, j + 1))
+
+
+
