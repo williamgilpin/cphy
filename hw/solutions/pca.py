@@ -18,6 +18,7 @@ class PrincipalComponents(BaseEstimator, TransformerMixin):
 
     def __init__(self, random_state=None):
         self.random_state = random_state
+        np.random.seed(self.random_state)
         self.components_ = None
         self.singular_values_ = None
         print(
