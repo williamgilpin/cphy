@@ -7482,7 +7482,7 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="Inferring-Hamiltonians-from-experimental-data-with-supervised-learning">Inferring Hamiltonians from experimental data with supervised learning<a class="anchor-link" href="#Inferring-Hamiltonians-from-experimental-data-with-supervised-learning">¶</a></h1><p>Preamble: Run the cells below to import the necessary Python packages</p>
+<h1 id="Predicting-one-dimensional-cellular-automata">Predicting one-dimensional cellular automata<a class="anchor-link" href="#Predicting-one-dimensional-cellular-automata">¶</a></h1><p>Preamble: Run the cells below to import the necessary Python packages</p>
 <ul>
 <li>This notebook is modified from notebooks originally developed and used in <a href="http://physics.bu.edu/~pankajm/PY580.html">Pankaj Mehta's ML for physics course</a> at Boston University. Please check out those notebooks and associated textbooks for additional details and exercises.</li>
 </ul>
@@ -7921,9 +7921,9 @@ a.anchor-link {
 <h3 id="Training-and-testing-data">Training and testing data<a class="anchor-link" href="#Training-and-testing-data">¶</a></h3><ul>
 <li><p>Rather than fitting our cellular automaton model to all of the data, we will split the data into a training set and a test set.</p>
 </li>
-<li><p>We will fit the model to the training set, and then evaluate the trained model on the test set.</p>
+<li><p>We will first fit the model to the training set, and then evaluate the trained model on the test set.</p>
 </li>
-<li><p>This is a common technique in machine learning, and is used to avoid overfitting.</p>
+<li><p>This is a common technique in machine learning that is used to avoid overfitting.</p>
 </li>
 </ul>
 </div>
@@ -7993,23 +7993,21 @@ a.anchor-link {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h1 id="Fitting-a-linear-model-with-least-squares">Fitting a linear model with least squares<a class="anchor-link" href="#Fitting-a-linear-model-with-least-squares">¶</a></h1><ul>
-<li><p>What is the simplest function we can think of that maps a vector $\mathbf{x}$ to another vector $\mathbf{y}$?</p>
-</li>
-<li><p>Recall that the linear model is defined as</p>
+<li>What is the simplest function we can think of that maps a vector $\mathbf{y}_{i} \in \mathbb{R}^{L}$ to another vector $\mathbf{y}_{i+1} \in \mathbb{R}^{L}$? Recall that the linear model is defined as</li>
+</ul>
 <p>$$
-\hat{y} = A \cdot \mathbf{x}
+  \mathbf{y}_{i + 1} = A \mathbf{y}_{i}
 $$
-where $A$ is a matrix, then $\mathbf{x}$ is a vector of features, and $\hat{y}$ is a vector of predictions.</p>
-</li>
-<li><p>In our case, the features are the state matrices $\mathbf{X}^{(i)}$, and the predictions are the energies $E^{(i)}$. We can directly solve for the matrix $A$ using the least squares method:</p>
+where $A \in \mathbb{R}^{L \times L}$.</p>
+<ul>
+<li>In our case, the features are the current state matrices $\mathbf{y}_{i}$, and the predictions are the next state $\mathbf{y}_{i+1}$. We therefore view linear regression</li>
+</ul>
 <p>$$
-A = \left( \mathbf{X}^T \mathbf{X} \right)^{-1} \mathbf{X}^T \mathbf{y}
+  A = \left( \mathbf{X}^T \mathbf{X} \right)^{-1} \mathbf{X}^T \mathbf{y}
 $$</p>
 <p>Recall that we need to use the Moore-Penrose pseudoinverse because the matrix $\mathbf{X}^T \mathbf{X}$ is not square, and the pseudoinverse is the closest thing to an inverse that we can get.</p>
-</li>
-</ul>
-<h3 id="scikit-learn"><code>scikit-learn</code><a class="anchor-link" href="#scikit-learn">¶</a></h3><ul>
-<li><p>Rather than using numpy, we will use the Python machine learning library <code>scikit-learn</code> to perform the linear regression.</p>
+<h3 id="Python-syntax:-the-scikit-learn-library">Python syntax: the <code>scikit-learn</code> library<a class="anchor-link" href="#Python-syntax:-the-scikit-learn-library">¶</a></h3><ul>
+<li><p>Rather than using <code>numpy</code>, we will use the Python machine learning library <code>scikit-learn</code> to perform the linear regression.</p>
 </li>
 <li><p><code>scikit-learn</code> uses a consistent API for both simple models, like linear regression, and more complex models, like neural networks.</p>
 </li>
