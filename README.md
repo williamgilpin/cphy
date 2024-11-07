@@ -121,6 +121,9 @@ Many links below direct to Google Colab, and can be run-in-browser without insta
 <br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/supervised_learning_ising.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/supervised_learning_ising.ipynb)
 <!-- [[vid]](https://www.youtube.com/watch?v=DEAaoJpl6-Y) -->
 
++ [Lecture 24b: Supervised Learning of cellular automaton dynamics](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/predicting_cellular_automata.ipynb)
+<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/predicting_cellular_automata.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/predicting_cellular_automata.ipynb)
+
 + [Lecture 25: Classification, Logistic Regression, and phases of matter](https://github.com/williamgilpin/cphy/blob/main/talks/logistic_regression_phases.ipynb)
 
 + [Lecture 26: Overfitting, bias-variance tradeoff, and double-descent](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/overfitting_bias_variance_free_lunch.ipynb)
