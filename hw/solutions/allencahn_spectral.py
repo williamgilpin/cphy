@@ -56,14 +56,16 @@ class AllenCahn:
 
         **kwargs are passed to scipy.integrate.solve_ivp
         """
+        ## Set up the grid
         tpts = np.linspace(t_min, t_max, nt)
         y0_k = np.fft.fft2(y0)
 
+        ## Solve the set of coupled ODEs using a built-in solver
         out = solve_ivp(self.rhs, (t_min, t_max), y0_k.flatten(), t_eval=tpts, **kwargs)
         sol = out.y.T
         tpts =  out.t
 
-        ## Convert back to real space
+        ## Convert solution back to real space
         sol2 = list()
         for row in sol:
             sol2.append(np.fft.ifft2(row.reshape((self.nx, self.ny))))
