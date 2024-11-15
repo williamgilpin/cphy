@@ -147,6 +147,9 @@ Many links below direct to Google Colab, and can be run-in-browser without insta
 + [Lecture 32: Training neural networks with backpropagation](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/neural_networks_training.ipynb)
 <br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/neural_networks_training.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/neural_networks_training.ipynb)
 
++ [Lecture 33: Reservoir computers and forecasting chaotic systems](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/forecasting_reservoir_computers.ipynb)
+<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/forecasting_reservoir_computers.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/forecasting_reservoir_computers.ipynb)
+
 #### Notes
 
 + [How to use the high-performance computing cluster](https://github.com/williamgilpin/howto/blob/master/using_tacc.md)
