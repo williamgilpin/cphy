@@ -47,7 +47,11 @@ class PrincipalComponents(BaseEstimator, TransformerMixin):
         #
         ########## YOUR CODE HERE ##########
         # raise NotImplementedError()
-        
+
+        # First must change the input datatype from the default (16-bit) to higher precision (32-bit)
+        # The newest versions of np.linalg will not work with 16-bit floats
+        X = X.astype(np.float32)
+
         Xc = X - np.mean(X, axis=0)
 
         cov = Xc.T.dot(Xc) / Xc.shape[0]
