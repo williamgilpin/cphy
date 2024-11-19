@@ -54,7 +54,7 @@ Additional information about Python and conda environments can be found in [Will
 11. Back in the Terminal, install some other packages that we will end up using a lot 
   ```bash
     $ conda activate hwenv
-    (hwenv) $ conda install numpy matplotlib ipykernel
+    (hwenv) $ conda install numpy pandas matplotlib ipykernel scipy scikit-learn
     (hwenv) $ conda install -c conda-forge jupyterlab
   ```
   A list of other common packages you will need to install appears on [the course homepage.](https://www.wgilpin.com/cphy) Notice how your current environment appears to the left of the `$` symbol in the Terminal. If you close and re-open your Terminal, you'll need to re-activate your conda environment before installing new files.
