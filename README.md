@@ -7,7 +7,7 @@
  -->
 <!-- https://user-images.githubusercontent.com/8154246/184846814-5b5c80e1-34f9-4063-9b26-36b2a0369827.mov -->
 <!-- <img src="https://user-images.githubusercontent.com/8154246/184846814-5b5c80e1-34f9-4063-9b26-36b2a0369827.mov" alt="Overview of Methods in Course" width="100%"/> -->
-
+this is a pull request test for the lab.
 
 # Computational Physics
 
@@ -98,7 +98,7 @@ Many links below direct to Google Colab, and can be run-in-browser without insta
 + [Lecture 13: Variable step integration, symplectic and stochastic systems](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/integrator_chaos_variable_step.ipynb)
 <br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/integrator_chaos_variable_step.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/integrator_chaos_variable_step.ipynb)
  <!-- [[video]](https://youtu.be/q754u2a7uCA) -->
-
+ersion 3.70+nmu1ubuntu1ersion 3.70+nmu1ubuntu1
 + [Lecture 14: A pragmatist's guide to numerical integration](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/pragmatic_integration.ipynb)
 <br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/pragmatic_integration.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/pragmatic_integration.ipynb)
 <!-- [[video]](https://www.youtube.com/watch?v=hUgcgO1ZJMQ) -->
