@@ -121,6 +121,9 @@ Many links below direct to Google Colab, and can be run-in-browser without insta
 <br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/supervised_learning_ising.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/supervised_learning_ising.ipynb)
 <!-- [[vid]](https://www.youtube.com/watch?v=DEAaoJpl6-Y) -->
 
++ [Lecture 24b: Supervised Learning of cellular automaton dynamics](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/predicting_cellular_automata.ipynb)
+<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/predicting_cellular_automata.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/predicting_cellular_automata.ipynb)
+
 + [Lecture 25: Classification, Logistic Regression, and phases of matter](https://github.com/williamgilpin/cphy/blob/main/talks/logistic_regression_phases.ipynb)
 
 + [Lecture 26: Overfitting, bias-variance tradeoff, and double-descent](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/overfitting_bias_variance_free_lunch.ipynb)
@@ -143,6 +146,9 @@ Many links below direct to Google Colab, and can be run-in-browser without insta
 
 + [Lecture 32: Training neural networks with backpropagation](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/neural_networks_training.ipynb)
 <br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/neural_networks_training.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/neural_networks_training.ipynb)
+
++ [Lecture 33: Reservoir computers and forecasting chaotic systems](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/forecasting_reservoir_computers.ipynb)
+<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/forecasting_reservoir_computers.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/forecasting_reservoir_computers.ipynb)
 
 #### Notes
 

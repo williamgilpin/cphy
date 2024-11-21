@@ -45,8 +45,8 @@ class AllenCahn:
         ################################################################################
         
         lap = np.zeros_like(grid)
-        lap[1:-1] = (grid[:-2, 1:-1] + grid[2:, 1:-1] - 2 * grid[1:-1, 1:-1]) / self.dx**2
-        lap[1:-1] += (grid[1:-1, :-2] + grid[1:-1, 2:] - 2 * grid[1:-1, 1:-1]) / self.dy**2
+        lap[1:-1, 1:-1] = (grid[:-2, 1:-1] + grid[2:, 1:-1] - 2 * grid[1:-1, 1:-1]) / self.dx**2
+        lap[1:-1, 1:-1] += (grid[1:-1, :-2] + grid[1:-1, 2:] - 2 * grid[1:-1, 1:-1]) / self.dy**2
         
         # Reflection boundary conditions
         lap[:, 0] = lap[:, 1]
