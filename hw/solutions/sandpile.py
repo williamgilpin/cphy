@@ -2,292 +2,108 @@
 import numpy as np
 
 
-# DFS: O(N_v + N_E)
+from scipy.integrate import solve_ivp
 
-class AbelianSandpile:
+class AllenCahn:
     """
-    An Abelian sandpile model simulation. The sandpile is initialized with a random
-    number of grains at each lattice site. Then, a single grain is dropped at a random
-    location. The sandpile is then allowed to evolve until it is stable. This process
-    is repeated n_step times.
-    
-    Parameters:
-        n (int): The size of the grid
-        grid (np.ndarray): The grid of the sandpile
-        history (list): A list of the sandpile grids at each timestep
-        store_history (bool): Whether or not to store the history of the sandpile. Snapshots
-            of the sandpile are stored between avalanche events
+    An implementation of the Allen-Cahn equation in two dimensions, using the method
+    of lines and explicit finite differences
+
+    Parameters
+        nx (int): number of grid points in the x direction
+        ny (int): number of grid points in the y direction
+        kappa (float): reaction rate
+        d (float): diffusion coefficient
+        Lx (float): length of the domain in the x direction
+        Ly (float): length of the domain in the y direction
+
     """
 
-
-    def __init__(self, n=100, random_state=None, store_history=True):
-        self.n = n
-        np.random.seed(random_state) # Set the random seed
-        self.grid = np.random.choice([0, 1, 2, 3], size=(n, n))
-        self.history =[self.grid.copy()] # Why did we need to copy the grid?
-        self.all_durations = list() # useful to keep track of the duration of toppling events
-        self.store_history = store_history
+    def __init__(self, nx, ny, kappa=1.0, d=1.0, Lx=1.0, Ly=1.0):
+        self.nx = nx
+        self.ny = ny
+        self.dx = Lx / nx
+        self.dy = Ly / ny
+        self.d = d
+        self.kappa = kappa
         print(
             "Running with Instructor Solutions. If you meant to run your own code, do not import from solutions", 
             flush=True
         )
-
-    def step(self):
+       
+    def _laplace(self, grid):
         """
-        Perform a single step of the sandpile model. Recall that there are two 
-        timescales in this problem; step corresponds to the longer timescale of a 
-        single sandgrain addition.
-
-        A single step of the simulation consists of two stages: a random sand grain is 
-        dropped onto the lattice at a random location. Then, a set of avalanches occurs
-        causing sandgrains to get redistributed to their neighboring locations.
-
-        Returns: None
+        Apply the two-dimensional Laplace operator to a square array
         """
-        # Pick a random location
-        xi, yi = np.random.choice(self.n, 2)
-
-        # Drop the grain and then topple the sand grains using an iterative solution:
-        # topple a site, then check the entire lattice for sites that need to be 
-        # toppled. Repeat until the sandpile is stable.
-        self.grid[xi, yi] += 1
-        duration = 0
-        while np.any(self.grid >= 4):
-            topple_inds = np.where(self.grid >= 4) # find a high site
-            sel_ind = np.random.choice(np.arange(len(topple_inds[0])))
-            ii, jj = (topple_inds[0][sel_ind], topple_inds[1][sel_ind])
-            self.grid[ii, jj] -= 4
-            if ii > 0:
-                self.grid[ii - 1, jj] += 1
-            if ii < self.n - 1:
-                self.grid[ii + 1, jj] += 1
-            if jj > 0:
-                self.grid[ii, jj - 1] += 1
-            if jj < self.n - 1:
-                self.grid[ii, jj + 1] += 1
-            duration += 1
-        if duration > 0:
-            self.all_durations.append(duration)
-
-    # we use this decorator for class methods that don't require any of the attributes 
-    # stored in self. Notice how we don't pass self to the method
-    @staticmethod
-    def check_difference(grid1, grid2):
-        """Check the total number of different sites between two grids"""
-        return np.sum(grid1 != grid2)
-
-    
-    def simulate(self, n_step):
-        """
-        Simulate the sandpile model for n_step steps.
-        """
-        # YOUR CODE HERE. You should use the step method you wrote above.
-        for i in range(n_step):
-            self.step()
-            if self.check_difference(self.grid, self.history[-1]) > 0:
-                self.history.append(self.grid.copy())
-        return self.grid
-
-
-
-class AbelianSandpileIterative(AbelianSandpile):
-    """
-    An Abelian sandpile model simulation. The sandpile is initialized with a random
-    number of grains at each lattice site. Then, a single grain is dropped at a random
-    location. The sandpile is then allowed to evolve until it is stable. This process
-    is repeated n_step times.
-    
-    Parameters:
-        n (int): The size of the grid
-        grid (np.ndarray): The grid of the sandpile
-        history (list): A list of the sandpile grids at each timestep
-        store_history (bool): Whether or not to store the history of the sandpile. Snapshots
-            of the sandpile are stored between avalanche events
-    """
-
-
-    def __init__(self, n=100, random_state=None):
-        super().__init__(n, random_state)
-        self.n = n
-        np.random.seed(random_state) # Set the random seed
-        self.grid = np.random.choice([0, 1, 2, 3], size=(n, n))
-        self.history =[self.grid.copy()] # Why did we need to copy the grid?
-        self.all_durations = list() # useful to keep track of the duration of toppling events
-
-    def step(self):
-        """
-        Perform a single step of the sandpile model. Recall that there are two 
-        timescales in this problem; step corresponds to the longer timescale of a 
-        single sandgrain addition.
-
-        A single step of the simulation consists of two stages: a random sand grain is 
-        dropped onto the lattice at a random location. Then, a set of avalanches occurs
-        causing sandgrains to get redistributed to their neighboring locations.
-
-        Returns: None
-        """
-        # Pick a random location
-        xi, yi = np.random.choice(self.n, 2)
-
-        # Drop the grain and then topple the sand grains using an iterative solution:
-        # topple a site, then check the entire lattice for sites that need to be 
-        # toppled. Repeat until the sandpile is stable.
-        self.grid[xi, yi] += 1
-        duration = 0
-        while np.any(self.grid >= 4):
-            topple_inds = np.where(self.grid >= 4) # find a high site
-            sel_ind = np.random.choice(np.arange(len(topple_inds[0])))
-            ii, jj = (topple_inds[0][sel_ind], topple_inds[1][sel_ind])
-            self.grid[ii, jj] -= 4
-            if ii > 0:
-                self.grid[ii - 1, jj] += 1
-            if ii < self.n - 1:
-                self.grid[ii + 1, jj] += 1
-            if jj > 0:
-                self.grid[ii, jj - 1] += 1
-            if jj < self.n - 1:
-                self.grid[ii, jj + 1] += 1
-            duration += 1
-        if duration > 0:
-            self.all_durations.append(duration)
-
-
-
-
-class AbelianSandpileDFS(AbelianSandpile):
-    """
-    An alternative implementation of the Abelian Sandpile model using a depth-first
-    search algorithm to find all sites that need to be toppled.
-
-    Parameters:
-        n (int): The size of the grid
-        grid (np.ndarray): The grid of the sandpile
-        history (list): A list of the sandpile grids at each timestep
-        store_history (bool): Whether or not to store the history of the sandpile. Snapshots
-            of the sandpile are stored between avalanche events
-    """
-
-
-    def __init__(self, **kwargs):
-        super().__init__(**kwargs)
-
-    def _add_and_topple(self, i, j):
-        """
-        A recursive function that adds a grain and then topples the sandpile at 
-        location (i, j). Notice that we use the self.grid attribute to store global 
-        information across all the   recursive calls. This is a common pattern in 
-        recursive functions actingon lattices
-        """
-        self.grid[i, j] += 1 # global state update
-
-        # Base case
-        if self.grid[i, j] < 4:
-            return None
-            
-        else:
-            # Decrease the height of the site
-            self.grid[i, j] -= 4
-
-            # Implement the absorbing boundary conditions: sandgrains
-            # that fall off the edge of the grid are lost.
-            if i > 0:
-                self._add_and_topple(i - 1, j)
-            if i < self.n - 1:
-                self._add_and_topple(i + 1, j)
-            if j > 0:
-                self._add_and_topple(i, j - 1)
-            if j < self.n - 1:
-                self._add_and_topple(i, j + 1)
-            return None
-
-    def step(self):
-        """
-        Perform a single step of the sandpile model. Recall that there are two 
-        timescales in this problem; step corresponds to the longer timescale of a 
-        single sandgrain addition.
-
-        A single step of the simulation consists of two stages: a random sand grain is 
-        dropped onto the lattice at a random location. Then, a set of avalanches occurs
-        causing sandgrains to get redistributed to their neighboring locations.
-
-        Returns: None
-        """
-        # Pick a random location
-        xi, yi = np.random.choice(self.n, 2)
-        # Call the recursive topple function
-        self._add_and_topple(xi, yi)
-
-
-from collections import deque
-class AbelianSandpileBFS(AbelianSandpile):
-    """
-    An alternative implementation of the Abelian Sandpile model using a breadth-first
-    search algorithm to find all sites that need to be toppled.
-
-    An advantage of this implementation is that it it matches the physics of the 
-    sandpile model more closely. In particular, grains get passed to sites 
-    simultaneously, rather than sequentially as in the DFS implementation.
-
-    We therefore define a separate history attribute in order to record the fast-timescale 
-    topple events that occur between grain additions.
-
-    Parameters:
-        n (int): The size of the grid
-        grid (np.ndarray): The grid of the sandpile
-        history (list): A list of the sandpile grids at each timestep
-        store_history (bool): Whether or not to store the history of the sandpile. Snapshots
-            of the sandpile are stored between avalanche events
-    """
-
-    def __init__(self, store_topple_history=False, **kwargs):
-        super().__init__(**kwargs)
-        self.store_topple_history = store_topple_history
-        if store_topple_history:
-            self.history_topples = [self.grid.copy()]
-
-    def step(self):
-        """
-        Perform a single step of the sandpile model. Recall that there are two 
-        timescales in this problem; step corresponds to the longer timescale of a 
-        single sandgrain addition.
-
-        A single step of the simulation consists of two stages: a random sand grain is 
-        dropped onto the lattice at a random location. Then, a set of avalanches occurs
-        causing sandgrains to get redistributed to their neighboring locations.
-
-        Returns: None
-        """
-        # Pick a random location
-        xi, yi = np.random.choice(self.n, 2)
-
-        # A queue data structure stores a list of sites that need to be toppled.
-        queue = deque([(xi, yi)])
+        ################################################################################
+        #
+        #
+        #  YOUR CODE HERE
+        #  My 10 line solution is vectorized in numpy, and so it avoids using a for loop 
+        #  There are several valid ways to implement the boundary conditions
+        #
+        ################################################################################
         
-        # Perform a breadth-first search to find all sites that need to be toppled
-        # the while loop will continue until the queue is empty
-        while queue:
-            # the popleft() method removes the first element from the queue
-            i, j = queue.popleft()
-            self.grid[i, j] += 1 # global state update
-
-            # Base case
-            if self.grid[i, j] < 4:
-                continue
+        lap = np.zeros_like(grid)
+        lap[1:-1, 1:-1] = (grid[:-2, 1:-1] + grid[2:, 1:-1] - 2 * grid[1:-1, 1:-1]) / self.dx**2
+        lap[1:-1, 1:-1] += (grid[1:-1, :-2] + grid[1:-1, 2:] - 2 * grid[1:-1, 1:-1]) / self.dy**2
         
-            # Store a snapshot if a topple event occurs
-            if self.store_topple_history:
-                self.history_topples.append(self.grid.copy())
+        # Reflection boundary conditions
+        lap[:, 0] = lap[:, 1]
+        lap[:, -1] = lap[:, -2]
+        lap[0, :] = lap[1, :]
+        lap[-1, :] = lap[-2, :]
 
-            # Decrease the height of the site
-            self.grid[i, j] -= 4
+        return lap
 
-            # Implement the absorbing boundary conditions: sand grains
-            # that fall off the edge of the grid are lost.
-            if i > 0:
-                queue.append((i - 1, j))
-            if i < self.n - 1:
-                queue.append((i + 1, j))
-            if j > 0:
-                queue.append((i, j - 1))
-            if j < self.n - 1:
-                queue.append((i, j + 1))
+    def _reaction(self, y):
+        """
+        Bistable reaction term
+        """
+        ################################################################################
+        #
+        #
+        #  YOUR CODE HERE.
+        #
+        #
+        ################################################################################
+        return y * (1 - y**2)
+
+    def rhs(self, t, y):
+        """
+        For technical reasons, this function needs to take a one-dimensional vector, 
+        and so we have to reshape the vector back into the mesh
+        """
+        ################################################################################
+        #
+        #
+        #  YOUR CODE HERE
+        #  My solution primariy calls private methods
+        #
+        #
+        ################################################################################
+        y = y.reshape((self.ny, self.nx))
+        out = self.kappa * self._reaction(y) + self.d * self._laplace(y)
+        return out.flatten()
+
+
+    def solve(self, y0, t_min, t_max, nt, **kwargs):
+        """
+        Solve the heat equation using the odeint solver
+
+        **kwargs are passed to scipy.integrate.solve_ivp
+        """
+        ################################################################################
+        #
+        #
+        #  YOUR CODE HERE
+        #  My solution is five lines, and it mainly involves setting things up to be
+        #  passed to scipy.integrate.solve_ivp, and then returning the results
+        #
+        #
+        ################################################################################
+        tpts = np.linspace(t_min, t_max, nt)
+        out = solve_ivp(self.rhs, (t_min, t_max), y0.flatten(), t_eval=tpts, **kwargs)
+        sol = out.y.T
+        tpts =  out.t
+        return tpts, sol.reshape((len(tpts), self.ny, self.nx))
