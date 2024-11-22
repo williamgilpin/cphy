@@ -1,4 +1,4 @@
-
+I love computational physics!!!
 
 <img src="resources/overview.gif" alt="Overview of Methods in Course" width="100%"/>
 
