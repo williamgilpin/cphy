@@ -70,11 +70,11 @@ class PercolationSimulation:
         # memory, but it makes the code easier to debug if this is a separate variable 
         # from self.grid.
         self.grid_filled = np.copy(self.grid)
-
-        print(
-            "Running with Instructor Solutions. If you meant to run your own code, do not import from solutions", 
-            flush=True
-        )
+# comment  out the print statement
+        # print(
+           # "Running with Instructor Solutions. If you meant to run your own code, do not import from solutions", 
+           # flush=True
+      #  )
 
     def _initialize_grid(self):
         """
