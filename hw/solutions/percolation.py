@@ -109,4 +109,4 @@ class PercolationSimulation:
         # Check if any water reached the bottom row
         return np.any(self.grid_filled[-1, :] == 2)
 
-
+##Octavio was here
