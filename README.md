@@ -222,5 +222,5 @@ Portions of the material in this course are adapted or inspired by other open-so
   gtag('config', 'G-37RSFCXBQY');
 </script>
 
-
+## My Personal Message of Despair
 
