@@ -1,4 +1,4 @@
-
+Edited for pull request -Kieran McDonald
 
 <img src="resources/overview.gif" alt="Overview of Methods in Course" width="100%"/>
 
