@@ -47,6 +47,7 @@ class AllenCahn:
         For technical reasons, this function needs to take a one-dimensional vector, 
         and so we have to reshape the vector back into the mesh
         """
+        #I think it would be nice to have the technical reasons for why the functon can only take a one-dimensional vector.
         return self.kappa * self._reaction(y) - self.d * self.ksq  * y
 
 
