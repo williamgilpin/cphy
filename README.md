@@ -27,6 +27,7 @@ The class website is located [here](https://www.wgilpin.com/cphy/?utm_source=en_
 Many links below direct to Google Colab, and can be run-in-browser without installation as long as you are signed into a Google account. To download the raw source files, please refer to [the GitHub repository](https://github.com/williamgilpin/cphy/tree/main). Some lecture videos are linked below, and the remaining lecture videos are linked in the Syllabus (above).
 
 #### Homework Assignments {#hw}
+ # Please write your own code in any required cell below and answer all the questions from the to-do list in your solution
 + [HW1: The sandpile cellular automaton and directed percolation](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/hw/cellular_automata_complexity.ipynb). [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/hw/cellular_automata_complexity.ipynb) *Covers recursion, runtime scaling, vectorization*
 + [HW2: Linear dynamical systems and decomposing a chaotic flow](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/hw/matrices_unsupervised_learning.ipynb). [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/hw/matrices_unsupervised_learning.ipynb) *Covers numerical linear algebra, optimization, and unsupervised learning*
 + [HW3: Turing patterns and phase separation](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/hw/pde_turing.ipynb). [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/hw/pde_turing.ipynb) *Covers numerical integration; finite-differences and spectral methods*
