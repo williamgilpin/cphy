@@ -1,5 +1,3 @@
-
-
 <img src="resources/overview.gif" alt="Overview of Methods in Course" width="100%"/>
 
 *(Left to Right): Avalanche activity cascades in a sandpile automaton; a vortex street formed by flow past a cylinder; and Turing patterns in a reaction-diffusion model. All simulations from the course homeworks; a higher-resolution video may be viewed [here](https://player.vimeo.com/video/739921904?title=0&byline=0&portrait=0)*
@@ -171,6 +169,8 @@ Many links below direct to Google Colab, and can be run-in-browser without insta
 + [Lab 6: Structuring an Open-Source Repository](http://www.wgilpin.com/howto/python_project.html)
 
 ## Example Final Projects
+
+*The guidelines and rubric for the final project and presentation can be found [here](vignettes/project.md)*
 
 + [Quantum Reinforcement Learning with the Grover method](https://github.com/jiangzz-lab/GroverQLearning)
 + [Modelling the contractile dynamics of muscle](https://github.com/jakemcgrath1999/muscle_model)
