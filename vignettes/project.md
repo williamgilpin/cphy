@@ -27,7 +27,7 @@ Beyond providing a setting to try out some of the ideas we are learning in this 
 
 #### Grading Rubric
 
-+ Problem scope: 20% 
+Problem scope: 20% 
 > + Contains an interesting and challenging problem, and makes a good-faith effort to approach it.
 > + Creativity: An unexpected application or novel algorithm or interpretation of an algorithm is exciting and appreciated.
 > + Thoroughness: Makes a thorough attempt to solve the problem, even if ultimately unsuccessful
