@@ -27,29 +27,29 @@ Beyond providing a setting to try out some of the ideas we are learning in this 
 
 #### Grading Rubric
 
-Problem scope: 20% 
-> Contains an interesting and challenging problem, and makes a good-faith effort to approach it.
-> Creativity: An unexpected application or novel algorithm or interpretation of an algorithm is exciting and appreciated.
-> Thoroughness: Makes a thorough attempt to solve the problem, even if ultimately unsuccessful
+**Problem scope: 20%**
+- Contains an interesting and challenging problem, and makes a good-faith effort to approach it.
+- Creativity: An unexpected application or novel algorithm or interpretation of an algorithm is exciting and appreciated.
+- Thoroughness: Makes a thorough attempt to solve the problem, even if ultimately unsuccessful
 
-Code quality: 40%
-> Logical structure, minimal redundancy or repeated code
-> Variables and objects have appropriate scope
-> Use of appropriate abstractions
-> Code legibility and style
-> Unit tests or other tests to ensure correctness
+**Code quality: 40%**
+- Logical structure, minimal redundancy or repeated code
+- Variables and objects have appropriate scope
+- Use of appropriate abstractions
+- Code legibility and style
+- Unit tests or other tests to ensure correctness
 
-Documentation: 20%
-> README contains Installation instructions
-> README contains example usage and minimum working example
-> I’m not requiring a written report this term, and so if you have benchmarks or results, please put them in a section of your repo’s README.md file. Please use best practices for publication-quality writing and figure-making.
-> Major functions and classes have documentation
+**Documentation: 20%**
+- README contains Installation instructions
+- README contains example usage and minimum working example
+- I’m not requiring a written report this term, and so if you have benchmarks or results, please put them in a section of your repo’s README.md file. Please use best practices for publication-quality writing and figure-making.
+- Major functions and classes have documentation
 
-Talk: 20%
-> Only one group member needs to present, though you are welcome to structure this however you’d like.
-> These will be ~10 minutes + 2 min questions during the last few sessions of the course (5 talks per class).
-> Please be ready to present the class session before you are scheduled, just in case someone can’t come on their scheduled presentation day.
-> You can organize these however you want, but if you would prefer a template: 5-8 minutes background, 3 minutes on problem formulation, 5 minutes on your solution and any pitfalls or dead ends, and remaining time on future directions, applications, connections to interesting other ideas.
+**Talk: 20%**
+- Only one group member needs to present, though you are welcome to structure this however you’d like.
+- These will be ~10 minutes + 2 min questions during the last few sessions of the course (5 talks per class).
+- Please be ready to present the class session before you are scheduled, just in case someone can’t come on their scheduled presentation day.
+- You can organize these however you want, but if you would prefer a template: 5-8 minutes background, 3 minutes on problem formulation, 5 minutes on your solution and any pitfalls or dead ends, and remaining time on future directions, applications, connections to interesting other ideas.
 
 #### Project Ideas
 You can pick anything that interests you and which involves writing code, here are just some ideas
