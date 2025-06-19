@@ -15,6 +15,9 @@ dump*
 pylbm*
 *long.npz
 development.ipynb
+vorticity_animation.mp4
+vortex*timepoints.npz
+von_karman_street.zip
 
 # PyTorch checkpoints
 *.pth.tar
