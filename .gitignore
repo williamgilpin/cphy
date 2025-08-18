@@ -148,3 +148,5 @@ dmypy.json
 
 # Text editor revisions
 *~
+# MyST build outputs
+_build
