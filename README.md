@@ -7,7 +7,7 @@
 <!-- <img src="https://user-images.githubusercontent.com/8154246/184846814-5b5c80e1-34f9-4063-9b26-36b2a0369827.mov" alt="Overview of Methods in Course" width="100%"/> -->
 
 
-# Computational Physics
+<!-- # Computational Physics -->
 
 ## Summary
 
@@ -16,12 +16,7 @@ Materials for computational physics course, taught by [William Gilpin](http://ww
 This course aims to provide a very broad survey of computational methods that are particularly relevant to modern physics research. We will aim to cover efficient algorithm design and performance analysis, traditional numerical recipes such as integration and matrix manipulation, and emerging methods in data analysis and machine learning. Our goal by the end of the class will be to feel comfortable approaching diverse, open-ended computational problems that arise during research, and to be ready to design and share new algorithms with the broader research community.
 
 
-Contents: 
-
-The class website is located [here](https://www.wgilpin.com/cphy/?utm_source=en_us_bh224180tg). From the class website, the sidebar links to Chapters, Homeworks, Labs, and Appendices. To navigate to a specific lecture, click on the lecture title in the "Chapter" section. Within a given chapter or homework, there is a link at the top of the page to open the notebook in Google Colab.
-
-
-For UT students only:
+## For UT students
 <!-- The class website is located [here](https://www.wgilpin.com/cphy/?utm_source=en_us_bh224180tg).  -->
 + If you are enrolled in 329 at UT, the syllabus and calendar are [here](https://docs.google.com/document/d/1c3_XWOZAYTVmQGKoqcifzEXX7VwzWmhIRT4zVcy9lFU/edit?usp=sharing). 
 + If you are enrolled in 381C at UT, the syllabus and calendar are [here](https://docs.google.com/document/d/1URJmdpTVG8E2bLLu5xAHctICb6krbZ0fC0hO2i2xEXY/edit?usp=sharing). 
@@ -31,7 +26,9 @@ For UT students only:
 
 ## Contents
 
-Many links below direct to Google Colab, and can be run-in-browser without installation as long as you are signed into a Google account. To download the raw source files, please refer to [the GitHub repository](https://github.com/williamgilpin/cphy/tree/main). Some lecture videos are linked below, and the remaining lecture videos are linked in the Syllabus (above).
+The class website is located [here](https://www.wgilpin.com/cphy/?utm_source=en_us_bh224180tg). From the class website, the sidebar links to Chapters, Homeworks, Labs, and Appendices. To navigate to a specific lecture, click on the lecture title in the "Chapter" section. Within a given chapter or homework, there is a link at the top of the page to open the notebook in Google Colab.
+
+<!-- Many links below direct to Google Colab, and can be run-in-browser without installation as long as you are signed into a Google account. To download the raw source files, please refer to [the GitHub repository](https://github.com/williamgilpin/cphy/tree/main). Some lecture videos are linked below, and the remaining lecture videos are linked in the Syllabus (above). -->
 
 <!-- #### Homework Assignments {#hw}
 + [HW1: The sandpile cellular automaton and directed percolation](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/hw/cellular_automata_complexity.ipynb). [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/hw/cellular_automata_complexity.ipynb) *Covers recursion, runtime scaling, vectorization*
@@ -40,7 +37,7 @@ Many links below direct to Google Colab, and can be run-in-browser without insta
 + [HW4: Predicting turbulence with operator methods](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/hw/forecasting_regression_supervised.ipynb). [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/hw/forecasting_regression_supervised.ipynb) *Covers Supervised learning, time series forecasting, ridge, kernel, and logistic regression*
 <!-- + [Homework solutions](https://github.com/williamgilpin/cphy/blob/main/hw/solutions/) -->
 
-#### Lecture Slides {#lectures}
+<!-- #### Lecture Slides {#lectures}
 + [Lecture 1: Python syntax for Scientific Computing](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/python_intro.ipynb)
 <br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/python_intro.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/python_intro.ipynb)
 
@@ -175,7 +172,7 @@ Many links below direct to Google Colab, and can be run-in-browser without insta
 + [Lab 3: Documentation and Formatting](labs/documentation_and_formatting.md)
 + [Lab 4: Automatically creating online documentation with Sphinx](http://www.wgilpin.com/howto/howto_sphinx.html)
 + [Lab 5: Unit Testing](http://www.wgilpin.com/howto/python_unit_testing.html)
-+ [Lab 6: Structuring an Open-Source Repository](http://www.wgilpin.com/howto/python_project.html) -->
++ [Lab 6: Structuring an Open-Source Repository](http://www.wgilpin.com/howto/python_project.html) --> -->
 
 ## Example Final Projects
 
