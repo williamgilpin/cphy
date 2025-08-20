@@ -14,86 +14,136 @@ project:
     - file: README.md
     - file: development.ipynb
     - file: LICENSE.md
-    - title: Homework
-      children:
-        - file: hw/cellular_automata_complexity.ipynb
-        - file: hw/first_light.ipynb
-        - file: hw/forecasting_regression_supervised.ipynb
-        - file: hw/matrices_unsupervised_learning.ipynb
-        - file: hw/pde_turing.ipynb
-    - title: Labs
-      children:
-        - file: labs/documentation_and_formatting.md
-        - file: labs/getting_started_with_python.md
-        - file: labs/lab1_eda.ipynb
-        - file: labs/lab_pytorch.ipynb
-        - file: labs/lab_taichi.ipynb
-        - file: labs/labx_jax.ipynb
-        - file: labs/labx_jax_numba.ipynb
-        - file: labs/labx_sklearn.ipynb
-    - title: Chapters
-      children:
-        - file: talks/bayesian_linear_regression.ipynb
-        - file: talks/conformal maps crank nicolson.ipynb
-        - file: talks/convex_optimization_univariate.ipynb
-        - file: talks/dedalus.ipynb
-        - file: talks/evolving_cellular_automata.ipynb
-        - file: talks/fast_fourier.ipynb
-        - file: talks/fast_fourier_QM_example_added.ipynb
-        - file: talks/first_passage_and_inheritance.ipynb
-        - file: talks/forecasting_reservoir_computers.ipynb
-        - file: talks/gmm_mle_em.ipynb
-        - file: talks/hyperbolic_pde.ipynb
-        - file: talks/inheritance_game_of_life.ipynb
-        - file: talks/integrator_chaos_variable_step.ipynb
-        - file: talks/intro_graph_adjacency.ipynb
-        - file: talks/krylov_methods.ipynb
-        - file: talks/lagrangian_duality.ipynb
-        - file: talks/laplace_equation.ipynb
-        - file: talks/logistic_regression_phases.ipynb
-        - file: talks/lorenz_odeint.ipynb
-        - file: talks/lu_decomposition.ipynb
-        - file: talks/matrix_derivative.ipynb
-        - file: talks/monte_carlo_metropolis.ipynb
-        - file: talks/neural_networks_overview.ipynb
-        - file: talks/neural_networks_training.ipynb
-        - file: talks/neural_networks_types.ipynb
-        - file: talks/neural odes.ipynb
-        - file: talks/numerical_linear_algebra_preconditioning.ipynb
-        - file: talks/optimization_multivariate.ipynb
-        - file: talks/overfitting_bias_variance_free_lunch.ipynb
-        - file: talks/pragmatic_integration.ipynb
-        - file: talks/predicting_cellular_automata.ipynb
-        - file: talks/python_intro.ipynb
-        - file: talks/qr_eigenvalues.ipynb
-        - file: talks/supervised_learning_ising.ipynb
-        - file: talks/supervised_learning_kuramoto.ipynb
-        - file: talks/svd_decomp.ipynb
-        - file: talks/time_and_space_complexity_recursion.ipynb
-        - file: talks/time_series_chaos_clustering.ipynb
-        - file: talks/unsupervised_clustering_embedding.ipynb
-        - file: talks/vectorization_mandelbrot.ipynb
-        - title: Resources
-          children:
-            - file: talks/resources/von_karman_street.ipynb
-    - title: Vignettes
-      children:
-        - file: vignettes/basic_vae.ipynb
-        - file: vignettes/hopfield_model.ipynb
-        - file: vignettes/mandelbrot.ipynb
-        - file: vignettes/project_alt.md
-        - file: vignettes/project.md
-        - file: vignettes/river_formation.ipynb
-        - file: vignettes/standard_map.ipynb
-        - file: vignettes/stochastic_resonance.ipynb
-        - file: vignettes/vq_vae.ipynb
+    # - title: Homework
+    #   children:
+    #     - file: hw/cellular_automata_complexity.ipynb
+    #     - file: hw/first_light.ipynb
+    #     - file: hw/forecasting_regression_supervised.ipynb
+    #     - file: hw/matrices_unsupervised_learning.ipynb
+    #     - file: hw/pde_turing.ipynb
+    # - title: Labs
+    #   children:
+    #     - file: labs/documentation_and_formatting.md
+    #     - file: labs/getting_started_with_python.md
+    #     - file: labs/lab1_eda.ipynb
+    #     - file: labs/lab_pytorch.ipynb
+    #     - file: labs/lab_taichi.ipynb
+    #     - file: labs/labx_jax.ipynb
+    #     - file: labs/labx_jax_numba.ipynb
+    #     - file: labs/labx_sklearn.ipynb
+    # - title: Chapters
+    #   children:
+    #     - file: talks/bayesian_linear_regression.ipynb
+    #     - file: talks/conformal maps crank nicolson.ipynb
+    #     - file: talks/convex_optimization_univariate.ipynb
+    #     - file: talks/dedalus.ipynb
+    #     - file: talks/evolving_cellular_automata.ipynb
+    #     - file: talks/fast_fourier.ipynb
+    #     - file: talks/fast_fourier_QM_example_added.ipynb
+    #     - file: talks/first_passage_and_inheritance.ipynb
+    #     - file: talks/forecasting_reservoir_computers.ipynb
+    #     - file: talks/gmm_mle_em.ipynb
+    #     - file: talks/hyperbolic_pde.ipynb
+    #     - file: talks/inheritance_game_of_life.ipynb
+    #     - file: talks/integrator_chaos_variable_step.ipynb
+    #     - file: talks/intro_graph_adjacency.ipynb
+    #     - file: talks/krylov_methods.ipynb
+    #     - file: talks/lagrangian_duality.ipynb
+    #     - file: talks/laplace_equation.ipynb
+    #     - file: talks/logistic_regression_phases.ipynb
+    #     - file: talks/lorenz_odeint.ipynb
+    #     - file: talks/lu_decomposition.ipynb
+    #     - file: talks/matrix_derivative.ipynb
+    #     - file: talks/monte_carlo_metropolis.ipynb
+    #     - file: talks/neural_networks_overview.ipynb
+    #     - file: talks/neural_networks_training.ipynb
+    #     - file: talks/neural_networks_types.ipynb
+    #     - file: talks/neural odes.ipynb
+    #     - file: talks/numerical_linear_algebra_preconditioning.ipynb
+    #     - file: talks/optimization_multivariate.ipynb
+    #     - file: talks/overfitting_bias_variance_free_lunch.ipynb
+    #     - file: talks/pragmatic_integration.ipynb
+    #     - file: talks/predicting_cellular_automata.ipynb
+    #     - file: talks/python_intro.ipynb
+    #     - file: talks/qr_eigenvalues.ipynb
+    #     - file: talks/supervised_learning_ising.ipynb
+    #     - file: talks/supervised_learning_kuramoto.ipynb
+    #     - file: talks/svd_decomp.ipynb
+    #     - file: talks/time_and_space_complexity_recursion.ipynb
+    #     - file: talks/time_series_chaos_clustering.ipynb
+    #     - file: talks/unsupervised_clustering_embedding.ipynb
+    #     - file: talks/vectorization_mandelbrot.ipynb
+    #     - title: Resources
+    #       children:
+    #         - file: talks/resources/von_karman_street.ipynb
+    # - title: Vignettes
+    #   children:
+    #     - file: vignettes/basic_vae.ipynb
+    #     - file: vignettes/hopfield_model.ipynb
+    #     - file: vignettes/mandelbrot.ipynb
+    #     - file: vignettes/project_alt.md
+    #     - file: vignettes/project.md
+    #     - file: vignettes/river_formation.ipynb
+    #     - file: vignettes/standard_map.ipynb
+    #     - file: vignettes/stochastic_resonance.ipynb
+    #     - file: vignettes/vq_vae.ipynb
   exports:
     - format: pdf
-      template: lapreprint-typst
+      # template: lapreprint-typst
+      template: lapreprint
+      tex:
+        preamble: |
+          \usepackage{amsmath}
+      # tex:
+      #   preamble: |
+      #     \usepackage{minted}
+      #     \definecolor{codebg}{rgb}{0.94,0.94,0.94} % very light gray
+      #     \setminted{
+      #       bgcolor=codebg,
+      #       frame=lines,          % optional: thin border
+      #       framesep=2mm,
+      #       baselinestretch=1.0,
+      #     }
       articles: 
         - file: talks/front.md
-        - file: talks/python_intro.ipynb
-        - file: talks/first_passage_and_inheritance.ipynb
+        # - file: talks/python_intro.ipynb
+        # - file: talks/first_passage_and_inheritance.ipynb ###
+        # - file: talks/vectorization_mandelbrot.ipynb
+        # - file: talks/inheritance_game_of_life.ipynb
+        # - file: talks/time_and_space_complexity_recursion.ipynb
+        # - file: talks/fast_fourier.ipynb ####
+        # - file: talks/numerical_linear_algebra_preconditioning.ipynb ###
+        # - file: talks/intro_graph_adjacency.ipynb
+        # - file: talks/lu_decomposition.ipynb #
+        # - file: talks/qr_eigenvalues.ipynb
+        # - file: talks/svd_decomp.ipynb ###
+        # - file: talks/krylov_methods.ipynb ###
+        # - file: talks/convex_optimization_univariate.ipynb ####
+        # - file: talks/lagrangian_duality.ipynb
+        # - file: talks/optimization_multivariate.ipynb ###
+        # - file: talks/evolving_cellular_automata.ipynb
+        # - file: talks/monte_carlo_metropolis.ipynb
+        - file: talks/lorenz_odeint.ipynb
+        # - file: talks/integrator_chaos_variable_step.ipynb # good
+        # - file: talks/laplace_equation.ipynb
+        # - file: talks/hyperbolic_pde.ipynb
+        # - file: talks/predicting_cellular_automata.ipynb
+        # - file: talks/overfitting_bias_variance_free_lunch.ipynb
+        # - file: talks/unsupervised_clustering_embedding.ipynb
+        # - file: talks/time_series_chaos_clustering.ipynb
+        # - file: talks/gmm_mle_em.ipynb
+        # - file: talks/neural_networks_overview.ipynb
+        # - file: talks/neural_networks_types.ipynb
+        # - file: talks/neural_networks_training.ipynb
+        # - file: talks/forecasting_reservoir_computers.ipynb
+
+  settings:
+    myst_to_tex:
+      code_style: minted            # use LaTeX minted for colorized code
+      # pygments_style: monokai
+      # code_style: listings         # alternative; fewer features than minted
+    remove:
+    - pdf: [remove-pdf]
 
 site:
   template: book-theme
@@ -101,7 +151,3 @@ site:
   #   favicon: favicon.ico
   #   logo: site_logo.png
 
-# execute:
-#   execute_notebooks: auto
-#   truncate_cells: true
-#   truncate_cells_length: 50
