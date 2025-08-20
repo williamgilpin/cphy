@@ -109,7 +109,6 @@ project:
         # - file: vignettes/stochastic_resonance.ipynb
         - file: vignettes/basic_vae.ipynb
         - file: vignettes/vq_vae.ipynb
-    - file: LICENSE.md
   exports:
     - format: pdf
       # template: lapreprint-typst
@@ -172,8 +171,8 @@ project:
 site:
   title: Computational Physics
   template: book-theme
-  options:
-    hide_footer_links: true
+  # options:
+  #   hide_footer_links: true
     # logo_text: "xxxx"
     # # Google Analytics
     # analytics_google: G-XXXX # Measurement ID or Tracking ID
@@ -199,12 +198,3 @@ site:
   # options:
   #   favicon: favicon.ico
   #   logo: site_logo.png
-
-# myst.yml (or _config.yml for Jupyter Book)
-# myst.yml (or _config.yml for Jupyter Book)
-# myst.yml or _config.yml
-parse:
-  myst_enable_extensions:
-    - substitution
-  myst_substitutions:
-    colab_link: "[📓 Open in Colab](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/{{ env.docname.split('/')[-1] }}.ipynb)"
