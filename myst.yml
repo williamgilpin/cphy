@@ -97,7 +97,7 @@ project:
         # - file: labs/labx_jax.ipynb
         # - file: labs/labx_jax_numba.ipynb
         # - file: labs/labx_sklearn.ipynb
-    - title: Notes
+    - title: Appendices
       children:
         - file: talks/matrix_derivative.ipynb
         - file: vignettes/hopfield_model.ipynb
