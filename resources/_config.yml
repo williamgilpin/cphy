@@ -1,0 +1,17 @@
+theme: minima
+languageCode: "en-us"
+layout: page
+
+minima:
+  skin: dark
+
+header_pages:
+  - none.html
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "page"
+      date: "2017-02-23T10:20:00Z" # This field cannot be empty
