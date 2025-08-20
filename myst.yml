@@ -151,8 +151,8 @@ project:
       code_style: minted            # use LaTeX minted for colorized code
       # pygments_style: monokai
       # code_style: listings         # alternative; fewer features than minted
-    remove:
-    - pdf: [remove-pdf]
+    # remove:
+    # - pdf: [remove-pdf]
 
 site:
   template: book-theme
