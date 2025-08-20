@@ -40,22 +40,6 @@ Many links below direct to Google Colab, and can be run-in-browser without insta
 <!-- [[vid1]](https://youtu.be/N8PJH9WxvUk)
 [[vid2]](https://youtu.be/R1fDglciddo) -->
 
-<script>
-(function () {
-  var p = location.pathname.replace(/\/$/, "");
-  var base = p.split("/").pop().replace(/\.html$/, "");
-  if (!base || base === "index" || base === "search") return;
-  var a = document.createElement("a");
-  a.textContent = "📓 Open in Colab";
-  a.target = "_blank"; a.rel = "noopener";
-  a.href = "https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/" + base + ".ipynb";
-  var article = document.querySelector("main article, article");
-  if (!article) return;
-  var ptag = document.createElement("p"); ptag.style.margin = "0.75rem 0"; ptag.appendChild(a);
-  article.insertBefore(ptag, article.firstChild);
-})();
-</script>
-
 + [Lecture 3: Vectorization, arrays, and the Mandelbrot set](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/vectorization_mandelbrot.ipynb)
 <br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/vectorization_mandelbrot.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/vectorization_mandelbrot.ipynb)
 <!-- [[video]](https://youtu.be/PqntSbG4IuM) -->
