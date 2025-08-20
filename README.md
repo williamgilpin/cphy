@@ -15,16 +15,25 @@ Materials for computational physics course, taught by [William Gilpin](http://ww
 
 This course aims to provide a very broad survey of computational methods that are particularly relevant to modern physics research. We will aim to cover efficient algorithm design and performance analysis, traditional numerical recipes such as integration and matrix manipulation, and emerging methods in data analysis and machine learning. Our goal by the end of the class will be to feel comfortable approaching diverse, open-ended computational problems that arise during research, and to be ready to design and share new algorithms with the broader research community.
 
-The class website is located [here](https://www.wgilpin.com/cphy/?utm_source=en_us_bh224180tg). 
+
+Contents: 
+
+The class website is located [here](https://www.wgilpin.com/cphy/?utm_source=en_us_bh224180tg). From the class website, the sidebar links to Chapters, Homeworks, Labs, and Appendices. To navigate to a specific lecture, click on the lecture title in the "Chapter" section. Within a given chapter or homework, there is a link at the top of the page to open the notebook in Google Colab.
+
+
+For UT students only:
+<!-- The class website is located [here](https://www.wgilpin.com/cphy/?utm_source=en_us_bh224180tg).  -->
 + If you are enrolled in 329 at UT, the syllabus and calendar are [here](https://docs.google.com/document/d/1c3_XWOZAYTVmQGKoqcifzEXX7VwzWmhIRT4zVcy9lFU/edit?usp=sharing). 
 + If you are enrolled in 381C at UT, the syllabus and calendar are [here](https://docs.google.com/document/d/1URJmdpTVG8E2bLLu5xAHctICb6krbZ0fC0hO2i2xEXY/edit?usp=sharing). 
-+ For both UT courses, the Discussions page may be found [here](https://edstem.org/us/courses/59769).
++ For both UT courses, the Ed Discussions page may be found [here](https://edstem.org/us/courses/80780).
++ Lecture videos are on Box or the Syllabus, but they are not linked publicly here.
+
 
 ## Contents
 
 Many links below direct to Google Colab, and can be run-in-browser without installation as long as you are signed into a Google account. To download the raw source files, please refer to [the GitHub repository](https://github.com/williamgilpin/cphy/tree/main). Some lecture videos are linked below, and the remaining lecture videos are linked in the Syllabus (above).
 
-#### Homework Assignments {#hw}
+<!-- #### Homework Assignments {#hw}
 + [HW1: The sandpile cellular automaton and directed percolation](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/hw/cellular_automata_complexity.ipynb). [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/hw/cellular_automata_complexity.ipynb) *Covers recursion, runtime scaling, vectorization*
 + [HW2: Linear dynamical systems and decomposing a chaotic flow](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/hw/matrices_unsupervised_learning.ipynb). [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/hw/matrices_unsupervised_learning.ipynb) *Covers numerical linear algebra, optimization, and unsupervised learning*
 + [HW3: Turing patterns and phase separation](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/hw/pde_turing.ipynb). [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/hw/pde_turing.ipynb) *Covers numerical integration; finite-differences and spectral methods*
@@ -166,7 +175,7 @@ Many links below direct to Google Colab, and can be run-in-browser without insta
 + [Lab 3: Documentation and Formatting](labs/documentation_and_formatting.md)
 + [Lab 4: Automatically creating online documentation with Sphinx](http://www.wgilpin.com/howto/howto_sphinx.html)
 + [Lab 5: Unit Testing](http://www.wgilpin.com/howto/python_unit_testing.html)
-+ [Lab 6: Structuring an Open-Source Repository](http://www.wgilpin.com/howto/python_project.html)
++ [Lab 6: Structuring an Open-Source Repository](http://www.wgilpin.com/howto/python_project.html) -->
 
 ## Example Final Projects
 
@@ -179,7 +188,8 @@ Many links below direct to Google Colab, and can be run-in-browser without insta
 + [Assimilating a realistic neuron model onto a reduced-order model](https://github.com/sepstein22/computational_brain)
 + [Testing particle phenomenology beyond the Standard Model with Bayesian classification](https://github.com/ramreddy-physics/Madgraph_Search)
 + [Monte Carlo sampling for many-body systems](https://github.com/Potatoasad/Computational-Physics-Final-Project)
-
++ [Simulating Anderson localization and Hofstadther butterflies](https://github.com/r-siddiqi/Hofstadter/tree/main)
++ [Optimizing Tokamak design](https://github.com/milestesta/RMT_Tokamak)
 
 ## Usage and improvements
 
@@ -210,7 +220,7 @@ For projects and other parts of the class, you might also need
 
 ## Attributions
 
-Portions of the material in this course are adapted or inspired by other open-source classes, including: [Pankaj Mehta's Machine Learning for Physics Course](https://github.com/drckf/mlreview_notebooks), [Chris Rycroft's Numerical Recipe's Course](https://people.math.wisc.edu/~chr/am205/fall19/), [Volodymyr Kuleshov's Applied Machine Learning course](https://github.com/kuleshov/cornell-cs5785-2022-applied-ml), [Fei-Fei Li's Deep Learning for Computer Vision course](http://cs231n.stanford.edu/), [Lorena Barba's CFD course](https://lorenabarba.com/blog/cfd-python-12-steps-to-navier-stokes/) and [Jim Crutchfield's Nonlinear Dynamics course](http://csc.ucdavis.edu/~chaos/courses/nlp/)
+Portions of the material in this course are  inspired by other open-source classes, including: [Pankaj Mehta's Machine Learning for Physics Course](https://github.com/drckf/mlreview_notebooks), [Chris Rycroft's Numerical Recipe's Course](https://people.math.wisc.edu/~chr/am205/fall19/), [Volodymyr Kuleshov's Applied Machine Learning course](https://github.com/kuleshov/cornell-cs5785-2022-applied-ml), [Fei-Fei Li's Deep Learning for Computer Vision course](http://cs231n.stanford.edu/), [Lorena Barba's CFD course](https://lorenabarba.com/blog/cfd-python-12-steps-to-navier-stokes/) and [Jim Crutchfield's Nonlinear Dynamics course](http://csc.ucdavis.edu/~chaos/courses/nlp/)
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-37RSFCXBQY"></script>
