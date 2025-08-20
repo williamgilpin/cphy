@@ -1,12 +1,15 @@
-# This file was created automaticallyA with `myst init --gh-pages` 🪄 💚
-name: MyST GitHub Pages Deploy
+# This file was created automatically with `jupyter-book init --gh-pages` 🪄 💚
+# Ensure your GitHub Pages settings for this repository are set to deploy with **GitHub Actions**.
+
+name: Jupyter Book (via myst) GitHub Pages Deploy
 on:
   push:
     # Runs on pushes targeting the default branch
     branches: [main]
 env:
-  # `BASE_URL` determines the website is served from, including CSS & JS assets
-  # You may need to change this to `BASE_URL: ''`
+  # `BASE_URL` determines, relative to the root of the domain, the URL that your site is served from.
+  # E.g., if your site lives at `https://mydomain.org/myproject`, set `BASE_URL=/myproject`.
+  # If, instead, your site lives at the root of the domain, at `https://mydomain.org`, set `BASE_URL=''`.
   BASE_URL: /${{ github.event.repository.name }}
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
@@ -32,10 +35,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 18.x
-      - name: Install MyST Markdown
-        run: npm install -g mystmd
+      - name: Install Jupyter Book (via myst)
+        run: npm install -g jupyter-book
       - name: Build HTML Assets
-        run: myst build --html
+        run: jupyter-book build --html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
