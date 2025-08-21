@@ -46,7 +46,31 @@ The class website is located [here](https://www.wgilpin.com/cphy/?utm_source=en_
 [[vid1]](https://youtu.be/N8PJH9WxvUk)
 [[vid2]](https://youtu.be/R1fDglciddo) -->
 
+<!-- + [Lecture 3: Vectorization, arrays, and the Mandelbrot set](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/vectorization_mandelbrot.ipynb)
+<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/vectorization_mandelbrot.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/vectorization_mandelbrot.ipynb)
+[[video]](https://youtu.be/PqntSbG4IuM) -->
 
+
+<!-- + [Lecture 4: Runtime complexity, convolutions, and the continuous Game of Life](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/inheritance_game_of_life.ipynb)
+<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/inheritance_game_of_life.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/inheritance_game_of_life.ipynb)
+[[video]](https://youtu.be/Pgycaa_D8h4?t=434) -->
+
+<!-- + [Lecture 5: Finding the Feigenbaum constant with recursion and dynamic programming](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/time_and_space_complexity_recursion.ipynb)
+<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/time_and_space_complexity_recursion.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/time_and_space_complexity_recursion.ipynb) -->
+
+<!-- + [Lecture 6: Detecting the onset of turbulence with the Fast Fourier Transform](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/fast_fourier.ipynb)
+<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/fast_fourier.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/fast_fourier.ipynb)
+[[video]](https://www.youtube.com/watch?v=AUMu5xL2rjY) -->
+
+<!-- + [Lecture 7: Condition Number and the irreversibility of chaos](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/numerical_linear_algebra_preconditioning.ipynb)
+<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/numerical_linear_algebra_preconditioning.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/numerical_linear_algebra_preconditioning.ipynb)
+[[video]](https://youtu.be/9ZqXsIzBlCg) -->
+
+<!-- + [Lecture 8: Random walks on complex graphs](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/intro_graph_adjacency.ipynb)
+<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/intro_graph_adjacency.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/intro_graph_adjacency.ipynb) -->
+
+<!-- + [Lecture 9: Probing social networks with PageRank](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/lu_decomposition.ipynb)
+<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/lu_decomposition.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/lu_decomposition.ipynb) -->
 
 <!-- + [Lecture 10: Spectral graph theory and the QR eigenvalue algorithm](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/qr_eigenvalues.ipynb)
 <br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/qr_eigenvalues.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/qr_eigenvalues.ipynb)
@@ -151,7 +175,7 @@ The class website is located [here](https://www.wgilpin.com/cphy/?utm_source=en_
 + [Lab 3: Documentation and Formatting](labs/documentation_and_formatting.md)
 + [Lab 4: Automatically creating online documentation with Sphinx](http://www.wgilpin.com/howto/howto_sphinx.html)
 + [Lab 5: Unit Testing](http://www.wgilpin.com/howto/python_unit_testing.html)
-+ [Lab 6: Structuring an Open-Source Repository](http://www.wgilpin.com/howto/python_project.html) --> -->
++ [Lab 6: Structuring an Open-Source Repository](http://www.wgilpin.com/howto/python_project.html) -->
 
 ## Example Final Projects
 
