@@ -43,8 +43,8 @@ The class website is located [here](https://www.wgilpin.com/cphy/?utm_source=en_
 
 <!-- + [Lecture 2: Object-oriented programming to find first-passage times of Brownian motion](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/first_passage_and_inheritance.ipynb)
 <br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/first_passage_and_inheritance.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/first_passage_and_inheritance.ipynb)
-<!-- [[vid1]](https://youtu.be/N8PJH9WxvUk)
-[[vid2]](https://youtu.be/R1fDglciddo) --> -->
+[[vid1]](https://youtu.be/N8PJH9WxvUk)
+[[vid2]](https://youtu.be/R1fDglciddo) -->
 
 <!-- + [Lecture 3: Vectorization, arrays, and the Mandelbrot set](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/vectorization_mandelbrot.ipynb)
 <br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/vectorization_mandelbrot.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/vectorization_mandelbrot.ipynb)
