@@ -7,7 +7,7 @@
 <!-- <img src="https://user-images.githubusercontent.com/8154246/184846814-5b5c80e1-34f9-4063-9b26-36b2a0369827.mov" alt="Overview of Methods in Course" width="100%"/> -->
 
 
-<!-- # Computational Physics -->
+# Computational Physics
 
 ## Summary
 
@@ -39,122 +39,124 @@ The class website is located [here](https://www.wgilpin.com/cphy/?utm_source=en_
 
 <!-- #### Lecture Slides {#lectures}
 + [Lecture 1: Python syntax for Scientific Computing](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/python_intro.ipynb)
-<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/python_intro.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/python_intro.ipynb)
+<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/python_intro.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/python_intro.ipynb) -->
 
-+ [Lecture 2: Object-oriented programming to find first-passage times of Brownian motion](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/first_passage_and_inheritance.ipynb)
+<!-- + [Lecture 2: Object-oriented programming to find first-passage times of Brownian motion](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/first_passage_and_inheritance.ipynb)
 <br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/first_passage_and_inheritance.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/first_passage_and_inheritance.ipynb)
 <!-- [[vid1]](https://youtu.be/N8PJH9WxvUk)
-[[vid2]](https://youtu.be/R1fDglciddo) -->
+[[vid2]](https://youtu.be/R1fDglciddo) --> -->
 
-+ [Lecture 3: Vectorization, arrays, and the Mandelbrot set](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/vectorization_mandelbrot.ipynb)
+<!-- + [Lecture 3: Vectorization, arrays, and the Mandelbrot set](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/vectorization_mandelbrot.ipynb)
 <br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/vectorization_mandelbrot.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/vectorization_mandelbrot.ipynb)
-<!-- [[video]](https://youtu.be/PqntSbG4IuM) -->
+[[video]](https://youtu.be/PqntSbG4IuM) -->
 
-+ [Lecture 4: Runtime complexity, convolutions, and the continuous Game of Life](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/inheritance_game_of_life.ipynb)
+
+<!-- + [Lecture 4: Runtime complexity, convolutions, and the continuous Game of Life](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/inheritance_game_of_life.ipynb)
 <br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/inheritance_game_of_life.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/inheritance_game_of_life.ipynb)
-<!-- [[video]](https://youtu.be/Pgycaa_D8h4?t=434) -->
+[[video]](https://youtu.be/Pgycaa_D8h4?t=434) -->
 
-+ [Lecture 5: Finding the Feigenbaum constant with recursion and dynamic programming](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/time_and_space_complexity_recursion.ipynb)
-<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/time_and_space_complexity_recursion.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/time_and_space_complexity_recursion.ipynb)
+<!-- + [Lecture 5: Finding the Feigenbaum constant with recursion and dynamic programming](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/time_and_space_complexity_recursion.ipynb)
+<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/time_and_space_complexity_recursion.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/time_and_space_complexity_recursion.ipynb) -->
 
-+ [Lecture 6: Detecting the onset of turbulence with the Fast Fourier Transform](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/fast_fourier.ipynb)
+<!-- + [Lecture 6: Detecting the onset of turbulence with the Fast Fourier Transform](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/fast_fourier.ipynb)
 <br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/fast_fourier.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/fast_fourier.ipynb)
-<!-- [[video]](https://www.youtube.com/watch?v=AUMu5xL2rjY) -->
+[[video]](https://www.youtube.com/watch?v=AUMu5xL2rjY) -->
 
-+ [Lecture 7: Condition Number and the irreversibility of chaos](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/numerical_linear_algebra_preconditioning.ipynb)
+<!-- + [Lecture 7: Condition Number and the irreversibility of chaos](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/numerical_linear_algebra_preconditioning.ipynb)
 <br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/numerical_linear_algebra_preconditioning.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/numerical_linear_algebra_preconditioning.ipynb)
-<!-- [[video]](https://youtu.be/9ZqXsIzBlCg) -->
+[[video]](https://youtu.be/9ZqXsIzBlCg) -->
 
-+ [Lecture 8: Random walks on complex graphs](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/intro_graph_adjacency.ipynb)
-<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/intro_graph_adjacency.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/intro_graph_adjacency.ipynb)
+<!-- + [Lecture 8: Random walks on complex graphs](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/intro_graph_adjacency.ipynb)
+<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/intro_graph_adjacency.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/intro_graph_adjacency.ipynb) -->
 
-+ [Lecture 9: Probing social networks with PageRank](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/lu_decomposition.ipynb)
-<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/lu_decomposition.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/lu_decomposition.ipynb)
+<!-- + [Lecture 9: Probing social networks with PageRank](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/lu_decomposition.ipynb)
+<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/lu_decomposition.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/lu_decomposition.ipynb) -->
 
-+ [Lecture 10: Spectral graph theory and the QR eigenvalue algorithm](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/qr_eigenvalues.ipynb)
+<!-- + [Lecture 10: Spectral graph theory and the QR eigenvalue algorithm](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/qr_eigenvalues.ipynb)
 <br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/qr_eigenvalues.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/qr_eigenvalues.ipynb)
- <!-- [[vid]](https://youtu.be/jiS4D5pvwy0) -->
+ [[vid]](https://youtu.be/jiS4D5pvwy0) -->
 
-+ [Lecture 11: Singular Value Decomposition](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/svd_decomp.ipynb)
+<!-- + [Lecture 11: Singular Value Decomposition](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/svd_decomp.ipynb)
 <br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/svd_decomp.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/svd_decomp.ipynb)
-<!-- [[video]](https://youtu.be/6w-_26aogH4?t=366) -->
+[[video]](https://youtu.be/6w-_26aogH4?t=366) -->
 
-+ [Lecture 12: Krylov subspace methods & Conjugate gradient methods](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/krylov_methods.ipynb)
-<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/krylov_methods.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/krylov_methods.ipynb)
+<!-- + [Lecture 12: Krylov subspace methods & Conjugate gradient methods](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/krylov_methods.ipynb)
+<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/krylov_methods.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/krylov_methods.ipynb) -->
 
-+ [Lecture 13: Optimization in low dimensions](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/convex_optimization_univariate.ipynb)
-<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/convex_optimization_univariate.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/convex_optimization_univariate.ipynb)
+<!-- + [Lecture 13: Optimization in low dimensions](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/convex_optimization_univariate.ipynb)
+<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/convex_optimization_univariate.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/convex_optimization_univariate.ipynb) -->
 
-+ [Lecture 14: Lagrangian Duality](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/lagrangian_duality.ipynb)
-<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/lagrangian_duality.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/lagrangian_duality.ipynb)
+<!-- + [Lecture 14: Lagrangian Duality](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/lagrangian_duality.ipynb)
+<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/lagrangian_duality.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/lagrangian_duality.ipynb) -->
 
-+ [Lecture 15: Multivariate Optimization and Potential Flows](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/optimization_multivariate.ipynb)
+<!-- + [Lecture 15: Multivariate Optimization and Potential Flows](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/optimization_multivariate.ipynb)
 <br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/optimization_multivariate.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/optimization_multivariate.ipynb)
- <!-- [[video]](https://youtu.be/ADkCO1sED0w) -->
+ [[video]](https://youtu.be/ADkCO1sED0w) -->
 
-+ [Lecture 16: Evolving Cellular Automata with Genetic Algorithms](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/evolving_cellular_automata.ipynb)
-<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/evolving_cellular_automata.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/evolving_cellular_automata.ipynb)
+<!-- + [Lecture 16: Evolving Cellular Automata with Genetic Algorithms](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/evolving_cellular_automata.ipynb)
+<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/evolving_cellular_automata.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/evolving_cellular_automata.ipynb) -->
 
-+ [Lecture 17: Monte Carlo methods and Hard Sphere Packing](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/monte_carlo_metropolis.ipynb)
-<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/monte_carlo_metropolis.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/monte_carlo_metropolis.ipynb)
+<!-- + [Lecture 17: Monte Carlo methods and Hard Sphere Packing](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/monte_carlo_metropolis.ipynb)
+<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/monte_carlo_metropolis.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/monte_carlo_metropolis.ipynb) -->
 
-+ [Lecture 18: Numerical Integration and predicting chaos](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/lorenz_odeint.ipynb)
+<!-- + [Lecture 18: Numerical Integration and predicting chaos](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/lorenz_odeint.ipynb)
 <br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/lorenz_odeint.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/lorenz_odeint.ipynb)
-<!-- [[Raw Notebook]](https://github.com/williamgilpin/cphy/blob/main/talks/lorenz_odeint.ipynb) -->
+[[Raw Notebook]](https://github.com/williamgilpin/cphy/blob/main/talks/lorenz_odeint.ipynb) -->
 
-+ [Lecture 19: Variable step integration, symplectic and stochastic systems](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/integrator_chaos_variable_step.ipynb)
+<!-- + [Lecture 19: Variable step integration, symplectic and stochastic systems](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/integrator_chaos_variable_step.ipynb)
 <br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/integrator_chaos_variable_step.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/integrator_chaos_variable_step.ipynb)
- <!-- [[video]](https://youtu.be/q754u2a7uCA) -->
+ [[video]](https://youtu.be/q754u2a7uCA) -->
 
-+ [Lecture 20: A pragmatist's guide to numerical integration](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/pragmatic_integration.ipynb)
+<!-- + [Lecture 20: A pragmatist's guide to numerical integration](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/pragmatic_integration.ipynb)
 <br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/pragmatic_integration.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/pragmatic_integration.ipynb)
-<!-- [[video]](https://www.youtube.com/watch?v=hUgcgO1ZJMQ) -->
+[[video]](https://www.youtube.com/watch?v=hUgcgO1ZJMQ) -->
 
-+ [Lecture 21: Diffusion, relaxation, and instability](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/laplace_equation.ipynb)
-<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/laplace_equation.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/laplace_equation.ipynb)
+<!-- + [Lecture 21: Diffusion, relaxation, and instability](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/laplace_equation.ipynb)
+<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/laplace_equation.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/laplace_equation.ipynb) -->
 
-+ [Lecture 22: Shocks, solitons, and hyperbolic partial differential equations](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/hyperbolic_pde.ipynb)
+<!-- + [Lecture 22: Shocks, solitons, and hyperbolic partial differential equations](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/hyperbolic_pde.ipynb)
 <br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/hyperbolic_pde.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/hyperbolic_pde.ipynb)
-<!-- [[video]](https://youtu.be/lqyKeuCsHDU) -->
+[[video]](https://youtu.be/lqyKeuCsHDU) -->
 
-+ [Lecture 23: Spectral solving using the Dedalus Python Package](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/dedalus.ipynb)
+<!-- + [Lecture 23: Spectral solving using the Dedalus Python Package](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/dedalus.ipynb)
 <br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/dedalus.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/dedalus.ipynb)
-<!-- [[vid]](https://www.youtube.com/watch?v=9Biw4oVs-sA) -->
+[[vid]](https://www.youtube.com/watch?v=9Biw4oVs-sA) -->
 
-+ [Lecture 24: Supervised Learning & The Ising Model](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/supervised_learning_ising.ipynb)
+<!-- + [Lecture 24: Supervised Learning & The Ising Model](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/supervised_learning_ising.ipynb)
 <br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/supervised_learning_ising.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/supervised_learning_ising.ipynb)
-<!-- [[vid]](https://www.youtube.com/watch?v=DEAaoJpl6-Y) -->
+[[vid]](https://www.youtube.com/watch?v=DEAaoJpl6-Y) -->
 
-+ [Lecture 24b: Supervised Learning of cellular automaton dynamics](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/predicting_cellular_automata.ipynb)
-<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/predicting_cellular_automata.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/predicting_cellular_automata.ipynb)
+<!-- + [Lecture 24b: Supervised Learning of cellular automaton dynamics](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/predicting_cellular_automata.ipynb)
+<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/predicting_cellular_automata.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/predicting_cellular_automata.ipynb) -->
 
-+ [Lecture 25: Classification, Logistic Regression, and phases of matter](https://github.com/williamgilpin/cphy/blob/main/talks/logistic_regression_phases.ipynb)
+<!-- + [Lecture 25: Classification, Logistic Regression, and phases of matter](https://github.com/williamgilpin/cphy/blob/main/talks/logistic_regression_phases.ipynb) -->
 
-+ [Lecture 26: Overfitting, bias-variance tradeoff, and double-descent](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/overfitting_bias_variance_free_lunch.ipynb)
-<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/overfitting_bias_variance_free_lunch.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/overfitting_bias_variance_free_lunch.ipynb)
+<!-- + [Lecture 26: Overfitting, bias-variance tradeoff, and double-descent](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/overfitting_bias_variance_free_lunch.ipynb)
+<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/overfitting_bias_variance_free_lunch.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/overfitting_bias_variance_free_lunch.ipynb) -->
 
-+ [Lecture 27: Unsupervised learning, embedding, clustering](https://github.com/williamgilpin/cphy/blob/main/talks/unsupervised_clustering_embedding.ipynb)
+<!-- + [Lecture 27: Unsupervised learning, embedding, clustering](https://github.com/williamgilpin/cphy/blob/main/talks/unsupervised_clustering_embedding.ipynb) -->
 
-+ [Lecture 28: Time series representation, featurizing chaos, kernel methods](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/time_series_chaos_clustering.ipynb)
-<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/time_series_chaos_clustering.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/time_series_chaos_clustering.ipynb)
+<!-- + [Lecture 28: Time series representation, featurizing chaos, kernel methods](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/time_series_chaos_clustering.ipynb)
+<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/time_series_chaos_clustering.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/time_series_chaos_clustering.ipynb) -->
 
-+ [Lecture 29: Gaussian mixtures, expectation-maximization, and superresolution microscopy](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/gmm_mle_em.ipynb)
-<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/gmm_mle_em.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/gmm_mle_em.ipynb)
+<!-- + [Lecture 29: Gaussian mixtures, expectation-maximization, and superresolution microscopy](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/gmm_mle_em.ipynb)
+<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/gmm_mle_em.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/gmm_mle_em.ipynb) -->
 
-+ [Lecture 30: Predicting the Reynolds number of turbulence with deep learning](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/neural_networks_overview.ipynb)
+<!-- + [Lecture 30: Predicting the Reynolds number of turbulence with deep learning](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/neural_networks_overview.ipynb)
 <br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/neural_networks_overview.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/neural_networks_overview.ipynb)
- <!-- [[video]](https://youtu.be/wvxnVAuVB0E) -->
+ [[video]](https://youtu.be/wvxnVAuVB0E) -->
 
-+ [Lecture 31: Types of neural networks; symmetries in physical systems](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/neural_networks_types.ipynb)
-<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/neural_networks_types.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/neural_networks_types.ipynb)
+<!-- + [Lecture 31: Types of neural networks; symmetries in physical systems](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/neural_networks_types.ipynb)
+<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/neural_networks_types.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/neural_networks_types.ipynb) -->
 
-+ [Lecture 32: Training neural networks with backpropagation](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/neural_networks_training.ipynb)
-<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/neural_networks_training.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/neural_networks_training.ipynb)
+<!-- + [Lecture 32: Training neural networks with backpropagation](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/neural_networks_training.ipynb)
+<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/neural_networks_training.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/neural_networks_training.ipynb) -->
 
-+ [Lecture 33: Reservoir computers and forecasting chaotic systems](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/forecasting_reservoir_computers.ipynb)
-<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/forecasting_reservoir_computers.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/forecasting_reservoir_computers.ipynb)
+<!-- + [Lecture 33: Reservoir computers and forecasting chaotic systems](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/talks/forecasting_reservoir_computers.ipynb)
+<br>[[html]](https://www.wgilpin.com/cphy/talks/html_static/forecasting_reservoir_computers.html) [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/talks/forecasting_reservoir_computers.ipynb) -->
 
-#### Notes
+
+<!-- #### Notes
 
 + [How to use the high-performance computing cluster](https://github.com/williamgilpin/howto/blob/master/using_tacc.md)
 + [Matrix Derivatives notes](https://github.com/williamgilpin/cphy/blob/main/talks/matrix_derivative.ipynb)
@@ -163,10 +165,11 @@ The class website is located [here](https://www.wgilpin.com/cphy/?utm_source=en_
 + [Variational Autoencoders](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/vignettes/basic_vae.ipynb)
 [[ipynb]](https://github.com/williamgilpin/cphy/blob/main/vignettes/basic_vae.ipynb)
 + [Vector-Quantized Variational Autoencoders (VQ-VAE)](https://colab.research.google.com/github/williamgilpin/cphy/blob/main/vignettes/vq_vae.ipynb)
-[[ipynb]](https://github.com/williamgilpin/cphy/blob/main/vignettes/vq_vae.ipynb)
+[[ipynb]](https://github.com/williamgilpin/cphy/blob/main/vignettes/vq_vae.ipynb)  -->
 
 
-#### Laboratory Exercises
+
+<!-- #### Laboratory Exercises
 + [Lab 1: Getting started with Python](labs/getting_started_with_python.md)
 + [Lab 2: git, GitHub, and GitHub Pages](http://www.wgilpin.com/howto/howto_github.html)
 + [Lab 3: Documentation and Formatting](labs/documentation_and_formatting.md)
@@ -197,7 +200,7 @@ For students, logistics and project questions are best posted on the classroom f
 
 ## Requirements
 
-We will primarily use Python 3 with the following packages
+This book uses Python 3, with particular dependence the following packages
 
 + numpy
 + matplotlib
@@ -205,7 +208,7 @@ We will primarily use Python 3 with the following packages
 + scikit-learn
 + jupyter
 
-For projects and other parts of the class, you might also need
+Other parts of the book and projects depend on the broader Python ecosystem, including
 
 + ipykernel
 + scikit-image
@@ -215,9 +218,9 @@ For projects and other parts of the class, you might also need
 + jax
 + numba
 
-## Attributions
+## Acknowledgments
 
-Portions of the material in this course are  inspired by other open-source classes, including: [Pankaj Mehta's Machine Learning for Physics Course](https://github.com/drckf/mlreview_notebooks), [Chris Rycroft's Numerical Recipe's Course](https://people.math.wisc.edu/~chr/am205/fall19/), [Volodymyr Kuleshov's Applied Machine Learning course](https://github.com/kuleshov/cornell-cs5785-2022-applied-ml), [Fei-Fei Li's Deep Learning for Computer Vision course](http://cs231n.stanford.edu/), [Lorena Barba's CFD course](https://lorenabarba.com/blog/cfd-python-12-steps-to-navier-stokes/) and [Jim Crutchfield's Nonlinear Dynamics course](http://csc.ucdavis.edu/~chaos/courses/nlp/)
+Portions of the material in this course are inspired by other open-source classes, including: [Pankaj Mehta's Machine Learning for Physics Course](https://github.com/drckf/mlreview_notebooks), [Chris Rycroft's Numerical Recipe's Course](https://people.math.wisc.edu/~chr/am205/fall19/), [Volodymyr Kuleshov's Applied Machine Learning course](https://github.com/kuleshov/cornell-cs5785-2022-applied-ml), [Fei-Fei Li's Deep Learning for Computer Vision course](http://cs231n.stanford.edu/), [Lorena Barba's CFD course](https://lorenabarba.com/blog/cfd-python-12-steps-to-navier-stokes/) and [Jim Crutchfield's Nonlinear Dynamics course](http://csc.ucdavis.edu/~chaos/courses/nlp/)
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-37RSFCXBQY"></script>
