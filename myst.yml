@@ -100,6 +100,7 @@ project:
         # - file: labs/labx_sklearn.ipynb
     - title: Appendices
       children:
+        - file: talks/reading.md
         - file: talks/matrix_derivative.ipynb
         - file: vignettes/hopfield_model.ipynb
         # - file: vignettes/mandelbrot.ipynb
@@ -151,7 +152,7 @@ project:
         - file: talks/neural_networks_types.ipynb
         - file: talks/neural_networks_training.ipynb
         - file: talks/forecasting_reservoir_computers.ipynb
-
+        - file: talks/reading.md
   settings:
     myst_to_tex:
       code_style: minted            # colorized code
