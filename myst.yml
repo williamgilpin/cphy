@@ -1,4 +1,5 @@
 # See docs at: https://mystmd.org/guide/frontmatter
+# Flag cells to remove from PDF output with [no-pdf]
 version: 1
 
 project:
@@ -114,7 +115,6 @@ project:
       # template: lapreprint-typst
       template: lapreprint
       articles: 
-        # - file: README.md
         - file: talks/front.md
         - file: talks/python_intro.ipynb
         - file: talks/first_passage_and_inheritance.ipynb
@@ -155,8 +155,6 @@ project:
   settings:
     myst_to_tex:
       code_style: minted            # colorized code
-
-# Flag cells to remove with [no-pdf]
 
 site:
   title: Computational Physics
