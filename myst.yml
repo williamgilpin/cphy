@@ -114,7 +114,7 @@ project:
       # template: lapreprint-typst
       template: lapreprint
       articles: 
-        # - file: README.md
+        - file: README.md
         - file: talks/front.md
         - file: talks/python_intro.ipynb
         - file: talks/first_passage_and_inheritance.ipynb
