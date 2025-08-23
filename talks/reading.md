@@ -1,6 +1,6 @@
-# Resources
+# Additional resources and reading
 
-Here is a curated list of resources and additional reading relevant to this book.
+A curated list of resources and additional reading relevant to this book may be found below.
 
 **Scientific programming and software development**
 
