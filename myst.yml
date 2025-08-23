@@ -30,7 +30,6 @@ project:
     - title: Chapters
       children:
         - file: talks/python_intro.ipynb
-        - file: hw/brownian_bridge.ipynb
         - file: talks/first_passage_and_inheritance.ipynb
         - file: talks/vectorization_mandelbrot.ipynb
         - file: talks/inheritance_game_of_life.ipynb
