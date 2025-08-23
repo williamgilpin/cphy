@@ -142,7 +142,7 @@ project:
         - file: talks/monte_carlo_metropolis.ipynb
         - file: talks/lorenz_odeint.ipynb
         - file: talks/integrator_chaos_variable_step.ipynb
-        # - file: talks/laplace_equation.ipynb
+        - file: talks/laplace_equation.ipynb
         - file: talks/hyperbolic_pde.ipynb
         - file: hw/pde_turing.ipynb
         - file: talks/predicting_cellular_automata.ipynb
