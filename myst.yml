@@ -142,7 +142,7 @@ project:
         - file: talks/monte_carlo_metropolis.ipynb
         - file: talks/lorenz_odeint.ipynb
         - file: talks/integrator_chaos_variable_step.ipynb
-        - file: talks/laplace_equation.ipynb
+        # - file: talks/laplace_equation.ipynb
         - file: talks/hyperbolic_pde.ipynb
         - file: hw/pde_turing.ipynb
         - file: talks/predicting_cellular_automata.ipynb
@@ -161,11 +161,14 @@ project:
       code_style: minted            # use LaTeX minted for colorized code
 
 # Flag cells to remove
-execute:
-  exclude_tags: remove-cell
-nb_remove_input_tags: [remove-input]
-nb_remove_output_tags: [remove-output]
-nb_remove_cell_tags: [remove-cell]
+# execute:
+#   exclude_tags: remove-cell
+# nb_remove_input_tags: [remove-input]
+# nb_remove_output_tags: [remove-output]
+# nb_remove_cell_tags: [remove-cell]
+
+latex:
+  nb_remove_cell_tags: [remove-cell]
 
 site:
   title: Computational Physics
