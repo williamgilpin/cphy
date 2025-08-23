@@ -151,7 +151,6 @@ project:
         - file: talks/neural_networks_types.ipynb
         - file: talks/neural_networks_training.ipynb
         - file: talks/forecasting_reservoir_computers.ipynb
-      remove_cell_tags: [remove-cell-pdf]
 
   settings:
     myst_to_tex:
