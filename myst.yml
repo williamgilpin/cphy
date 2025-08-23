@@ -167,8 +167,8 @@ project:
 # nb_remove_output_tags: [remove-output]
 # nb_remove_cell_tags: [remove-cell]
 
-latex:
-  nb_remove_cell_tags: [remove-cell]
+# latex:
+#   nb_remove_cell_tags: [remove-cell]
 
 site:
   title: Computational Physics
