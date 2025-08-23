@@ -154,17 +154,9 @@ project:
 
   settings:
     myst_to_tex:
-      code_style: minted            # use LaTeX minted for colorized code
+      code_style: minted            # colorized code
 
-# Flag cells to remove
-# execute:
-#   exclude_tags: remove-cell
-# nb_remove_input_tags: [remove-input]
-# nb_remove_output_tags: [remove-output]
-# nb_remove_cell_tags: [remove-cell]
-
-# latex:
-#   nb_remove_cell_tags: [remove-cell-pdf]
+# Flag cells to remove with [no-pdf]
 
 site:
   title: Computational Physics
