@@ -113,10 +113,6 @@ project:
     - format: pdf+tex
       # template: lapreprint-typst
       template: lapreprint
-      # options:
-      #   extra_preamble: |
-      #     % inserted by MyST via myst.yml
-      #     \usepackage{amsmath}
       articles: 
         - file: README.md
         - file: talks/front.md
@@ -167,8 +163,8 @@ project:
 # nb_remove_output_tags: [remove-output]
 # nb_remove_cell_tags: [remove-cell]
 
-latex:
-  nb_remove_cell_tags: [remove-cell-pdf]
+# latex:
+#   nb_remove_cell_tags: [remove-cell-pdf]
 
 site:
   title: Computational Physics
