@@ -1,6 +1,7 @@
-<img src="resources/overview.gif" alt="Overview of Methods in Course" width="100%"/>
 
-*(Left to Right): Avalanche activity cascades in a sandpile automaton; a vortex street formed by flow past a cylinder; and Turing patterns in a reaction-diffusion model. All simulations from the course homeworks; a higher-resolution video may be viewed [here](https://player.vimeo.com/video/739921904?title=0&byline=0&portrait=0)*
+<!-- <img src="resources/overview.gif" alt="Overview of Methods in Course" width="100%"/>
+
+*(Left to Right): Avalanche activity cascades in a sandpile automaton; a vortex street formed by flow past a cylinder; and Turing patterns in a reaction-diffusion model. All simulations from the course homeworks; a higher-resolution video may be viewed [here](https://player.vimeo.com/video/739921904?title=0&byline=0&portrait=0)* -->
 
 # Computational Physics
 
