@@ -17,9 +17,9 @@ This course aims to provide a very broad survey of computational methods that ar
 
 
 ## For UT students
-<!-- The class website is located [here](https://www.wgilpin.com/cphy/?utm_source=en_us_bh224180tg).  -->
-+ If you are enrolled in 329 at UT, the syllabus and calendar are [here](https://docs.google.com/document/d/1c3_XWOZAYTVmQGKoqcifzEXX7VwzWmhIRT4zVcy9lFU/edit?usp=sharing). 
-+ If you are enrolled in 381C at UT, the syllabus and calendar are [here](https://docs.google.com/document/d/1URJmdpTVG8E2bLLu5xAHctICb6krbZ0fC0hO2i2xEXY/edit?usp=sharing). 
++ The schedule for both courses is [here](https://docs.google.com/document/d/1UVL81pZ0vFfIqcGProZlmkOE4eFB6jO7fZFgt8wl-Io/)
++ If you are enrolled in 329 at UT, the syllabus is [here](https://docs.google.com/document/d/1c3_XWOZAYTVmQGKoqcifzEXX7VwzWmhIRT4zVcy9lFU/edit?usp=sharing). 
++ If you are enrolled in 381C at UT, the syllabus is [here](https://docs.google.com/document/d/1URJmdpTVG8E2bLLu5xAHctICb6krbZ0fC0hO2i2xEXY/edit?usp=sharing). 
 + For both UT courses, the Ed Discussions page may be found [here](https://edstem.org/us/courses/80780).
 + Lecture videos are on Box or the Syllabus, but they are not linked publicly here.
 
