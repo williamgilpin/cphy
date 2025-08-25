@@ -112,8 +112,11 @@ project:
         - file: vignettes/basic_vae.ipynb
         - file: vignettes/vq_vae.ipynb
     - title: Schedule
-      children:
-        - url: https://docs.google.com/document/d/1UVL81pZ0vFfIqcGProZlmkOE4eFB6jO7fZFgt8wl-Io/
+      url: https://docs.google.com/document/d/1UVL81pZ0vFfIqcGProZlmkOE4eFB6jO7fZFgt8wl-Io/
+    - title: 329 Syllabus
+      url: https://docs.google.com/document/d/1c3_XWOZAYTVmQGKoqcifzEXX7VwzWmhIRT4zVcy9lFU/edit?usp=sharing
+    - title: 381C Syllabus
+      url: https://docs.google.com/document/d/1URJmdpTVG8E2bLLu5xAHctICb6krbZ0fC0hO2i2xEXY/edit?usp=sharing
   exports:
     - format: pdf+tex
       # template: lapreprint-typst
