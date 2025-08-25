@@ -111,6 +111,9 @@ project:
         # - file: vignettes/stochastic_resonance.ipynb
         - file: vignettes/basic_vae.ipynb
         - file: vignettes/vq_vae.ipynb
+    - title: Schedule
+      children:
+        - url: https://docs.google.com/document/d/1UVL81pZ0vFfIqcGProZlmkOE4eFB6jO7fZFgt8wl-Io/
   exports:
     - format: pdf+tex
       # template: lapreprint-typst
