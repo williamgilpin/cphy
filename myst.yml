@@ -57,8 +57,7 @@ project:
         # - file: talks/bayesian_linear_regression.ipynb
         # - file: talks/conformal maps crank nicolson.ipynb
         # - file: talks/fast_fourier_QM_example_added.ipynb
-        - file: talks/logistic_regression_phases.ipynb
-        # - file: talks/matrix_derivative.ipynb
+        # - file: talks/logistic_regression_phases.ipynb
         # - file: talks/neural odes.ipynb
         - file: talks/overfitting_bias_variance_free_lunch.ipynb
         # - file: talks/supervised_learning_ising.ipynb
