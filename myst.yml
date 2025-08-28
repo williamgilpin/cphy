@@ -49,19 +49,19 @@ project:
         - file: talks/monte_carlo_metropolis.ipynb
         - file: talks/lorenz_odeint.ipynb
         - file: talks/integrator_chaos_variable_step.ipynb
-        - file: talks/pragmatic_integration.ipynb
-        - file: talks/dedalus.ipynb
+        # - file: talks/pragmatic_integration.ipynb
+        # - file: talks/dedalus.ipynb
         - file: talks/laplace_equation.ipynb
         - file: talks/hyperbolic_pde.ipynb
         - file: talks/predicting_cellular_automata.ipynb
-        - file: talks/bayesian_linear_regression.ipynb
-        - file: talks/conformal maps crank nicolson.ipynb
-        - file: talks/fast_fourier_QM_example_added.ipynb
+        # - file: talks/bayesian_linear_regression.ipynb
+        # - file: talks/conformal maps crank nicolson.ipynb
+        # - file: talks/fast_fourier_QM_example_added.ipynb
         - file: talks/logistic_regression_phases.ipynb
-        - file: talks/matrix_derivative.ipynb
-        - file: talks/neural odes.ipynb
+        # - file: talks/matrix_derivative.ipynb
+        # - file: talks/neural odes.ipynb
         - file: talks/overfitting_bias_variance_free_lunch.ipynb
-        - file: talks/supervised_learning_ising.ipynb
+        # - file: talks/supervised_learning_ising.ipynb
         - file: talks/supervised_learning_kuramoto.ipynb
         - file: talks/time_series_chaos_clustering.ipynb
         - file: talks/gmm_mle_em.ipynb
