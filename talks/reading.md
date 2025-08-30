@@ -4,12 +4,12 @@ A curated list of resources and additional reading relevant to this book may be 
 
 **Scientific programming and software development**
 
++ [A guide to writing good research code](https://goodresearch.dev/). A concise and modern guide to writing scalable and reproducible research code, targeted in particular to those coming from natural sciences backgrounds.
 + [Scientific Python v1.](https://web.stanford.edu/~schmit/cme193/lectures.html) [Scientific Python v2](http://web.stanford.edu/class/cme193/syllabus.html) Excellent course-length introductions to scientific Python, with a focus on language peculiarities and frequently-used packages.  
 + [An introduction to Programming in Python](https://www.programiz.com/python-programming) A course-level summary of Python for beginners (not specific to scientific applications)  
 + [Markdown syntax.](https://daringfireball.net/projects/markdown/syntax) This is a lightweight text markup language used for documentation and basic web development and blogging. It’s somewhere between LaTeX and HTML—you specify headings, formatting, etc with explicit commands, and then render the document.  
 + [Unix and command line tutorial](http://www2.ocean.washington.edu/unix.tutorial.html#sample). Useful for managing virtual environments and your Python installation.  
 + [Computational Discovery with Jupyter](https://computational-discovery-on-jupyter.github.io/Computational-Discovery-on-Jupyter/Contents/Computing-with-Fibonacci.html)  
-+ [A guide to writing good research code](https://goodresearch.dev/)
 
 **Numerical Methods**
 
