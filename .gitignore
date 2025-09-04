@@ -6,13 +6,6 @@ __pycache__/
 # C extensions
 *.so
 
-# Blacklist solutions
-solutions/*
-!solutions/.gitkeep
-
-# Whitelist individual solutions
-!solutions/brownian_bridge.py
-
 # Ignore personal and development files
 private*
 dump*
