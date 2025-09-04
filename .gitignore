@@ -8,6 +8,7 @@ __pycache__/
 
 # Blacklist solutions
 solutions/*
+!solutions/.gitkeep
 
 # Whitelist individual solutions
 !solutions/brownian_bridge.py
