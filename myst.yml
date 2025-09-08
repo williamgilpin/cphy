@@ -105,12 +105,16 @@ project:
         - file: vignettes/hopfield_model.ipynb
         # - file: vignettes/mandelbrot.ipynb
         # - file: vignettes/project_alt.md
-        - file: vignettes/project.md
+        # - file: vignettes/project.md
         # - file: vignettes/river_formation.ipynb
         # - file: vignettes/standard_map.ipynb
         # - file: vignettes/stochastic_resonance.ipynb
         - file: vignettes/basic_vae.ipynb
         - file: vignettes/vq_vae.ipynb
+    - title: Project Resources
+      children:
+        - file: vignettes/proposal.md
+        - file: vignettes/project.md
     - title: Schedule
       url: https://docs.google.com/document/d/1UVL81pZ0vFfIqcGProZlmkOE4eFB6jO7fZFgt8wl-Io/
     - title: 329 Syllabus
