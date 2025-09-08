@@ -1,4 +1,4 @@
-# Computationl Physics Final Project Proposal
+# Computational Physics Final Project Proposal
 
 1. Select a topic by [coordinating with your group](https://docs.google.com/document/d/1O16vAUVFH1HswU8cDSWhX64df1tGc6MBhEAng7Doi5Y/edit?usp=sharing). The project rubric, suggested scope, and past examples can be found [on the course website.](https://www.wgilpin.com/cphy/project)
 
