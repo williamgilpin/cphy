@@ -67,7 +67,7 @@ You can pick anything that interests you and which involves writing code, here a
 + [Pineau Lab machine learning reproducibility checklist](https://github.com/paperswithcode/releasing-research-code)
 + It’s not necessary to include everything in this guide, but it’s a great guide to what the research community thinks good, reusable code should look like.
 
-#### Example code repositories
+#### Example Final Projects from this course
 + [Quantum Reinforcement Learning with the Grover method](https://github.com/jiangzz-lab/GroverQLearning)
 + [Modelling the contractile dynamics of muscle](https://github.com/jakemcgrath1999/muscle_model)
 + [Tight binding and Anderson localization on complex graphs](https://github.com/ravikoka/qgraph)
@@ -75,14 +75,18 @@ You can pick anything that interests you and which involves writing code, here a
 + [Assimilating a realistic neuron model onto a reduced-order model](https://github.com/sepstein22/computational_brain)
 + [Testing particle phenomenology beyond the Standard Model with Bayesian classification](https://github.com/ramreddy-physics/Madgraph_Search)
 + [Monte Carlo sampling for many-body systems](https://github.com/Potatoasad/Computational-Physics-Final-Project)
-+ [William’s dynamical systems repo from NeurIPS 2021](https://github.com/williamgilpin/dysts)
++ [Simulating Anderson localization and Hofstadther butterflies](https://github.com/r-siddiqi/Hofstadter/tree/main)
++ [Optimizing Tokamak design](https://github.com/milestesta/RMT_Tokamak)
+
+
+#### Other code repositories
++ [Gilpin group dynamical systems repo from NeurIPS 2021](https://github.com/gilpinlab/dysts)
 + [tsfresh time series featurization library](https://github.com/blue-yonder/tsfresh)
 + [darts forecasting library](https://github.com/unit8co/darts)
 + [JAX](https://github.com/google/jax)
 + An [example pull request](https://github.com/scikit-learn/scikit-learn/issues/2688) to the widely-used sklearn machine learning package, which implements varimax PCA: 
-
-
+<!-- 
 Example class projects from other courses:
 + [Final Projects for Stanford CS229: Machine Learning](https://cs229.stanford.edu/proj2021spr/)
 + [Final Projects for Stanford CS231n: Convolutional Neural Networks](http://cs231n.stanford.edu/2017/reports.html)
-+ [Final Projects for UC Davis's Nonlinear Physics course](http://csc.ucdavis.edu/~chaos/courses/nlp/Projects2009/Projects2009.html)
++ [Final Projects for UC Davis's Nonlinear Physics course](http://csc.ucdavis.edu/~chaos/courses/nlp/Projects2009/Projects2009.html) -->
