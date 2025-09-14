@@ -78,6 +78,7 @@ project:
         - file: hw/cellular_automata_complexity.ipynb
         - file: hw/matrices_unsupervised_learning.ipynb
         - file: hw/lotka_volterra.ipynb
+        - file: hw/wormlike_chain.ipynb
         - file: hw/pde_turing.ipynb
         - file: hw/forecasting_regression_supervised.ipynb
     - title: Labs
@@ -147,6 +148,7 @@ project:
         - file: talks/optimization_multivariate.ipynb
         - file: talks/evolving_cellular_automata.ipynb
         - file: talks/monte_carlo_metropolis.ipynb
+        - file: hw/wormlike_chain.ipynb
         - file: talks/lorenz_odeint.ipynb
         - file: talks/integrator_chaos_variable_step.ipynb
         - file: talks/laplace_equation.ipynb
