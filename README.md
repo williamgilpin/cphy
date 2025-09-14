@@ -188,7 +188,7 @@ The class website is located [here](https://www.wgilpin.com/cphy/?utm_source=en_
 + [Assimilating a realistic neuron model onto a reduced-order model](https://github.com/sepstein22/computational_brain)
 + [Testing particle phenomenology beyond the Standard Model with Bayesian classification](https://github.com/ramreddy-physics/Madgraph_Search)
 + [Monte Carlo sampling for many-body systems](https://github.com/Potatoasad/Computational-Physics-Final-Project)
-+ [Simulating Anderson localization and Hofstadther butterflies](https://github.com/r-siddiqi/Hofstadter/tree/main)
++ [Simulating Anderson localization and Hofstadter butterflies](https://github.com/r-siddiqi/Hofstadter/tree/main)
 + [Optimizing Tokamak design](https://github.com/milestesta/RMT_Tokamak)
 
 ## Usage and improvements
