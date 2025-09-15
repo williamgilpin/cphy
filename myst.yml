@@ -124,53 +124,53 @@ project:
       url: https://docs.google.com/document/d/1URJmdpTVG8E2bLLu5xAHctICb6krbZ0fC0hO2i2xEXY/edit?usp=sharing
   exports:
     - format: pdf+tex
-      # template: lapreprint-typst
-      template: lapreprint
+      template: ./resources/templates/plain_latex_book
       articles: 
         - file: talks/front.md
         - file: talks/python_intro.ipynb
         - file: talks/first_passage_and_inheritance.ipynb
         - file: hw/brownian_bridge.ipynb
         - file: talks/vectorization_mandelbrot.ipynb
-        - file: talks/inheritance_game_of_life.ipynb
-        - file: talks/time_and_space_complexity_recursion.ipynb
-        - file: hw/cellular_automata_complexity.ipynb
-        - file: talks/fast_fourier.ipynb
-        - file: talks/numerical_linear_algebra_preconditioning.ipynb
-        - file: talks/intro_graph_adjacency.ipynb
-        - file: talks/lu_decomposition.ipynb
-        - file: talks/qr_eigenvalues.ipynb
-        - file: talks/svd_decomp.ipynb
-        - file: hw/matrices_unsupervised_learning.ipynb
-        - file: talks/krylov_methods.ipynb
-        - file: talks/convex_optimization_univariate.ipynb
-        - file: talks/lagrangian_duality.ipynb
-        - file: talks/optimization_multivariate.ipynb
-        - file: talks/evolving_cellular_automata.ipynb
-        - file: talks/monte_carlo_metropolis.ipynb
-        - file: hw/wormlike_chain.ipynb
-        - file: talks/lorenz_odeint.ipynb
-        - file: talks/integrator_chaos_variable_step.ipynb
-        - file: talks/laplace_equation.ipynb
-        - file: talks/hyperbolic_pde.ipynb
-        - file: hw/pde_turing.ipynb
-        - file: talks/predicting_cellular_automata.ipynb
-        - file: talks/overfitting_bias_variance_free_lunch.ipynb
-        - file: talks/unsupervised_clustering_embedding.ipynb
-        - file: talks/time_series_chaos_clustering.ipynb
-        - file: hw/forecasting_regression_supervised.ipynb
-        - file: talks/gmm_mle_em.ipynb
-        - file: talks/neural_networks_overview.ipynb
-        - file: talks/neural_networks_types.ipynb
-        - file: talks/neural_networks_training.ipynb
-        - file: talks/forecasting_reservoir_computers.ipynb
-        - file: talks/reading.md
+        # - file: talks/inheritance_game_of_life.ipynb
+        # - file: talks/time_and_space_complexity_recursion.ipynb
+        # - file: hw/cellular_automata_complexity.ipynb
+        # - file: talks/fast_fourier.ipynb
+        # - file: talks/numerical_linear_algebra_preconditioning.ipynb
+        # - file: talks/intro_graph_adjacency.ipynb
+        # - file: talks/lu_decomposition.ipynb
+        # - file: talks/qr_eigenvalues.ipynb
+        # - file: talks/svd_decomp.ipynb
+        # - file: hw/matrices_unsupervised_learning.ipynb
+        # - file: talks/krylov_methods.ipynb
+        # - file: talks/convex_optimization_univariate.ipynb
+        # - file: talks/lagrangian_duality.ipynb
+        # - file: talks/optimization_multivariate.ipynb
+        # - file: talks/evolving_cellular_automata.ipynb
+        # - file: talks/monte_carlo_metropolis.ipynb
+        # - file: hw/wormlike_chain.ipynb
+        # - file: talks/lorenz_odeint.ipynb
+        # - file: talks/integrator_chaos_variable_step.ipynb
+        # - file: talks/laplace_equation.ipynb
+        # - file: talks/hyperbolic_pde.ipynb
+        # - file: hw/pde_turing.ipynb
+        # - file: talks/predicting_cellular_automata.ipynb
+        # - file: talks/overfitting_bias_variance_free_lunch.ipynb
+        # - file: talks/unsupervised_clustering_embedding.ipynb
+        # - file: talks/time_series_chaos_clustering.ipynb
+        # - file: hw/forecasting_regression_supervised.ipynb
+        # - file: talks/gmm_mle_em.ipynb
+        # - file: talks/neural_networks_overview.ipynb
+        # - file: talks/neural_networks_types.ipynb
+        # - file: talks/neural_networks_training.ipynb
+        # - file: talks/forecasting_reservoir_computers.ipynb
+        # - file: talks/reading.md
   settings:
     myst_to_tex:
       code_style: minted            # colorized code
 
+
 site:
-  title: Computational Physics
+  title: An Introduction to Algorithms for Physicists
   template: book-theme
   # options:
   #   hide_footer_links: true
