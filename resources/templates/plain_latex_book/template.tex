@@ -21,8 +21,8 @@
 
 % myst injects \usepackage{minted} automatically above
 \setminted{fontsize=\small}
-\usemintedstyle{tango}
- \definecolor{codebg}{rgb}{0.95,0.95,1.0}   % light gray-beige background
+\usemintedstyle{pastie}
+  \definecolor{codebg}{rgb}{0.95,0.97,1.0}   % light gray-beige background
 \renewcommand\ttdefault{lmvtt}              % ensure Latin Modern monospace
 \setminted{
   fontsize=\small,
@@ -34,11 +34,16 @@
 \usepackage{times}
 
 \hypersetup{
-  colorlinks,
-  linkcolor={black},
-  citecolor={black},
-  urlcolor={black}
+            colorlinks,
+            urlcolor=[rgb]{0.803922, 0.0627451, 0.462745},
+            citecolor=[rgb]{0.23137,0.4588,0.68627},
+            linkcolor=[rgb]{0.803922, 0.0627451, 0.462745}
 }
+%\hypersetup{colorlinks,breaklinks,
+%            urlcolor=[rgb]{0.803922, 0.0627451, 0.462745},
+%            citecolor=[rgb]{0.23137,0.4588,0.68627},
+%            linkcolor=[rgb]{0.803922, 0.0627451, 0.462745}
+%}
 
 
 % Style quotes

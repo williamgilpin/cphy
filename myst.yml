@@ -5,7 +5,7 @@ version: 1
 project:
   id: c844d116-6626-4419-9813-8822ff71b58c
   title: Computational Physics
-  description: "Graduate-level computational physics course covering numerical methods, machine learning, and simulations in Python."
+  description: "An advanced computational physics course covering numerical methods, simulations, and machine learning in Python."
   keywords: 
     - computational physics
     - python
