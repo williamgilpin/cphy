@@ -9,5 +9,5 @@
     - An outline of the project steps, including the main code you plan to write, and your desired results.
     - A brief outline of the planned contributions of each team member. This can be informal, the point of this step is to encourage teams to touch base about their project in advance.
 
-4. Post a link to your project topic, and a link to your GitHub repository [on the projects roster here](https://docs.google.com/spreadsheets/d/1IwI7oAZvCfrg30Tbet_HmzMmaqDprfx1VG_NlnZ-p8c/edit?usp=sharing)
+4. Post a link to your project topic, and a link to your GitHub repository [below your group name in the projects roster here](https://docs.google.com/document/d/1O16vAUVFH1HswU8cDSWhX64df1tGc6MBhEAng7Doi5Y/edit?usp=sharing)
     
