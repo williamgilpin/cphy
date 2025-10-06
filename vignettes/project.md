@@ -52,7 +52,7 @@ Beyond providing a setting to try out some of the ideas we are learning in this 
 - You can organize these however you want, but if you would prefer a template: 5-8 minutes background, 3 minutes on problem formulation, 5 minutes on your solution and any pitfalls or dead ends, and remaining time on future directions, applications, connections to interesting other ideas.
 
 
-## Project ideas {#ideas}
+## Project ideas
 
 *These are just suggestions, feel free to pick anything that interests you. I have included informal estimates of the difficulty of the base problem; however generalizations or modifications can make many of these problems more advanced.*
 
