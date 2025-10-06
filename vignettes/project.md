@@ -25,7 +25,7 @@ Beyond providing a setting to try out some of the ideas we are learning in this 
 + If there is a method you’d like to add to a large, existing package that is widely used in your field (e.g. Biopython, Astropy, scikit-learn, sktime) check with me about submitting a well-structured PR to the main repo instead of implementing a standalone package. Please check with the repo maintainers that your feature would be welcome, and about the format and testing in order to get accepted. Generally, the larger the repo’s userbase, the smaller the addition should be, and the more testing it will need to pass. However, the potential impact could be huge. 
 
 
-#### Grading Rubric
+## Grading Rubric
 
 **Problem scope: 20%**
 - Contains an interesting and challenging problem, and makes a good-faith effort to approach it.
@@ -51,23 +51,51 @@ Beyond providing a setting to try out some of the ideas we are learning in this 
 - Please be ready to present the class session before you are scheduled, just in case someone can’t come on their scheduled presentation day.
 - You can organize these however you want, but if you would prefer a template: 5-8 minutes background, 3 minutes on problem formulation, 5 minutes on your solution and any pitfalls or dead ends, and remaining time on future directions, applications, connections to interesting other ideas.
 
-#### Project Ideas
-You can pick anything that interests you and which involves writing code, here are just some ideas
+
+## Project ideas {#ideas}
+
+*These are just suggestions, feel free to pick anything that interests you. I have included informal estimates of the difficulty of the base problem; however generalizations or modifications can make many of these problems more advanced.*
+
++ Implement the [Ising, Potts, or lattice gas model](https://ps.uci.edu/~cyu/p115A/LectureNotes/Lecture18/html_version/lecture18.html) and study the properties of the phase transition, when it occurs, and how it depends on the lattice geometry (e.g. square vs triangular vs hexagonal, or even a random graph). **Difficulty level: Easy to Medium**
+
++ Implement the [Kramer-Marder model of river formation.](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.68.205) This model bears some similarities to the sandpile model. **Difficulty level: Medium to Hard**
+
++ Implement the [Fermi–Pasta–Ulam–Tsingou model.](https://www.physics.ucla.edu/~larkoski/FPUT.pdf) Simulate a weakly nonlinear mass–spring chain; track modal energies and demonstrate lack of rapid equipartition plus near-recurrence. As a stretch, obtain results confirming frequency-space normal-form fit or compare alpha vs beta formulations of the model. **Difficulty level: Easy to Medium**
+
++ Implement the [Chirikov standard map.](https://mathworld.wolfram.com/StandardMap.html) and study the transition to chaos in the model. **Difficulty level: Easy**
+
++ Implement the [Kuramoto model of coupled oscillators](https://en.wikipedia.org/wiki/Kuramoto_model) and study the onset of synchronization as a function of coupling strength. Then, implement the [Abrams Strogatz](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.101.084103) coupling matrix, and observe chimera states. How do these states change with the number of coupled oscillators? **Difficulty level: Medium to Hard**
+
++ Implement the [Vicsek model of flocking](https://web.mit.edu/8.334/www/grades/projects/projects10/Hernandez-Lopez-Rogelio/dynamics_2.html.) Try changing the noise model, the interaction radius, or add time delay to the interactions, in order to see how these changes affect the flocking behavior. Consider how you migh extend the model to larger swarms, such as by using the kernelized approach described in [this paper](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.105.014213). **Difficulty level: Easy**
+
++ Implement the [Barnes-Hut algorithm](https://arborjs.org/docs/barnes-hut) using a quad-tree data type and use it to simulate a large N-body gravitational system. Compare the results to a direct N^2 simulation for small N, and then scale up to larger N. **Difficulty level: Hard**
+
++ Implement the [Nagel–Schreckenberg traffic CA model](https://en.wikipedia.org/wiki/Nagel%E2%80%93Schreckenberg_model) and study the onset of traffic jams as a function of car density. **Difficulty level: Easy**
+
++ Implement the [Eden or ballistic deposition model](https://en.wikipedia.org/wiki/Eden_growth_model) and study the fractal dimension of the resulting clusters. Measure the roughness exponents and check for finite-size scaling effects. **Difficulty level: Easy to Medium**
+
++ Implement a minimal [Lattice-Boltzmann](https://www.ndsu.edu/sites/default/files/fileadmin/physics.ndsu.edu/Wagner/LBbook.pdf) fluid solver in 2D, and use it to simulate flow around an obstacle as a function of Reynolds number. For example, the von Karman vortex street that arises due to flow past a cylinder. You may find this [example implementation for the lid-driven cavity](https://github.com/CodeToLearnScience/d2q9_zero_for_loop) useful as a starting point. **Difficulty level: Medium to Hard**
+
 + Implement the [orthogonality-constrained optimizer of Edelman et al.](https://arxiv.org/abs/physics/9806030)
-+ Implement a minimal finite-element solver for PDEs in 2D, and compare and contrast with the finite-difference method
-+ Recreate the key results of Kauffman’s [random Boolean circuits paper](https://www.sciencedirect.com/science/article/abs/pii/0022519369900150)
-+ Recreate the key results of [Lenski et al.'s digital organisms paper](https://www.nature.com/articles/23245)
-+ Recreate (computationally) the chimera states of coupled oscillators described in [Abrams and Strogatz](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.101.084103)
-+ Implement the Vicsek model of flocking, including the extension to N-D, and probe the phase transition. Consider how you migh extend the model to larger swarms, such as by using the kernelized approach described in [this paper](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.105.014213)
-+ Implement a minimal version of [Havok](https://www.nature.com/articles/s41467-017-00030-8) or [Dynamic Mode Decomposition](https://en.wikipedia.org/wiki/Dynamic_mode_decomposition), two data-driven methods for discovering the underlying dynamics of a system based on time series data.
-+ Using the logistic map or another minimal system, implement the [Ott, Grebogi, and Yorke method](https://link.aps.org/doi/10.1103/PhysRevLett.64.1196) for controlling chaos.
-+ Our LA, Anish Pandya, has put together [a list of additional project ideas here](https://docs.google.com/document/d/1o2brUmCJSoGZj9hPAE8sXEiutk-aqT9bq13qos-3Ahw/edit?usp=sharing)
+
++ Implement a minimal [finite-element solver](https://team-pancho.github.io/documents/anIntro2FEM_2015.pdf) for a PDE like the diffusion equation in 2D, and compare its performance with the finite-difference method. **Difficulty level: Medium**
+
++ Recreate the key results of Kauffman’s [random Boolean circuits paper](https://www.sciencedirect.com/science/article/abs/pii/0022519369900150). **Difficulty level: Medium**
+
++ Recreate the key results of [Lenski et al.'s digital organisms paper](https://www.nature.com/articles/23245). **Difficulty level: Hard**
+
++ Using the logistic map or another minimal system, implement the [Ott, Grebogi, and Yorke method](https://link.aps.org/doi/10.1103/PhysRevLett.64.1196) for controlling chaos. **Difficulty level: Hard**
+
++ Implement a minimal version of [Havok](https://www.nature.com/articles/s41467-017-00030-8) or [Dynamic Mode Decomposition](https://en.wikipedia.org/wiki/Dynamic_mode_decomposition), two data-driven methods for discovering the underlying dynamics of a system based on time series data. **Difficulty level: Medium to Hard**
+
 
 ## Project resources
 + [Pineau Lab machine learning reproducibility checklist](https://github.com/paperswithcode/releasing-research-code)
 + It’s not necessary to include everything in this guide, but it’s a great guide to what the research community thinks good, reusable code should look like.
 
-#### Example Final Projects from this course
+
+
+## Example Final Projects from this course
 + [Quantum Reinforcement Learning with the Grover method](https://github.com/jiangzz-lab/GroverQLearning)
 + [Modelling the contractile dynamics of muscle](https://github.com/jakemcgrath1999/muscle_model)
 + [Tight binding and Anderson localization on complex graphs](https://github.com/ravikoka/qgraph)
@@ -79,7 +107,9 @@ You can pick anything that interests you and which involves writing code, here a
 + [Optimizing Tokamak design](https://github.com/milestesta/RMT_Tokamak)
 
 
-#### Other code repositories
+
+
+## Example code repositories
 + [Gilpin group dynamical systems repo from NeurIPS 2021](https://github.com/gilpinlab/dysts)
 + [tsfresh time series featurization library](https://github.com/blue-yonder/tsfresh)
 + [darts forecasting library](https://github.com/unit8co/darts)
@@ -90,3 +120,6 @@ Example class projects from other courses:
 + [Final Projects for Stanford CS229: Machine Learning](https://cs229.stanford.edu/proj2021spr/)
 + [Final Projects for Stanford CS231n: Convolutional Neural Networks](http://cs231n.stanford.edu/2017/reports.html)
 + [Final Projects for UC Davis's Nonlinear Physics course](http://csc.ucdavis.edu/~chaos/courses/nlp/Projects2009/Projects2009.html) -->
+
+
+
