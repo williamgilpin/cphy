@@ -61,7 +61,7 @@ project:
         # - file: talks/neural odes.ipynb
         - file: talks/overfitting_bias_variance_free_lunch.ipynb
         # - file: talks/supervised_learning_ising.ipynb
-        - file: talks/supervised_learning_kuramoto.ipynb
+        # - file: talks/supervised_learning_kuramoto.ipynb
         - file: talks/time_series_chaos_clustering.ipynb
         - file: talks/gmm_mle_em.ipynb
         - file: talks/neural_networks_overview.ipynb
