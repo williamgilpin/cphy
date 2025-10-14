@@ -45,6 +45,7 @@ project:
         - file: talks/convex_optimization_univariate.ipynb
         - file: talks/lagrangian_duality.ipynb
         - file: talks/optimization_multivariate.ipynb
+        - file: talks/optimization_constrained.ipynb
         - file: talks/evolving_cellular_automata.ipynb
         - file: talks/monte_carlo_metropolis.ipynb
         - file: talks/lorenz_odeint.ipynb
@@ -145,6 +146,7 @@ project:
         - file: talks/convex_optimization_univariate.ipynb
         - file: talks/lagrangian_duality.ipynb
         - file: talks/optimization_multivariate.ipynb
+        - file: talks/optimization_constrained.ipynb
         - file: talks/evolving_cellular_automata.ipynb
         - file: talks/monte_carlo_metropolis.ipynb
         - file: hw/wormlike_chain.ipynb
