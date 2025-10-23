@@ -18,3 +18,9 @@ plt.rcParams["animation.ffmpeg_args"] = [                   # finer control
     "-pix_fmt", "yuv420p"
 ]
 plt.rcParams["animation.embed_limit"] = 25
+
+
+## Plot legend style
+plt.rcParams['legend.frameon'] = False
+plt.rcParams['legend.facecolor'] = 'none'
+plt.rcParams['legend.edgecolor'] = 'none'
