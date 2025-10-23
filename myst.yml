@@ -148,6 +148,7 @@ project:
         - file: talks/optimization_multivariate.ipynb
         - file: talks/optimization_constrained.ipynb
         - file: talks/evolving_cellular_automata.ipynb
+        - file: talks/spin_glass.ipynb
         - file: talks/monte_carlo_metropolis.ipynb
         - file: hw/wormlike_chain.ipynb
         - file: talks/lorenz_odeint.ipynb
