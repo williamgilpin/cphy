@@ -1,5 +1,7 @@
 # Computational Physics Final Project Proposal
 
+An example proposal for a final project is given [here](https://github.com/williamgilpin/example_project/tree/main).
+
 1. Select a topic by [coordinating with your group](https://docs.google.com/document/d/1O16vAUVFH1HswU8cDSWhX64df1tGc6MBhEAng7Doi5Y/edit?usp=sharing). The project rubric, suggested scope, and past examples can be found [on the course website.](https://www.wgilpin.com/cphy/project)
 
 2. Create an empty GitHub repository for your project. If you are new to GitHub, we provide instructions [here](https://www.wgilpin.com/howto/howto_github.html). However, you are free to use a different tooling method, or use the GitHub online GUI, if you prefer.
