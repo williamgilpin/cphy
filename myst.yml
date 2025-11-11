@@ -70,7 +70,7 @@ project:
         - file: talks/neural_networks_types.ipynb
         - file: talks/neural_networks_training.ipynb
         - file: talks/forecasting_reservoir_computers.ipynb
-        - file: talks/unsupervised_clustering_embedding.ipynb
+        # - file: talks/unsupervised_clustering_embedding.ipynb
     #     - title: Resources
     #       children:
     #         - file: talks/resources/von_karman_street.ipynb
