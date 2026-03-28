@@ -49,7 +49,7 @@ Beyond providing a setting to try out some of the ideas we are learning in this 
 - Only one group member needs to present, though you are welcome to structure this however you’d like.
 - These will be ~10 minutes + 2 min questions during the last few sessions of the course (5 talks per class).
 - Please be ready to present the class session before you are scheduled, just in case someone can’t come on their scheduled presentation day.
-- You can organize these however you want, but if you would prefer a template: 5-8 minutes background, 3 minutes on problem formulation, 5 minutes on your solution and any pitfalls or dead ends, and remaining time on future directions, applications, connections to interesting other ideas.
+- You can organize these however you want, but if you would prefer a template: 30% background, 20% problem formulation/methods, 40% on your solution and any pitfalls or dead ends, and remaining time on future directions, applications, connections to interesting other ideas.
 
 
 ## Project ideas
